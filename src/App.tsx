@@ -50,6 +50,22 @@ const icons = {
     popupAnchor: [1, -34],
     shadowSize: [41, 41]
   }),
+  'BGS': new L.Icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
+    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+  }),
+  'BGM': new L.Icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png',
+    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+  }),
   'WIL': new L.Icon({
     iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png',
     shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
@@ -73,6 +89,8 @@ const iconColors = {
   'PVA': '#1E88E5', // niebieski
   'WOA': '#43A047', // zielony
   'BGO': '#E53935', // czerwony
+  'BGS': '#9C27B0', // fioletowy
+  'BGM': '#FFC107', // żółty
   'WIL': '#FB8C00', // pomarańczowy
   'default': '#757575' // szary
 };
@@ -150,72 +168,15 @@ const POLSKA_LOCATIONS: Record<string, [number, number]> = {
   'Werbkowice': [50.7536, 23.7672],
   'Frampol': [50.6742, 22.6696],
   'Księżpol': [50.5083, 22.9245],
-  'Wola Uhruska': [51.3231, 23.6213], // Dodano dokładne współrzędne
-  'Dobryń-Kolonia': [52.0654, 23.3131], // Dodano dokładne współrzędne
-  'Horbów-Kolonia': [52.0326, 23.3798], // Dodano dokładne współrzędne
-  'Jeziernia': [50.4235, 23.5210], // Dodano dokładne współrzędne
-  'Kaliłów': [52.0520, 23.0764], // Dodano dokładne współrzędne
-  'Sół': [50.4612, 22.7345], // Dodano dokładne współrzędne
-  'Ratoszyn Pierwszy': [51.0546, 22.2874], // Dodano dokładne współrzędne
-  'Piotrowice': [51.0780, 22.4720], // Dodano dokładne współrzędne
-  'Połoski Stare': [51.9012, 23.3516], // Dodano dokładne współrzędne
-  
-  // Województwo łódzkie
-  'Łódź': [51.7592, 19.4560],
-  'Piotrków Trybunalski': [51.4047, 19.7032],
-  'Skierniewice': [51.9550, 20.1470],
-  
-  // Województwo małopolskie
-  'Kraków': [50.0647, 19.9450],
-  'Tarnów': [50.0121, 20.9858],
-  'Nowy Sącz': [49.6225, 20.6911],
-  
-  // Województwo mazowieckie
-  'Warszawa': [52.2297, 21.0122],
-  'Radom': [51.4027, 21.1470],
-  'Płock': [52.5464, 19.7005],
-  'Siedlce': [52.1676, 22.2903],
-  
-  // Województwo opolskie
-  'Opole': [50.6751, 17.9213],
-  'Kędzierzyn-Koźle': [50.3487, 18.2123],
-  
-  // Województwo podkarpackie
-  'Rzeszów': [50.0412, 21.9991],
-  'Przemyśl': [49.7838, 22.7683],
-  'Stalowa Wola': [50.5825, 22.0530],
-  
-  // Województwo podlaskie
-  'Białystok': [53.1325, 23.1688],
-  'Suwałki': [54.1028, 22.9314],
-  'Łomża': [53.1618, 22.0777],
-  
-  // Województwo pomorskie
-  'Gdańsk': [54.3520, 18.6466],
-  'Gdynia': [54.5189, 18.5305],
-  'Słupsk': [54.4641, 17.0287],
-  
-  // Województwo śląskie
-  'Katowice': [50.2649, 19.0238],
-  'Częstochowa': [50.8118, 19.1203],
-  'Sosnowiec': [50.2863, 19.1041],
-  
-  // Województwo świętokrzyskie
-  'Kielce': [50.8661, 20.6286],
-  'Ostrowiec Świętokrzyski': [50.9297, 21.3857],
-  
-  // Województwo warmińsko-mazurskie
-  'Olsztyn': [53.7784, 20.4801],
-  'Elbląg': [54.1522, 19.4075],
-  
-  // Województwo wielkopolskie
-  'Poznań': [52.4064, 16.9252],
-  'Kalisz': [51.7624, 18.0895],
-  'Konin': [52.2230, 18.2511],
-  
-  // Województwo zachodniopomorskie
-  'Szczecin': [53.4289, 14.5530],
-  'Koszalin': [54.1943, 16.1714],
+  'Wola Uhruska': [51.3231, 23.6213],
+  'Dobryń-Kolonia': [52.0654, 23.3131],
+  'Horbów-Kolonia': [52.0326, 23.3798],
+  'Jeziernia': [50.4117, 23.4139],
+  'Kaliłów': [52.0520, 23.0764],
+  'Sół': [50.4612, 22.7345],
+  'Ratoszyn Pierwszy': [51.0546, 22.2874],
+  'Piotrowice': [51.0780, 22.4720],
+  'Połoski Stare': [51.9012, 23.3516],
 };
 
 // Dodatkowe lokalizacje mniejszych miejscowości, które pojawiają się w danych
@@ -237,7 +198,66 @@ const ADDITIONAL_LOCATIONS: Record<string, [number, number]> = {
   'Bliskowice': [50.8901, 21.9244],
   'Wieprzów Ordynacki': [50.4734, 23.3516],
   'Wisznice': [51.7875, 23.1996],
-  'Ruda Wołoska': [50.3822, 23.5537]
+  'Ruda Wołoska': [50.3822, 23.5537],
+  // Dodane problematyczne lokalizacje z precyzyjnymi współrzędnymi
+  'Kock Rolny': [51.6413, 22.4480],
+  'Górka': [51.6345, 22.4872],
+  'Górka Kocka': [51.6345, 22.4872], 
+  'Górka Kocka Kolonia': [51.6278, 22.4920],
+  'Bonów Kolonia': [51.1767, 22.9467],
+  'Brzeźnica Leśna': [51.5623, 22.6862],
+  'Brzeźnica Leśna Kolonia': [51.5590, 22.6801],
+  'Łysołaje Kolonia': [51.2215, 22.9872],
+  'Łysołaje-Kolonia': [51.2215, 22.9872],
+  'Kraśnika': [50.9243, 22.2205], // Alternatywna pisownia Kraśnika
+  'Dobryń - Kolonia': [52.0654, 23.3131], // Inny zapis niż w POLSKA_LOCATIONS
+  'Horbów - Kolonia': [52.0326, 23.3798], // Inny zapis niż w POLSKA_LOCATIONS
+  'Łuków ': [51.9308, 22.3817], // Z dodatkową spacją
+  'Wólka Świątkowa': [51.3240, 23.5813],
+  'Wólka Rokicka': [51.4756, 22.5932],
+  'Wólka Gościeradowska': [50.8669, 22.0323],
+  'Wólka Plebańska': [52.0557, 23.2891],
+  'Wola Bystrzycka': [51.6109, 22.3276],
+  'Wola Dubowska': [51.7431, 23.2138],
+  'Wola Okrzejska': [51.7552, 21.9649],
+  'Długi Kąt - Osada': [50.5091, 22.9833],
+  'Terpentyna': [50.9113, 22.0824],
+  'Skrzyniec Kolonia': [51.1563, 22.3043],
+  'Starościn Kolonia': [51.4888, 22.3865],
+  'Michałki Kolonia': [51.5580, 23.5711],
+  'Kolonia Zamek': [50.7490, 22.3215]
+};
+
+const LOCATION_NORMALIZATION: Record<string, string> = {
+  'Kock Rolny': 'Kock Rolny',           // Zostawiamy bez zmian
+  'Górka': 'Górka',                     // Zostawiamy bez zmian
+  'Górka Kocka': 'Górka',               // Zmieniamy na 'Górka'
+  'Górka Kocka Kolonia': 'Górka',       // Zmieniamy na 'Górka'
+  'Bonów Kolonia': 'Bonów',             // Zmieniamy na 'Bonów'
+  'Brzeźnica Leśna': 'Brzeźnica Leśna', // Zostawiamy bez zmian
+  'Brzeźnica Leśna Kolonia': 'Brzeźnica Leśna', // Zmieniamy na 'Brzeźnica Leśna'
+  'Łysołaje Kolonia': 'Łysołaje',       // Zmieniamy na 'Łysołaje'
+  'Łysołaje-Kolonia': 'Łysołaje',       // Zmieniamy na 'Łysołaje'
+  'Kraśnika': 'Kraśnik',                // Zostawiamy bez zmian
+  'Łuków ': 'Łuków',                    // Zostawiamy bez zmian
+  'Dobryń - Kolonia': 'Dobryń-Kolonia', // Zostawiamy bez zmian
+  'Horbów - Kolonia': 'Horbów-Kolonia', // Zostawiamy bez zmian
+};
+
+const VERIFIED_LOCATIONS: Record<string, [number, number]> = {
+  // Dokładne współrzędne dostarczone przez użytkownika
+  'Brzeźnica Leśna': [51.5623, 22.6862],
+  'Brzeźnica Leśna Kolonia': [51.5623, 22.6862],
+  'Bonów Kolonia': [51.1767, 22.9467], // Konwersja z 51°10′36″N 22°56′48″E
+  'Jeziernia': [50.4117, 23.4139],
+  'Kock Rolny': [51.6413, 22.4480], // Konwersja z 51°38'28,83"N 22°26'52,74"E
+  'Górka Kocka': [51.6345, 22.4872],
+  'Górka Kocka Kolonia': [51.6345, 22.4872],
+  'Górka': [51.6345, 22.4872],
+  'Górka Kocka Rolna': [51.6345, 22.4872],
+  // Pozostałe problematyczne lokalizacje
+  'Łysołaje Kolonia': [51.2215, 22.9872],
+  'Łysołaje-Kolonia': [51.2215, 22.9872],
 };
 
 type MIOZERegistry = {
@@ -286,89 +306,19 @@ const generateInstallationId = (registry: MIOZERegistry, index: number): string 
   return `${dkn}_${idInstalacji}`;
 };
 
-// Funkcja do geokodowania adresu - poprawiona
-const geocodeAddress = async (
-  address: string, 
-  postalCode: string, 
-  city: string, 
-  province: string,
-  installationId: string // Dodano identyfikator instalacji
-): Promise<[number, number] | null> => {
-  // Tworzymy bardziej specyficzny klucz cache, uwzględniający identyfikator instalacji
-  const cacheKey = `${installationId}_${address}_${postalCode}_${city}_${province}`;
+// Funkcja normalizująca nazwę miejscowości
+const normalizeLocation = (city: string): string => {
+  // Usuń nadmiarowe spacje
+  const trimmedCity = city.trim().replace(/\s+/g, ' ');
   
-  // Sprawdź cache
-  if (geocodeCache[cacheKey]) {
-    return geocodeCache[cacheKey];
-  }
-  
-  // Hierarchia wyszukiwania:
-  
-  // 1. Najpierw sprawdź w słowniku dodatkowych lokalizacji
-  if (ADDITIONAL_LOCATIONS[city]) {
-    const coords = addJitter(ADDITIONAL_LOCATIONS[city], installationId);
-    geocodeCache[cacheKey] = coords;
-    saveToCache(cacheKey, coords);
-    return coords;
-  }
-  
-  // 2. Następnie sprawdź w słowniku głównych lokalizacji
-  if (POLSKA_LOCATIONS[city]) {
-    const coords = addJitter(POLSKA_LOCATIONS[city], installationId);
-    geocodeCache[cacheKey] = coords;
-    saveToCache(cacheKey, coords);
-    return coords;
-  }
-  
-  // 3. Próba geokodowania za pomocą OpenStreetMap
-  try {
-    // Przygotuj zapytanie geokodujące, łącząc wszystkie dostępne informacje
-    const query = encodeURIComponent(`${city}, ${province}, ${postalCode}, Polska`);
-    const response = await http.get(`https://nominatim.openstreetmap.org/search?format=json&q=${query}&limit=1`);
-    
-    if (response.data && response.data.length > 0) {
-      const coords: [number, number] = [parseFloat(response.data[0].lat), parseFloat(response.data[0].lon)];
-      
-      // Dodaj jitter do współrzędnych, aby instalacje nie nakładały się dokładnie
-      const jitteredCoords = addJitter(coords, installationId);
-      geocodeCache[cacheKey] = jitteredCoords;
-      saveToCache(cacheKey, jitteredCoords);
-      
-      return jitteredCoords;
-    }
-    
-    // 4. Jeśli wszystko inne zawiedzie, użyj współrzędnych województwa
-    if (WOJEWODZTWA_COORDINATES[province]) {
-      const coords = addJitter(WOJEWODZTWA_COORDINATES[province], installationId);
-      geocodeCache[cacheKey] = coords;
-      saveToCache(cacheKey, coords);
-      return coords;
-    }
-    
-    // 5. Jeśli nie mamy żadnych współrzędnych, użyj domyślnych (środek Polski)
-    const defaultCoords = addJitter(defaultCenter, installationId);
-    geocodeCache[cacheKey] = defaultCoords;
-    saveToCache(cacheKey, defaultCoords);
-    return defaultCoords;
-    
-  } catch (error) {
-    console.error('Error geocoding address:', error);
-    
-    // W przypadku błędu, spróbuj użyć współrzędnych województwa
-    if (WOJEWODZTWA_COORDINATES[province]) {
-      const coords = addJitter(WOJEWODZTWA_COORDINATES[province], installationId);
-      geocodeCache[cacheKey] = coords;
-      saveToCache(cacheKey, coords);
-      return coords;
-    }
-    
-    return null;
-  }
+  // Sprawdź, czy miasto wymaga specjalnego mapowania
+  return LOCATION_NORMALIZATION[trimmedCity] || trimmedCity;
 };
 
 // Pomocnicza funkcja do zapisywania w cache
 const saveToCache = (key: string, coords: [number, number]) => {
   try {
+    geocodeCache[key] = coords;
     localStorage.setItem('geocodeCache', JSON.stringify(geocodeCache));
   } catch (error) {
     console.error('Error saving geocode cache:', error);
@@ -400,6 +350,156 @@ const addJitter = (coords: [number, number], seed: string): [number, number] => 
     coords[0] + (random1 - 0.5) * jitterAmount,
     coords[1] + (random2 - 0.5) * jitterAmount
   ];
+};
+
+const convertDMSToDecimal = (dms: string, direction: string): number => {
+  // Przykład: 51°38'28,83"N
+  // Wyodrębniamy liczby
+  const parts = dms.match(/(\d+)°(\d+)'(\d+[,.]\d+)\"([NSEW])/);
+  if (!parts) return 0;
+  
+  const degrees = parseInt(parts[1], 10);
+  const minutes = parseInt(parts[2], 10);
+  const seconds = parseFloat(parts[3].replace(',', '.'));
+  const dir = parts[4];
+  
+  // Konwersja do formatu dziesiętnego
+  let result = degrees + minutes/60 + seconds/3600;
+  if (dir === 'S' || dir === 'W') {
+    result = -result;
+  }
+  
+  return parseFloat(result.toFixed(4));
+};
+
+const geocodeAddress = async (
+  address: string, 
+  postalCode: string, 
+  city: string, 
+  province: string,
+  installationId: string
+): Promise<[number, number] | null> => {
+  // Tworzymy specyficzny klucz cache
+  const cacheKey = `${installationId}_${address}_${postalCode}_${city}_${province}`;
+  
+  // Sprawdź cache
+  if (geocodeCache[cacheKey]) {
+    console.log(`Używam danych z cache dla ${city}`);
+    return geocodeCache[cacheKey];
+  }
+  
+  // Normalizacja nazwy miasta
+  const normalizedCity = normalizeLocation(city);
+  console.log(`Znormalizowana nazwa: ${city} -> ${normalizedCity}`);
+  
+  // Sprawdź w VERIFIED_LOCATIONS
+  if (VERIFIED_LOCATIONS[normalizedCity]) {
+    console.log(`Używam zweryfikowanych współrzędnych dla ${normalizedCity}`);
+    const coords = addJitter(VERIFIED_LOCATIONS[normalizedCity], installationId);
+    saveToCache(cacheKey, coords);
+    return coords;
+  }
+  
+  // Dalej podążaj obecną hierarchią wyszukiwania
+  
+  // 1. Sprawdź w słowniku dodatkowych lokalizacji
+  if (ADDITIONAL_LOCATIONS[normalizedCity]) {
+    console.log(`Używam danych z ADDITIONAL_LOCATIONS dla ${normalizedCity}`);
+    const coords = addJitter(ADDITIONAL_LOCATIONS[normalizedCity], installationId);
+    saveToCache(cacheKey, coords);
+    return coords;
+  }
+  
+  // 2. Następnie sprawdź w słowniku głównych lokalizacji
+  if (POLSKA_LOCATIONS[normalizedCity]) {
+    console.log(`Używam danych z POLSKA_LOCATIONS dla ${normalizedCity}`);
+    const coords = addJitter(POLSKA_LOCATIONS[normalizedCity], installationId);
+    saveToCache(cacheKey, coords);
+    return coords;
+  }
+  
+  // 3. Dodaj znane współrzędne dla konkretnych lokalizacji
+  // To jest uproszczenie Twojego VERIFIED_LOCATIONS
+  const KNOWN_COORDINATES: Record<string, [number, number]> = {
+    'Górka': [51.6345, 22.4872],
+    'Brzeźnica Leśna': [51.5623, 22.6862],
+    'Bonów': [51.1767, 22.9467],
+    'Jeziernia': [50.4117, 23.4139],
+    'Kock Rolny': [51.6413, 22.4480],
+    'Łysołaje': [51.2215, 22.9872],
+  };
+  
+  if (KNOWN_COORDINATES[normalizedCity]) {
+    console.log(`Używam znanych współrzędnych dla ${normalizedCity}`);
+    const coords = addJitter(KNOWN_COORDINATES[normalizedCity], installationId);
+    saveToCache(cacheKey, coords);
+    return coords;
+  }
+  
+  // 4. Próba wyszukania przybliżonych dopasowań
+  const additionalLocationKey = Object.keys(ADDITIONAL_LOCATIONS).find(key => 
+    normalizedCity.includes(key) || key.includes(normalizedCity)
+  );
+  
+  if (additionalLocationKey) {
+    console.log(`Używam częściowego dopasowania z ADDITIONAL_LOCATIONS: ${normalizedCity} -> ${additionalLocationKey}`);
+    const coords = addJitter(ADDITIONAL_LOCATIONS[additionalLocationKey], installationId);
+    saveToCache(cacheKey, coords);
+    return coords;
+  }
+  
+  const polskaLocationKey = Object.keys(POLSKA_LOCATIONS).find(key => 
+    normalizedCity.includes(key) || key.includes(normalizedCity)
+  );
+  
+  if (polskaLocationKey) {
+    console.log(`Używam częściowego dopasowania z POLSKA_LOCATIONS: ${normalizedCity} -> ${polskaLocationKey}`);
+    const coords = addJitter(POLSKA_LOCATIONS[polskaLocationKey], installationId);
+    saveToCache(cacheKey, coords);
+    return coords;
+  }
+  
+  // 5. Próba geokodowania za pomocą OpenStreetMap
+  try {
+    console.log(`Próba geokodowania przez OSM dla ${normalizedCity}`);
+    const query = encodeURIComponent(`${normalizedCity}, ${province}, ${postalCode}, Polska`);
+    const response = await http.get(`https://nominatim.openstreetmap.org/search?format=json&q=${query}&limit=1`);
+    
+    if (response.data && response.data.length > 0) {
+      const coords: [number, number] = [parseFloat(response.data[0].lat), parseFloat(response.data[0].lon)];
+      console.log(`Znaleziono przez OSM: ${normalizedCity} -> [${coords[0]}, ${coords[1]}]`);
+      
+      const jitteredCoords = addJitter(coords, installationId);
+      saveToCache(cacheKey, jitteredCoords);
+      return jitteredCoords;
+    }
+    
+    // 6. Jeśli wszystko inne zawiedzie, użyj współrzędnych województwa
+    if (WOJEWODZTWA_COORDINATES[province]) {
+      console.log(`Używam współrzędnych województwa dla ${normalizedCity} (${province})`);
+      const coords = addJitter(WOJEWODZTWA_COORDINATES[province], installationId);
+      saveToCache(cacheKey, coords);
+      return coords;
+    }
+    
+    // 7. Ostateczność - użyj domyślnych (środek Polski)
+    console.log(`Używam środka Polski dla ${normalizedCity}`);
+    const defaultCoords = addJitter(defaultCenter, installationId);
+    saveToCache(cacheKey, defaultCoords);
+    return defaultCoords;
+    
+  } catch (error) {
+    console.error('Error geocoding address:', error);
+    
+    if (WOJEWODZTWA_COORDINATES[province]) {
+      console.log(`Używam współrzędnych województwa po błędzie dla ${normalizedCity} (${province})`);
+      const coords = addJitter(WOJEWODZTWA_COORDINATES[province], installationId);
+      saveToCache(cacheKey, coords);
+      return coords;
+    }
+    
+    return null;
+  }
 };
 
 function App() {
@@ -528,11 +628,15 @@ function App() {
       setError('Proszę wybrać plik');
       return;
     }
-
+  
+    // Wyczyść cache przed ładowaniem
+    clearGeocodeCache();
+    console.log("Cache wyczyszczony przed ładowaniem");
+    
     setLoading(true);
     setError(null);
     setProgress(0);
-
+  
     try {
       const reader = new FileReader();
       reader.onload = (e) => {
@@ -576,8 +680,11 @@ function App() {
     provinceGroups[province] = installations.filter(i => i.installationProvince === province).length;
   });
 
-  // Usunięty kod automatycznego wczytywania danych przy uruchomieniu
-  // useEffect(() => {...}, []);
+  const clearGeocodeCache = () => {
+    localStorage.removeItem('geocodeCache');
+    console.log("Cache został całkowicie wyczyszczony");
+    return {};
+  };
 
   return (
     <div className="App" style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
@@ -618,6 +725,26 @@ function App() {
               }}
             >
               {loading ? 'Wczytywanie...' : 'Wczytaj'}
+            </button>
+
+            <button 
+              onClick={() => {
+                clearGeocodeCache();
+                setInstallations([]); // Opcjonalnie, czyści również wyświetlane instalacje
+                alert('Cache został wyczyszczony. Wczytaj plik ponownie.');
+              }} 
+              style={{ 
+                width: '100%', 
+                padding: '0.5rem', 
+                backgroundColor: '#f44336', 
+                color: 'white', 
+                border: 'none', 
+                borderRadius: '4px',
+                cursor: 'pointer',
+                marginTop: '0.5rem'
+              }}
+            >
+              Wyczyść cache i reset
             </button>
             
             {loading && (
@@ -704,6 +831,8 @@ function App() {
                 'PVA': 'instalacje fotowoltaiczne',
                 'WOA': 'elektrownie wodne',
                 'BGO': 'instalacje biogazowe',
+                'BGS': 'biogazownie składowiskowe',
+                'BGM': 'biogazownie',
                 'WIL': 'elektrownie wiatrowe na lądzie'
               }).map(([type, description]) => (
                 <div key={type} style={{ display: 'flex', alignItems: 'center', marginBottom: '0.3rem' }}>

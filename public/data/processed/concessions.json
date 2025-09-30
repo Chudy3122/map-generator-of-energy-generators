@@ -1,0 +1,7402 @@
+[
+  {
+    "id": "CONCESSION_1_15%_0",
+    "name": "\"HUTCHINSON POLAND\" Sp. z o.o.",
+    "address": "ul. Ks. Prałata St. Słonki 20A",
+    "postalCode": "34-300",
+    "city": "Żywiec",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      49.68559351851576,
+      19.193701015126926
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_2_15%_1",
+    "name": "\"REAL\" S.A.",
+    "address": "ul. Świętojańska 13",
+    "postalCode": "08-110",
+    "city": "Siedlce",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.16660881829992,
+      22.290550656182866
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_3_15%_2",
+    "name": "\"TERPLAST\" Sp. z o.o. Zakłady Przetwórstwa Tworzyw Sztucznych",
+    "address": "ul. Adama Mickiewicza 2",
+    "postalCode": "98-200",
+    "city": "Sieradz",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.595384289218345,
+      18.728817694619316
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_4_15%_3",
+    "name": "ANWIL S.A.",
+    "address": "ul. Toruńska 222",
+    "postalCode": "87-805",
+    "city": "Włocławek",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.64926985212083,
+      19.06783691921702
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_5_15%_4",
+    "name": "ADM Czernin S.A.",
+    "address": "ul. Chrobrego 29",
+    "postalCode": "64-500",
+    "city": "Szamotuły",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.611442768348454,
+      16.577647781088068
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_6_15%_5",
+    "name": "ADM Malbork S.A.",
+    "address": "ul. Chrobrego 29",
+    "postalCode": "64-500",
+    "city": "Szamotuły",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.611207640053884,
+      16.578134101772037
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_7_15%_6",
+    "name": "ADM Szamotuły Sp. z o.o.",
+    "address": "ul. Chrobrego 29",
+    "postalCode": "64-500",
+    "city": "Szamotuły",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.611626465350945,
+      16.57847473788585
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_8_15%_7",
+    "name": "Basell Orlen Polyolefins Sp. z o.o.",
+    "address": "ul. I. Łukasiewicza 39",
+    "postalCode": "09-400",
+    "city": "Płock",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.54587708804043,
+      19.707363006208183
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_9_15%_8",
+    "name": "Agram S.A.",
+    "address": "ul. Mełgiewska 104",
+    "postalCode": "20-234",
+    "city": "Lublin",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.24564584383606,
+      22.567895039869843
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_10_15%_9",
+    "name": "CELSA \"Huta Ostrowiec\" Sp. z o.o.",
+    "address": "ul. Samsonowicza 2",
+    "postalCode": "27-400",
+    "city": "Ostrowiec Świętokrzyski",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.928396458276204,
+      21.388533201849977
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_11_15%_10",
+    "name": "Cement Ożarów S.A.",
+    "address": "ul. Ks. I. Skorupki 5",
+    "postalCode": "00-546",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.229189244539256,
+      21.01241946730097
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_12_15%_11",
+    "name": "Cementownia Warta S.A.",
+    "address": "ul. Przemysłowa 17",
+    "postalCode": "98-355",
+    "city": "Działoszyn\nTrębaczew,",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02480657693755,
+      21.134725023024828
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_13_15%_12",
+    "name": "ALPLA Opakowania z Tworzyw Sztucznych Sp. z o.o.",
+    "address": "ul. Leśnianka 69",
+    "postalCode": "34-300",
+    "city": "Żywiec",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      49.684497883511945,
+      19.19439830532753
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_14_15%_13",
+    "name": "Aluform Sp. z o.o.",
+    "address": "ul. Strefowa 4",
+    "postalCode": "43-109",
+    "city": "Tychy",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.13531362379529,
+      19.01101191730977
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_15_15%_14",
+    "name": "CMC Poland Sp. z o.o.",
+    "address": "ul. Piłsudskiego 82",
+    "postalCode": "42-400",
+    "city": "Zawiercie",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02492592816366,
+      21.136479282870663
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_16_15%_15",
+    "name": "Cognor S.A.",
+    "address": "ul. Zielona 26",
+    "postalCode": "42-360",
+    "city": "Poraj",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02505245011969,
+      21.134789052063827
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_17_15%_16",
+    "name": "Alupol Packaging Kęty Sp. z o.o.",
+    "address": "ul. Kościuszki 111",
+    "postalCode": "32-650",
+    "city": "Kęty",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.025375465933074,
+      21.135995672715485
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_18_15%_17",
+    "name": "Alupol Packaging S.A.",
+    "address": "ul. Strefowa 4",
+    "postalCode": "43-109",
+    "city": "Tychy",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.13625845800368,
+      19.011421317336456
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_19_15%_18",
+    "name": "Firma Oponiarska Dębica S.A.",
+    "address": "ul. 1 Maja 1",
+    "postalCode": "39-200",
+    "city": "Dębica",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.050506622405315,
+      21.411459369332654
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_20_15%_19",
+    "name": "Górażdże Cement S.A.",
+    "address": "ul. Cementowa 1",
+    "postalCode": "47-316",
+    "city": "Górażdże\nChorula,",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02426655889607,
+      21.13471639567896
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_21_15%_20",
+    "name": "Gränges Konin S.A.",
+    "address": "ul. Bolesława Prusa 2",
+    "postalCode": "00-493",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.22993965864195,
+      21.01285967253401
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_22_15%_21",
+    "name": "Grupa Azoty S.A.",
+    "address": "ul. E. Kwiatkowskiego 8",
+    "postalCode": "33-101",
+    "city": "Tarnów",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.012145760116894,
+      20.988000925461808
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_23_15%_22",
+    "name": "Grupa Azoty Zakłady Azotowe Kędzierzyn S.A.",
+    "address": "ul. Mostowa 30A",
+    "postalCode": "47-220",
+    "city": "Kędzierzyn- Koźle",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02389759920799,
+      21.136201228103886
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_24_15%_23",
+    "name": "Austria Juice Poland Sp. z o.o.",
+    "address": "ul. Kolejowa 31",
+    "postalCode": "22-100",
+    "city": "Chełm",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.14350570128514,
+      23.471211371771588
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_25_15%_24",
+    "name": "Axtone HSW Sp. z o.o.",
+    "address": "ul. Kwiatkowskiego 1",
+    "postalCode": "37-450",
+    "city": "Stalowa Wola",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.569469848800566,
+      22.05299037633683
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_26_15%_25",
+    "name": "Barlinek Inwestycje Sp. z o.o.",
+    "address": "ul. Przemysłowa 1",
+    "postalCode": "74-320",
+    "city": "Barlinek",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02451507820624,
+      21.13491994165063
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_27_15%_26",
+    "name": "Holcim Polska S.A.",
+    "address": "ul. Warszawska 110",
+    "postalCode": "28-366",
+    "city": "Małogoszcz",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02426280548553,
+      21.13646810188774
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_28_15%_27",
+    "name": "BASF Catalysts Polska Sp. z o.o.",
+    "address": "ul. Innowacji 1",
+    "postalCode": "55-300",
+    "city": "Święte",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.05190640223061,
+      20.965543117006295
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_29_15%_28",
+    "name": "ICT Poland Sp. z o.o.",
+    "address": "ul. Włoska 3",
+    "postalCode": "66-470",
+    "city": "Kostrzyn nad Odrą",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.023522926866356,
+      21.13587201778562
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_30_15%_29",
+    "name": "Bech Packaging Sp. z o.o.",
+    "address": "ul. Kolejowa 56",
+    "postalCode": "64-300",
+    "city": "Nowy Tomyśl",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02473150720469,
+      21.13536971616599
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_31_15%_30",
+    "name": "KGHM Polska Miedź S.A.",
+    "address": "ul. M. Skłodowskiej-Curie 48",
+    "postalCode": "59-301",
+    "city": "Lubin",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.40053115228366,
+      16.200375690954626
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_32_15%_31",
+    "name": "Kronospan Mielec Sp. z o.o.",
+    "address": "ul. Wojska Polskiego 3",
+    "postalCode": "39-300",
+    "city": "Mielec",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.28841399354078,
+      21.423543597451598
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_33_15%_32",
+    "name": "Kronospan Polska Sp. z o.o.",
+    "address": "ul. Waryńskiego 1",
+    "postalCode": "78-400",
+    "city": "Szczecinek",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.70911689267399,
+      16.700672002429542
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_34_15%_33",
+    "name": "LG Energy Solution Wrocław Sp. z o.o.",
+    "address": "ul. LG 1A",
+    "postalCode": "55-040",
+    "city": "Kobierzyce",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02375731301016,
+      21.13502365615017
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_35_15%_34",
+    "name": "BIMIZ Food Sp. z o.o.",
+    "address": "ul. Parkowa 33",
+    "postalCode": "21-300",
+    "city": "Radzyń Podlaski",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.78290552485859,
+      22.622700392944942
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_36_15%_35",
+    "name": "Michelin Polska Sp. z o.o.",
+    "address": "ul. W. Leonharda 9",
+    "postalCode": "10-454",
+    "city": "Olsztyn",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.77804234586146,
+      20.49518870592472
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_37_15%_36",
+    "name": "MM Kwidzyn Sp. z o.o.",
+    "address": "ul. Lotnicza 1",
+    "postalCode": "82-500",
+    "city": "Kwidzyn",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02428276912531,
+      21.136298694932716
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_38_15%_37",
+    "name": "Bioconcept Gardenia Sp. z o.o.",
+    "address": "ul. Fabryczna 5",
+    "postalCode": "00-446",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.228833058269224,
+      21.0113533982906
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_39_15%_38",
+    "name": "MP Production Sp. z o.o.",
+    "address": "ul. Maciejkowicka 30",
+    "postalCode": "41-503",
+    "city": "Chorzów",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.297308370597406,
+      18.954006466526277
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_40_15%_39",
+    "name": "O-I Poland S.A.",
+    "address": "ul. Morawska 1",
+    "postalCode": "37-500",
+    "city": "Jarosław",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.01785215675974,
+      22.67679001252533
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_41_15%_40",
+    "name": "Paroc Polska Sp. z o.o.",
+    "address": "ul. Gnieźnieńska 4",
+    "postalCode": "62-240",
+    "city": "Trzemeszno",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02491753641871,
+      21.134770423478848
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_42_15%_41",
+    "name": "CAST S.A.",
+    "address": "ul. Ciernie 18B",
+    "postalCode": "58-160",
+    "city": "Świebodzice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02435528506791,
+      21.135806736540214
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_43_15%_42",
+    "name": "Celiko Sp. z o.o.",
+    "address": "ul. Św. Antoniego 71",
+    "postalCode": "61-359",
+    "city": "Poznań",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.40713073489946,
+      16.924873634243177
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_44_15%_43",
+    "name": "Południowy Koncern Węglowy S.A.",
+    "address": "ul. Grunwaldzka 37",
+    "postalCode": "43-600",
+    "city": "Jaworzno",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.20583523343076,
+      19.275155741053865
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_45_15%_44",
+    "name": "Qemetica Soda Polska S.A.",
+    "address": "ul. Fabryczna 4",
+    "postalCode": "88-101",
+    "city": "Inowrocław",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.796983948487565,
+      18.260340272904788
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_46_15%_45",
+    "name": "Rafineria Gdańska Sp. z o.o.",
+    "address": "ul. Elbląska 135",
+    "postalCode": "80-718",
+    "city": "Gdańsk",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      54.352120474757605,
+      18.645622672842904
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_47_15%_46",
+    "name": "Rockwool Polska Sp. z o.o.",
+    "address": "ul. Kwiatowa 14",
+    "postalCode": "66-131",
+    "city": "Cigacice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02459180294694,
+      21.135473333761627
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_48_15%_47",
+    "name": "Ceramika Tubądzin III Sp. z o.o. Sp. k.",
+    "address": "ul. Dworska 28",
+    "postalCode": "98-200",
+    "city": "Sieradz",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.59559529158309,
+      18.730470186411136
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_49_15%_48",
+    "name": "Schumacher Packaging Zakład Grudziądz Sp. z o.o.",
+    "address": "ul. Parkowa 56",
+    "postalCode": "86-300",
+    "city": "Grudziądz",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.484080136816,
+      18.752618977202157
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_50_15%_49",
+    "name": "Stalprodukt S.A.",
+    "address": "ul. Wygoda 69",
+    "postalCode": "32-700",
+    "city": "Bochnia",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.0236807215999,
+      21.13553108261802
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_51_15%_50",
+    "name": "CERRAD Sp. z o.o.",
+    "address": "ul. Radomska 49B",
+    "postalCode": "27-200",
+    "city": "Starachowice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.03627441599817,
+      21.068884985549232
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_52_15%_51",
+    "name": "Cofresco Poland Sp. z o.o. Manufacturing Sp. k.",
+    "address": "ul. Sikorskiego 27",
+    "postalCode": "87-300",
+    "city": "Brodnica",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.263489244278794,
+      19.397714111281037
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_53_15%_52",
+    "name": "SWISS KRONO Sp. z o.o.",
+    "address": "ul. Serbska 56",
+    "postalCode": "68-200",
+    "city": "Żary",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.64265484849418,
+      15.137522199490391
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_54_15%_53",
+    "name": "Tokai COBEX Polska Sp. z o.o.",
+    "address": "ul. Piastowska 29",
+    "postalCode": "47-400",
+    "city": "Racibórz",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.09144624298203,
+      18.21853587777987
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_55_15%_54",
+    "name": "Cotto Petrus Sp. z o.o.",
+    "address": "ul. Ceramiczna 5",
+    "postalCode": "26-200",
+    "city": "Końskie",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.195676385667596,
+      20.40702429412304
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_56_15%_55",
+    "name": "Zakłady Górniczo-Hutnicze \"Bolesław\" S.A.",
+    "address": "ul. Kolejowa 37",
+    "postalCode": "32-332",
+    "city": "Bukowno",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.544088626233055,
+      20.841067156870686
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_57_15%_56",
+    "name": "DAFO PLASTICS S.A.",
+    "address": "ul. Waksmundzka 193",
+    "postalCode": "34-400",
+    "city": "Nowy Targ",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      49.47835007752148,
+      20.03348377721133
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_58_25%_57",
+    "name": "CANPACK S.A.",
+    "address": "ul. Marii Konoponickiej 29",
+    "postalCode": "30-302",
+    "city": "Kraków",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.06552966464183,
+      19.944831937352305
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_59_25%_58",
+    "name": "Ferrero Polska Sp. z o.o.",
+    "address": "ul. Wiertnicza 126",
+    "postalCode": "02-952",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.229770064113744,
+      21.012087913191337
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_60_25%_59",
+    "name": "Ronal Polska Sp. z o.o.",
+    "address": "ul. Wrocławska 95",
+    "postalCode": "58-306",
+    "city": "Wałbrzych",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.77104917425849,
+      16.284502875131302
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_61_15%_60",
+    "name": "Dradura Polska Sp. z o.o.",
+    "address": "ul. Techniczna 8/10",
+    "postalCode": "92-518",
+    "city": "Łódź",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.75920635514331,
+      19.45505468053494
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_62_15%_61",
+    "name": "Ecowipes Sp. z o.o.",
+    "address": "ul. Nowogrodzka 47A",
+    "postalCode": "00-695",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.23040473471834,
+      21.012451181410416
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_63_15%_62",
+    "name": "Effector S.A.",
+    "address": "ul. Hauke - Bosaka 2",
+    "postalCode": "25-214",
+    "city": "Kielce",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.86609416850738,
+      20.628853302395484
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_64_15%_63",
+    "name": "Ela Wyrób Folii i Opakowań Sp. z o.o.",
+    "address": "ul. Lubelska 2",
+    "postalCode": "05-430",
+    "city": "Celestynów\nOstrów,",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02466653530695,
+      21.134660078696786
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_65_15%_64",
+    "name": "Eloros Sp. z o.o.",
+    "address": "ul. Maciejkowicka 30",
+    "postalCode": "41-503",
+    "city": "Chorzów",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.29540593365309,
+      18.95401246670565
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_66_15%_65",
+    "name": "ERG Bieruń Sp. z o.o.",
+    "address": "ul. Chemików 163",
+    "postalCode": "43-150",
+    "city": "Bieruń",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02379698099491,
+      21.134624360886747
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_67_15%_66",
+    "name": "Ergis S.A.",
+    "address": "ul. Tamka 16",
+    "postalCode": "00-349",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.23054616107072,
+      21.012242321235487
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_68_15%_67",
+    "name": "Espersen Poland Sp. z o.o.",
+    "address": "ul. Bojowników o Wolność i Demokrację 15",
+    "postalCode": "75-001",
+    "city": "Koszalin",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      54.19493065924971,
+      16.17127404849226
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_69_15%_68",
+    "name": "Essity Operations Poland Sp. z o.o.",
+    "address": "ul. 3 Maja 30A",
+    "postalCode": "55-200",
+    "city": "Oława",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.944604255602826,
+      17.291585260971406
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_70_15%_69",
+    "name": "EUROCAST Sp. z o.o.",
+    "address": "ul. Wejherowska 9",
+    "postalCode": "84-220",
+    "city": "Strzebielino",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02392825906146,
+      21.136154658935816
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_71_15%_70",
+    "name": "Euroglas Polska Sp. z o.o.",
+    "address": "Osiedle Niewiadów 65",
+    "postalCode": "97-225",
+    "city": "Ujazd",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.97502906363818,
+      21.440333608463916
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_72_15%_71",
+    "name": "Exide Technologies S.A.",
+    "address": "ul. Gdyńska 31/33",
+    "postalCode": "61-016",
+    "city": "Poznań",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.40654036787048,
+      16.92425074790278
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_73_15%_72",
+    "name": "FABIOS S.A.",
+    "address": "Białka 556",
+    "postalCode": "34-220",
+    "city": "Maków Podhalański",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02516425534463,
+      21.13456928991869
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_74_15%_73",
+    "name": "Fabryka Łożysk Tocznych - Kraśnik S.A.",
+    "address": "ul. Fabryczna 6",
+    "postalCode": "23-204",
+    "city": "Kraśnik",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.924671875365036,
+      22.220534950953386
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_75_15%_74",
+    "name": "Fabryka Opakowań Foliowych ROSSOPLAST D. i R. Rossochaccy Sp. J.",
+    "address": "ul. Dantyszka 19",
+    "postalCode": "11-100",
+    "city": "Lidzbark Warmiński",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      54.12544605309443,
+      20.58101181295131
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_76_15%_75",
+    "name": "Fabryka Papieru Czerwonak Sp. z o.o.",
+    "address": "ul. Gdyńska 131",
+    "postalCode": "62-004",
+    "city": "Czerwonak",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.024008334982156,
+      21.13646372983898
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_77_15%_76",
+    "name": "Fabryka Papieru KACZORY Sp. z o.o.",
+    "address": "ul. Dziembowska 20",
+    "postalCode": "64-810",
+    "city": "Kaczory",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.053368722313195,
+      22.276860236742372
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_78_15%_77",
+    "name": "Faerch Murowana Goślina Sp. z o.o.",
+    "address": "ul. Polna 40",
+    "postalCode": "62-095",
+    "city": "Murowana Goślina",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.023996450874186,
+      21.13586126183815
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_79_15%_78",
+    "name": "FAKRO GP Sp. z o.o.",
+    "address": "ul. Węgierska 144A",
+    "postalCode": "33-300",
+    "city": "Nowy Sącz",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      49.62517120282502,
+      20.69411311487168
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_80_15%_79",
+    "name": "FANSULD Sp. z o.o.",
+    "address": "ul. Zielona 22",
+    "postalCode": "26-200",
+    "city": "Końskie",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.19601803125187,
+      20.407938725487483
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_81_15%_80",
+    "name": "Fcase Sp. z o.o. Sp. k.",
+    "address": "Jawornik 360",
+    "postalCode": "32-400",
+    "city": "Myślenice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      49.8363557102415,
+      19.934114023490235
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_82_15%_81",
+    "name": "Ferax Sp. z o.o.",
+    "address": "ul. Łaska 197A",
+    "postalCode": "98-220",
+    "city": "Zduńska Wola",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.599501675697965,
+      18.940295457461083
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_83_15%_82",
+    "name": "FERREX Sp. z o.o.",
+    "address": "ul. Romana Maya 1",
+    "postalCode": "61-371",
+    "city": "Poznań",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.40737941102529,
+      16.92612560223428
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_84_15%_83",
+    "name": "Ferroxcube Polska sp. z o.o.",
+    "address": "ul. Zwierzyniecka 2",
+    "postalCode": "96-100",
+    "city": "Skierniewice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.95403528695934,
+      20.152003718468997
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_85_15%_84",
+    "name": "Filar Fijałkowski Sp. k.",
+    "address": "Zaryń 46",
+    "postalCode": "62-619",
+    "city": "Sadlno",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.0252199637182,
+      21.134602573645903
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_86_15%_85",
+    "name": "Flexergis Sp. z o.o.",
+    "address": "ul. Elektrodowa 45C",
+    "postalCode": "33-300",
+    "city": "Nowy Sącz",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      49.62444151486774,
+      20.694199658854497
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_87_15%_86",
+    "name": "Flexopack Polska Sp. z o.o.",
+    "address": "Tragamin 17",
+    "postalCode": "82-200",
+    "city": "Malborsk",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.0236146293915,
+      21.13575021071215
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_88_15%_87",
+    "name": "FOLAN Anna Kwiatkowska",
+    "address": "ul. P. Tomickiego 25",
+    "postalCode": "62-060",
+    "city": "Stęszew",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02506857370731,
+      21.13584444198721
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_89_15%_88",
+    "name": "Fol-Plast II Gostomscy i Szczypior Sp. z .o.o.",
+    "address": "ul. Drogowców 17",
+    "postalCode": "83-250",
+    "city": "Skarszewy",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.024171149143896,
+      21.13571781164863
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_90_15%_89",
+    "name": "Folplast Sp. z o.o.",
+    "address": "ul. Składowa 2A",
+    "postalCode": "64-000",
+    "city": "Kościan",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.08662327851675,
+      16.6456001221558
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_91_15%_90",
+    "name": "Fol-Plast Zawadka Sp. z o.o. Sp. k.",
+    "address": "Al. Wyzwolenia 2A",
+    "postalCode": "08-440",
+    "city": "Pilawa",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.95856199018029,
+      21.52729682704138
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_92_15%_91",
+    "name": "Fonte Sp. z o.o.",
+    "address": "ul. Marii Skłodowskiej Curie 10",
+    "postalCode": "32-640",
+    "city": "Zator",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.965109563085264,
+      20.375746100560352
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_93_15%_92",
+    "name": "Fortuna Sp. z o.o.",
+    "address": "ul. Hoża 51",
+    "postalCode": "00-681",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.22944605255078,
+      21.01245577645792
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_94_15%_93",
+    "name": "Frubella Processing Sp. z o.o.",
+    "address": "ul. Krakowska 102",
+    "postalCode": "26-800",
+    "city": "Białobrzegi",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.03748432654955,
+      21.76783308946958
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_95_15%_94",
+    "name": "Fuji Seal Poland Sp. z o.o.",
+    "address": "ul. Wschodnia 2",
+    "postalCode": "99-300",
+    "city": "Kutno",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.232604440322476,
+      19.363448377704554
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_96_15%_95",
+    "name": "Geberit Produkcja Sp. z o.o.",
+    "address": "ul. Toruńska 154",
+    "postalCode": "62-600",
+    "city": "Koło",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.20155003559671,
+      18.637829488861396
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_97_15%_96",
+    "name": "GEKOPLAST S.A.",
+    "address": "ul. Krasickiego 13",
+    "postalCode": "42-693",
+    "city": "Krupski Młyn",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.024524327535744,
+      21.135812234610626
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_98_15%_97",
+    "name": "Gerresheimer Bolesławiec S.A.",
+    "address": "ul. Bolesława Chrobrego 15",
+    "postalCode": "59-700",
+    "city": "Bolesławiec",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.26328988578871,
+      15.568639238206071
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_99_15%_98",
+    "name": "GIZEH Dispoform Sp. z o.o.",
+    "address": "ul. 23 Października 61",
+    "postalCode": "62-080",
+    "city": "Tarnowo Podgórne",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02429841086085,
+      21.136209519394892
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_100_15%_99",
+    "name": "Głuchołaskie Zakłady Papiernicze Sp. z o.o.",
+    "address": "ul. Gen. Andersa 32",
+    "postalCode": "48-340",
+    "city": "Głuchołazy",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.0235751428108,
+      21.134996522332433
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_101_15%_100",
+    "name": "Gomar Sp. z o.o.",
+    "address": "ul. Przemysłowa 6",
+    "postalCode": "28-400",
+    "city": "Pińczów",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02456431087146,
+      21.13467258407006
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_102_15%_101",
+    "name": "Górka Cement Sp. z o.o.",
+    "address": "ul. Lipcowa 58",
+    "postalCode": "32-540",
+    "city": "Trzebinia",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02490848960813,
+      21.134504267677244
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_103_15%_102",
+    "name": "Greenyard Frozen Poland Sp. z o.o.",
+    "address": "ul. Wojska Polskiego 12",
+    "postalCode": "87-600",
+    "city": "Lipno",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.33536688722939,
+      22.819107985670247
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_104_15%_103",
+    "name": "Greiner Packaging Sp. z o.o.",
+    "address": "Al. XX-lecia 54",
+    "postalCode": "96-515",
+    "city": "Teresin",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.199106201116145,
+      20.41711637561131
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_105_15%_104",
+    "name": "Grigeo Tissue Sp. z o.o.",
+    "address": "ul. Niedomicka 45",
+    "postalCode": "33-132",
+    "city": "Niedomice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02439877135309,
+      21.13588325309186
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_106_15%_105",
+    "name": "Grupa Azoty Kopalnie i Zakłady Chemiczne Siarki \"Siarkopol\" S.A.",
+    "address": "Grzybów 34",
+    "postalCode": "28-200",
+    "city": "Staszów",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.5694916304948,
+      21.653658935360887
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_107_15%_106",
+    "name": "Grupa Azoty Zakłady Azotowe Chorzów S.A.",
+    "address": "ul. Narutowicza 15",
+    "postalCode": "41-503",
+    "city": "Chorzów",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.29611333774133,
+      18.95269269851186
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_108_15%_107",
+    "name": "Grupa Ergis Sp. z o.o.",
+    "address": "ul. Tamka 16",
+    "postalCode": "00-349",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.22956588028621,
+      21.011742232831082
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_109_15%_108",
+    "name": "Grupa Kęty S.A.",
+    "address": "ul. Kościuszki 111",
+    "postalCode": "32-650",
+    "city": "Kęty",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.023851193420676,
+      21.13474728927579
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_110_15%_109",
+    "name": "Grupa Kon-Plast Sp. z o.o.",
+    "address": "ul. Kaliska 5",
+    "postalCode": "62-571",
+    "city": "Stare Miasto k/Konina\nModła Królewska,",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.22221780184093,
+      18.251707506896295
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_111_15%_110",
+    "name": "GRUPLAST Gruba Sp. J.",
+    "address": "ul. Piaskowa 9A",
+    "postalCode": "05-340",
+    "city": "Kołbiel",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.0642770773701,
+      21.481268063078446
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_112_15%_111",
+    "name": "GTX Hanex Plastic Sp. z o.o.",
+    "address": "ul. Budowlanych 7",
+    "postalCode": "41-303",
+    "city": "Dąbrowa Górnicza",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.328179574011784,
+      19.19470348419975
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_113_15%_112",
+    "name": "Guillin Polska Sp. z o.o.",
+    "address": "ul. Przemysłowa 3",
+    "postalCode": "56-400",
+    "city": "Oleśnica",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.20938655176572,
+      17.381982348168194
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_114_15%_113",
+    "name": "Hanke Tissue Sp. z o.o.",
+    "address": "ul. Fabryczna 1",
+    "postalCode": "66-470",
+    "city": "Kostrzyn nad Odrą",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02374889301279,
+      21.135909331678437
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_115_15%_114",
+    "name": "HANPLAST Sp. z o.o.",
+    "address": "ul. Paciorkiewicza 3",
+    "postalCode": "85-862",
+    "city": "Bydgoszcz",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.12259457518373,
+      18.008750111180237
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_116_15%_115",
+    "name": "HEINZ-GLAS Działdowo Sp. z o.o.",
+    "address": "ul. Władysława Jagiełły 40",
+    "postalCode": "13-200",
+    "city": "Działdowo",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.23405984871404,
+      20.186790847491075
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_117_15%_116",
+    "name": "HellermannTyton Sp. z o. o.",
+    "address": "Kotunia 111",
+    "postalCode": "62-400",
+    "city": "Kotunia",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.0244501208274,
+      21.135213936238095
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_118_15%_117",
+    "name": "HIRSCH Porozell Sp. z o.o.",
+    "address": "ul. Kiełczowska 54",
+    "postalCode": "51-317",
+    "city": "Wrocław",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.10700612830567,
+      17.039405257344452
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_119_15%_118",
+    "name": "Homanit Krosno Odrzańskie Sp. z o.o.",
+    "address": "ul. Gubińska 63",
+    "postalCode": "66-600",
+    "city": "Krosno Odrzańskie",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      49.68818726138681,
+      21.7696197266732
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_120_15%_119",
+    "name": "Homanit Polska Sp. z o.o. i Spółka Sp. k.",
+    "address": "ul. Kołobrzeska 17-19",
+    "postalCode": "78-230",
+    "city": "Karlino",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02443261860876,
+      21.136169897583486
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_122_15%_120",
+    "name": "HORTINO Zakład Przetwórstwa Owocowo-Warzywnego Leżajsk Sp. z o.o.",
+    "address": "ul. Fabryczna 2",
+    "postalCode": "37-300",
+    "city": "Leżajsk",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.26025084938381,
+      22.417271770850967
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_123_15%_121",
+    "name": "HSV Polska Sp. z o.o.",
+    "address": "ul. Laskowicka 12/20",
+    "postalCode": "94-104",
+    "city": "Łódź",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.760099908660806,
+      19.456457273830914
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_124_15%_122",
+    "name": "Huta Bankowa Sp. z o.o.",
+    "address": "ul. Sobieskiego 24",
+    "postalCode": "41-300",
+    "city": "Dąbrowa Górnicza",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.328770522524195,
+      19.1942838573895
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_125_15%_123",
+    "name": "Huta Cynku \"Miasteczko Śląskie\" S.A.",
+    "address": "ul. Hutnicza 17",
+    "postalCode": "42-610",
+    "city": "Miasteczko Śląskie",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.025136913387044,
+      21.13575618289638
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_126_15%_124",
+    "name": "Huta Częstochowa Sp. z o.o.",
+    "address": "ul. Adama Mickiewicza 29",
+    "postalCode": "40-085",
+    "city": "Katowice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.26390149320348,
+      19.02439973142544
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_127_15%_125",
+    "name": "Huta Szkła w Jaśle S.A.",
+    "address": "ul. Śniadeckich 19",
+    "postalCode": "38-200",
+    "city": "Jasło",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      49.745324899718696,
+      21.472090587398053
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_128_15%_126",
+    "name": "Hydro Extrusion Poland Sp. z o.o.",
+    "address": "ul. Kopernika 18",
+    "postalCode": "64-980",
+    "city": "Trzcianka",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.08119754114457,
+      20.81995494212394
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_129_15%_127",
+    "name": "IBP INSTALFITTINGS Sp. z o. o.",
+    "address": "ul. Stanisława Zwierzchowskiego 29",
+    "postalCode": "61-249",
+    "city": "Poznań",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.40615886373036,
+      16.92529659350137
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_130_15%_128",
+    "name": "Indorama Ventures Poland Sp. z o.o.",
+    "address": "ul. Krzywa Góra 19",
+    "postalCode": "87-805",
+    "city": "Włocławek",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.648248306100385,
+      19.067624189543874
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_131_15%_129",
+    "name": "Industrie Maurizio Peruzzo Comfort Sp. z o.o.",
+    "address": "ul. Inżynierska 15-17",
+    "postalCode": "58-100",
+    "city": "Świdnica",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.845569857016045,
+      16.48962762992726
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_132_15%_130",
+    "name": "Innovia Films Poland Sp. z o.o.",
+    "address": "ul. Ignacego Łukasiewicza 46",
+    "postalCode": "09-400",
+    "city": "Płock",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.54706755850619,
+      19.707467103763676
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_133_15%_131",
+    "name": "Inowrocławskie Kopalnie Soli \"SOLINO\" S.A.",
+    "address": "ul. Św. Ducha 26A",
+    "postalCode": "88-100",
+    "city": "Inowrocław",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.797139730365174,
+      18.259165618166875
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_134_15%_132",
+    "name": "Intemo S.A.",
+    "address": "ul. Włocławska 33",
+    "postalCode": "88-230",
+    "city": "Piotrków Kujawski",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02405981494173,
+      21.135103843098374
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_135_15%_133",
+    "name": "Jelenia Plast Sp. z o.o.",
+    "address": "ul. Spółdzielcza 47",
+    "postalCode": "58-500",
+    "city": "Jelenia Góra",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.9036533036435,
+      15.718988057570277
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_136_15%_134",
+    "name": "Jenox Akumulatory Sp. z o.o.",
+    "address": "ul. Notecka 33",
+    "postalCode": "64-800",
+    "city": "Chodzież",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.99534815950112,
+      16.91860018022554
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_137_15%_135",
+    "name": "JES Opakowania Sp. z o.o. Sp. k.",
+    "address": "ul. Szczecińska 63",
+    "postalCode": "75-122",
+    "city": "Koszalin",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      54.194191295767794,
+      16.17163240165143
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_138_15%_136",
+    "name": "Jokey Poland Sp. z o.o.",
+    "address": "ul. Spacerowa 4",
+    "postalCode": "47-230",
+    "city": "Kędzierzyn- Koźle",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02387328215399,
+      21.13569554346156
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_139_15%_137",
+    "name": "K&K Recykling System Sp. z o.o.",
+    "address": "ul. Szczepanowska 47",
+    "postalCode": "32-800",
+    "city": "Brzesko",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02442434296609,
+      21.135682169787795
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_140_15%_138",
+    "name": "Kabat Tyre Sp. z o.o.",
+    "address": "ul. Gumowa 6",
+    "postalCode": "64-840",
+    "city": "Budzyń",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.49991983793413,
+      20.681298019613326
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_143_15%_139",
+    "name": "Keeeper Sp. z o.o.",
+    "address": "ul. Mokra 3",
+    "postalCode": "85-810",
+    "city": "Bydgoszcz",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.123807321552995,
+      18.007611799007584
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_144_15%_140",
+    "name": "KGL S.A.",
+    "address": "ul. Gen. Władysława Sikorskiego 17",
+    "postalCode": "05-080",
+    "city": "Izabelin\nKlaudyn,",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.024351405137374,
+      21.1358547058813
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_145_15%_141",
+    "name": "Klingspor Sp. z o.o.",
+    "address": "ul. Tadeusza Regera 58",
+    "postalCode": "43-382",
+    "city": "Bielsko-Biała",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      49.822307058007794,
+      19.043701367779757
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_146_15%_142",
+    "name": "Koneckie Zakłady Odlewnicze S.A.",
+    "address": "ul. 1-go Maja 57",
+    "postalCode": "26-200",
+    "city": "Końskie",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.196183279380044,
+      20.40797293877218
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_147_15%_143",
+    "name": "KOPALNIA I ZAKŁAD PRZERÓBCZY PIASKÓW SZKLARSKICH OSIECZNICA Sp. z o.o.",
+    "address": "ul. Piaskowa 7",
+    "postalCode": "59-724",
+    "city": "Osiecznica",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.0236560547777,
+      21.135056405845805
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_149_15%_144",
+    "name": "Kopalnia Wapienia \"Czatkowice\" Sp. z o.o.",
+    "address": "ul. Czatkowice Dolne 78",
+    "postalCode": "32-065",
+    "city": "Krzeszowice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02423716294125,
+      21.13463451866654
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_151_15%_145",
+    "name": "Koszalińskie Przedsiębiorstwo Przemysłu Drzewnego S.A.",
+    "address": "ul. Waryńskiego 2",
+    "postalCode": "78-400",
+    "city": "Szczecinek",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.71018979675723,
+      16.69956949915182
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_152_15%_146",
+    "name": "Krakodlew S.A.",
+    "address": "ul. Ujastek 1",
+    "postalCode": "31-752",
+    "city": "Kraków",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.06425471979374,
+      19.944639819660136
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_153_15%_147",
+    "name": "Kronoflooring Sp. z o.o",
+    "address": "ul. Wojska Polskiego 3",
+    "postalCode": "39-300",
+    "city": "Mielec",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.28750049815207,
+      21.42417672296152
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_154_15%_148",
+    "name": "Kronospan HPL Sp. z o.o.",
+    "address": "ul. Wojska Polskiego 3",
+    "postalCode": "39-300",
+    "city": "Mielec",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.28791058210757,
+      21.42340484914344
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_155_15%_149",
+    "name": "Krosno Glass S.A.",
+    "address": "ul. Tysiąclecia 13",
+    "postalCode": "38-400",
+    "city": "Krosno",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      49.689156063999704,
+      21.771245581648703
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_156_15%_150",
+    "name": "KRUŚ Sp. z o.o. Sp. k.",
+    "address": "ul. Poznańska 74",
+    "postalCode": "62-066",
+    "city": "Granowo",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02530598825529,
+      21.135559932710514
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_157_15%_151",
+    "name": "Kuźnia Polska S.A.",
+    "address": "ul. Górecka 32",
+    "postalCode": "43-430",
+    "city": "Skoczów",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.023547475019015,
+      21.135769309015608
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_158_15%_152",
+    "name": "Kwidzyn Sp. z o.o.",
+    "address": "ul. Południowa 2",
+    "postalCode": "82-500",
+    "city": "Kwidzyn",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.023782050132795,
+      21.134778073422595
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_159_15%_153",
+    "name": "L-CORRECT Sp. z o.o.",
+    "address": "ul. Torowa 11",
+    "postalCode": "63-460",
+    "city": "Ociąż",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02507868726139,
+      21.135859595011635
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_160_15%_154",
+    "name": "Lentex S.A.",
+    "address": "ul. Powstańców Śląskich 54",
+    "postalCode": "42-700",
+    "city": "Lubliniec",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.24677325469275,
+      22.5692598114692
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_162_15%_155",
+    "name": "Leszczyńska Fabryka Pomp Sp. z o.o.",
+    "address": "ul. Fabryczna 15",
+    "postalCode": "64-100",
+    "city": "Leszno",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.84055113687753,
+      16.57388674222934
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_163_15%_156",
+    "name": "LG Chem Poland Sp. z o.o.",
+    "address": "ul. LG 3",
+    "postalCode": "55-040",
+    "city": "Kobierzyce\nBiskupice Podgórne,",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.024888722282476,
+      21.135997267574513
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_165_15%_157",
+    "name": "Luvena S.A.",
+    "address": "ul. Romana Maya 1",
+    "postalCode": "62-030",
+    "city": "Luboń",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.348386796534335,
+      16.889447385326832
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_166_15%_158",
+    "name": "Marcegaglia Poland Sp. z o.o.",
+    "address": "ul. Kaliska 72",
+    "postalCode": "46-320",
+    "city": "Praszka",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.025131468433614,
+      21.135571507671358
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_168_15%_159",
+    "name": "Masfrost Sp. z o.o.",
+    "address": "ul. Nadrzeczna 1A",
+    "postalCode": "57-220",
+    "city": "Ziębice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.0249126450994,
+      21.135398928466213
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_169_15%_160",
+    "name": "Masterchem Logoplaste Sp. z o.o.",
+    "address": "ul. Przylep-Solidarności 86D",
+    "postalCode": "66-015",
+    "city": "Zielona Góra",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.93593159782439,
+      15.506776127969015
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_170_15%_161",
+    "name": "Masterform Sp. z o.o.",
+    "address": "ul. Mikulicza 6A",
+    "postalCode": "58-160",
+    "city": "Świebodzice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02475307466708,
+      21.13456685146826
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_172_15%_162",
+    "name": "METALODLEW S.A.",
+    "address": "ul. Ujastek 1",
+    "postalCode": "31-752",
+    "city": "Kraków",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.06445359378351,
+      19.944306796018356
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_173_15%_163",
+    "name": "Metalpol Węgierska Górka Sp. z o.o.",
+    "address": "ul. Kolejowa 6",
+    "postalCode": "34-350",
+    "city": "Węgierska Górka",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.63404540156387,
+      22.486860040947395
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_174_15%_164",
+    "name": "Metsa Tissue Krapkowice Sp. z o.o.",
+    "address": "ul. Opolska 103",
+    "postalCode": "47-300",
+    "city": "Krapkowice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.47475814777434,
+      17.964506239014494
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_175_15%_165",
+    "name": "Miranda Sp. z o.o.",
+    "address": "ul. Jedwabnicza 1",
+    "postalCode": "62-700",
+    "city": "Turek",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.01509667258609,
+      18.502625626056584
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_176_15%_166",
+    "name": "Mondi Polska Sp. z o.o.",
+    "address": "ul. Nadrzeczna 3",
+    "postalCode": "24-310",
+    "city": "Karczmiska\nKarczmiska Pierwsze,",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02428445991799,
+      21.136070216669182
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_177_15%_167",
+    "name": "Mondi Poznań Sp. z o.o.",
+    "address": "ul. Wyzwolenia 34/36",
+    "postalCode": "62-070",
+    "city": "Dopiewo",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02416153158426,
+      21.136394387624282
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_180_15%_168",
+    "name": "MrGarden Sp. z o.o.",
+    "address": "ul. Gorzowska 20",
+    "postalCode": "65-127",
+    "city": "Zielona Góra",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.935472633658165,
+      15.506374958961722
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_182_15%_169",
+    "name": "MZ FORMA MARCINIAK I WSPÓLNICY Sp. J.",
+    "address": "ul. Stalowa 17",
+    "postalCode": "91-859",
+    "city": "Łódź",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.758826721549504,
+      19.45698615980812
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_183_15%_170",
+    "name": "NICATOR FILMS Sp. z o.o.",
+    "address": "ul. Zawodzie 20A",
+    "postalCode": "02-981",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.23013332319205,
+      21.01282261592015
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_184_15%_171",
+    "name": "Nicromet Sp. z o.o. Sp. k.",
+    "address": "ul. Witosa 28",
+    "postalCode": "43-512",
+    "city": "Bestwinka",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.024703062742084,
+      21.13488344222243
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_185_15%_172",
+    "name": "NIDA Sp. z o.o.",
+    "address": "ul. Sikorskiego 38",
+    "postalCode": "58-160",
+    "city": "Świebodzice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02361650907501,
+      21.135492545513625
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_186_15%_173",
+    "name": "nmc Polska Sp. z o.o.",
+    "address": "ul. Pyskowicka 15",
+    "postalCode": "41-807",
+    "city": "Zabrze",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.32588283039862,
+      18.785030957217597
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_187_15%_174",
+    "name": "Nordfolien Polska Sp. z o.o.",
+    "address": "ul. Rozwadzka 4",
+    "postalCode": "47-330",
+    "city": "Zdzieszowice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02424958014359,
+      21.1350378476206
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_189_15%_175",
+    "name": "Nordzucker Polska S.A.",
+    "address": "ul. 5 stycznia 54",
+    "postalCode": "63-330",
+    "city": "Opalenica",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02380573347325,
+      21.13537068306442
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_190_15%_176",
+    "name": "Novita S.A.",
+    "address": "ul. Dekoracyjna 3",
+    "postalCode": "65-722",
+    "city": "Zielona Góra",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.93530217375495,
+      15.506111429157032
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_191_15%_177",
+    "name": "NSK Bearings Polska S.A.",
+    "address": "ul. Jagiellońska 109",
+    "postalCode": "25-734",
+    "city": "Kielce",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.86692492123749,
+      20.62910528991868
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_192_15%_178",
+    "name": "Odlewnia ELZAMECH Sp. z o.o.",
+    "address": "ul. Dolna 4A",
+    "postalCode": "82-300",
+    "city": "Elbląg",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      54.15671785940389,
+      19.408297163413806
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_193_15%_179",
+    "name": "Odlewnia Kutno Sp. z o.o.",
+    "address": "ul. Cieszyńska 23G",
+    "postalCode": "43-170",
+    "city": "Łaziska Górne",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.024343492107086,
+      21.13532726753229
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_194_15%_180",
+    "name": "Odlewnia Zawiercie S.A.",
+    "address": "ul. Leśna 10",
+    "postalCode": "42-400",
+    "city": "Zawiercie",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02361716343787,
+      21.13469195781694
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_195_15%_181",
+    "name": "Odlewnia Żeliwa Drawski S.A.",
+    "address": "ul. Szosa Dworcowa 30",
+    "postalCode": "64-731",
+    "city": "Drawski Młyn",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.024953418967606,
+      21.135967755612636
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_197_15%_182",
+    "name": "Odlewnia Żeliwa Simiński-Ordon S.K.A.",
+    "address": "ul. Jałowocowa 12",
+    "postalCode": "42-262",
+    "city": "Poczesna\nZawodzie,",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02429097201266,
+      21.13527859741084
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_198_15%_183",
+    "name": "Odlewnie Polskie S.A.",
+    "address": "ul. Inż. Władysława Rogowskiego 22",
+    "postalCode": "27-200",
+    "city": "Starachowice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.0362394642724,
+      21.069940989195718
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_199_15%_184",
+    "name": "Oerlemans Foods Polska Sp. z o.o.",
+    "address": "ul. Wyszyńskiego 52",
+    "postalCode": "88-320",
+    "city": "Strzelno",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02526089972467,
+      21.13456743930016
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_200_15%_185",
+    "name": "Oerlemans Foods Siemiatycze Sp. z o.o.",
+    "address": "ul. Armii Krajowej 31",
+    "postalCode": "17-300",
+    "city": "Siemiatycze",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.42920908473601,
+      22.864034516615913
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_201_15%_186",
+    "name": "Okechamp S.A.",
+    "address": "ul. Wichrowa 1A",
+    "postalCode": "60-449",
+    "city": "Poznań",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.40738325674529,
+      16.925628387023366
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_202_15%_187",
+    "name": "Olimar Sp. z o.o.",
+    "address": "ul. Zawiła 65E",
+    "postalCode": "30-390",
+    "city": "Kraków",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.06494258968114,
+      19.94530794993948
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_203_15%_188",
+    "name": "Orion Engineered Carbons Sp. z o.o.",
+    "address": "ul. 3 Maja 83",
+    "postalCode": "38-200",
+    "city": "Jasło",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      49.74541644968331,
+      21.47240176329749
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_204_15%_189",
+    "name": "ORLEN Południe S.A.",
+    "address": "ul. Fabryczna 22",
+    "postalCode": "32-540",
+    "city": "Trzebinia",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02462822531514,
+      21.135606301029817
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_205_15%_190",
+    "name": "Orzeł Biały S.A.",
+    "address": "ul. Harcerska 23",
+    "postalCode": "41-946",
+    "city": "Piekary Śląskie",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.38227326167454,
+      18.94401039803811
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_207_15%_191",
+    "name": "Paccor (Bydgoszcz) Poland Sp. z o.o.",
+    "address": "ul. Dąbrowa 21",
+    "postalCode": "85-147",
+    "city": "Bydgoszcz",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.123093644544326,
+      18.007640630572595
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_208_15%_192",
+    "name": "PACCOR Polska Sp. z o.o.",
+    "address": "ul. Budowlana 6",
+    "postalCode": "41-100",
+    "city": "Siemianowice Śląskie",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.3240455287382,
+      19.030072542461877
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_209_15%_193",
+    "name": "Permedia Sp. z o.o.",
+    "address": "ul. Grenadierów 9",
+    "postalCode": "20-331",
+    "city": "Lublin",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.246056456693296,
+      22.56927480149564
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_211_15%_194",
+    "name": "Pilkington Automotive Poland Sp. z o.o.",
+    "address": "ul. Portowa 24",
+    "postalCode": "27-600",
+    "city": "Sandomierz",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.682330785428164,
+      21.749951819602458
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_212_15%_195",
+    "name": "Pilkington IGP Sp. z o.o.",
+    "address": "ul. Portowa 24",
+    "postalCode": "27-600",
+    "city": "Sandomierz",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.68141436311728,
+      21.75029686116949
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_213_15%_196",
+    "name": "Pilkington Polska Sp. z o.o.",
+    "address": "ul. Portowa 24",
+    "postalCode": "27-600",
+    "city": "Sandomierz",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.68188897037185,
+      21.748627477147423
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_215_15%_197",
+    "name": "Pipelife Polska S.A.",
+    "address": "ul. Torfowa 4",
+    "postalCode": "84-110",
+    "city": "Krokowa\nKartoszyno,",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02523550180554,
+      21.134973465314342
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_216_15%_198",
+    "name": "Pittsburgh Glass Works (Poland) Sp. z o.o.",
+    "address": "ul. Szklana 1",
+    "postalCode": "55-300",
+    "city": "Środa Śląska\nKomorniki,",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02388201196088,
+      21.13571385834653
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_218_15%_199",
+    "name": "Plast-farb Sp. z o.o.",
+    "address": "ul. M. Skłodowskiej-Curie 87A",
+    "postalCode": "87-100",
+    "city": "Toruń",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.0147071190456,
+      18.599351896913824
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_219_15%_200",
+    "name": "PLASTIC FORM Sp. z o.o. Sp. k.",
+    "address": "ul. Polna 9",
+    "postalCode": "78-300",
+    "city": "Świdwin",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.77546830618221,
+      15.78073451103451
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_220_15%_201",
+    "name": "Plastic Solutions Sp. z o.o.",
+    "address": "ul. Roosevelta 120",
+    "postalCode": "62-200",
+    "city": "Gniezno",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.5356470212463,
+      17.583509094030042
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_221_15%_202",
+    "name": "PLASTIMEX Sp. z o.o.",
+    "address": "ul. Powstańców 37",
+    "postalCode": "42-287",
+    "city": "Lubsza\nPsary,",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02362320465313,
+      21.13475941551929
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_222_15%_203",
+    "name": "Plastipak Polska Sp. z o.o.",
+    "address": "ul. Turyńska 80",
+    "postalCode": "43-100",
+    "city": "Tychy",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.135395425606454,
+      19.011546292051584
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_224_15%_204",
+    "name": "Poli Sp. z o.o.",
+    "address": "ul. Wiejska 74",
+    "postalCode": "88-100",
+    "city": "Inowrocław",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.79747301490306,
+      18.259646724553743
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_225_15%_205",
+    "name": "Polifolia Sp. z o.o.",
+    "address": "ul. Przemysłowa 28",
+    "postalCode": "24-320",
+    "city": "Poniatowa",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02441638160371,
+      21.13491732090185
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_226_15%_206",
+    "name": "Polipak Sp. z o.o.",
+    "address": "ul. Fabryczna 7",
+    "postalCode": "63-000",
+    "city": "Środa Wielkopolska",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.024952799785744,
+      21.135501300897023
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_227_15%_207",
+    "name": "POL-KRES EDWOOD Sp. z o.o.",
+    "address": "ul. Łomaska 86",
+    "postalCode": "21-500",
+    "city": "Biała Podlaska",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.03271739404371,
+      23.114540924887336
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_228_15%_208",
+    "name": "POL-MAK Iława Sp. z o.o.",
+    "address": "ul. Słoneczna 6",
+    "postalCode": "62-081",
+    "city": "Przeźmierowo",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02436506992853,
+      21.135240303204082
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_229_15%_209",
+    "name": "Polontex S.A.",
+    "address": "ul. Armii Krajowej 43",
+    "postalCode": "42-360",
+    "city": "Poraj",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.025298789298944,
+      21.136064796891166
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_231_15%_210",
+    "name": "PPUH AUTOPART Jacek Bąk Sp. z o.o.",
+    "address": "ul. Kwiatkowskiego 2A",
+    "postalCode": "39-300",
+    "city": "Mielec",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.2876712475754,
+      21.42459641331349
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_232_15%_211",
+    "name": "Presa Sp. z o.o.",
+    "address": "ul. Wichrowa 20B",
+    "postalCode": "60-449",
+    "city": "Poznań",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.40581666698606,
+      16.924644994515404
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_233_15%_212",
+    "name": "Press Glass Sp. z o.o.",
+    "address": "ul. Golfowa 19",
+    "postalCode": "42-274",
+    "city": "Konopiska",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.08454780418625,
+      21.77539758446355
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_234_15%_213",
+    "name": "Producent Wyrobów Papierniczych \"JACK-POL\" Sp. z o.o.",
+    "address": "ul. Portowa 1B",
+    "postalCode": "55-200",
+    "city": "Oława",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.944693894187864,
+      17.29057867973905
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_235_15%_214",
+    "name": "Prosperplast 1 Sp. z o.o.",
+    "address": "ul. Wilkowska 968",
+    "postalCode": "43-378",
+    "city": "Rybarzowice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.023909264986095,
+      21.135652330001204
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_236_15%_215",
+    "name": "PRT Radomsko Sp. z o.o.",
+    "address": "ul. Geodetów 8",
+    "postalCode": "97-500",
+    "city": "Radomsko",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.06939560993508,
+      19.450625611452583
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_237_15%_216",
+    "name": "Prywatne Przedsiębiorstwo Produkcyjno-Handlowe \"Lamix\" Mirosław Laszko",
+    "address": "ul. Papiernicza 1",
+    "postalCode": "66-460",
+    "city": "Witnica",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02498450720313,
+      21.134697601212103
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_238_15%_217",
+    "name": "Przedsiębiorstwo \"LABTAR\" Sp. z o.o.",
+    "address": "ul. Świętego Jacka 12",
+    "postalCode": "46-050",
+    "city": "Tarnów Opolski",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.01173714283523,
+      20.987850867036425
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_239_15%_218",
+    "name": "Przedsiębiorstwo Handlowo-Usługowe \"Danex\" Sp. z o.o.",
+    "address": "ul. Dworcowa 34",
+    "postalCode": "64-730",
+    "city": "Wieleń",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02362196629353,
+      21.135214799705956
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_240_15%_219",
+    "name": "Przedsiębiorstwo Produkcyjno-Handlowo-Usługowe \"PLASTPOM\" Beata Szwabis",
+    "address": "ul. Katowicka 1",
+    "postalCode": "78-300",
+    "city": "Świdwin",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.775928705818934,
+      15.780964234369229
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_241_15%_220",
+    "name": "Przedsiębiorstwo Przemysłu Drzewnego Poltarex Sp. z o.o.",
+    "address": "ul. Żeromskiego 9/10",
+    "postalCode": "84-300",
+    "city": "Lębork",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      54.54541390526347,
+      17.745769682841747
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_242_15%_221",
+    "name": "Przedsiębiorstwo Przemysłu Spożywczego PEPEES S.A.",
+    "address": "ul. Poznańska 121",
+    "postalCode": "18-402",
+    "city": "Łomża",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.17824400046644,
+      22.05846989237696
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_243_15%_222",
+    "name": "Przedsiębiorstwo Przemysłu Ziemniaczanego Trzemeszno Sp. z o.o.",
+    "address": "ul. Przemysłowa 4",
+    "postalCode": "62-240",
+    "city": "Trzemeszno",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02438479879654,
+      21.13527578833885
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_244_15%_223",
+    "name": "Przetwórstwo Tworzyw Sztucznych PLAST-BOX S.A.",
+    "address": "ul. Lutosławskiego 17A",
+    "postalCode": "76-200",
+    "city": "Słupsk",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      54.46383753359106,
+      17.028495624617747
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_245_15%_224",
+    "name": "Przędzalnia Lambrecht Okonek Sp. z o.o.",
+    "address": "ul. Wodna 20A",
+    "postalCode": "64-965",
+    "city": "Okonek",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02381905270641,
+      21.135357627522946
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_246_15%_225",
+    "name": "Pudliszki Sp. z o.o.",
+    "address": "ul. Fabryczna 7",
+    "postalCode": "63-840",
+    "city": "Krobia",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.286209577247995,
+      21.46628325342875
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_247_15%_226",
+    "name": "Q-Systems Sp. z o.o.",
+    "address": "ul. Usługowa 15",
+    "postalCode": "64-100",
+    "city": "Leszno",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.8406639282282,
+      16.573899434236488
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_248_15%_227",
+    "name": "RAWIT W. Warlich i Wspólnicy Sp. J.",
+    "address": "ul. Piaskowa 13",
+    "postalCode": "62-070",
+    "city": "Dąbrowa",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.32782549281654,
+      19.194006929423757
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_249_15%_228",
+    "name": "REHAU Sp. z o.o.",
+    "address": "ul. Poznańska 1A",
+    "postalCode": "62-081",
+    "city": "Przeźmierowo",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02461069441204,
+      21.136205915052997
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_250_15%_229",
+    "name": "Resaco Sp. z o.o.",
+    "address": "ul. H. Cegielskiego 5",
+    "postalCode": "75-202",
+    "city": "Koszalin",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      54.19519954307136,
+      16.17181620842563
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_251_15%_230",
+    "name": "Rosinski Packaging Sp. z o.o.",
+    "address": "ul. T. Regera 125",
+    "postalCode": "43-382",
+    "city": "Bielsko-Biała",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      49.82271995893589,
+      19.043971045165705
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_252_15%_231",
+    "name": "Rosti Poland Sp. z o.o.",
+    "address": "ul. Myśliwska 18",
+    "postalCode": "15-569",
+    "city": "Białystok",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.13222625786871,
+      23.168563221745377
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_253_15%_232",
+    "name": "Safilin Sp. z o.o.",
+    "address": "ul. Włodyki 2",
+    "postalCode": "14-310",
+    "city": "Miłakowo",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.025393107022474,
+      21.134712405595653
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_254_15%_233",
+    "name": "Saint-Gobain Construction Products Polska Sp. z o.o.",
+    "address": "ul. Okrężna 16",
+    "postalCode": "44-100",
+    "city": "Gliwice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.29373937755955,
+      18.672168222500325
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_255_15%_234",
+    "name": "Saint-Gobain HPM Polska Sp. z o.o.",
+    "address": "ul. Norton 1",
+    "postalCode": "62-600",
+    "city": "Koło",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.20042093687644,
+      18.637252149146303
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_256_15%_235",
+    "name": "Sanglass S.A.",
+    "address": "ul. Wojska Polskiego 14",
+    "postalCode": "39-300",
+    "city": "Mielec",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.28737913825232,
+      21.42318728610029
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_257_15%_236",
+    "name": "SARZYNA CHEMICAL Sp. z o.o.",
+    "address": "ul. Chemików 1",
+    "postalCode": "37-310",
+    "city": "Nowa Sarzyna",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02494496723048,
+      21.135896013089052
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_258_15%_237",
+    "name": "Schaumaplast Polska Sp. z o.o.",
+    "address": "ul. Dąbrowskiego 180/194",
+    "postalCode": "93-231",
+    "city": "Łódź",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.76014333859739,
+      19.456568961753327
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_259_15%_238",
+    "name": "Schollglas Polska Sp. z o.o.",
+    "address": "ul. Zakładowa 39",
+    "postalCode": "39-400",
+    "city": "Tarnobrzeg",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.57380575505283,
+      21.67970313136421
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_260_15%_239",
+    "name": "SEKO S.A.",
+    "address": "ul. Zakładowa 3",
+    "postalCode": "89-620",
+    "city": "Chojnice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.69789309569724,
+      17.557707722717833
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_261_15%_240",
+    "name": "Sigma Stretch Film of Europe Sp. z o.o.",
+    "address": "ul. Przemysłowa 4",
+    "postalCode": "05-480",
+    "city": "Karczew",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.078570298809225,
+      21.251334109932813
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_262_15%_241",
+    "name": "Sklejka - Eko S.A.",
+    "address": "ul. Reymonta 35",
+    "postalCode": "63-400",
+    "city": "Ostrów Wielkopolski",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.65244450955339,
+      17.810679331157257
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_263_15%_242",
+    "name": "Sofidel Poland Sp. z o.o.",
+    "address": "ul. Mleczarska 31",
+    "postalCode": "06-400",
+    "city": "Ciechanów",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.88228233800251,
+      20.61949718992729
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_264_15%_243",
+    "name": "Sokpol Sp. z o.o.",
+    "address": "ul. Kościuszki 8",
+    "postalCode": "42-300",
+    "city": "Myszków",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.025201756526485,
+      21.136308637495443
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_266_15%_244",
+    "name": "Splast Sp. z o.o.",
+    "address": "ul. Lotników 13",
+    "postalCode": "38-400",
+    "city": "Krosno",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      49.68801258795873,
+      21.77025119018089
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_267_15%_245",
+    "name": "Sponcel Sp. z o.o.",
+    "address": "ul. Marii Skłodowskiej-Curie 12",
+    "postalCode": "97-410",
+    "city": "Kleszczów\nBogumiłów,",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.024023029224274,
+      21.134585939967753
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_269_15%_246",
+    "name": "STALMA S.A.",
+    "address": "ul. Puławska 38",
+    "postalCode": "20-822",
+    "city": "Lublin",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.246817073143795,
+      22.5674981765628
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_270_15%_247",
+    "name": "STAR-DUST Sp. z o.o.",
+    "address": "ul. Ceramiczna 5",
+    "postalCode": "26-200",
+    "city": "Końskie",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.19644392935561,
+      20.40851596041792
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_271_15%_248",
+    "name": "STAR-GRES Sp. z o.o.",
+    "address": "ul. Ceramiczna 5",
+    "postalCode": "26-200",
+    "city": "Końskie",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.19479533626813,
+      20.406899703600143
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_273_15%_249",
+    "name": "Stella Pack S.A.",
+    "address": "ul. Krańcowa 67",
+    "postalCode": "21-100",
+    "city": "Lubartów",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.459082285423094,
+      22.602363288808718
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_274_15%_250",
+    "name": "Stelmet S.A.",
+    "address": "ul. Gorzowska 20",
+    "postalCode": "65-127",
+    "city": "Zielona Góra",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.93485000342534,
+      15.505280603356084
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_275_15%_251",
+    "name": "Stoelzle Częstochowa Sp. z o.o.",
+    "address": "ul. Warszawska 347",
+    "postalCode": "42-209",
+    "city": "Częstochowa",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.812477060493435,
+      19.120183608449164
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_276_15%_252",
+    "name": "Strzeblowskie Kopalnie Surowców Mineralnych Sp. z o.o.",
+    "address": "ul. Torowa 1",
+    "postalCode": "55-050",
+    "city": "Sobótka",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.54923401828091,
+      19.67063929926689
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_277_15%_253",
+    "name": "SÜDPACK KŁOBUCK Sp. z o.o.",
+    "address": "ul. Drukarska 8",
+    "postalCode": "42-100",
+    "city": "Kłobuck",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.024818627954915,
+      21.136409821335572
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_278_15%_254",
+    "name": "Sumiriko Poland Sp. z o.o.",
+    "address": "ul. 1 Maja 100",
+    "postalCode": "32-340",
+    "city": "Wolbrom",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.023886421421935,
+      21.134853409910743
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_279_15%_255",
+    "name": "SUPRAVIS S.A.",
+    "address": "ul. Nowotoruńska 56",
+    "postalCode": "85-840",
+    "city": "Bydgoszcz",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.12378695751531,
+      18.008070619658646
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_280_15%_256",
+    "name": "SVZ Tomaszów Sp. z o.o.",
+    "address": "ul. Lwowska 128",
+    "postalCode": "22-600",
+    "city": "Tomaszów Lubelski",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.44642204755686,
+      23.41868645461764
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_281_15%_257",
+    "name": "Śrubena Unia Sp. z o.o.",
+    "address": "ul. Grunwaldzka 5",
+    "postalCode": "34-300",
+    "city": "Żywiec",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      49.684484706616196,
+      19.194163405248364
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_282_15%_258",
+    "name": "Tanne Sp. z o.o.",
+    "address": "ul. Biała 1",
+    "postalCode": "07-300",
+    "city": "Ostrów Mazowiecka",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.80692993245317,
+      21.8804256163737
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_284_15%_259",
+    "name": "Teksid Iron Poland Sp. z o.o.",
+    "address": "ul. Ciężarowa 49",
+    "postalCode": "43-430",
+    "city": "Skoczów",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.025026487810834,
+      21.135667040228455
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_285_15%_260",
+    "name": "Tele-Fonika Kable S.A.",
+    "address": "ul. Hipolita Cegielskiego 1",
+    "postalCode": "32-400",
+    "city": "Myślenice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      49.83562468890624,
+      19.933707890137406
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_286_15%_261",
+    "name": "TIMKEN-Polska Sp. z o.o.",
+    "address": "ul. Gen. Grota Roweckiego 130",
+    "postalCode": "41-200",
+    "city": "Sosnowiec",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.286229099956344,
+      19.103696583722712
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_287_15%_262",
+    "name": "Tollegno 1900 Poland Sp. z o.o.",
+    "address": "ul. Dąbrowskiego 225/243",
+    "postalCode": "93-231",
+    "city": "Łódź",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.759636878426846,
+      19.456645194600366
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_288_15%_263",
+    "name": "Trend Glass Sp. z o.o.",
+    "address": "ul. Marii Fołtyn 11",
+    "postalCode": "26-600",
+    "city": "Radom",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.40348526687589,
+      21.146428517754572
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_291_15%_264",
+    "name": "Twardzik Sp. J.",
+    "address": "ul. Hierowskiego 2",
+    "postalCode": "40-750",
+    "city": "Katowice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.26396296313751,
+      19.023040245802864
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_293_15%_265",
+    "name": "Union Polska Sp. z o.o.",
+    "address": "ul. Stolarzy 1",
+    "postalCode": "97-500",
+    "city": "Radomsko",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.06942431530494,
+      19.449492004061767
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_294_15%_266",
+    "name": "Uren Novaberry Sp. z o.o.",
+    "address": "ul. Beskidzka 9",
+    "postalCode": "20-869",
+    "city": "Lublin",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.24594597582456,
+      22.567554778222764
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_295_15%_267",
+    "name": "URSA Polska Sp. z o.o.",
+    "address": "ul. Armii Krajowej 12",
+    "postalCode": "42-520",
+    "city": "Dąbrowa Górnicza",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.32823523541109,
+      19.194034381487274
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_296_15%_268",
+    "name": "Veroni Sp. z o.o.",
+    "address": "ul. Towarzystwa Jaszczurczego 9",
+    "postalCode": "87-200",
+    "city": "Wąbrzeźno",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02441268887064,
+      21.134703756811167
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_297_15%_269",
+    "name": "Victaulic Polska Sp. z o.o.",
+    "address": "ul. Niepodległości 8",
+    "postalCode": "66-530",
+    "city": "Drezdenko",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.0251841379045,
+      21.134991480872483
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_299_15%_270",
+    "name": "Vorwerk Autotec Polska Sp. z o.o.",
+    "address": "ul. Podgórna 100",
+    "postalCode": "87-300",
+    "city": "Brodnica",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.26307335469816,
+      19.398760363821552
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_300_15%_271",
+    "name": "Walcownia Metali \"Dziedzice\" S.A.",
+    "address": "ul. Kaniowska 3",
+    "postalCode": "43-502",
+    "city": "Czechowice - Dziedzice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.025018084490114,
+      21.13488051768213
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_301_15%_272",
+    "name": "Walcownia Metali Nieżelaznych \"ŁABĘDY\" S.A.",
+    "address": "ul. Metalowców 6",
+    "postalCode": "44-109",
+    "city": "Gliwice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.2942558295019,
+      18.670519568956507
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_302_15%_273",
+    "name": "Wavin Polska S.A.",
+    "address": "ul. Dobieżyńska 43",
+    "postalCode": "64-320",
+    "city": "Buk",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.967033043511506,
+      20.757930916196436
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_303_15%_274",
+    "name": "Wepa Piechowice Sp. z o.o.",
+    "address": "ul. Paszkowska 1B",
+    "postalCode": "58-573",
+    "city": "Piechowice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02441639421709,
+      21.136320530147696
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_304_15%_275",
+    "name": "Węglokoks Kraj S.A.",
+    "address": "ul. Gen. Jerzego Ziętka",
+    "postalCode": "41-940",
+    "city": "Piekary Śląskie",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.3812663496209,
+      18.94527250348286
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_306_15%_276",
+    "name": "WIP Sp. z o.o.",
+    "address": "ul. Przemysłowa 3A",
+    "postalCode": "87-700",
+    "city": "Aleksandrów Kujawski",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02513832073036,
+      21.13602779270824
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_307_15%_277",
+    "name": "WIRECO Poland Sp. z o.o.",
+    "address": "ul. Polna 26/74",
+    "postalCode": "87-800",
+    "city": "Włocławek",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.64845913125305,
+      19.068182830787094
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_308_15%_278",
+    "name": "Wirthwein Polska Sp. z o.o.",
+    "address": "ul. Lodowa 93E",
+    "postalCode": "93-232",
+    "city": "Łódź",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.75940464325082,
+      19.455801074205294
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_309_15%_279",
+    "name": "Witoplast Kisielińscy Sp. j.",
+    "address": "ul. Pałacowa 9",
+    "postalCode": "05-340",
+    "city": "Rudno",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.30102282366805,
+      21.711011100200466
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_310_15%_280",
+    "name": "WKG Sp. z o.o.",
+    "address": "ul. Działoszyńska 69",
+    "postalCode": "98-355",
+    "city": "Działoszyn",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02542752412441,
+      21.135426811223873
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_311_15%_281",
+    "name": "WKRĘT-MET Sp. z o.o.",
+    "address": "ul. Wincentego Witosa 170/176",
+    "postalCode": "42-233",
+    "city": "Kuźnica Kiedrzyńska",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02446788515556,
+      21.134978689710465
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_312_15%_282",
+    "name": "Woodeco Grajewo Sp. z o.o.",
+    "address": "ul. Wiórowa 1",
+    "postalCode": "19-203",
+    "city": "Grajewo",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.647503920575396,
+      22.454955356006078
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_313_15%_283",
+    "name": "Woodeco MDF Sp. z o.o.",
+    "address": "ul. Wiórowa 1",
+    "postalCode": "19-203",
+    "city": "Grajewo",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.64720978101534,
+      22.45567382505794
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_314_15%_284",
+    "name": "Woodeco Wieruszów Sp. z o.o.",
+    "address": "ul. Bolesławiecka 10",
+    "postalCode": "98-400",
+    "city": "Wieruszów",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.023584009422756,
+      21.136308881308032
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_315_15%_285",
+    "name": "Wulkan S.A.",
+    "address": "ul. Tartakowa 31/33",
+    "postalCode": "42-202",
+    "city": "Częstochowa",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.81271388343825,
+      19.12038198056302
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_316_15%_286",
+    "name": "Yamada Wentworth Sp. z o.o.",
+    "address": "ul. Przemysłowa 6",
+    "postalCode": "95-100",
+    "city": "Lućmierz",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02429150010321,
+      21.134839835842882
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_317_15%_287",
+    "name": "Yetico S.A.",
+    "address": "ul. Towarowa 17A",
+    "postalCode": "10-416",
+    "city": "Olsztyn",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.77853164835161,
+      20.493908831225593
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_318_15%_288",
+    "name": "Zakład Metalurgiczny \"WSK Rzeszów\" Sp. z o.o.",
+    "address": "ul. Hetmańska 120",
+    "postalCode": "35-078",
+    "city": "Rzeszów",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.041874040194436,
+      21.998453050419187
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_319_15%_289",
+    "name": "Zakład Poligraficzny POL-MAK Sp z o.o.",
+    "address": "ul. Słoneczna 6",
+    "postalCode": "62-081",
+    "city": "Przeźmierowo",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02440217882389,
+      21.13606845117898
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_320_15%_290",
+    "name": "Zakład Produkcji Folii \"EFEKT-PLUS\" Sp. z o.o.",
+    "address": "ul. Złota 44/334",
+    "postalCode": "00-120",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.22901330427003,
+      21.013182488209985
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_322_15%_291",
+    "name": "Zakłady Chemiczne \"Siarkopol\" Tarnobrzeg Sp. z o.o.",
+    "address": "ul. Chemiczna 3",
+    "postalCode": "39-400",
+    "city": "Tarnobrzeg",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.57244467870532,
+      21.67864014073382
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_323_15%_292",
+    "name": "Zakłady Magnezytowe \"Ropczyce\" S.A.",
+    "address": "ul. Postępu 15C",
+    "postalCode": "02-676",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.22952600194999,
+      21.013170854600563
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_324_15%_293",
+    "name": "Zakłady Porcelany Elektrotechnicznej ZAPEL S.A.",
+    "address": "ul. Techniczna 1",
+    "postalCode": "36-040",
+    "city": "Boguchwała",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02534240303003,
+      21.13503938027525
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_325_15%_294",
+    "name": "Zakłady Przemysłu Sklejek BIAFORM S.A.",
+    "address": "ul. Dojlidy Fabryczne 24",
+    "postalCode": "15-566",
+    "city": "Białystok",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.13297559363269,
+      23.16968766701194
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_326_15%_295",
+    "name": "Zakłady Przemysłu Ziemniaczanego w Pile \"ZETPEZET\" Sp. z o.o.",
+    "address": "ul. Młodych 30",
+    "postalCode": "64-920",
+    "city": "Piła",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.151245147905165,
+      16.73871541888108
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_327_15%_296",
+    "name": "Zakłady Tworzyw Sztucznych \"IZO-ERG\" Sp. z o.o.",
+    "address": "ul. Jana Śliwki 86",
+    "postalCode": "44-100",
+    "city": "Gliwice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.294301754188645,
+      18.671034661543086
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_328_15%_297",
+    "name": "Zakłady Wytwórcze \"CHEKO\" Sp. z o.o.",
+    "address": "ul. Krzywa Góra 28",
+    "postalCode": "87-800",
+    "city": "Włocławek",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.649123867510745,
+      19.067067390769562
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_329_15%_298",
+    "name": "ZAP Sznajder Batterien S.A.",
+    "address": "ul. Warszawska 47",
+    "postalCode": "05-820",
+    "city": "Piastów",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.185159327927074,
+      20.847603182220755
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_330_15%_299",
+    "name": "Zeller Plastik Poland Sp. z o.o.",
+    "address": "ul. Topolowa 38",
+    "postalCode": "08-410",
+    "city": "Wola Rębkowska",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.90576224108542,
+      21.556178714082034
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_331_15%_300",
+    "name": "Zignago Vetro Polska S.A.",
+    "address": "ul. Osadnicza 8",
+    "postalCode": "08-440",
+    "city": "Pilawa\nTrąbki,",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02403967115581,
+      21.13640181257276
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_332_15%_301",
+    "name": "ZM Silesia S.A.",
+    "address": "ul. Konduktorska 8",
+    "postalCode": "40-155",
+    "city": "Katowice",
+    "province": "mazowieckie",
+    "installationType": "15%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.26522691343447,
+      19.02351601546548
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_333_25%_302",
+    "name": "\"GEDIA POLAND\" Sp. z o.o.",
+    "address": "ul. Staszica 2",
+    "postalCode": "67-100",
+    "city": "Nowa Sól",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.80307829519773,
+      15.705287035042472
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_334_25%_303",
+    "name": "Abp Poland Sp. z o.o.",
+    "address": "ul. Wspólna 1",
+    "postalCode": "62-045",
+    "city": "Pniewy",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.91098864640582,
+      20.730999963093925
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_335_25%_304",
+    "name": "Agrifirm Polska Sp. z o.o.",
+    "address": "ul. Bolesława Chrobrego 52",
+    "postalCode": "64-500",
+    "city": "Szamotuły",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.61283528809905,
+      16.578371843316177
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_337_25%_305",
+    "name": "Ardagh Metal Packaging Poland Sp. z o.o.",
+    "address": "ul. Wiśniowa 40",
+    "postalCode": "02-520",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.22887927748125,
+      21.01154147472797
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_338_25%_306",
+    "name": "Autoneum PL Sp. z o.o.",
+    "address": "ul. Przemysłowa 5",
+    "postalCode": "59-500",
+    "city": "Złotoryja",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.023577059609835,
+      21.13501398022671
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_339_25%_307",
+    "name": "Autoneum Poland Sp. z o.o.",
+    "address": "ul. Owsiana 60A",
+    "postalCode": "40-780",
+    "city": "Katowice",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.265533143657436,
+      19.024423152060177
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_340_25%_308",
+    "name": "BAGPAK Polska Sp. z o.o.",
+    "address": "ul. Kwiatkowskiego 1",
+    "postalCode": "37-450",
+    "city": "Stalowa Wola",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.56893151908739,
+      22.05405982231043
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_341_25%_309",
+    "name": "Ball Packaging Europe Lublin Sp. z o.o.",
+    "address": "ul. Vetterów 14",
+    "postalCode": "20-277",
+    "city": "Lublin",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.24636241692163,
+      22.56779364809586
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_342_25%_310",
+    "name": "BARRY CALLEBAUT MANUFACTURING POLSKA Sp. z o.o.",
+    "address": "ul. Nowy Józefów 36",
+    "postalCode": "94-406",
+    "city": "Łódź",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.75830570187296,
+      19.45510063449807
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_343_25%_311",
+    "name": "Biscuit International Poland Sp. z o.o.",
+    "address": "ul. Grunwaldzka 8",
+    "postalCode": "42-125",
+    "city": "Kamyk",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.477425831536564,
+      21.4827406303461
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_344_25%_312",
+    "name": "BWI Poland Technologies Sp. z o.o.",
+    "address": "ul. Kpt. Mieczysława Medweckiego 2",
+    "postalCode": "32-083",
+    "city": "Balice",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02468298230498,
+      21.135969239274363
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_345_25%_313",
+    "name": "Cargill Protein Poland Sp. z o.o.",
+    "address": "ul. Poznańska 39",
+    "postalCode": "62-400",
+    "city": "Słupca",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.58469942944226,
+      20.062401400907056
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_346_25%_314",
+    "name": "Cedrob Foods S.A.",
+    "address": "ul. Opolska 22",
+    "postalCode": "40-084",
+    "city": "Katowice",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.26563312192382,
+      19.02466063619249
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_347_25%_315",
+    "name": "Colian Sp. z o.o.",
+    "address": "ul. Zdrojowa 1",
+    "postalCode": "62-860",
+    "city": "Opatówek",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02470725933337,
+      21.13496693401831
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_348_25%_316",
+    "name": "CREATON Polska Sp. z o.o.",
+    "address": "ul. Wspólna 6",
+    "postalCode": "32-300",
+    "city": "Olkusz",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.28039526813803,
+      19.56092091962497
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_350_25%_317",
+    "name": "Dolnośląskie Młyny S.A.",
+    "address": "ul. Młyńska 8",
+    "postalCode": "55-340",
+    "city": "Ujazd Górny",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02476020678251,
+      21.135021741887005
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_351_25%_318",
+    "name": "Eaton Truck Components Sp. z o.o.",
+    "address": "ul. 30 stycznia 55",
+    "postalCode": "83-110",
+    "city": "Tczew",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      54.09145451194371,
+      18.776109090324475
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_352_25%_319",
+    "name": "Ficomirrors Polska Sp. z o.o.",
+    "address": "ul. Koksownicza 30",
+    "postalCode": "41-300",
+    "city": "Dąbrowa Górnicza",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.327591792373426,
+      19.19474876808991
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_353_25%_320",
+    "name": "Flora Food Manufacturing Poland Sp. z o.o.",
+    "address": "ul. Kołodziejska 2",
+    "postalCode": "40-386",
+    "city": "Katowice",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.26492553742132,
+      19.024775398169957
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_355_25%_321",
+    "name": "Good Food Products S.A.",
+    "address": "ul. Szumin 15",
+    "postalCode": "62-080",
+    "city": "Tarnowo Podgórne",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.024114687764275,
+      21.13598109573883
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_356_25%_322",
+    "name": "GoodMills Polska Sp. z o.o.",
+    "address": "ul. Diamentowa 2",
+    "postalCode": "47-341",
+    "city": "Stradunia",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.025477741546474,
+      21.13570804493317
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_357_25%_323",
+    "name": "HILTON FOODS LTD Sp z o.o.",
+    "address": "ul. Strefowa 31",
+    "postalCode": "43-100",
+    "city": "Tychy",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.135619279208,
+      19.011029512912607
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_358_25%_324",
+    "name": "Huta Małapanew Sp. z o.o.",
+    "address": "ul. Kolejowa 1",
+    "postalCode": "46-040",
+    "city": "Ozimek",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02378885422066,
+      21.134575075880353
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_359_25%_325",
+    "name": "JOYSONQUIN AUTOMOTIVE SYSTEMS POLSKA Sp. z o.o.",
+    "address": "ul. Uczniowska 30",
+    "postalCode": "58-306",
+    "city": "Wałbrzych",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.770992807230826,
+      16.284086601654895
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_360_25%_326",
+    "name": "Jurajska S.A.",
+    "address": "ul. Myszkowska 40",
+    "postalCode": "42-350",
+    "city": "Postęp",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.175871235402454,
+      21.300195514713593
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_361_25%_327",
+    "name": "Kupiec Sp. z o.o.",
+    "address": "ul. Kupiecka 17",
+    "postalCode": "62-513",
+    "city": "Paprotnia",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.300408883861905,
+      22.467448373067906
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_363_25%_328",
+    "name": "LENAAL Sp. z o.o. Sp. k.",
+    "address": "ul. Fołtyn 4A",
+    "postalCode": "26-600",
+    "city": "Radom",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.40257287457384,
+      21.146390584070446
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_364_25%_329",
+    "name": "Lesaffre Polska S.A.",
+    "address": "ul. Dworcowa 36",
+    "postalCode": "46-250",
+    "city": "Wołczyn",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02408396024583,
+      21.135772111875106
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_365_25%_330",
+    "name": "Lhoist Bukowa Sp. z o.o.",
+    "address": "ul. Osiedlowa 10",
+    "postalCode": "29-105",
+    "city": "Krasocin",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02533537364523,
+      21.135430102300642
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_366_25%_331",
+    "name": "Limatherm S.A.",
+    "address": "ul. Tarnowska 1",
+    "postalCode": "34-600",
+    "city": "Limanowa",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      49.70424967043212,
+      20.426191434762274
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_367_25%_332",
+    "name": "Lumel Alucast Sp. z o.o.",
+    "address": "ul. Słubicka 1",
+    "postalCode": "65-127",
+    "city": "Zielona Góra",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.93608386536957,
+      15.505710516714391
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_368_25%_333",
+    "name": "Magna Casting Poland Sp. z o. o.",
+    "address": "ul. Szkolna 15",
+    "postalCode": "47-225",
+    "city": "Kędzierzyn- Koźle",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02529781898216,
+      21.13618714025698
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_369_25%_334",
+    "name": "MANN+HUMMEL FT POLAND Sp. z o.o. Sp. k.",
+    "address": "ul. Wrocławska 145",
+    "postalCode": "63-800",
+    "city": "Gostyń",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.88251037573307,
+      17.01283783125536
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_370_25%_335",
+    "name": "Maspex Food Sp. z o.o.",
+    "address": "ul. Chopina 10",
+    "postalCode": "34-100",
+    "city": "Wadowice",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      49.883292241367705,
+      19.49383509041342
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_371_25%_336",
+    "name": "Millano Sp. z o.o. Sp. komandytowo-akcyjna",
+    "address": "ul. Wysogotowska 15",
+    "postalCode": "62-081",
+    "city": "Przeźmierowo",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.024446070679836,
+      21.134623187798127
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_372_25%_337",
+    "name": "Młyny Kapka Sp. z o.o.",
+    "address": "ul. Przedmieście Błonie 6",
+    "postalCode": "23-420",
+    "city": "Tarnogród",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.024247111941825,
+      21.135891755519644
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_373_25%_338",
+    "name": "Młyny Szczepanki Sp. z o.o.",
+    "address": "ul. Szczepanki 3",
+    "postalCode": "86-320",
+    "city": "Łasin",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02429222690667,
+      21.136317666566836
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_375_25%_339",
+    "name": "Nemak Poland Sp. z o.o.",
+    "address": "ul. Komorowicka 53",
+    "postalCode": "43-300",
+    "city": "Bielsko-Biała",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      49.82220362613615,
+      19.045098813410824
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_377_25%_340",
+    "name": "Odlewnia \"CEMA-MYSTAL\" Sp. z o.o.",
+    "address": "ul. Metalurgiczna 5",
+    "postalCode": "42-300",
+    "city": "Myszków",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02429234294472,
+      21.135085951738095
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_378_25%_341",
+    "name": "Odlewnia Ciśnieniowa META-ZEL Sp. z o.o.",
+    "address": "ul. Strefowa 7",
+    "postalCode": "36-060",
+    "city": "Głogów Małopolski",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.66373367724437,
+      16.084742966066585
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_380_25%_342",
+    "name": "Okręgowa Spółdzielnia Mleczarska Giżycko",
+    "address": "ul. Białostocka 25",
+    "postalCode": "11-500",
+    "city": "Giżycko",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      54.041257086351735,
+      21.765036384031667
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_381_25%_343",
+    "name": "Okręgowa Spółdzielnia Mleczarska w Kole",
+    "address": "ul. Towarowa 6",
+    "postalCode": "62-600",
+    "city": "Koło",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.20120031520618,
+      18.638392017281113
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_382_25%_344",
+    "name": "PackProfil Sp. z o. o.",
+    "address": "ul. Zakładowa 3",
+    "postalCode": "47-110",
+    "city": "Kolonowskie",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.0251789172697,
+      21.135236222425124
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_384_25%_345",
+    "name": "Perfetti Van Melle Polska Production Sp. z o.o.",
+    "address": "ul. Krakowiaków 50",
+    "postalCode": "02-255",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.22996122279916,
+      21.011623966511845
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_385_25%_346",
+    "name": "Polmlek Grudziądz Sp. z o.o.",
+    "address": "ul. Magazynowa 8",
+    "postalCode": "86-300",
+    "city": "Grudziądz",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.48392191475932,
+      18.754131822900902
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_387_25%_347",
+    "name": "Polmlek Sp. z o.o.",
+    "address": "ul. Hoża 51",
+    "postalCode": "00-681",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.23007846159171,
+      21.012361512496362
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_389_25%_348",
+    "name": "Polska Woda Sp. z o.o.",
+    "address": "Aleksandria 1A",
+    "postalCode": "95-035",
+    "city": "Ozorków",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.024881081886996,
+      21.134937184585482
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_390_25%_349",
+    "name": "Polskie Młyny Sp. z o.o.",
+    "address": "ul. Połczyńska 97A",
+    "postalCode": "01-303",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.229355595307,
+      21.012034303303533
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_391_25%_350",
+    "name": "Przedsiębiorstwo Handlu Zagranicznego Spółdzielni Mleczarskich \"LACPOL\" Sp. z o.o.",
+    "address": "ul. Hoża 51",
+    "postalCode": "00-681",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.2301685468636,
+      21.012478238062805
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_392_25%_351",
+    "name": "Przedsiębiorstwo Jasta Sp. z o.o. Sp. k.",
+    "address": "Danielów 5",
+    "postalCode": "97-360",
+    "city": "Kamieńsk",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02492540700588,
+      21.136283550290628
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_393_25%_352",
+    "name": "Przedsiębiorstwo Produkcyjno-Handlowe \"Agro-Top\" Sp. z o.o.",
+    "address": "ul. T. Kościuszki 15",
+    "postalCode": "08-112",
+    "city": "Wiśniew",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.07380456065557,
+      22.294868604679007
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_394_25%_353",
+    "name": "Przedsiębiorstwo Zbożowo-Młynarskie \"PZZ\" w Stoisławiu S.A.",
+    "address": "Stoisław 11",
+    "postalCode": "76-031",
+    "city": "Mścice",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02482270992572,
+      21.135594537241616
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_395_25%_354",
+    "name": "PZZ Lubella GMW Sp. z o.o.",
+    "address": "ul. Wrotkowska 1",
+    "postalCode": "20-469",
+    "city": "Lublin",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.24571962276038,
+      22.56820036050065
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_396_25%_355",
+    "name": "Röben Polska Sp. z o.o. i Wspólnicy Sp. k.",
+    "address": "ul. Ceramiczna 2",
+    "postalCode": "55-300",
+    "city": "Środa Śląska",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02495745155627,
+      21.13480981731625
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_397_25%_356",
+    "name": "Spółdzielcza Mleczarnia Spomlek",
+    "address": "ul. Kleeberga 12",
+    "postalCode": "21-300",
+    "city": "Radzyń Podlaski",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.78288536110961,
+      22.622652758559603
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_398_25%_357",
+    "name": "Spółdzielnia Dostawców Mleka w Wieluniu",
+    "address": "ul. Kolejowa 63",
+    "postalCode": "98-300",
+    "city": "Wieluń",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.98286746291068,
+      20.033688132775662
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_399_25%_358",
+    "name": "SUPERDROB S.A.",
+    "address": "ul. Armii Krajowej 80",
+    "postalCode": "05-480",
+    "city": "Karczew",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.07889897721931,
+      21.25097847693193
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_400_25%_359",
+    "name": "Thule Sp. z o.o.",
+    "address": "Huta Szklana 91",
+    "postalCode": "64-761",
+    "city": "Krzyż Wielkopolski",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02404893462317,
+      21.136395446470992
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_401_25%_360",
+    "name": "Tymbark-MWS Sp. z o.o.",
+    "address": "Tymbark 156",
+    "postalCode": "34-650",
+    "city": "Tymbark",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.02430191522173,
+      21.13584983628363
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_402_25%_361",
+    "name": "U Jędrusia Sp. z o.o.",
+    "address": "Przemęczanki 32",
+    "postalCode": "32-107",
+    "city": "Radziemice",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.025472001345506,
+      21.13488447742275
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_403_25%_362",
+    "name": "VANDEMOORTELE BAKERY PRODUCTS POLSKA Sp. z o.o.",
+    "address": "ul. Tokarzewskiego 7-12",
+    "postalCode": "91-842",
+    "city": "Łódź",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.75916645304506,
+      19.45622049715844
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_404_25%_363",
+    "name": "Virtu Production Sp. z o.o",
+    "address": "ul. Łośnicka 35",
+    "postalCode": "42-400",
+    "city": "Zawiercie",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.024555933431024,
+      21.1357691705162
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_405_25%_364",
+    "name": "Wawel S.A.",
+    "address": "ul. Władysława Warneńczyka 14",
+    "postalCode": "30-520",
+    "city": "Kraków",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.06485114048438,
+      19.944645867525047
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_406_25%_365",
+    "name": "Wienerberger Ceramika Budowlana Sp. z o.o.",
+    "address": "Pl. Konesera 8",
+    "postalCode": "03-736",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.22873522192055,
+      21.011521681187194
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_407_25%_366",
+    "name": "WIPASZ S.A.",
+    "address": "Wadąg 9",
+    "postalCode": "10-373",
+    "city": "Olsztyn",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      53.77854325909876,
+      20.494787556334362
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_408_25%_367",
+    "name": "Zakład Ceramiki Budowlanej \"OWCZARY\" R.E.R. Stępień Sp. J.",
+    "address": "Owczary 28C",
+    "postalCode": "26-341",
+    "city": "Mniszków",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      52.025472164270965,
+      21.13470046115892
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_409_25%_368",
+    "name": "Zakłady Mięsne ŁUKÓW S.A.",
+    "address": "ul. Przemysłowa 15",
+    "postalCode": "21-400",
+    "city": "Łuków",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      51.93112839233906,
+      22.38200870875293
+    ],
+    "dataType": "CONCESSION"
+  },
+  {
+    "id": "CONCESSION_410_25%_369",
+    "name": "Zakłady Wapiennicze LHOIST S.A.",
+    "address": "ul. Wapiennicza 7",
+    "postalCode": "46-050",
+    "city": "Tarnów Opolski",
+    "province": "mazowieckie",
+    "installationType": "25%",
+    "registrationDate": "",
+    "validFrom": "",
+    "validTo": "",
+    "regon": "",
+    "exciseNumber": "",
+    "fileUrl": "",
+    "coordinates": [
+      50.01351637336935,
+      20.9895971639188
+    ],
+    "dataType": "CONCESSION"
+  }
+]

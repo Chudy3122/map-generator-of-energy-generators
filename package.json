@@ -11,7 +11,6 @@
     "@types/pdfjs-dist": "^2.10.377",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
-    "axios": "^1.3.4",
     "axios-rate-limit": "^1.3.0",
     "buffer": "^6.0.3",
     "leaflet": "^1.7.1",
@@ -19,22 +18,29 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-leaflet": "^4.0.0",
+    "react-leaflet-cluster": "^3.1.1",
     "react-scripts": "5.0.1",
     "timers-browserify": "^2.0.12",
     "typescript": "^4.4.2",
-    "web-vitals": "^2.1.4",
-    "xml2js": "^0.4.23"
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
     "@types/leaflet": "^1.7.11",
     "@types/xml2js": "^0.4.14",
-    "react-app-rewired": "^2.2.1"
+    "axios": "^1.12.2",
+    "cli-progress": "^3.12.0",
+    "ora": "^5.4.1",
+    "react-app-rewired": "^2.2.1",
+    "xml2js": "^0.6.2"
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
+    "build": "tsc && vite build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "preprocess": "node scripts/preprocess-data.js",
+    "dev": "vite",
+    "prebuild": "npm run preprocess"
   },
   "eslintConfig": {
     "extends": [

@@ -5,7 +5,7 @@ const axios = require('axios');
 const ora = require('ora');
 const cliProgress = require('cli-progress');
 
-// Ścieżki
+// === ŚCIEŻKI ===
 const RAW_DATA_DIR = path.join(__dirname, '../public/data/raw');
 const PROCESSED_DATA_DIR = path.join(__dirname, '../public/data/processed');
 const CACHE_FILE = path.join(__dirname, 'geocode-cache.json');
@@ -25,7 +25,7 @@ if (fs.existsSync(CACHE_FILE)) {
   console.log(`✓ Wczytano cache: ${Object.keys(geocodeCache).length} wpisów`);
 }
 
-// === DETERMINISTYCZNE FUNKCJE (ze starego App.tsx) ===
+// === DETERMINISTYCZNE FUNKCJE ===
 const seededRandom = (seed) => {
   let hash = 0;
   for (let i = 0; i < seed.length; i++) {
@@ -37,7 +37,7 @@ const seededRandom = (seed) => {
 };
 
 const addJitter = (coords, seed) => {
-  const jitterAmount = 0.002; // około 100-200 metrów
+  const jitterAmount = 0.002;
   const random1 = seededRandom(seed + "_lat");
   const random2 = seededRandom(seed + "_lng");
   return [
@@ -46,8 +46,7 @@ const addJitter = (coords, seed) => {
   ];
 };
 
-// === SŁOWNIKI LOKALIZACJI ===
-
+// === SŁOWNIKI LOKALIZACJI - PEŁNE ===
 const WOJEWODZTWA_COORDINATES = {
   'dolnośląskie': [51.1089776, 16.9251681],
   'kujawsko-pomorskie': [53.0557231, 18.5932264],
@@ -67,9 +66,8 @@ const WOJEWODZTWA_COORDINATES = {
   'zachodniopomorskie': [53.4252871, 14.5552673],
 };
 
-// GŁÓWNY SŁOWNIK - 500+ lokalizacji!
+// PEŁNY SŁOWNIK LOKALIZACJI
 const POLSKA_LOCATIONS = {
-  // Największe miasta
   'Warszawa': [52.2297, 21.0122],
   'Kraków': [50.0647, 19.9450],
   'Łódź': [51.7592, 19.4560],
@@ -96,8 +94,6 @@ const POLSKA_LOCATIONS = {
   'Ruda Śląska': [50.2584, 18.8561],
   'Rybnik': [50.0971, 18.5463],
   'Tychy': [50.1355, 19.0118],
-  
-  // Województwo dolnośląskie
   'Legnica': [51.2070, 16.1619],
   'Wałbrzych': [50.7714, 16.2845],
   'Jelenia Góra': [50.9044, 15.7197],
@@ -111,8 +107,6 @@ const POLSKA_LOCATIONS = {
   'Kłodzko': [50.4351, 16.6544],
   'Oława': [50.9447, 17.2914],
   'Kąty Wrocławskie': [51.0667, 16.7833],
-  
-  // Województwo kujawsko-pomorskie
   'Włocławek': [52.6483, 19.0677],
   'Grudziądz': [53.4837, 18.7536],
   'Inowrocław': [52.7978, 18.2597],
@@ -121,8 +115,6 @@ const POLSKA_LOCATIONS = {
   'Chełmno': [53.3483, 18.4256],
   'Nakło nad Notecią': [53.1431, 17.5989],
   'Tuchola': [53.5862, 17.8592],
-  
-  // Województwo lubelskie - MAKSYMALNIE ROZSZERZONE
   'Biała Podlaska': [52.0325, 23.1149],
   'Biłgoraj': [50.5413, 22.7224],
   'Chełm': [51.1431, 23.4716],
@@ -161,34 +153,7 @@ const POLSKA_LOCATIONS = {
   'Frampol': [50.6742, 22.6696],
   'Księżpol': [50.5083, 22.9245],
   'Wola Uhruska': [51.3231, 23.6213],
-  'Żywiec': [49.6852, 19.1944],
-  'Siedlce': [52.1676, 22.2902],
-  'Sieradz': [51.5956, 18.7296],
-  'Mielec': [50.2875, 21.4240],
-  'Rawicz': [51.6094, 16.8583],
-  'Dąbrowa Górnicza': [50.3278, 19.1947],
-  
-  // DODATKOWE MIEJSCOWOŚCI LUBELSKIE (ze starego App.tsx)
-  'Zwierzyniec - Rudka': [50.6226, 22.9838],
-  'Modryniec': [50.7348, 23.8954],
-  'Woroniec': [52.0623, 23.0726],
-  'Sitaniec': [50.7486, 23.2122],
-  'Przypisówka': [51.5227, 22.5844],
-  'Lubycza Królewska': [50.3400, 23.5177],
-  'Białobrzegi': [50.0383, 21.7669],
-  'Maćkowice': [49.8335, 22.8028],
-  'Żarnowo Pierwsze': [53.7035, 22.8433],
-  'Czyżew-Sutki': [52.8049, 22.3165],
-  'Podgórze-Gazdy': [52.6793, 21.9174],
-  'Guty': [52.8743, 21.8851],
-  'Michałów': [50.6461, 23.2548],
-  'Nienowice': [49.9118, 22.9816],
-  'Bliskowice': [50.8901, 21.9244],
-  'Wieprzów Ordynacki': [50.4734, 23.3516],
-  'Wisznice': [51.7875, 23.1996],
-  'Ruda Wołoska': [50.3822, 23.5537],
-  
-  // VERIFIED LOCATIONS (dokładne współrzędne)
+  'Kock': [51.6413, 22.4480],
   'Kock Rolny': [51.6413, 22.4480],
   'Górka': [51.6345, 22.4872],
   'Górka Kocka': [51.6345, 22.4872],
@@ -224,8 +189,24 @@ const POLSKA_LOCATIONS = {
   'Połoski Stare': [51.9012, 23.3516],
   'Dys': [51.3125, 22.5756],
   'Stężyca': [51.5803, 21.7767],
-  
-  // Województwo lubuskie
+  'Zwierzyniec - Rudka': [50.6226, 22.9838],
+  'Modryniec': [50.7348, 23.8954],
+  'Woroniec': [52.0623, 23.0726],
+  'Sitaniec': [50.7486, 23.2122],
+  'Przypisówka': [51.5227, 22.5844],
+  'Lubycza Królewska': [50.3400, 23.5177],
+  'Białobrzegi': [50.0383, 21.7669],
+  'Maćkowice': [49.8335, 22.8028],
+  'Żarnowo Pierwsze': [53.7035, 22.8433],
+  'Czyżew-Sutki': [52.8049, 22.3165],
+  'Podgórze-Gazdy': [52.6793, 21.9174],
+  'Guty': [52.8743, 21.8851],
+  'Michałów': [50.6461, 23.2548],
+  'Nienowice': [49.9118, 22.9816],
+  'Bliskowice': [50.8901, 21.9244],
+  'Wieprzów Ordynacki': [50.4734, 23.3516],
+  'Wisznice': [51.7875, 23.1996],
+  'Ruda Wołoska': [50.3822, 23.5537],
   'Gorzów Wielkopolski': [52.7325, 15.2369],
   'Zielona Góra': [51.9356, 15.5062],
   'Nowa Sól': [51.8028, 15.7058],
@@ -233,8 +214,6 @@ const POLSKA_LOCATIONS = {
   'Żagań': [51.6172, 15.3153],
   'Świebodzin': [52.2481, 15.5333],
   'Międzyrzecz': [52.4432, 15.5863],
-  
-  // Województwo łódzkie
   'Piotrków Trybunalski': [51.4048, 19.7029],
   'Tomaszów Mazowiecki': [51.5316, 20.0087],
   'Zgierz': [51.8564, 19.4066],
@@ -245,8 +224,6 @@ const POLSKA_LOCATIONS = {
   'Skierniewice': [51.9539, 20.1512],
   'Zduńska Wola': [51.5993, 18.9397],
   'Radomsko': [51.0694, 19.4503],
-  
-  // Województwo małopolskie
   'Tarnów': [50.0127, 20.9886],
   'Nowy Sącz': [49.6246, 20.6940],
   'Oświęcim': [50.0387, 19.2312],
@@ -259,10 +236,9 @@ const POLSKA_LOCATIONS = {
   'Zakopane': [49.2992, 19.9496],
   'Nowy Targ': [49.4774, 20.0326],
   'Myślenice': [49.8356, 19.9343],
-  
-  // Województwo mazowieckie
   'Płock': [52.5463, 19.7065],
   'Ostrołęka': [53.0855, 21.5650],
+  'Siedlce': [52.1676, 22.2902],
   'Ciechanów': [52.8814, 20.6193],
   'Pruszków': [52.1706, 20.8125],
   'Legionowo': [52.4046, 20.9293],
@@ -275,8 +251,6 @@ const POLSKA_LOCATIONS = {
   'Ząbki': [52.2925, 21.1122],
   'Mława': [53.1167, 20.3833],
   'Żyrardów': [52.0495, 20.4459],
-  
-  // Województwo opolskie
   'Opole': [50.6751, 17.9213],
   'Kędzierzyn-Koźle': [50.3492, 18.2250],
   'Nysa': [50.4739, 17.3345],
@@ -285,12 +259,11 @@ const POLSKA_LOCATIONS = {
   'Prudnik': [50.3243, 17.5776],
   'Strzelce Opolskie': [50.5106, 18.2961],
   'Krapkowice': [50.4747, 17.9647],
-  
-  // Województwo podkarpackie
   'Krosno': [49.6889, 21.7706],
   'Przemyśl': [49.7838, 22.7678],
   'Stalowa Wola': [50.5697, 22.0536],
   'Tarnobrzeg': [50.5734, 21.6791],
+  'Mielec': [50.2875, 21.4240],
   'Dębica': [50.0513, 21.4110],
   'Sanok': [49.5553, 22.2047],
   'Jarosław': [50.0170, 22.6772],
@@ -300,8 +273,6 @@ const POLSKA_LOCATIONS = {
   'Przeworsk': [50.0591, 22.4937],
   'Ustrzyki Dolne': [49.4310, 22.5943],
   'Lubaczów': [50.1566, 23.1236],
-  
-  // Województwo podlaskie
   'Suwałki': [54.1117, 22.9306],
   'Łomża': [53.1783, 22.0582],
   'Augustów': [53.8433, 22.9800],
@@ -313,8 +284,6 @@ const POLSKA_LOCATIONS = {
   'Hajnówka': [52.7433, 23.5812],
   'Siemiatycze': [52.4283, 22.8636],
   'Wysokie Mazowieckie': [52.9167, 22.5167],
-  
-  // Województwo pomorskie
   'Słupsk': [54.4641, 17.0285],
   'Tczew': [54.0922, 18.7766],
   'Starogard Gdański': [53.9653, 18.5309],
@@ -329,8 +298,6 @@ const POLSKA_LOCATIONS = {
   'Kartuzy': [54.3336, 18.1942],
   'Reda': [54.6031, 18.3472],
   'Puck': [54.7217, 18.4103],
-  
-  // Województwo śląskie
   'Jaworzno': [50.2049, 19.2747],
   'Mysłowice': [50.2075, 19.1658],
   'Będzin': [50.3277, 19.1280],
@@ -347,8 +314,8 @@ const POLSKA_LOCATIONS = {
   'Cieszyn': [49.7494, 18.6319],
   'Pszczyna': [49.9811, 18.9547],
   'Czechowice-Dziedzice': [49.9144, 19.0111],
-  
-  // Województwo świętokrzyskie
+  'Dąbrowa Górnicza': [50.3278, 19.1947],
+  'Żywiec': [49.6852, 19.1944],
   'Ostrowiec Świętokrzyski': [50.9292, 21.3886],
   'Starachowice': [51.0372, 21.0697],
   'Skarżysko-Kamienna': [51.1169, 20.8703],
@@ -358,8 +325,6 @@ const POLSKA_LOCATIONS = {
   'Jędrzejów': [50.6394, 20.3047],
   'Kazimierza Wielka': [50.2658, 20.5050],
   'Włoszczowa': [50.8514, 19.9669],
-  
-  // Województwo warmińsko-mazurskie
   'Elbląg': [54.1564, 19.4086],
   'Ełk': [53.8278, 22.3672],
   'Iława': [53.5958, 19.5694],
@@ -374,8 +339,6 @@ const POLSKA_LOCATIONS = {
   'Lidzbark Warmiński': [54.1258, 20.5819],
   'Ostróda': [53.6958, 19.9661],
   'Nowe Miasto Lubawskie': [53.4167, 19.5833],
-  
-  // Województwo wielkopolskie
   'Kalisz': [51.7611, 18.0911],
   'Konin': [52.2231, 18.2511],
   'Piła': [53.1508, 16.7383],
@@ -397,8 +360,8 @@ const POLSKA_LOCATIONS = {
   'Czarnków': [52.9028, 16.5642],
   'Oborniki': [52.6489, 16.8172],
   'Pleszew': [51.8917, 17.7867],
-  
-  // Województwo zachodniopomorskie
+  'Rawicz': [51.6094, 16.8583],
+  'Sieradz': [51.5956, 18.7296],
   'Koszalin': [54.1942, 16.1714],
   'Stargard': [53.3369, 15.0503],
   'Kołobrzeg': [54.1758, 15.5833],
@@ -413,7 +376,12 @@ const POLSKA_LOCATIONS = {
   'Szczecinek': [53.7097, 16.6997],
   'Myślibórz': [52.9239, 14.8694],
   'Kamień Pomorski': [53.9686, 14.7739],
-  'Drawsko Pomorskie': [53.5333, 15.8000]
+  'Drawsko Pomorskie': [53.5333, 15.8000],
+  'Chodecz': [52.4047, 19.0353],
+  'Kostrzyn nad Odrą': [52.5892, 14.6471],
+  'Kolonowskie': [50.6378, 18.3328],
+  'Drezdenko': [52.8425, 15.8314],
+  'Żołynia': [50.0558, 22.1881]
 };
 
 // Mapowanie wariantów nazw
@@ -433,25 +401,20 @@ const LOCATION_NORMALIZATION = {
   'Horbów - Kolonia': 'Horbów-Kolonia'
 };
 
-// Funkcja normalizacji nazwy miejscowości
 const normalizeLocation = (city) => {
   const trimmedCity = city.trim().replace(/\s+/g, ' ');
   return LOCATION_NORMALIZATION[trimmedCity] || trimmedCity;
 };
 
-// ULEPSZONA Funkcja geokodowania
 async function geocodeAddress(city, province, address, postalCode, installationId) {
   const cacheKey = `${installationId}_${city}_${province}_${address}_${postalCode}`;
   
-  // 1. Cache
   if (geocodeCache[cacheKey]) {
     return geocodeCache[cacheKey];
   }
   
-  // 2. Normalizacja
   const normalizedCity = normalizeLocation(city);
   
-  // 3. Sprawdź w słowniku lokalizacji
   if (POLSKA_LOCATIONS[normalizedCity]) {
     console.log(`✓ ${normalizedCity} znaleziono w słowniku lokalnym`);
     const coords = addJitter(POLSKA_LOCATIONS[normalizedCity], installationId);
@@ -459,7 +422,6 @@ async function geocodeAddress(city, province, address, postalCode, installationI
     return coords;
   }
   
-  // 4. Częściowe dopasowanie w słowniku
   const locationKey = Object.keys(POLSKA_LOCATIONS).find(key => 
     normalizedCity.includes(key) || key.includes(normalizedCity)
   );
@@ -471,7 +433,6 @@ async function geocodeAddress(city, province, address, postalCode, installationI
     return coords;
   }
   
-  // 5. Zapytaj OSM
   try {
     console.log(`🌐 Zapytanie OSM dla: ${normalizedCity}`);
     await sleep(2000);
@@ -497,7 +458,6 @@ async function geocodeAddress(city, province, address, postalCode, installationI
     console.error(`❌ Błąd geokodowania ${normalizedCity}:`, error.message);
   }
   
-  // 6. Fallback - województwo
   if (province && WOJEWODZTWA_COORDINATES[province]) {
     console.log(`⚠ ${normalizedCity} - używam województwa: ${province}`);
     const coords = addJitter(WOJEWODZTWA_COORDINATES[province], installationId);
@@ -505,7 +465,6 @@ async function geocodeAddress(city, province, address, postalCode, installationI
     return coords;
   }
   
-  // 7. Ostateczny fallback - środek Polski
   console.log(`⚠ ${normalizedCity} - używam domyślnych współrzędnych`);
   const defaultCoords = [52.0690, 19.4803];
   const jitteredDefault = addJitter(defaultCoords, installationId);
@@ -513,7 +472,6 @@ async function geocodeAddress(city, province, address, postalCode, installationI
   return jitteredDefault;
 }
 
-// Parser XML z Promise
 function parseXML(xmlContent) {
   return new Promise((resolve, reject) => {
     parseString(xmlContent, {
@@ -531,9 +489,8 @@ function parseXML(xmlContent) {
   });
 }
 
-// Przetwarzanie MIOZE
-async function processMIOZE(xmlPath) {
-  const spinner = ora('Przetwarzam MIOZE...').start();
+async function processMIOZE(xmlPath, category, subcategory) {
+  const spinner = ora(`Przetwarzam MIOZE (${subcategory})...`).start();
   
   const xmlContent = fs.readFileSync(xmlPath, 'utf8');
   const result = await parseXML(xmlContent);
@@ -543,7 +500,7 @@ async function processMIOZE(xmlPath) {
     registries = result.MIOZERegistries.MIOZERegistry;
   }
   
-  spinner.text = `Geokodowanie ${registries.length} rekordów MIOZE...`;
+  spinner.text = `Geokodowanie ${registries.length} rekordów MIOZE (${subcategory})...`;
   
   const progressBar = new cliProgress.SingleBar({}, cliProgress.Presets.shades_classic);
   progressBar.start(registries.length, 0);
@@ -577,7 +534,9 @@ async function processMIOZE(xmlPath) {
       registrationDate: reg.DataWpisu[0],
       startDate: reg.DataRozpoczeciaDzialalnosci?.[0] || null,
       coordinates,
-      dataType: 'MIOZE'
+      dataType: 'MIOZE',
+      category,
+      subcategory
     });
     
     progressBar.update(i + 1);
@@ -588,14 +547,13 @@ async function processMIOZE(xmlPath) {
   }
   
   progressBar.stop();
-  spinner.succeed(`Przetworzono ${processed.length} rekordów MIOZE`);
+  spinner.succeed(`Przetworzono ${processed.length} rekordów MIOZE (${subcategory})`);
   
   return processed;
 }
 
-// Przetwarzanie Koncesji
-async function processConcessions(xmlPath) {
-  const spinner = ora('Przetwarzam koncesje...').start();
+async function processConcessions(xmlPath, category, subcategory) {
+  const spinner = ora(`Przetwarzam koncesje (${subcategory})...`).start();
   
   const xmlContent = fs.readFileSync(xmlPath, 'utf8');
   const result = await parseXML(xmlContent);
@@ -605,7 +563,7 @@ async function processConcessions(xmlPath) {
     concessions = result.ConcessionOtherFuels.ConcessionOtherFuel;
   }
   
-  spinner.text = `Geokodowanie ${concessions.length} koncesji...`;
+  spinner.text = `Geokodowanie ${concessions.length} koncesji (${subcategory})...`;
   
   const progressBar = new cliProgress.SingleBar({}, cliProgress.Presets.shades_classic);
   progressBar.start(concessions.length, 0);
@@ -613,34 +571,37 @@ async function processConcessions(xmlPath) {
   const processed = [];
   for (let i = 0; i < concessions.length; i++) {
     const con = concessions[i];
-    const city = con.Miejscowosc[0];
-    const province = con.Wojewodztwo[0] || 'mazowieckie';
-    const installationId = `CONCESSION_${con.DKN[0]}_${con.RodzajKoncesji[0]}_${i}`;
+    const city = con.Miejscowosc?.[0] || con.Poczta?.[0] || 'Nieznane';
+    const province = con.Wojewodztwo?.[0] || 'mazowieckie';
+    const installationId = `CONCESSION_${con.DKN[0]}_${con.RodzajKoncesji?.[0] || 'UNKNOWN'}_${i}`;
     
     const coordinates = await geocodeAddress(
       city,
       province,
-      con.Adres[0],
-      con.Kod[0],
+      con.Adres?.[0] || '',
+      con.Kod?.[0] || '',
       installationId
     );
     
     processed.push({
       id: installationId,
       name: con.Nazwa[0].trim(),
-      address: con.Adres[0],
-      postalCode: con.Kod[0],
+      address: con.Adres?.[0] || '',
+      postalCode: con.Kod?.[0] || '',
       city: city,
       province: province,
-      installationType: con.RodzajKoncesji[0],
-      registrationDate: con.DataWydania[0] || '',
-      validFrom: con.DataOd[0] || '',
-      validTo: con.DataDo[0] || '',
+      installationType: con.RodzajKoncesji?.[0] || 'UNKNOWN',
+      registrationDate: con.DataWydania?.[0] || '',
+      validFrom: con.DataOd?.[0] || '',
+      validTo: con.DataDo?.[0] || '',
       regon: con.REGON?.[0] || '',
+      nip: con.NIP?.[0] || '',
       exciseNumber: con.NrAkcyzowy?.[0] || '',
       fileUrl: con.Plik?.[0] || '',
       coordinates,
-      dataType: 'CONCESSION'
+      dataType: 'CONCESSION',
+      category,
+      subcategory
     });
     
     progressBar.update(i + 1);
@@ -651,14 +612,13 @@ async function processConcessions(xmlPath) {
   }
   
   progressBar.stop();
-  spinner.succeed(`Przetworzono ${processed.length} koncesji`);
+  spinner.succeed(`Przetworzono ${processed.length} koncesji (${subcategory})`);
   
   return processed;
 }
 
-// Przetwarzanie Operatorów
-async function processOperators(xmlPath) {
-  const spinner = ora('Przetwarzam operatorów systemu...').start();
+async function processOperators(xmlPath, category, subcategory) {
+  const spinner = ora(`Przetwarzam operatorów (${subcategory})...`).start();
   
   const xmlContent = fs.readFileSync(xmlPath, 'utf8');
   const result = await parseXML(xmlContent);
@@ -668,7 +628,7 @@ async function processOperators(xmlPath) {
     operators = result.OperatorElectricitySystems.OperatorElectricitySystem;
   }
   
-  spinner.text = `Geokodowanie ${operators.length} operatorów...`;
+  spinner.text = `Geokodowanie ${operators.length} operatorów (${subcategory})...`;
   
   const progressBar = new cliProgress.SingleBar({}, cliProgress.Presets.shades_classic);
   progressBar.start(operators.length, 0);
@@ -705,7 +665,9 @@ async function processOperators(xmlPath) {
       fileUrl: op.Plik?.[0] || '',
       operatingArea: op.ObszarDzialaniaOperatora?.[0] || '',
       coordinates,
-      dataType: 'OPERATOR'
+      dataType: 'OPERATOR',
+      category,
+      subcategory
     });
     
     progressBar.update(i + 1);
@@ -716,77 +678,253 @@ async function processOperators(xmlPath) {
   }
   
   progressBar.stop();
-  spinner.succeed(`Przetworzono ${processed.length} operatorów`);
+  spinner.succeed(`Przetworzono ${processed.length} operatorów (${subcategory})`);
   
   return processed;
 }
 
-// Główna funkcja
+async function processConsumers(xmlPath, category, subcategory) {
+  const spinner = ora(`Przetwarzam odbiorców (${subcategory})...`).start();
+  
+  const xmlContent = fs.readFileSync(xmlPath, 'utf8');
+  const result = await parseXML(xmlContent);
+  
+  let consumers = [];
+  if (result.WykazPodmiotow?.Podmiot) {
+    consumers = result.WykazPodmiotow.Podmiot;
+  }
+  
+  spinner.text = `Geokodowanie ${consumers.length} odbiorców (${subcategory})...`;
+  
+  const progressBar = new cliProgress.SingleBar({}, cliProgress.Presets.shades_classic);
+  progressBar.start(consumers.length, 0);
+  
+  const processed = [];
+  for (let i = 0; i < consumers.length; i++) {
+    const con = consumers[i];
+    const city = con.Miejscowosc[0];
+    const installationId = `CONSUMER_${con.Lp[0]}_${i}`;
+    
+    let province = 'mazowieckie';
+    
+    const coordinates = await geocodeAddress(
+      city,
+      province,
+      con.UlicaNr?.[0] || '',
+      con.KodPocztowy?.[0] || '',
+      installationId
+    );
+    
+    processed.push({
+      id: installationId,
+      name: con.Nazwa[0].trim(),
+      address: con.UlicaNr?.[0] || '',
+      postalCode: con.KodPocztowy?.[0] || '',
+      city: city,
+      province: province,
+      installationType: 'CONSUMER',
+      nip: con.NIP?.[0] || '',
+      coordinates,
+      dataType: 'CONSUMER',
+      category,
+      subcategory
+    });
+    
+    progressBar.update(i + 1);
+    
+    if (i % 100 === 0) {
+      fs.writeFileSync(CACHE_FILE, JSON.stringify(geocodeCache, null, 2));
+    }
+  }
+  
+  progressBar.stop();
+  spinner.succeed(`Przetworzono ${processed.length} odbiorców (${subcategory})`);
+  
+  return processed;
+}
+
+async function processSellers(xmlPath, category, subcategory) {
+  const spinner = ora(`Przetwarzam sprzedawców (${subcategory})...`).start();
+  
+  const xmlContent = fs.readFileSync(xmlPath, 'utf8');
+  const result = await parseXML(xmlContent);
+  
+  let sellers = [];
+  if (result.ConcessionOtherFuels?.ConcessionOtherFuel) {
+    sellers = result.ConcessionOtherFuels.ConcessionOtherFuel;
+  }
+  
+  spinner.text = `Geokodowanie ${sellers.length} sprzedawców (${subcategory})...`;
+  
+  const progressBar = new cliProgress.SingleBar({}, cliProgress.Presets.shades_classic);
+  progressBar.start(sellers.length, 0);
+  
+  const processed = [];
+  for (let i = 0; i < sellers.length; i++) {
+    const sel = sellers[i];
+    
+    let city = sel.Miejscowosc?.[0] || 'Nieznane';
+    let province = sel.Wojewodztwo?.[0] || 'mazowieckie';
+    let postalCode = sel.Kod?.[0] || '';
+    let address = sel.Adres?.[0] || '';
+    
+    if (address && address.includes(',')) {
+      const parts = address.split(',');
+      if (parts.length >= 2) {
+        const locationPart = parts[parts.length - 1].trim();
+        const match = locationPart.match(/(\d{2}-\d{3})\s+(.+)/);
+        if (match) {
+          postalCode = match[1];
+          city = match[2];
+        }
+      }
+    }
+    
+    const installationId = `SELLER_${sel.DKN[0]}_${i}`;
+    
+    const coordinates = await geocodeAddress(
+      city,
+      province,
+      address,
+      postalCode,
+      installationId
+    );
+    
+    processed.push({
+      id: installationId,
+      name: sel.Nazwa[0].trim(),
+      address: address,
+      postalCode: postalCode,
+      city: city,
+      province: province,
+      installationType: 'SELLER',
+      coordinates,
+      dataType: 'SELLER',
+      category,
+      subcategory
+    });
+    
+    progressBar.update(i + 1);
+    
+    if (i % 100 === 0) {
+      fs.writeFileSync(CACHE_FILE, JSON.stringify(geocodeCache, null, 2));
+    }
+  }
+  
+  progressBar.stop();
+  spinner.succeed(`Przetworzono ${processed.length} sprzedawców (${subcategory})`);
+  
+  return processed;
+}
+
+// === GŁÓWNA FUNKCJA - WSZYSTKIE PLIKI ===
 async function main() {
   console.log('\n🚀 Preprocessing danych XML → JSON\n');
   console.log(`📍 Lokalizacji w słowniku: ${Object.keys(POLSKA_LOCATIONS).length}\n`);
   
   const startTime = Date.now();
-  const results = {
-    mioze: [],
-    concessions: [],
-    operators: []
-  };
+  const results = {};
   
-  // MIOZE
-  const miozePath = path.join(RAW_DATA_DIR, 'rejestr wytwórców energii w małej instalacji.xml');
-  if (fs.existsSync(miozePath)) {
-    results.mioze = await processMIOZE(miozePath);
-  } else {
-    console.log('⚠ Brak pliku MIOZE');
-    console.log('Szukano:', miozePath);
+  // === WSZYSTKIE PLIKI ZGODNIE Z TWOJĄ STRUKTURĄ ===
+  const filesToProcess = [
+  // DOSTAWCY - Duzi dostawcy - KONCESJE
+  {
+    path: path.join(RAW_DATA_DIR, 'Dostawcy/Duży dostawcy/koncesje_w_zakresie_innym_niz_paliwa_ciekle.xml'),
+    outputName: 'koncesje_w_zakresie_innym_niz_paliwa_ciekle.json',
+    processor: processConcessions,
+    category: 'supplier',
+    subcategory: 'Duzi dostawcy'
+  },
+  
+  // DOSTAWCY - Mali dostawcy - REJESTR WYTWÓRCÓW
+  {
+    path: path.join(RAW_DATA_DIR, 'Dostawcy/Mali Dostawcy/rejestr wytwórców energii w małej instalacji.xml'),
+    outputName: 'rejestr_wytworców_energii_w_malej_instalacji.json',
+    processor: processMIOZE,
+    category: 'supplier',
+    subcategory: 'Mali dostawcy'
+  },
+  
+  // ODBIORCY - Duzi odbiorcy (UWAGA: dokładna nazwa pliku!)
+  {
+    path: path.join(RAW_DATA_DIR, 'Odbiorcy/Duży Odbiorcy/inf prezensa ure 2025.xml'),
+    outputName: 'inf_prezensa_ure_2025.json',
+    processor: processConcessions, // używamy processConcessions bo struktura jest identyczna!
+    category: 'consumer',
+    subcategory: 'Duzi odbiorcy'
+  },
+  
+  // ODBIORCY - Odbiorcy wg rekompensat
+  {
+    path: path.join(RAW_DATA_DIR, 'Odbiorcy/Duży Odbiorcy wg przyznanych rekompensat/rekompensaty_2023_wykaz.xml'),
+    outputName: 'rekompensaty_2023_wykaz.json',
+    processor: processConsumers,
+    category: 'consumer',
+    subcategory: 'Odbiorcy wg rekompensat'
+  },
+  
+  // POŚREDNICY - Operatorzy systemów
+  {
+    path: path.join(RAW_DATA_DIR, 'Pośrednicy/Operatorzy systemów elektroenergetycznych/operatorzy_systemow_elektroenergetycznych.xml'),
+    outputName: 'operatorzy_systemow_elektroenergetycznych.json',
+    processor: processOperators,
+    category: 'intermediary',
+    subcategory: 'Operatorzy systemów'
+  },
+  
+  // POŚREDNICY - Sprzedawcy zobowiązani
+  {
+    path: path.join(RAW_DATA_DIR, 'Pośrednicy/Sprzedawcy zobowiązani/lista_sprzedawcow_zobowiazanych.xml'),
+    outputName: 'lista_sprzedawcow_zobowiazanych.json',
+    processor: processConcessions, // używamy processConcessions bo struktura jest identyczna!
+    category: 'intermediary',
+    subcategory: 'Sprzedawcy zobowiązani'
   }
-  
-  // Koncesje
-  const concessionsPath = path.join(RAW_DATA_DIR, 'Informacja_Prezesa_URE_nr_38.xml');
-  if (fs.existsSync(concessionsPath)) {
-    results.concessions = await processConcessions(concessionsPath);
-  } else {
-    console.log('⚠ Brak pliku koncesji');
-    console.log('Szukano:', concessionsPath);
+];
+
+console.log('\n📂 Sprawdzanie plików...\n');
+filesToProcess.forEach(file => {
+  const exists = fs.existsSync(file.path);
+  console.log(`${exists ? '✅' : '❌'} ${file.path}`);
+  if (!exists) {
+    // Sprawdź czy folder istnieje
+    const dir = path.dirname(file.path);
+    if (fs.existsSync(dir)) {
+      console.log(`   📁 Folder istnieje, zawartość:`);
+      const files = fs.readdirSync(dir);
+      files.forEach(f => console.log(`      - ${f}`));
+    }
   }
+});
+console.log('\n');
   
-  // Operatorzy
-  const operatorsPath = path.join(RAW_DATA_DIR, 'operatorzy_systemow_elektroenergetycznych.xml');
-  if (fs.existsSync(operatorsPath)) {
-    results.operators = await processOperators(operatorsPath);
-  } else {
-    console.log('⚠ Brak pliku operatorów');
-    console.log('Szukano:', operatorsPath);
+  // Przetwarzanie wszystkich plików
+  for (const file of filesToProcess) {
+    if (fs.existsSync(file.path)) {
+      try {
+        const data = await file.processor(file.path, file.category, file.subcategory);
+        results[file.outputName] = data;
+        
+        fs.writeFileSync(
+          path.join(PROCESSED_DATA_DIR, file.outputName),
+          JSON.stringify(data, null, 2)
+        );
+      } catch (error) {
+        console.error(`❌ Błąd przetwarzania ${file.outputName}:`, error);
+      }
+    } else {
+      console.log(`⚠ Brak pliku: ${file.path}`);
+    }
   }
-  
-  // Zapisz wyniki
-  const spinner = ora('Zapisywanie JSON...').start();
-  
-  fs.writeFileSync(
-    path.join(PROCESSED_DATA_DIR, 'mioze.json'),
-    JSON.stringify(results.mioze, null, 2)
-  );
-  
-  fs.writeFileSync(
-    path.join(PROCESSED_DATA_DIR, 'concessions.json'),
-    JSON.stringify(results.concessions, null, 2)
-  );
-  
-  fs.writeFileSync(
-    path.join(PROCESSED_DATA_DIR, 'operators.json'),
-    JSON.stringify(results.operators, null, 2)
-  );
   
   // Metadata
+  const totalRecords = Object.values(results).reduce((sum, data) => sum + data.length, 0);
   const metadata = {
     generatedAt: new Date().toISOString(),
-    totalRecords: results.mioze.length + results.concessions.length + results.operators.length,
-    counts: {
-      mioze: results.mioze.length,
-      concessions: results.concessions.length,
-      operators: results.operators.length
-    },
+    totalRecords,
+    counts: Object.fromEntries(
+      Object.entries(results).map(([name, data]) => [name, data.length])
+    ),
     cacheSize: Object.keys(geocodeCache).length,
     processingTimeSeconds: Math.round((Date.now() - startTime) / 1000),
     locationDictionarySize: Object.keys(POLSKA_LOCATIONS).length
@@ -797,17 +935,13 @@ async function main() {
     JSON.stringify(metadata, null, 2)
   );
   
-  // Zapisz finalny cache
   fs.writeFileSync(CACHE_FILE, JSON.stringify(geocodeCache, null, 2));
   
-  spinner.succeed('Zapisano wszystkie pliki JSON');
-  
-  // Podsumowanie
   console.log('\n✅ Preprocessing zakończony!\n');
   console.log(`📊 Statystyki:`);
-  console.log(`   MIOZE: ${results.mioze.length}`);
-  console.log(`   Koncesje: ${results.concessions.length}`);
-  console.log(`   Operatorzy: ${results.operators.length}`);
+  Object.entries(results).forEach(([name, data]) => {
+    console.log(`   ${name}: ${data.length}`);
+  });
   console.log(`   Łącznie: ${metadata.totalRecords}`);
   console.log(`   Cache: ${metadata.cacheSize} wpisów`);
   console.log(`   Słownik lokalizacji: ${metadata.locationDictionarySize} miejsc`);

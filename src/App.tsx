@@ -40,6 +40,7 @@ type ConcessionRecord = {
   REGON?: string[];
   NrAkcyzowy?: string[];
   Plik?: string[];
+  Poczta?: string[];
 };
 
 type OperatorRecord = {
@@ -58,6 +59,27 @@ type OperatorRecord = {
   REGON?: string[];
   Plik?: string[];
   ObszarDzialaniaOperatora?: string[];
+  Poczta?: string[];
+};
+
+type ConsumerRecord = {
+  Lp: string[];
+  Nazwa: string[];
+  NIP: string[];
+  KodPocztowy: string[];
+  Miejscowosc: string[];
+  UlicaNr: string[];
+  Zrodlo?: string[];
+};
+
+type SellerRecord = {
+  DKN: string[];
+  Sprzedawca?: string[];
+  Nazwa: string[];
+  Adres: string[];
+  Kod?: string[];
+  Miejscowosc?: string[];
+  Wojewodztwo?: string[];
 };
 
 type Installation = {
@@ -74,7 +96,9 @@ type Installation = {
   registrationDate: string;
   startDate?: string;
   coordinates: [number, number];
-  dataType: 'MIOZE' | 'CONCESSION' | 'OPERATOR';
+  dataType: 'MIOZE' | 'CONCESSION' | 'OPERATOR' | 'CONSUMER' | 'SELLER';
+  category: 'supplier' | 'consumer' | 'intermediary';
+  subcategory: string;
   validFrom?: string;
   validTo?: string;
   regon?: string;
@@ -89,10 +113,15 @@ enum XMLType {
   MIOZE = 'MIOZE',
   CONCESSION = 'CONCESSION',
   OPERATOR = 'OPERATOR',
+  CONSUMER = 'CONSUMER',
+  SELLER = 'SELLER',
   UNKNOWN = 'UNKNOWN'
 }
 
 type DataSource = 'uploaded' | 'preloaded' | 'combined';
+
+// === NOWA STRUKTURA ŹRÓDEŁ DANYCH ===
+type DataCategory = 'supplier' | 'consumer' | 'intermediary';
 
 interface DataSourceConfig {
   id: string;
@@ -100,10 +129,36 @@ interface DataSourceConfig {
   filename: string;
   description: string;
   enabled: boolean;
-  dataType: 'MIOZE' | 'CONCESSION' | 'OPERATOR';
+  category: DataCategory;
+  subcategory: string;
+  dataType: 'MIOZE' | 'CONCESSION' | 'OPERATOR' | 'CONSUMER' | 'SELLER';
 }
 
 const defaultCenter: [number, number] = [52.0690, 19.4803];
+
+// === FUNKCJA TWORZENIA CUSTOM SVG IKON ===
+const createCustomIcon = (color: string): L.Icon => {
+  const svgIcon = `
+    <svg width="25" height="41" viewBox="0 0 25 41" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12.5 0C5.6 0 0 5.6 0 12.5c0 8.4 12.5 28.5 12.5 28.5S25 20.9 25 12.5C25 5.6 19.4 0 12.5 0z" 
+            fill="${color}" 
+            stroke="#fff" 
+            stroke-width="1.5"/>
+      <circle cx="12.5" cy="12.5" r="6" fill="#fff" opacity="0.9"/>
+    </svg>
+  `;
+  
+  const iconUrl = 'data:image/svg+xml;base64,' + btoa(svgIcon);
+  
+  return new L.Icon({
+    iconUrl: iconUrl,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+    shadowSize: [41, 41]
+  });
+};
 
 // === CACHE ===
 const loadGeocodeCache = () => {
@@ -121,142 +176,150 @@ const loadGeocodeCache = () => {
 const geocodeCache: Record<string, [number, number]> = loadGeocodeCache();
 const http = axiosRateLimit(axios.create(), { maxRequests: 1, perMilliseconds: 1000 });
 
-// === IKONY (bez zmian) ===
-const icons = {
-  'PVA': new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
-  }),
-  'WOA': new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
-  }),
-  'BGO': new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
-  }),
-  'BGS': new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
-  }),
-  'BGM': new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
-  }),
-  'WIL': new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
-  }),
-  'WEE': new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
-  }),
-  'PCC': new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
-  }),
-  'WCC': new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
-  }),
-  'OEE': new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
-  }),
-  'DEE': new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
-  }),
-  'OPG': new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
-  }),
-  'PPG': new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-black.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
-  }),
-  'DPG': new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-gold.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
-  }),
-  'OCC': new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-grey.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
-  }),
-  '15%': new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
-  }),
-  '25%': new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
-  }),
-  'OSDe': new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
-  }),
-  'default': new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-grey.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
-  })
+// === KOLORY NORMALNE ===
+const normalIconColors: Record<string, string> = {
+  'PVA': '#1E88E5',
+  'WOA': '#43A047',
+  'BGO': '#E53935',
+  'BGS': '#9C27B0',
+  'BGM': '#FFC107',
+  'WIL': '#FB8C00',
+  'WEE': '#FFC107',
+  'PCC': '#E53935',
+  'WCC': '#43A047',
+  'OEE': '#1E88E5',
+  'DEE': '#9C27B0',
+  'OPG': '#FB8C00',
+  'PPG': '#424242',
+  'DPG': '#FFD700',
+  'OCC': '#757575',
+  '15%': '#1E88E5',
+  '25%': '#E53935',
+  'OSDe': '#9C27B0',
+  'CONSUMER': '#00BCD4',
+  'SELLER': '#FF9800',
+  'default': '#757575'
 };
 
-const iconColors = {
-  'PVA': '#1E88E5', 'WOA': '#43A047', 'BGO': '#E53935', 'BGS': '#9C27B0', 'BGM': '#FFC107',
-  'WIL': '#FB8C00', 'WEE': '#FFC107', 'PCC': '#E53935', 'WCC': '#43A047', 'OEE': '#1E88E5',
-  'DEE': '#9C27B0', 'OPG': '#FB8C00', 'PPG': '#000000', 'DPG': '#FFD700', 'OCC': '#757575',
-  '15%': '#1E88E5', '25%': '#E53935', 'OSDe': '#9C27B0', 'default': '#757575'
+// === KOLORY DLA DALTONISTÓW - PALETA WONG/TOL ===
+const colorblindIconColors: Record<string, string> = {
+  'PVA': '#0173B2',
+  'WOA': '#029E73',
+  'BGO': '#DE8F05',
+  'BGS': '#CC78BC',
+  'BGM': '#ECE133',
+  'WIL': '#56B4E9',
+  'WEE': '#F0E442',
+  'PCC': '#D55E00',
+  'WCC': '#009E73',
+  'OEE': '#0173B2',
+  'DEE': '#CC79A7',
+  'OPG': '#E69F00',
+  'PPG': '#000000',
+  'DPG': '#F0E442',
+  'OCC': '#949494',
+  '15%': '#56B4E9',
+  '25%': '#D55E00',
+  'OSDe': '#CC79A7',
+  'CONSUMER': '#56B4E9',
+  'SELLER': '#E69F00',
+  'default': '#949494'
 };
 
-const concessionDescriptions = {
-  'WEE': 'Wytwarzanie energii elektrycznej', 'PCC': 'Przesyłanie ciepła',
-  'WCC': 'Wytwarzanie ciepła', 'OEE': 'Obrót energią elektryczną',
-  'DEE': 'Dystrybucja energii elektrycznej', 'OPG': 'Obrót paliwami gazowymi',
-  'PPG': 'Przesyłanie paliw gazowych', 'DPG': 'Dystrybucja paliw gazowych',
-  'OCC': 'Obrót ciepłem', 'PVA': 'Instalacje fotowoltaiczne',
-  'WOA': 'Elektrownie wodne', 'BGO': 'Instalacje biogazowe',
-  'BGS': 'Biogazownie składowiskowe', 'BGM': 'Biogazownie',
-  'WIL': 'Elektrownie wiatrowe na lądzie', '15%': 'Koncesje paliwa inne 15%',
-  '25%': 'Koncesje paliwa inne 25%', 'OSDe': 'Operator systemu dystrybucyjnego elektroenergetycznego'
+// === FUNKCJA TWORZENIA IKON Z CUSTOM SVG ===
+const createIconsFromColors = (colorMap: Record<string, string>): Record<string, L.Icon> => {
+  const icons: Record<string, L.Icon> = {};
+  
+  Object.entries(colorMap).forEach(([type, color]) => {
+    icons[type] = createCustomIcon(color);
+  });
+  
+  return icons;
+};
+
+// === PALETY KOLORÓW UI ===
+const normalTheme = {
+  headerGradient: 'linear-gradient(135deg, #0ea5e9 0%, #0284c7 50%, #0369a1 100%)',
+  primary: '#0ea5e9',
+  primaryDark: '#0284c7',
+  primaryLight: '#38bdf8',
+  accent: '#0ea5e9',
+  background: '#f0f9ff',
+  border: '#0ea5e9',
+  borderLight: '#e2e8f0',
+  buttonGradient: 'linear-gradient(135deg, #0ea5e9, #0284c7)',
+  selectedBg: '#e0f2fe',
+  lightBg: '#f0f9ff',
+  progressBar: 'linear-gradient(90deg, #0ea5e9, #0284c7)',
+};
+
+const colorblindTheme = {
+  headerGradient: 'linear-gradient(135deg, #0173B2 0%, #029E73 50%, #56B4E9 100%)',
+  primary: '#0173B2',
+  primaryDark: '#029E73',
+  primaryLight: '#56B4E9',
+  accent: '#0173B2',
+  background: '#E8F4F8',
+  border: '#0173B2',
+  borderLight: '#B8D4E8',
+  buttonGradient: 'linear-gradient(135deg, #0173B2, #029E73)',
+  selectedBg: '#D4E9F7',
+  lightBg: '#E8F4F8',
+  progressBar: 'linear-gradient(90deg, #0173B2, #029E73)',
+};
+
+const concessionDescriptions: Record<string, string> = {
+  'WEE': 'Wytwarzanie energii elektrycznej',
+  'PCC': 'Przesyłanie ciepła',
+  'WCC': 'Wytwarzanie ciepła',
+  'OEE': 'Obrót energią elektryczną',
+  'DEE': 'Dystrybucja energii elektrycznej',
+  'OPG': 'Obrót paliwami gazowymi',
+  'PPG': 'Przesyłanie paliw gazowych',
+  'DPG': 'Dystrybucja paliw gazowych',
+  'OCC': 'Obrót ciepłem',
+  'PVA': 'Instalacje fotowoltaiczne',
+  'WOA': 'Elektrownie wodne',
+  'BGO': 'Instalacje biogazowe',
+  'BGS': 'Biogazownie składowiskowe',
+  'BGM': 'Biogazownie',
+  'WIL': 'Elektrownie wiatrowe na lądzie',
+  '15%': 'Koncesje paliwa inne 15%',
+  '25%': 'Koncesje paliwa inne 25%',
+  'OSDe': 'Operator systemu dystrybucyjnego elektroenergetycznego',
+  'CONSUMER': 'Odbiorca energii',
+  'SELLER': 'Sprzedawca zobowiązany'
 };
 
 const WOJEWODZTWA_COORDINATES: Record<string, [number, number]> = {
-  'dolnośląskie': [51.1089776, 16.9251681], 'kujawsko-pomorskie': [53.0557231, 18.5932264],
-  'lubelskie': [51.2495569, 23.1011099], 'lubuskie': [52.2274715, 15.2559509],
-  'łódzkie': [51.4703833, 19.4797627], 'małopolskie': [49.7220511, 20.2540618],
-  'mazowieckie': [52.0245142, 21.1354857], 'opolskie': [50.6751228, 17.8919551],
-  'podkarpackie': [49.8481153, 22.1396655], 'podlaskie': [53.0833301, 23.1688403],
-  'pomorskie': [54.1038841, 18.1371635], 'śląskie': [50.2640831, 19.0238253],
-  'świętokrzyskie': [50.8661281, 20.6328800], 'warmińsko-mazurskie': [53.8713351, 20.6886953],
-  'wielkopolskie': [52.4082663, 16.9335199], 'zachodniopomorskie': [53.4252871, 14.5552673],
+  'dolnośląskie': [51.1089776, 16.9251681],
+  'kujawsko-pomorskie': [53.0557231, 18.5932264],
+  'lubelskie': [51.2495569, 23.1011099],
+  'lubuskie': [52.2274715, 15.2559509],
+  'łódzkie': [51.4703833, 19.4797627],
+  'małopolskie': [49.7220511, 20.2540618],
+  'mazowieckie': [52.0245142, 21.1354857],
+  'opolskie': [50.6751228, 17.8919551],
+  'podkarpackie': [49.8481153, 22.1396655],
+  'podlaskie': [53.0833301, 23.1688403],
+  'pomorskie': [54.1038841, 18.1371635],
+  'śląskie': [50.2640831, 19.0238253],
+  'świętokrzyskie': [50.8661281, 20.6328800],
+  'warmińsko-mazurskie': [53.8713351, 20.6886953],
+  'wielkopolskie': [52.4082663, 16.9335199],
+  'zachodniopomorskie': [53.4252871, 14.5552673],
 };
 
 const POLSKA_LOCATIONS: Record<string, [number, number]> = {
-  'Warszawa': [52.2297, 21.0122], 'Kraków': [50.0647, 19.9450], 'Wrocław': [51.1079, 17.0385],
-  'Poznań': [52.4064, 16.9252], 'Gdańsk': [54.3520, 18.6466], 'Lublin': [51.2465, 22.5684],
-  // ... (dodaj wszystkie 308 lokalizacji z poprzedniego kodu)
+  'Warszawa': [52.2297, 21.0122],
+  'Kraków': [50.0647, 19.9450],
+  'Wrocław': [51.1079, 17.0385],
+  'Poznań': [52.4064, 16.9252],
+  'Gdańsk': [54.3520, 18.6466],
+  'Lublin': [51.2465, 22.5684],
 };
 
-// === FUNKCJE POMOCNICZE (bez zmian) ===
+// === FUNKCJE POMOCNICZE ===
 const seededRandom = (seed: string): number => {
   let hash = 0;
   for (let i = 0; i < seed.length; i++) {
@@ -294,11 +357,13 @@ const detectXMLType = (xmlContent: string): XMLType => {
   if (xmlContent.includes('MIOZERegistries') || xmlContent.includes('MIOZERegistry')) return XMLType.MIOZE;
   if (xmlContent.includes('ConcessionOtherFuels') || xmlContent.includes('ConcessionOtherFuel')) return XMLType.CONCESSION;
   if (xmlContent.includes('OperatorElectricitySystems') || xmlContent.includes('OperatorElectricitySystem')) return XMLType.OPERATOR;
+  if (xmlContent.includes('WykazPodmiotow') || xmlContent.includes('Podmiot')) return XMLType.CONSUMER;
+  if (xmlContent.includes('Sprzedawca')) return XMLType.SELLER;
   return XMLType.UNKNOWN;
 };
 
 const generateInstallationId = (registry: any, index: number, type: XMLType): string => {
-  const dkn = registry.DKN?.[0] || '';
+  const dkn = registry.DKN?.[0] || registry.Lp?.[0] || '';
   if (type === XMLType.MIOZE) {
     const idInstalacji = registry.IdInstalacji?.[0] || index.toString();
     return `MIOZE_${dkn}_${idInstalacji}`;
@@ -308,34 +373,33 @@ const generateInstallationId = (registry: any, index: number, type: XMLType): st
   } else if (type === XMLType.OPERATOR) {
     const rodzajOperatora = registry.RodzajOperatora?.[0] || '';
     return `OPERATOR_${dkn}_${rodzajOperatora}_${index}`;
+  } else if (type === XMLType.CONSUMER) {
+    return `CONSUMER_${dkn}_${index}`;
+  } else if (type === XMLType.SELLER) {
+    return `SELLER_${dkn}_${index}`;
   }
   return `GENERIC_${dkn}_${index}`;
 };
 
 const geocodeAddress = async (
-  address: string, 
-  postalCode: string, 
-  city: string, 
+  address: string,
+  postalCode: string,
+  city: string,
   province: string,
   installationId: string
 ): Promise<[number, number] | null> => {
   const cacheKey = `${installationId}_${address}_${postalCode}_${city}_${province}`;
-  
   if (geocodeCache[cacheKey]) return geocodeCache[cacheKey];
-  
   const normalizedCity = normalizeLocation(city);
-  
   if (POLSKA_LOCATIONS[normalizedCity]) {
     const coords = addJitter(POLSKA_LOCATIONS[normalizedCity], installationId);
     saveToCache(cacheKey, coords);
     return coords;
   }
-  
   try {
     await new Promise(resolve => setTimeout(resolve, 1000));
     const query = encodeURIComponent(`${normalizedCity}, ${province}, ${postalCode}, Polska`);
     const response = await http.get(`https://nominatim.openstreetmap.org/search?format=json&q=${query}&limit=1`);
-    
     if (response.data && response.data.length > 0) {
       const coords: [number, number] = [parseFloat(response.data[0].lat), parseFloat(response.data[0].lon)];
       const jitteredCoords = addJitter(coords, installationId);
@@ -345,21 +409,17 @@ const geocodeAddress = async (
   } catch (error) {
     console.error('Error geocoding address:', error);
   }
-  
   if (WOJEWODZTWA_COORDINATES[province]) {
     const coords = addJitter(WOJEWODZTWA_COORDINATES[province], installationId);
     saveToCache(cacheKey, coords);
     return coords;
   }
-  
   const defaultCoords = addJitter(defaultCenter, installationId);
   saveToCache(cacheKey, defaultCoords);
   return defaultCoords;
 };
 
-// === FUNKCJE PRZETWARZANIA (uproszczone - dodaj pełne wersje) ===
 const processMIOZEData = async (registries: MIOZERegistry[], setProgress: (progress: number) => void): Promise<Installation[]> => {
-  // ... (pełna implementacja jak w poprzednim kodzie)
   return [];
 };
 
@@ -371,8 +431,15 @@ const processOperatorData = async (operators: OperatorRecord[], setProgress: (pr
   return [];
 };
 
+const processConsumerData = async (consumers: ConsumerRecord[], setProgress: (progress: number) => void): Promise<Installation[]> => {
+  return [];
+};
+
+const processSellerData = async (sellers: SellerRecord[], setProgress: (progress: number) => void): Promise<Installation[]> => {
+  return [];
+};
+
 const processXMLFile = async (xmlContent: string, isStatic: boolean = false, progressCallback?: (progress: number) => void) => {
-  // ... (pełna implementacja)
   return [];
 };
 
@@ -382,54 +449,126 @@ function App() {
   const [installations, setInstallations] = useState<Installation[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
-  const [center, setCenter] = useState<[number, number]>(defaultCenter);
-  const [zoom, setZoom] = useState<number>(6);
+  const [center] = useState<[number, number]>(defaultCenter);
+  const [zoom] = useState<number>(6);
   const [filterProvince, setFilterProvince] = useState<string>("wszystkie");
   const [filterType, setFilterType] = useState<string>("wszystkie");
   const [searchTerm, setSearchTerm] = useState<string>("");
   const [progress, setProgress] = useState<number>(0);
   const [dataType, setDataType] = useState<string>("wszystkie");
-  
+  const [filterCategory, setFilterCategory] = useState<string>("wszystkie");
+
   const [uploadedInstallations, setUploadedInstallations] = useState<Installation[]>([]);
-  const [dataSource, setDataSource] = useState<DataSource>('combined');
-  
-  const [miozeData, setMiozeData] = useState<Installation[]>([]);
-  const [concessionsData, setConcessionsData] = useState<Installation[]>([]);
-  const [operatorsData, setOperatorsData] = useState<Installation[]>([]);
-  
+  const [dataSource] = useState<DataSource>('combined');
+
+  const [allData, setAllData] = useState<Installation[]>([]);
+
   const [legendExpanded, setLegendExpanded] = useState<boolean>(true);
   const [sourcesPanelExpanded, setSourcesPanelExpanded] = useState<boolean>(true);
   const [filtersPanelExpanded, setFiltersPanelExpanded] = useState<boolean>(true);
-  
+
+  // Rozwinięcie kategorii
+  const [supplierExpanded, setSupplierExpanded] = useState<boolean>(true);
+  const [consumerExpanded, setConsumerExpanded] = useState<boolean>(true);
+  const [intermediaryExpanded, setIntermediaryExpanded] = useState<boolean>(true);
+
+  const [colorblindMode, setColorblindMode] = useState<boolean>(() => {
+    const saved = localStorage.getItem('colorblindMode');
+    return saved === 'true';
+  });
+
+  // === NOWA STRUKTURA ŹRÓDEŁ DANYCH ===
   const [dataSources, setDataSources] = useState<DataSourceConfig[]>([
-    {
-      id: 'mioze',
-      name: 'MIOZE',
-      filename: 'mioze.json',
-      description: 'Małe instalacje OZE',
-      enabled: true,
-      dataType: 'MIOZE'
-    },
-    {
-      id: 'concessions',
-      name: 'Koncesje URE',
-      filename: 'concessions.json',
-      description: 'Paliwa inne',
-      enabled: true,
-      dataType: 'CONCESSION'
-    },
-    {
-      id: 'operators',
-      name: 'Operatorzy',
-      filename: 'operators.json',
-      description: 'Systemy elektroenergetyczne',
-      enabled: true,
-      dataType: 'OPERATOR'
-    }
-  ]);
+  // DOSTAWCY - Duzi dostawcy (tylko koncesje)
+  {
+    id: 'supplier-large-koncesje',
+    name: 'Koncesje URE',
+    filename: 'koncesje_w_zakresie_innym_niz_paliwa_ciekle.json',
+    description: 'Duzi dostawcy - koncesje',
+    enabled: true,
+    category: 'supplier',
+    subcategory: 'Duzi dostawcy',
+    dataType: 'CONCESSION'
+  },
+  
+  // DOSTAWCY - Mali dostawcy
+  {
+    id: 'supplier-small-mioze',
+    name: 'MIOZE',
+    filename: 'rejestr_wytworców_energii_w_malej_instalacji.json',
+    description: 'Mali dostawcy - mikro instalacje',
+    enabled: true,
+    category: 'supplier',
+    subcategory: 'Mali dostawcy',
+    dataType: 'MIOZE'
+  },
+  
+  // ODBIORCY - Duzi odbiorcy (z folderu "Duży odbiorcy")
+  {
+    id: 'consumer-large',
+    name: 'Duzi odbiorcy',
+    filename: 'inf_prezensa_ure_2025.json',
+    description: 'Informacja Prezesa URE 2025',
+    enabled: true,
+    category: 'consumer',
+    subcategory: 'Duzi odbiorcy',
+    dataType: 'CONSUMER'
+  },
+  
+  // ODBIORCY - Odbiorcy wg rekompensat
+  {
+    id: 'consumer-compensation',
+    name: 'Odbiorcy wg rekompensat',
+    filename: 'rekompensaty_2023_wykaz.json',
+    description: 'Wykaz rekompensat 2023',
+    enabled: true,
+    category: 'consumer',
+    subcategory: 'Odbiorcy wg rekompensat',
+    dataType: 'CONSUMER'
+  },
+  
+  // POŚREDNICY - Operatorzy systemów
+  {
+    id: 'intermediary-operators',
+    name: 'Operatorzy systemów',
+    filename: 'operatorzy_systemow_elektroenergetycznych.json',
+    description: 'Operatorzy systemów elektroenergetycznych',
+    enabled: true,
+    category: 'intermediary',
+    subcategory: 'Operatorzy systemów',
+    dataType: 'OPERATOR'
+  },
+  
+  // POŚREDNICY - Sprzedawcy zobowiązani
+  {
+    id: 'intermediary-sellers',
+    name: 'Sprzedawcy zobowiązani',
+    filename: 'lista_sprzedawcow_zobowiazanych.json',
+    description: 'Lista sprzedawców zobowiązanych',
+    enabled: true,
+    category: 'intermediary',
+    subcategory: 'Sprzedawcy zobowiązani',
+    dataType: 'SELLER'
+  }
+]);
+
+  const theme = colorblindMode ? colorblindTheme : normalTheme;
+  const currentColors = colorblindMode ? colorblindIconColors : normalIconColors;
+
+  const currentIcons = React.useMemo(() => {
+    return createIconsFromColors(currentColors);
+  }, [colorblindMode]);
+
+  useEffect(() => {
+    localStorage.setItem('colorblindMode', colorblindMode.toString());
+  }, [colorblindMode]);
+
+  const toggleColorblindMode = () => {
+    setColorblindMode(prev => !prev);
+  };
 
   const toggleDataSource = (id: string) => {
-    setDataSources(prev => prev.map(source => 
+    setDataSources(prev => prev.map(source =>
       source.id === id ? { ...source, enabled: !source.enabled } : source
     ));
   };
@@ -438,19 +577,26 @@ function App() {
     const loadAllSources = async () => {
       setLoading(true);
       try {
-        const [miozeRes, concessionsRes, operatorsRes] = await Promise.all([
-          fetch('/data/processed/mioze.json'),
-          fetch('/data/processed/concessions.json'),
-          fetch('/data/processed/operators.json')
-        ]);
-        
-        const mioze = miozeRes.ok ? await miozeRes.json() : [];
-        const concessions = concessionsRes.ok ? await concessionsRes.json() : [];
-        const operators = operatorsRes.ok ? await operatorsRes.json() : [];
-        
-        setMiozeData(mioze);
-        setConcessionsData(concessions);
-        setOperatorsData(operators);
+        const promises = dataSources.map(async (source) => {
+          try {
+            const response = await fetch(`/data/processed/${source.filename}`);
+            if (response.ok) {
+              const data = await response.json();
+              return data.map((item: Installation) => ({
+                ...item,
+                category: source.category,
+                subcategory: source.subcategory
+              }));
+            }
+          } catch (err) {
+            console.error(`Błąd ładowania ${source.filename}:`, err);
+          }
+          return [];
+        });
+
+        const results = await Promise.all(promises);
+        const combined = results.flat();
+        setAllData(combined);
         setLoading(false);
       } catch (err) {
         console.error('Błąd ładowania danych:', err);
@@ -462,40 +608,21 @@ function App() {
   }, []);
 
   useEffect(() => {
-    let preloadedInstallations: Installation[] = [];
+    let filteredBySource: Installation[] = [];
     
     dataSources.forEach(source => {
       if (source.enabled) {
-        switch (source.id) {
-          case 'mioze':
-            preloadedInstallations = [...preloadedInstallations, ...miozeData];
-            break;
-          case 'concessions':
-            preloadedInstallations = [...preloadedInstallations, ...concessionsData];
-            break;
-          case 'operators':
-            preloadedInstallations = [...preloadedInstallations, ...operatorsData];
-            break;
-        }
+        const sourceData = allData.filter(inst => 
+          inst.category === source.category && 
+          inst.subcategory === source.subcategory
+        );
+        filteredBySource = [...filteredBySource, ...sourceData];
       }
     });
-    
-    let combinedInstallations: Installation[] = [];
-    switch (dataSource) {
-      case 'uploaded':
-        combinedInstallations = uploadedInstallations;
-        break;
-      case 'preloaded':
-        combinedInstallations = preloadedInstallations;
-        break;
-      case 'combined':
-      default:
-        combinedInstallations = [...preloadedInstallations, ...uploadedInstallations];
-        break;
-    }
-    
+
+    const combinedInstallations = [...filteredBySource, ...uploadedInstallations];
     setInstallations(combinedInstallations);
-  }, [uploadedInstallations, miozeData, concessionsData, operatorsData, dataSource, dataSources]);
+  }, [uploadedInstallations, allData, dataSources]);
 
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     if (event.target.files && event.target.files[0]) {
@@ -509,11 +636,9 @@ function App() {
       setError('Proszę wybrać plik');
       return;
     }
-    
     setLoading(true);
     setError(null);
     setProgress(0);
-  
     try {
       const reader = new FileReader();
       reader.onload = async (e) => {
@@ -543,35 +668,57 @@ function App() {
     const matchesProvince = filterProvince === "wszystkie" || province === filterProvince;
     const matchesType = filterType === "wszystkie" || inst.installationType === filterType;
     const matchesDataType = dataType === "wszystkie" || inst.dataType === dataType;
+    const matchesCategory = filterCategory === "wszystkie" || inst.category === filterCategory;
     const city = inst.installationCity || inst.city;
-    const matchesSearch = searchTerm === "" || 
-                          inst.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                          city.toLowerCase().includes(searchTerm.toLowerCase());
-    
-    return matchesProvince && matchesType && matchesDataType && matchesSearch;
+    const matchesSearch = searchTerm === "" ||
+      inst.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      city.toLowerCase().includes(searchTerm.toLowerCase());
+    return matchesProvince && matchesType && matchesDataType && matchesCategory && matchesSearch;
   });
 
   const provinces = Array.from(new Set(installations.map(i => i.installationProvince || i.province))).sort();
   const installationTypes = Array.from(new Set(installations.map(i => i.installationType))).sort();
 
+  // Grupowanie źródeł według kategorii
+  const supplierSources = dataSources.filter(s => s.category === 'supplier');
+  const consumerSources = dataSources.filter(s => s.category === 'consumer');
+  const intermediarySources = dataSources.filter(s => s.category === 'intermediary');
+
+  // Grupowanie według podkategorii
+  const supplierBySubcategory = supplierSources.reduce((acc, source) => {
+    if (!acc[source.subcategory]) acc[source.subcategory] = [];
+    acc[source.subcategory].push(source);
+    return acc;
+  }, {} as Record<string, DataSourceConfig[]>);
+
+  const consumerBySubcategory = consumerSources.reduce((acc, source) => {
+    if (!acc[source.subcategory]) acc[source.subcategory] = [];
+    acc[source.subcategory].push(source);
+    return acc;
+  }, {} as Record<string, DataSourceConfig[]>);
+
+  const intermediaryBySubcategory = intermediarySources.reduce((acc, source) => {
+    if (!acc[source.subcategory]) acc[source.subcategory] = [];
+    acc[source.subcategory].push(source);
+    return acc;
+  }, {} as Record<string, DataSourceConfig[]>);
+
   return (
-    <div style={{ 
-      display: 'flex', 
-      flexDirection: 'column', 
+    <div style={{
+      display: 'flex',
+      flexDirection: 'column',
       height: '100vh',
       background: '#f0f4f8',
       fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif'
     }}>
-      {/* HEADER Z WZOREM */}
-      <header style={{ 
-        background: 'linear-gradient(135deg, #0ea5e9 0%, #0284c7 50%, #0369a1 100%)',
-        color: 'white', 
+      <header style={{
+        background: theme.headerGradient,
+        color: 'white',
         padding: '1.5rem 2rem',
         boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
         position: 'relative',
         overflow: 'hidden'
       }}>
-        {/* Wzór geometryczny w tle */}
         <div style={{
           position: 'absolute',
           top: 0,
@@ -586,7 +733,7 @@ function App() {
           backgroundSize: '30px 30px',
           pointerEvents: 'none'
         }}></div>
-        
+
         <div style={{ position: 'relative', zIndex: 1 }}>
           <h1 style={{ margin: 0, fontSize: '1.75rem', fontWeight: 700, letterSpacing: '-0.5px' }}>
             Mapa Wytwórców Energii i Koncesji URE
@@ -596,28 +743,27 @@ function App() {
           </div>
         </div>
       </header>
-      
+
       <div style={{ display: 'flex', flex: 1, overflow: 'hidden', position: 'relative' }}>
-        {/* PANEL BOCZNY - WIĘKSZY */}
-        <div style={{ 
-          width: '320px', 
+        <div style={{
+          width: '350px',
           background: 'white',
           overflowY: 'auto',
           boxShadow: '2px 0 8px rgba(0, 0, 0, 0.08)',
           padding: '1.25rem'
         }}>
-          
-          {/* Źródła danych */}
+
+          {/* === NOWY PANEL ŹRÓDEŁ DANYCH === */}
           <div style={{ marginBottom: '1.25rem' }}>
-            <button 
+            <button
               onClick={() => setSourcesPanelExpanded(!sourcesPanelExpanded)}
               style={{
                 width: '100%',
                 padding: '0.875rem',
-                background: '#f0f9ff',
-                border: '2px solid #0ea5e9',
+                background: theme.background,
+                border: `2px solid ${theme.border}`,
                 borderRadius: '10px',
-                color: '#0284c7',
+                color: theme.primaryDark,
                 fontSize: '1rem',
                 fontWeight: 700,
                 cursor: 'pointer',
@@ -630,52 +776,250 @@ function App() {
               <span>Źródła danych</span>
               <span style={{ fontSize: '1.1rem' }}>{sourcesPanelExpanded ? '▼' : '▶'}</span>
             </button>
-            
+
             {sourcesPanelExpanded && (
-              <div style={{ 
+              <div style={{
                 marginTop: '0.75rem',
                 background: '#f8fafc',
                 borderRadius: '10px',
                 padding: '1rem',
                 border: '1px solid #e2e8f0'
               }}>
-                {dataSources.map(source => (
-                  <label key={source.id} style={{ 
-                    display: 'flex', 
-                    alignItems: 'center', 
-                    marginBottom: '0.75rem',
-                    padding: '0.75rem',
-                    cursor: 'pointer',
-                    borderRadius: '8px',
-                    background: source.enabled ? '#e0f2fe' : 'transparent',
-                    border: `2px solid ${source.enabled ? '#0ea5e9' : 'transparent'}`,
-                    transition: 'all 0.3s'
-                  }}>
-                    <input
-                      type="checkbox"
-                      checked={source.enabled}
-                      onChange={() => toggleDataSource(source.id)}
-                      style={{ 
-                        marginRight: '0.75rem', 
-                        cursor: 'pointer',
-                        width: '18px',
-                        height: '18px'
-                      }}
-                    />
-                    <div style={{ fontSize: '0.95rem' }}>
-                      <div style={{ fontWeight: 600, color: '#0f172a' }}>{source.name}</div>
-                      <div style={{ fontSize: '0.85rem', color: '#64748b', marginTop: '0.15rem' }}>
-                        {source.description}
-                      </div>
+                
+                {/* DOSTAWCY */}
+                <div style={{ marginBottom: '1rem' }}>
+                  <button
+                    onClick={() => setSupplierExpanded(!supplierExpanded)}
+                    style={{
+                      width: '100%',
+                      padding: '0.75rem',
+                      background: 'white',
+                      border: '2px solid #cbd5e1',
+                      borderRadius: '8px',
+                      color: '#0f172a',
+                      fontSize: '0.95rem',
+                      fontWeight: 600,
+                      cursor: 'pointer',
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'center',
+                      transition: 'all 0.3s'
+                    }}
+                  >
+                    <span>🏭 Dostawcy</span>
+                    <span style={{ fontSize: '0.9rem' }}>{supplierExpanded ? '▼' : '▶'}</span>
+                  </button>
+
+                  {supplierExpanded && (
+                    <div style={{ marginTop: '0.5rem', paddingLeft: '0.5rem' }}>
+                      {Object.entries(supplierBySubcategory).map(([subcategory, sources]) => (
+                        <div key={subcategory} style={{ marginBottom: '0.75rem' }}>
+                          <div style={{
+                            fontSize: '0.85rem',
+                            fontWeight: 600,
+                            color: '#64748b',
+                            marginBottom: '0.5rem',
+                            paddingLeft: '0.5rem'
+                          }}>
+                            {subcategory}
+                          </div>
+                          {sources.map(source => (
+                            <label key={source.id} style={{
+                              display: 'flex',
+                              alignItems: 'flex-start',
+                              marginBottom: '0.5rem',
+                              padding: '0.5rem',
+                              cursor: 'pointer',
+                              borderRadius: '6px',
+                              background: source.enabled ? theme.selectedBg : 'transparent',
+                              border: `1px solid ${source.enabled ? theme.border : 'transparent'}`,
+                              transition: 'all 0.3s'
+                            }}>
+                              <input
+                                type="checkbox"
+                                checked={source.enabled}
+                                onChange={() => toggleDataSource(source.id)}
+                                style={{
+                                  marginRight: '0.5rem',
+                                  marginTop: '0.25rem',
+                                  cursor: 'pointer',
+                                  width: '16px',
+                                  height: '16px',
+                                  flexShrink: 0
+                                }}
+                              />
+                              <div style={{ fontSize: '0.85rem' }}>
+                                <div style={{ fontWeight: 600, color: '#0f172a' }}>{source.name}</div>
+                                <div style={{ fontSize: '0.75rem', color: '#64748b', marginTop: '0.1rem' }}>
+                                  {source.description}
+                                </div>
+                              </div>
+                            </label>
+                          ))}
+                        </div>
+                      ))}
                     </div>
-                  </label>
-                ))}
+                  )}
+                </div>
+
+                {/* ODBIORCY */}
+                <div style={{ marginBottom: '1rem' }}>
+                  <button
+                    onClick={() => setConsumerExpanded(!consumerExpanded)}
+                    style={{
+                      width: '100%',
+                      padding: '0.75rem',
+                      background: 'white',
+                      border: '2px solid #cbd5e1',
+                      borderRadius: '8px',
+                      color: '#0f172a',
+                      fontSize: '0.95rem',
+                      fontWeight: 600,
+                      cursor: 'pointer',
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'center',
+                      transition: 'all 0.3s'
+                    }}
+                  >
+                    <span>🏢 Odbiorcy</span>
+                    <span style={{ fontSize: '0.9rem' }}>{consumerExpanded ? '▼' : '▶'}</span>
+                  </button>
+
+                  {consumerExpanded && (
+                    <div style={{ marginTop: '0.5rem', paddingLeft: '0.5rem' }}>
+                      {Object.entries(consumerBySubcategory).map(([subcategory, sources]) => (
+                        <div key={subcategory} style={{ marginBottom: '0.75rem' }}>
+                          <div style={{
+                            fontSize: '0.85rem',
+                            fontWeight: 600,
+                            color: '#64748b',
+                            marginBottom: '0.5rem',
+                            paddingLeft: '0.5rem'
+                          }}>
+                            {subcategory}
+                          </div>
+                          {sources.map(source => (
+                            <label key={source.id} style={{
+                              display: 'flex',
+                              alignItems: 'flex-start',
+                              marginBottom: '0.5rem',
+                              padding: '0.5rem',
+                              cursor: 'pointer',
+                              borderRadius: '6px',
+                              background: source.enabled ? theme.selectedBg : 'transparent',
+                              border: `1px solid ${source.enabled ? theme.border : 'transparent'}`,
+                              transition: 'all 0.3s'
+                            }}>
+                              <input
+                                type="checkbox"
+                                checked={source.enabled}
+                                onChange={() => toggleDataSource(source.id)}
+                                style={{
+                                  marginRight: '0.5rem',
+                                  marginTop: '0.25rem',
+                                  cursor: 'pointer',
+                                  width: '16px',
+                                  height: '16px',
+                                  flexShrink: 0
+                                }}
+                              />
+                              <div style={{ fontSize: '0.85rem' }}>
+                                <div style={{ fontWeight: 600, color: '#0f172a' }}>{source.name}</div>
+                                <div style={{ fontSize: '0.75rem', color: '#64748b', marginTop: '0.1rem' }}>
+                                  {source.description}
+                                </div>
+                              </div>
+                            </label>
+                          ))}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+
+                {/* POŚREDNICY */}
+                <div>
+                  <button
+                    onClick={() => setIntermediaryExpanded(!intermediaryExpanded)}
+                    style={{
+                      width: '100%',
+                      padding: '0.75rem',
+                      background: 'white',
+                      border: '2px solid #cbd5e1',
+                      borderRadius: '8px',
+                      color: '#0f172a',
+                      fontSize: '0.95rem',
+                      fontWeight: 600,
+                      cursor: 'pointer',
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'center',
+                      transition: 'all 0.3s'
+                    }}
+                  >
+                    <span>🔄 Pośrednicy</span>
+                    <span style={{ fontSize: '0.9rem' }}>{intermediaryExpanded ? '▼' : '▶'}</span>
+                  </button>
+
+                  {intermediaryExpanded && (
+                    <div style={{ marginTop: '0.5rem', paddingLeft: '0.5rem' }}>
+                      {Object.entries(intermediaryBySubcategory).map(([subcategory, sources]) => (
+                        <div key={subcategory} style={{ marginBottom: '0.75rem' }}>
+                          <div style={{
+                            fontSize: '0.85rem',
+                            fontWeight: 600,
+                            color: '#64748b',
+                            marginBottom: '0.5rem',
+                            paddingLeft: '0.5rem'
+                          }}>
+                            {subcategory}
+                          </div>
+                          {sources.map(source => (
+                            <label key={source.id} style={{
+                              display: 'flex',
+                              alignItems: 'flex-start',
+                              marginBottom: '0.5rem',
+                              padding: '0.5rem',
+                              cursor: 'pointer',
+                              borderRadius: '6px',
+                              background: source.enabled ? theme.selectedBg : 'transparent',
+                              border: `1px solid ${source.enabled ? theme.border : 'transparent'}`,
+                              transition: 'all 0.3s'
+                            }}>
+                              <input
+                                type="checkbox"
+                                checked={source.enabled}
+                                onChange={() => toggleDataSource(source.id)}
+                                style={{
+                                  marginRight: '0.5rem',
+                                  marginTop: '0.25rem',
+                                  cursor: 'pointer',
+                                  width: '16px',
+                                  height: '16px',
+                                  flexShrink: 0
+                                }}
+                              />
+                              <div style={{ fontSize: '0.85rem' }}>
+                                <div style={{ fontWeight: 600, color: '#0f172a' }}>{source.name}</div>
+                                <div style={{ fontSize: '0.75rem', color: '#64748b', marginTop: '0.1rem' }}>
+                                  {source.description}
+                                </div>
+                              </div>
+                            </label>
+                          ))}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+
               </div>
             )}
           </div>
 
           {/* Upload pliku */}
-          <div style={{ 
+          <div style={{
             marginBottom: '1.25rem',
             background: '#f8fafc',
             borderRadius: '10px',
@@ -685,12 +1029,12 @@ function App() {
             <h3 style={{ fontSize: '1rem', marginBottom: '1rem', color: '#0f172a', fontWeight: 700 }}>
               Wczytaj plik XML
             </h3>
-            <input 
-              type="file" 
-              onChange={handleFileChange} 
-              accept=".xml" 
-              style={{ 
-                width: '100%', 
+            <input
+              type="file"
+              onChange={handleFileChange}
+              accept=".xml"
+              style={{
+                width: '100%',
                 marginBottom: '0.75rem',
                 padding: '0.75rem',
                 background: 'white',
@@ -700,62 +1044,62 @@ function App() {
                 color: '#0f172a'
               }}
             />
-            <button 
-              onClick={parseUploadedFile} 
+            <button
+              onClick={parseUploadedFile}
               disabled={loading}
-              style={{ 
-                width: '100%', 
-                padding: '0.875rem', 
-                background: loading ? '#94a3b8' : 'linear-gradient(135deg, #0ea5e9, #0284c7)',
-                color: 'white', 
-                border: 'none', 
+              style={{
+                width: '100%',
+                padding: '0.875rem',
+                background: loading ? '#94a3b8' : theme.buttonGradient,
+                color: 'white',
+                border: 'none',
                 borderRadius: '8px',
                 cursor: loading ? 'default' : 'pointer',
                 fontSize: '1rem',
                 fontWeight: 600,
                 transition: 'all 0.3s',
-                boxShadow: loading ? 'none' : '0 4px 6px rgba(14, 165, 233, 0.3)'
+                boxShadow: loading ? 'none' : `0 4px 6px ${colorblindMode ? 'rgba(1, 115, 178, 0.3)' : 'rgba(14, 165, 233, 0.3)'}`
               }}
             >
               {loading ? 'Wczytywanie...' : 'Wczytaj plik'}
             </button>
-            
+
             {loading && (
               <div style={{ marginTop: '1rem' }}>
                 <div style={{ fontSize: '0.95rem', marginBottom: '0.5rem', color: '#64748b', fontWeight: 500 }}>
                   Postęp: {progress}%
                 </div>
-                <div style={{ 
-                  width: '100%', 
-                  height: '8px', 
+                <div style={{
+                  width: '100%',
+                  height: '8px',
                   background: '#e2e8f0',
                   borderRadius: '4px',
                   overflow: 'hidden'
                 }}>
-                  <div style={{ 
-                    width: `${progress}%`, 
-                    height: '100%', 
-                    background: 'linear-gradient(90deg, #0ea5e9, #0284c7)',
+                  <div style={{
+                    width: `${progress}%`,
+                    height: '100%',
+                    background: theme.progressBar,
                     transition: 'width 0.3s'
                   }}></div>
                 </div>
               </div>
             )}
-            
+
             {error && <p style={{ marginTop: '0.75rem', color: '#ef4444', fontSize: '0.9rem', fontWeight: 500 }}>{error}</p>}
           </div>
 
           {/* Filtry */}
           <div style={{ marginBottom: '1.25rem' }}>
-            <button 
+            <button
               onClick={() => setFiltersPanelExpanded(!filtersPanelExpanded)}
               style={{
                 width: '100%',
                 padding: '0.875rem',
-                background: '#f0f9ff',
-                border: '2px solid #0ea5e9',
+                background: theme.background,
+                border: `2px solid ${theme.border}`,
                 borderRadius: '10px',
-                color: '#0284c7',
+                color: theme.primaryDark,
                 fontSize: '1rem',
                 fontWeight: 700,
                 cursor: 'pointer',
@@ -768,9 +1112,9 @@ function App() {
               <span>Filtry</span>
               <span style={{ fontSize: '1.1rem' }}>{filtersPanelExpanded ? '▼' : '▶'}</span>
             </button>
-            
+
             {filtersPanelExpanded && (
-              <div style={{ 
+              <div style={{
                 marginTop: '0.75rem',
                 background: '#f8fafc',
                 borderRadius: '10px',
@@ -779,13 +1123,37 @@ function App() {
               }}>
                 <div style={{ marginBottom: '1rem' }}>
                   <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.95rem', color: '#475569', fontWeight: 600 }}>
+                    Kategoria:
+                  </label>
+                  <select
+                    value={filterCategory}
+                    onChange={(e) => setFilterCategory(e.target.value)}
+                    style={{
+                      width: '100%',
+                      padding: '0.75rem',
+                      background: 'white',
+                      border: '2px solid #cbd5e1',
+                      borderRadius: '8px',
+                      fontSize: '0.95rem',
+                      color: '#0f172a'
+                    }}
+                  >
+                    <option value="wszystkie">Wszystkie</option>
+                    <option value="supplier">Dostawcy</option>
+                    <option value="consumer">Odbiorcy</option>
+                    <option value="intermediary">Pośrednicy</option>
+                  </select>
+                </div>
+
+                <div style={{ marginBottom: '1rem' }}>
+                  <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.95rem', color: '#475569', fontWeight: 600 }}>
                     Typ danych:
                   </label>
-                  <select 
-                    value={dataType} 
+                  <select
+                    value={dataType}
                     onChange={(e) => setDataType(e.target.value)}
-                    style={{ 
-                      width: '100%', 
+                    style={{
+                      width: '100%',
                       padding: '0.75rem',
                       background: 'white',
                       border: '2px solid #cbd5e1',
@@ -798,18 +1166,20 @@ function App() {
                     <option value="MIOZE">MIOZE</option>
                     <option value="CONCESSION">Koncesje</option>
                     <option value="OPERATOR">Operatorzy</option>
+                    <option value="CONSUMER">Odbiorcy</option>
+                    <option value="SELLER">Sprzedawcy</option>
                   </select>
                 </div>
-                
+
                 <div style={{ marginBottom: '1rem' }}>
                   <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.95rem', color: '#475569', fontWeight: 600 }}>
                     Województwo:
                   </label>
-                  <select 
-                    value={filterProvince} 
+                  <select
+                    value={filterProvince}
                     onChange={(e) => setFilterProvince(e.target.value)}
-                    style={{ 
-                      width: '100%', 
+                    style={{
+                      width: '100%',
                       padding: '0.75rem',
                       background: 'white',
                       border: '2px solid #cbd5e1',
@@ -824,16 +1194,16 @@ function App() {
                     ))}
                   </select>
                 </div>
-                
+
                 <div style={{ marginBottom: '1rem' }}>
                   <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.95rem', color: '#475569', fontWeight: 600 }}>
                     Typ instalacji:
                   </label>
-                  <select 
-                    value={filterType} 
+                  <select
+                    value={filterType}
                     onChange={(e) => setFilterType(e.target.value)}
-                    style={{ 
-                      width: '100%', 
+                    style={{
+                      width: '100%',
                       padding: '0.75rem',
                       background: 'white',
                       border: '2px solid #cbd5e1',
@@ -848,18 +1218,18 @@ function App() {
                     ))}
                   </select>
                 </div>
-                
+
                 <div>
                   <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.95rem', color: '#475569', fontWeight: 600 }}>
                     Szukaj:
                   </label>
-                  <input 
-                    type="text" 
-                    value={searchTerm} 
+                  <input
+                    type="text"
+                    value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
-                    placeholder="Nazwa lub miasto..." 
-                    style={{ 
-                      width: '100%', 
+                    placeholder="Nazwa lub miasto..."
+                    style={{
+                      width: '100%',
                       padding: '0.75rem',
                       background: 'white',
                       border: '2px solid #cbd5e1',
@@ -874,37 +1244,36 @@ function App() {
           </div>
 
           {/* Statystyki */}
-          <div style={{ 
-            background: '#f0f9ff',
+          <div style={{
+            background: theme.lightBg,
             borderRadius: '10px',
             padding: '1.25rem',
-            border: '2px solid #bae6fd'
+            border: `2px solid ${theme.borderLight}`
           }}>
             <h3 style={{ fontSize: '1rem', marginBottom: '1rem', color: '#0f172a', fontWeight: 700 }}>
               Statystyki
             </h3>
             <div style={{ fontSize: '0.95rem', color: '#475569', lineHeight: '2' }}>
-              <div><strong>Łącznie:</strong> <span style={{ color: '#0284c7', fontWeight: 600 }}>{installations.length}</span></div>
-              <div><strong>Po filtrach:</strong> <span style={{ color: '#0ea5e9', fontWeight: 600 }}>{filteredInstallations.length}</span></div>
-              <div><strong>MIOZE:</strong> {installations.filter(i => i.dataType === 'MIOZE').length}</div>
-              <div><strong>Koncesje:</strong> {installations.filter(i => i.dataType === 'CONCESSION').length}</div>
-              <div><strong>Operatorzy:</strong> {installations.filter(i => i.dataType === 'OPERATOR').length}</div>
+              <div><strong>Łącznie:</strong> <span style={{ color: theme.primaryDark, fontWeight: 600 }}>{installations.length}</span></div>
+              <div><strong>Po filtrach:</strong> <span style={{ color: theme.accent, fontWeight: 600 }}>{filteredInstallations.length}</span></div>
+              <div><strong>Dostawcy:</strong> {installations.filter(i => i.category === 'supplier').length}</div>
+              <div><strong>Odbiorcy:</strong> {installations.filter(i => i.category === 'consumer').length}</div>
+              <div><strong>Pośrednicy:</strong> {installations.filter(i => i.category === 'intermediary').length}</div>
             </div>
           </div>
         </div>
-        
-        {/* MAPA */}
+
         <div style={{ flex: 1, position: 'relative' }}>
-          <MapContainer 
-            center={center} 
-            zoom={zoom} 
+          <MapContainer
+            center={center}
+            zoom={zoom}
             style={{ height: '100%', width: '100%' }}
           >
             <TileLayer
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               attribution='&copy; OpenStreetMap'
             />
-            
+
             <MarkerClusterGroup
               chunkedLoading
               maxClusterRadius={50}
@@ -912,24 +1281,47 @@ function App() {
               showCoverageOnHover={false}
             >
               {filteredInstallations.map((installation, index) => {
-                const icon = icons[installation.installationType as keyof typeof icons] || icons.default;
-                
+                const icon = currentIcons[installation.installationType] || currentIcons['default'];
                 return (
-                  <Marker 
-                    key={`${installation.id}-${index}`} 
-                    position={installation.coordinates} 
+                  <Marker
+                    key={`${installation.id}-${index}`}
+                    position={installation.coordinates}
                     icon={icon}
                   >
                     <Popup>
-                      <div style={{ minWidth: '200px' }}>
-                        <h3 style={{ fontWeight: 600, marginBottom: '0.5rem', color: '#0f172a' }}>
+                      <div style={{ minWidth: '220px' }}>
+                        <h3 style={{ fontWeight: 600, marginBottom: '0.75rem', color: '#0f172a', fontSize: '1.05rem' }}>
                           {installation.name}
                         </h3>
-                        <div style={{ fontSize: '0.9rem', color: '#475569' }}>
-                          <p><strong>Typ:</strong> {installation.dataType}</p>
-                          <p><strong>Lokalizacja:</strong> {installation.installationCity || installation.city}</p>
-                          {installation.power && <p><strong>Moc:</strong> {installation.power} MW</p>}
-                          <p><strong>Adres:</strong> {installation.address}</p>
+                        <div style={{ fontSize: '0.9rem', color: '#475569', lineHeight: '1.8' }}>
+                          <p style={{ margin: '0.3rem 0' }}>
+                            <strong>Kategoria:</strong> {installation.category === 'supplier' ? 'Dostawca' : installation.category === 'consumer' ? 'Odbiorca' : 'Pośrednik'}
+                          </p>
+                          <p style={{ margin: '0.3rem 0' }}>
+                            <strong>Podkategoria:</strong> {installation.subcategory}
+                          </p>
+                          <p style={{ margin: '0.3rem 0' }}>
+                            <strong>Typ danych:</strong> {installation.dataType}
+                          </p>
+                          <p style={{ margin: '0.3rem 0' }}>
+                            <strong>Typ instalacji:</strong> {installation.installationType}
+                            {concessionDescriptions[installation.installationType] &&
+                              <span style={{ color: '#64748b', display: 'block', fontSize: '0.85rem', marginTop: '0.15rem' }}>
+                                {concessionDescriptions[installation.installationType]}
+                              </span>
+                            }
+                          </p>
+                          <p style={{ margin: '0.3rem 0' }}>
+                            <strong>Lokalizacja:</strong> {installation.installationCity || installation.city}, woj. {installation.installationProvince || installation.province}
+                          </p>
+                          {installation.power && (
+                            <p style={{ margin: '0.3rem 0' }}>
+                              <strong>Moc:</strong> {installation.power} MW
+                            </p>
+                          )}
+                          <p style={{ margin: '0.3rem 0', fontSize: '0.85rem', color: '#64748b' }}>
+                            <strong>Adres:</strong> {installation.postalCode} {installation.city}, {installation.address}
+                          </p>
                         </div>
                       </div>
                     </Popup>
@@ -938,8 +1330,7 @@ function App() {
               })}
             </MarkerClusterGroup>
           </MapContainer>
-          
-          {/* LOGO MARSOFT - Prawy górny róg */}
+
           <div style={{
             position: 'absolute',
             top: '20px',
@@ -952,17 +1343,16 @@ function App() {
             boxShadow: '0 8px 20px rgba(0, 0, 0, 0.12)',
             border: '1px solid rgba(255, 255, 255, 0.8)'
           }}>
-            <img 
-              src="/marsoft.png" 
-              alt="MarSoft" 
-              style={{ 
+            <img
+              src="/marsoft.png"
+              alt="MarSoft"
+              style={{
                 height: '45px',
                 display: 'block'
               }}
             />
           </div>
-          
-          {/* LEGENDA - Prawy dolny róg */}
+
           <div style={{
             position: 'absolute',
             bottom: '20px',
@@ -981,7 +1371,7 @@ function App() {
               style={{
                 width: '100%',
                 padding: '1rem 1.25rem',
-                background: 'linear-gradient(135deg, #0ea5e9, #0284c7)',
+                background: theme.buttonGradient,
                 border: 'none',
                 color: 'white',
                 cursor: 'pointer',
@@ -995,38 +1385,73 @@ function App() {
               <span>Legenda typów instalacji</span>
               <span style={{ fontSize: '1.1rem' }}>{legendExpanded ? '▼' : '▲'}</span>
             </button>
-            
+
             {legendExpanded && (
-              <div style={{ 
-                padding: '1.25rem',
-                display: 'grid',
-                gridTemplateColumns: '1fr',
-                gap: '0.75rem',
-                maxHeight: '250px',
-                overflowY: 'auto'
-              }}>
-                {Object.entries(concessionDescriptions).map(([type, description]) => (
-                  <div key={type} style={{ 
-                    display: 'flex', 
+              <>
+                <div style={{
+                  padding: '1rem 1.25rem',
+                  borderBottom: '1px solid #e2e8f0'
+                }}>
+                  <label style={{
+                    display: 'flex',
                     alignItems: 'center',
-                    gap: '0.75rem',
-                    fontSize: '0.95rem'
+                    cursor: 'pointer',
+                    fontSize: '0.95rem',
+                    fontWeight: 600,
+                    color: '#0f172a'
                   }}>
-                    <div style={{ 
-                      width: '16px', 
-                      height: '16px', 
-                      borderRadius: '50%', 
-                      background: iconColors[type as keyof typeof iconColors] || iconColors.default,
-                      flexShrink: 0,
-                      border: '2px solid white',
-                      boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
-                    }}></div>
-                    <span style={{ color: '#0f172a' }}>
-                      <strong>{type}</strong> - {description}
-                    </span>
-                  </div>
-                ))}
-              </div>
+                    <input
+                      type="checkbox"
+                      checked={colorblindMode}
+                      onChange={toggleColorblindMode}
+                      style={{
+                        marginRight: '0.75rem',
+                        width: '18px',
+                        height: '18px',
+                        cursor: 'pointer'
+                      }}
+                    />
+                    <div>
+                      <div>🎨 Tryb dla daltonistów</div>
+                      <div style={{ fontSize: '0.8rem', color: '#64748b', fontWeight: 400, marginTop: '0.25rem' }}>
+                        Paleta Wong/Tol - znaczniki i legendy
+                      </div>
+                    </div>
+                  </label>
+                </div>
+
+                <div style={{
+                  padding: '1.25rem',
+                  display: 'grid',
+                  gridTemplateColumns: '1fr',
+                  gap: '0.75rem',
+                  maxHeight: '250px',
+                  overflowY: 'auto'
+                }}>
+                  {Object.entries(concessionDescriptions).map(([type, description]) => (
+                    <div key={type} style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '0.75rem',
+                      fontSize: '0.95rem'
+                    }}>
+                      <div style={{
+                        width: '16px',
+                        height: '16px',
+                        borderRadius: '50%',
+                        background: currentColors[type] || currentColors
+                        ['default'],
+                        flexShrink: 0,
+                        border: '2px solid white',
+                        boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+                      }}></div>
+                      <span style={{ color: '#0f172a' }}>
+                        <strong>{type}</strong> - {description}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </>
             )}
           </div>
         </div>

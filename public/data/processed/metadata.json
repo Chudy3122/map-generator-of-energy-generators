@@ -1,12 +1,15 @@
 {
-  "generatedAt": "2025-09-30T07:10:36.737Z",
-  "totalRecords": 7925,
+  "generatedAt": "2025-10-10T07:22:59.211Z",
+  "totalRecords": 11992,
   "counts": {
-    "mioze": 7352,
-    "concessions": 370,
-    "operators": 203
+    "koncesje_w_zakresie_innym_niz_paliwa_ciekle.json": 3167,
+    "rejestr_wytworców_energii_w_malej_instalacji.json": 7883,
+    "inf_prezensa_ure_2025.json": 464,
+    "rekompensaty_2023_wykaz.json": 97,
+    "operatorzy_systemow_elektroenergetycznych.json": 203,
+    "lista_sprzedawcow_zobowiazanych.json": 178
   },
-  "cacheSize": 13927,
-  "processingTimeSeconds": 70570,
-  "locationDictionarySize": 308
+  "cacheSize": 18628,
+  "processingTimeSeconds": 486,
+  "locationDictionarySize": 314
 }

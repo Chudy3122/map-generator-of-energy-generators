@@ -1,0 +1,1651 @@
+[
+  {
+    "id": "CONSUMER_1_0",
+    "name": "\"Apis\" Sp. z o.o. duży",
+    "address": "ul. Kaliska 11",
+    "postalCode": "87-860",
+    "city": "Chodecz",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "8882736166",
+    "coordinates": [
+      52.404322491819606,
+      19.03583305856858
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_2_1",
+    "name": "\"Hanke Tissue\" Sp. z o.o. duży",
+    "address": "ul. Fabryczna 1",
+    "postalCode": "66-470",
+    "city": "Kostrzyn nad Odrą",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5980009201",
+    "coordinates": [
+      52.588824565513185,
+      14.647411597958447
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_3_2",
+    "name": "\"MAHLE\" POLSKA Sp. z o.o. duży",
+    "address": "ul. Mahle 6",
+    "postalCode": "63-700",
+    "city": "Krotoszyn",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6462353144",
+    "coordinates": [
+      51.69814259061143,
+      17.437481309326806
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_4_3",
+    "name": "\"Packprofil\" sp. z o.o. duży",
+    "address": "ul. Zakładowa 3",
+    "postalCode": "47-110",
+    "city": "Kolonowskie",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "7560003799",
+    "coordinates": [
+      50.63812453019049,
+      18.33249923628382
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_5_4",
+    "name": "\"SOFIDEL POLAND\" Sp. z o.o. duży",
+    "address": "ul. Mleczarska 31",
+    "postalCode": "06-400",
+    "city": "Ciechanów",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5252150859",
+    "coordinates": [
+      52.880999335675035,
+      20.619517097952958
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_6_5",
+    "name": "\"Victaulic Polska\" Sp. z o.o. duży",
+    "address": "ul. Niepodległości 8",
+    "postalCode": "66-530",
+    "city": "Drezdenko",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "9511892636",
+    "coordinates": [
+      52.84210290628276,
+      15.830623314172632
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_7_6",
+    "name": "ALCHEMIA S.A. duży",
+    "address": "Al. Jerozolimskie 92",
+    "postalCode": "00-807",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "7470006096",
+    "coordinates": [
+      52.229670035235344,
+      21.011807961314116
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_8_7",
+    "name": "ALUFORM Sp. z o.o. duży",
+    "address": "ul. Strefowa 4",
+    "postalCode": "43-109",
+    "city": "Tychy",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6462864614",
+    "coordinates": [
+      50.135755347342766,
+      19.012343746881424
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_9_8",
+    "name": "ALUMETAL POLAND Sp. z o.o. duży",
+    "address": "ul. Przemysłowa 8",
+    "postalCode": "67-100",
+    "city": "Nowa Sól",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5492338255",
+    "coordinates": [
+      51.801958904422996,
+      15.706422537169082
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_10_9",
+    "name": "ANWIL S.A. duży",
+    "address": "ul. Toruńska 222",
+    "postalCode": "87-805",
+    "city": "Włocławek",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "8880004938",
+    "coordinates": [
+      52.647695987198624,
+      19.06755288382233
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_11_10",
+    "name": "Apis Fijałkowski, Bloch sp.k. średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "8881126359",
+    "coordinates": [
+      52.23051200219001,
+      21.012277728324243
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_12_11",
+    "name": "ArcelorMittal Poland Spółka Akcyjna duży",
+    "address": "Al. Józefa Piłsudskiego 92",
+    "postalCode": "41-308",
+    "city": "Dąbrowa Górnicza",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6342463083",
+    "coordinates": [
+      50.32745406097803,
+      19.19471410888946
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_13_12",
+    "name": "ArcelorMittal Warszawa Sp. z o.o. duży",
+    "address": "ul. Kasprowicza 132",
+    "postalCode": "01-949",
+    "city": "Warszawa",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "1180016775",
+    "coordinates": [
+      52.230239768497455,
+      21.012517417670736
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_14_13",
+    "name": "Arctic Paper Kostrzyn S.A. duży",
+    "address": "ul. Fabryczna 1",
+    "postalCode": "66-470",
+    "city": "Kostrzyn nad Odrą",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5980003701",
+    "coordinates": [
+      52.5900455171909,
+      14.64800254729312
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_15_14",
+    "name": "BATERPOL S.A. duży",
+    "address": "ul. Obrońców Westerplatte 108",
+    "postalCode": "40-335",
+    "city": "Katowice",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6271267706",
+    "coordinates": [
+      50.26496161464215,
+      19.024552380466663
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_16_15",
+    "name": "Benda - Lutz Skawina Sp. z o.o. średni",
+    "address": "ul. Józefa Piłsudskiego 23",
+    "postalCode": "32-050",
+    "city": "Skawina",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6790004827",
+    "coordinates": [
+      52.02474733225325,
+      21.13581113800482
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_17_16",
+    "name": "BGH Polska Sp. z o. o. średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "7122705604",
+    "coordinates": [
+      52.23033308965834,
+      21.012003468867448
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_18_17",
+    "name": "BREMBO POLAND Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5252195885",
+    "coordinates": [
+      52.22905529283789,
+      21.013060211259788
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_19_18",
+    "name": "Celsa Huta Ostrowiec Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5272312319",
+    "coordinates": [
+      52.22970896582894,
+      21.01301786921084
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_20_19",
+    "name": "CMC Poland sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6490001173",
+    "coordinates": [
+      52.230206633455275,
+      21.012219591009828
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_21_20",
+    "name": "COGNOR S.A. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "1181234296",
+    "coordinates": [
+      52.23014679270101,
+      21.012442583505187
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_22_21",
+    "name": "Eurometal S.A. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "8652230687",
+    "coordinates": [
+      52.22994670171451,
+      21.01310198633385
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_23_22",
+    "name": "EXTRAL SP. ZO.O. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5342375148",
+    "coordinates": [
+      52.22934875916329,
+      21.012430564825937
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_24_23",
+    "name": "FABRYKA ARMATUR \"JAFAR\" S.A duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6850010620",
+    "coordinates": [
+      52.229957838699725,
+      21.011506434201184
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_25_24",
+    "name": "Fabryka Papieru Czerwonak Sp. z o.o. średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "7771022658",
+    "coordinates": [
+      52.22893479315839,
+      21.01188690509995
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_26_25",
+    "name": "Fabryka Papieru i Tektury Beskidy Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5512012888",
+    "coordinates": [
+      52.230120053272564,
+      21.01291279888987
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_27_26",
+    "name": "Fabryka Papieru KACZORY Sp. z o. o. średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "7641004426",
+    "coordinates": [
+      52.22918900969999,
+      21.01170617047101
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_28_27",
+    "name": "FANSULD Sp. z o.o. średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6580001627",
+    "coordinates": [
+      52.2297941172606,
+      21.011479258352182
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_29_28",
+    "name": "Fenix Metals Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "8671933792",
+    "coordinates": [
+      52.23002633948604,
+      21.012912906467974
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_30_29",
+    "name": "FERREX Sp. z o.o. średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "7820006146",
+    "coordinates": [
+      52.22917032597775,
+      21.01218201029415
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_31_30",
+    "name": "Filar Fijałkowscy Sp. j. średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6661003530",
+    "coordinates": [
+      52.22900250266765,
+      21.01162894509118
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_32_31",
+    "name": "Głuchołaskie Zakłady Papiernicze Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "7551564127",
+    "coordinates": [
+      52.22877490662897,
+      21.01216134820053
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_33_32",
+    "name": "Gränges Konin Spółka Akcyjna duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5250003551",
+    "coordinates": [
+      52.22968150473754,
+      21.012306118647807
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_34_33",
+    "name": "GRIGEO TISSUE Sp. z o. o. średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5273070137",
+    "coordinates": [
+      52.22891895438493,
+      21.011930478457327
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_35_34",
+    "name": "Grupa Azoty Spółka Akcyjna duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "8730006829",
+    "coordinates": [
+      52.22888555853718,
+      21.01161577972293
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_36_35",
+    "name": "Grupa Azoty Zakłady Azotowe \"PUŁAWY\" S.A. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "7160001822",
+    "coordinates": [
+      52.230221334786165,
+      21.013192023028182
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_37_36",
+    "name": "Grupa Azoty Zakłady Azotowe Kędzierzyn S.A. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "7490005094",
+    "coordinates": [
+      52.22917637184631,
+      21.01182069059632
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_38_37",
+    "name": "Grupa Azoty Zakłady Chemiczne POLICE S.A. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "8510205573",
+    "coordinates": [
+      52.229257297785345,
+      21.01164467039513
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_39_38",
+    "name": "Grupa Azoty Zakłady Fosforowe Gdańsk Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5830001675",
+    "coordinates": [
+      52.229716872987815,
+      21.013062589452517
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_40_39",
+    "name": "Grupa Kęty Spółka Akcyjna duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5490001468",
+    "coordinates": [
+      52.229821306885015,
+      21.012811289616504
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_41_40",
+    "name": "Huta Bankowa Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6291328871",
+    "coordinates": [
+      52.23046572178275,
+      21.012257394443246
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_42_41",
+    "name": "Huta Cynku MIASTECZKO ŚLĄSKIE S.A. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6450005934",
+    "coordinates": [
+      52.22979613281699,
+      21.012650822900646
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_43_42",
+    "name": "HUTA ŁAZISKA S.A. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6350000469",
+    "coordinates": [
+      52.22940115651017,
+      21.013193688443145
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_44_43",
+    "name": "Huta MAŁAPANEW Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "9910217818",
+    "coordinates": [
+      52.23050725721662,
+      21.01197925454067
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_45_44",
+    "name": "HYDRO - VACUUM S.A. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "8760203813",
+    "coordinates": [
+      52.228920883858194,
+      21.012462761142988
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_46_45",
+    "name": "HYDRO EXTRUSION POLAND SP. Z O.O. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "7630003558",
+    "coordinates": [
+      52.23023059300808,
+      21.011998467074626
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_47_46",
+    "name": "ICT Poland Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5992536573",
+    "coordinates": [
+      52.229941891763396,
+      21.011926711987243
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_48_47",
+    "name": "KGHM Polska Miedź S.A. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6920000013",
+    "coordinates": [
+      52.229245204131814,
+      21.011587407142752
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_49_48",
+    "name": "KRAKODLEW SPÓŁKA AKCYJNA średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6781010225",
+    "coordinates": [
+      52.23023747779183,
+      21.012471450103114
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_50_49",
+    "name": "Leszczyńska Fabryka Pomp Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6970010829",
+    "coordinates": [
+      52.2305690794324,
+      21.012866174555448
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_51_50",
+    "name": "Malta-Decor Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "7010353287",
+    "coordinates": [
+      52.22872151406978,
+      21.011425728017247
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_52_51",
+    "name": "METALPOL WĘGIERSKA GÓRKA Sp. z o.o. średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5471880753",
+    "coordinates": [
+      52.229570053146645,
+      21.01134728454766
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_53_52",
+    "name": "Metsa Tissue Krapkowice Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5252468691",
+    "coordinates": [
+      52.22908544842428,
+      21.011795734724426
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_54_53",
+    "name": "MM Kwidzyn Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5810004587",
+    "coordinates": [
+      52.22879266220194,
+      21.01192667111093
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_55_54",
+    "name": "Mondi Świecie Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5590000505",
+    "coordinates": [
+      52.23003829437855,
+      21.012224036220704
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_56_55",
+    "name": "NICROMET Sp. z o.o. S.K duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6521721863",
+    "coordinates": [
+      52.229516730839755,
+      21.011225801511674
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_57_56",
+    "name": "NPA SKAWINA Sp. z o. o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "9442277476",
+    "coordinates": [
+      52.230626033809635,
+      21.011429053077283
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_58_57",
+    "name": "Odlewnia \"ELZAMECH\" Sp. z o.o. średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5781002685",
+    "coordinates": [
+      52.229806174199965,
+      21.013009447365263
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_59_58",
+    "name": "Odlewnia Kutno Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5252590647",
+    "coordinates": [
+      52.22957032476604,
+      21.01150235185128
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_60_59",
+    "name": "Odlewnia Tarnów Sp. z o.o. średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "9930471170",
+    "coordinates": [
+      52.22966381993183,
+      21.01299695441727
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_61_60",
+    "name": "Odlewnia Zawiercie S.A. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6490000883",
+    "coordinates": [
+      52.22984668883977,
+      21.012785712416438
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_62_61",
+    "name": "ODLEWNIA ŻELIWA \"DRAWSKI\" S.A. średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "7630003251",
+    "coordinates": [
+      52.22962949206018,
+      21.01239869194312
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_63_62",
+    "name": "ODLEWNIA ŻELIWA SIMIŃSKI-ORDON S.K.A. średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5731011937",
+    "coordinates": [
+      52.22879512326926,
+      21.01244797521724
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_64_63",
+    "name": "Orion Engineered Carbons Sp. z o.o. średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5272659684",
+    "coordinates": [
+      52.22983886326577,
+      21.01133471566883
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_65_64",
+    "name": "ORLEN Południe S.A. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6280000977",
+    "coordinates": [
+      52.22926901073387,
+      21.0117985437372
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_66_65",
+    "name": "ORLEN S.A. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "7740001454",
+    "coordinates": [
+      52.229687289915475,
+      21.01145062376014
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_67_66",
+    "name": "ORZEŁ BIAŁY S.A. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6260003139",
+    "coordinates": [
+      52.230446891964604,
+      21.01128501828604
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_68_67",
+    "name": "PCC Rokita S.A. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "9170000015",
+    "coordinates": [
+      52.228717173926995,
+      21.012280813949257
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_69_68",
+    "name": "PGO Spółka Akcyjna duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "7712374309",
+    "coordinates": [
+      52.22929090545583,
+      21.011272795809152
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_70_69",
+    "name": "Poland Smelting Technologies \"POLST\" Sp. z o.o. średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "8862694430",
+    "coordinates": [
+      52.23037881641391,
+      21.01195920673359
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_71_70",
+    "name": "Pol-Mak Iława sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "7812015774",
+    "coordinates": [
+      52.22897907292621,
+      21.01206014154636
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_72_71",
+    "name": "PPH Eko-Świat Śliwakowski Jarosław duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5730010574",
+    "coordinates": [
+      52.22995315540359,
+      21.012311615323927
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_73_72",
+    "name": "Producent Wyrobów Papierniczych Jack-Pol Sp. z o.o. średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "9121769336",
+    "coordinates": [
+      52.22964943035176,
+      21.012976444136182
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_74_73",
+    "name": "Mirosław Laszko średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5990105550",
+    "coordinates": [
+      52.229066064293264,
+      21.011648167925678
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_75_74",
+    "name": "QEMETICA SILICATES S.A. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "9240004491",
+    "coordinates": [
+      52.22958705021514,
+      21.01175798139431
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_76_75",
+    "name": "Qemetica Soda Polska Spółka Akcyjna duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5252382127",
+    "coordinates": [
+      52.22939728383612,
+      21.012625121123143
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_77_76",
+    "name": "Rafineria Gdańska Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5832850390",
+    "coordinates": [
+      52.22926058281594,
+      21.012245859012147
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_78_77",
+    "name": "Saint-Gobain Construction Products Polska Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5220101585",
+    "coordinates": [
+      52.229310233428116,
+      21.012565082499012
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_79_78",
+    "name": "Schumacher Packaging Zakład Grudziądz Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5591954448",
+    "coordinates": [
+      52.228766848045865,
+      21.012787500710296
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_80_79",
+    "name": "Solvay Poland Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5993164783",
+    "coordinates": [
+      52.22893833544736,
+      21.011725805092667
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_81_80",
+    "name": "SPÓŁKA AKCYJNA ODLEWNIE POLSKIE duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6640005475",
+    "coordinates": [
+      52.230626744888575,
+      21.011899313565575
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_82_81",
+    "name": "STALPRODUKT S.A. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "8680000775",
+    "coordinates": [
+      52.23061366713612,
+      21.012303191732713
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_83_82",
+    "name": "Stora Enso Narew Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5260200514",
+    "coordinates": [
+      52.23035185480464,
+      21.011894652759548
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_84_83",
+    "name": "Stora Enso Poland Spółka Akcyjna duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "7580000692",
+    "coordinates": [
+      52.23031691137816,
+      21.012352327039952
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_85_84",
+    "name": "Teksid Iron Poland Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5482349926",
+    "coordinates": [
+      52.230214745146405,
+      21.0113023034363
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_86_85",
+    "name": "Tektura Opakowania Papier SA średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6460323966",
+    "coordinates": [
+      52.230530973697725,
+      21.012656697532023
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_87_86",
+    "name": "TERIEL Sp. z o.o. średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6131457022",
+    "coordinates": [
+      52.22972630755808,
+      21.01302126652101
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_88_87",
+    "name": "Umicore Battery Materials Poland Sp. z o. o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "8992847719",
+    "coordinates": [
+      52.230246538649226,
+      21.011657766189465
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_89_88",
+    "name": "URSA POLSKA Sp. z o.o. średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5341413645",
+    "coordinates": [
+      52.22884913649847,
+      21.012862280968882
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_90_89",
+    "name": "Velvet Care Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5213207147",
+    "coordinates": [
+      52.23037237308621,
+      21.01267111848914
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_91_90",
+    "name": "Walcownia Metali \"Dziedzice\" Spółka Akcyjna duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6521167160",
+    "coordinates": [
+      52.22912454980723,
+      21.012387577516623
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_92_91",
+    "name": "Walcownie Ostrowieckie WOST S.A. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6612371452",
+    "coordinates": [
+      52.22977220748071,
+      21.012982511994398
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_93_92",
+    "name": "WARTER Wojciech Rychlik Spółka komandytowa średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "5372389379",
+    "coordinates": [
+      52.229797370267605,
+      21.01304944999875
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_94_93",
+    "name": "WEPA Piechowice Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6111003358",
+    "coordinates": [
+      52.22963654792751,
+      21.01246883669886
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_95_94",
+    "name": "Zakład Metalurgiczny \"WSK Rzeszów\" Sp. z o.o. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "8133378658",
+    "coordinates": [
+      52.2295850011001,
+      21.012770370280656
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_96_95",
+    "name": "Zakłady Górniczo-Hutnicze \"Bolesław\" S.A. duży",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6370102196",
+    "coordinates": [
+      52.22922025319231,
+      21.012243822315185
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  },
+  {
+    "id": "CONSUMER_97_96",
+    "name": "ZM SILESIA Spółka Akcyjna średni",
+    "address": "",
+    "postalCode": "",
+    "city": "",
+    "province": "mazowieckie",
+    "installationType": "CONSUMER",
+    "nip": "6340135498",
+    "coordinates": [
+      52.229318067178596,
+      21.01133933142996
+    ],
+    "dataType": "CONSUMER",
+    "category": "consumer",
+    "subcategory": "Odbiorcy wg rekompensat"
+  }
+]

@@ -120,7 +120,6 @@ enum XMLType {
 
 type DataSource = 'uploaded' | 'preloaded' | 'combined';
 
-// === NOWA STRUKTURA ŹRÓDEŁ DANYCH ===
 type DataCategory = 'supplier' | 'consumer' | 'intermediary';
 
 interface DataSourceConfig {
@@ -136,27 +135,41 @@ interface DataSourceConfig {
 
 const defaultCenter: [number, number] = [52.0690, 19.4803];
 
-// === FUNKCJA TWORZENIA CUSTOM SVG IKON ===
-const createCustomIcon = (color: string): L.Icon => {
-  const svgIcon = `
-    <svg width="25" height="41" viewBox="0 0 25 41" xmlns="http://www.w3.org/2000/svg">
-      <path d="M12.5 0C5.6 0 0 5.6 0 12.5c0 8.4 12.5 28.5 12.5 28.5S25 20.9 25 12.5C25 5.6 19.4 0 12.5 0z" 
-            fill="${color}" 
-            stroke="#fff" 
-            stroke-width="1.5"/>
-      <circle cx="12.5" cy="12.5" r="6" fill="#fff" opacity="0.9"/>
-    </svg>
+// === FUNKCJA TWORZENIA CUSTOM IKON Z ETYKIETĄ ===
+const createCustomIconWithLabel = (color: string, label: string): L.DivIcon => {
+  const iconHtml = `
+    <div style="position: relative; width: 25px; height: 41px;">
+      <svg width="25" height="41" viewBox="0 0 25 41" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12.5 0C5.6 0 0 5.6 0 12.5c0 8.4 12.5 28.5 12.5 28.5S25 20.9 25 12.5C25 5.6 19.4 0 12.5 0z" 
+              fill="${color}" 
+              stroke="#fff" 
+              stroke-width="1.5"/>
+        <circle cx="12.5" cy="12.5" r="6" fill="#fff" opacity="0.9"/>
+      </svg>
+      <div style="
+        position: absolute;
+        top: -22px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: ${color};
+        color: white;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 10px;
+        font-weight: bold;
+        white-space: nowrap;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        border: 1px solid white;
+      ">${label}</div>
+    </div>
   `;
   
-  const iconUrl = 'data:image/svg+xml;base64,' + btoa(svgIcon);
-  
-  return new L.Icon({
-    iconUrl: iconUrl,
+  return new L.DivIcon({
+    html: iconHtml,
+    className: 'custom-marker-label',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    shadowSize: [41, 41]
+    popupAnchor: [1, -34]
   });
 };
 
@@ -176,69 +189,45 @@ const loadGeocodeCache = () => {
 const geocodeCache: Record<string, [number, number]> = loadGeocodeCache();
 const http = axiosRateLimit(axios.create(), { maxRequests: 1, perMilliseconds: 1000 });
 
-// === KOLORY NORMALNE ===
-const normalIconColors: Record<string, string> = {
-  'PVA': '#1E88E5',
-  'WOA': '#43A047',
-  'BGO': '#E53935',
-  'BGS': '#9C27B0',
-  'BGM': '#FFC107',
-  'WIL': '#FB8C00',
-  'WEE': '#FFC107',
-  'PCC': '#E53935',
-  'WCC': '#43A047',
-  'OEE': '#1E88E5',
-  'DEE': '#9C27B0',
-  'OPG': '#FB8C00',
-  'PPG': '#424242',
-  'DPG': '#FFD700',
-  'OCC': '#757575',
-  '15%': '#1E88E5',
-  '25%': '#E53935',
-  'OSDe': '#9C27B0',
-  'CONSUMER': '#00BCD4',
-  'SELLER': '#FF9800',
-  'default': '#757575'
+// === KOLORY - PALETA PAUL TOL (PRZYJAZNA DLA DALTONISTÓW) ===
+// Każdy typ ma unikalny kolor, który dobrze się odróżnia
+const iconColors: Record<string, string> = {
+  'PVA': '#4477AA',      // Niebieski
+  'WOA': '#66CCEE',      // Cyan
+  'BGO': '#228833',      // Zielony
+  'BGS': '#CCBB44',      // Żółty
+  'BGM': '#EE6677',      // Czerwony
+  'WIL': '#AA3377',      // Purpurowy
+  'WEE': '#BBBBBB',      // Jasnoszary
+  'PCC': '#EE7733',      // Pomarańczowy
+  'WCC': '#009988',      // Teal
+  'OEE': '#0077BB',      // Ciemnoniebieski
+  'DEE': '#CC3311',      // Ciemnoczerwony
+  'OPG': '#33BBEE',      // Jasny cyan
+  'PPG': '#000000',      // Czarny
+  'DPG': '#DDAA33',      // Złoty
+  'OCC': '#999933',      // Oliwkowy
+  '15%': '#882255',      // Wino
+  '25%': '#44AA99',      // Morski
+  'OSDe': '#117733',     // Ciemnozielony
+  'CONSUMER': '#88CCEE', // Błękitny
+  'SELLER': '#DDCC77',   // Beżowy
+  'default': '#777777'   // Szary
 };
 
-// === KOLORY DLA DALTONISTÓW - PALETA WONG/TOL ===
-const colorblindIconColors: Record<string, string> = {
-  'PVA': '#0173B2',
-  'WOA': '#029E73',
-  'BGO': '#DE8F05',
-  'BGS': '#CC78BC',
-  'BGM': '#ECE133',
-  'WIL': '#56B4E9',
-  'WEE': '#F0E442',
-  'PCC': '#D55E00',
-  'WCC': '#009E73',
-  'OEE': '#0173B2',
-  'DEE': '#CC79A7',
-  'OPG': '#E69F00',
-  'PPG': '#000000',
-  'DPG': '#F0E442',
-  'OCC': '#949494',
-  '15%': '#56B4E9',
-  '25%': '#D55E00',
-  'OSDe': '#CC79A7',
-  'CONSUMER': '#56B4E9',
-  'SELLER': '#E69F00',
-  'default': '#949494'
-};
-
-// === FUNKCJA TWORZENIA IKON Z CUSTOM SVG ===
-const createIconsFromColors = (colorMap: Record<string, string>): Record<string, L.Icon> => {
-  const icons: Record<string, L.Icon> = {};
+// === FUNKCJA TWORZENIA IKON Z ETYKIETAMI ===
+const createIconsWithLabels = (colorMap: Record<string, string>): Record<string, L.DivIcon> => {
+  const icons: Record<string, L.DivIcon> = {};
   
   Object.entries(colorMap).forEach(([type, color]) => {
-    icons[type] = createCustomIcon(color);
+    icons[type] = createCustomIconWithLabel(color, type);
   });
   
   return icons;
 };
 
-// === PALETY KOLORÓW UI ===
-const normalTheme = {
+// === PALETA KOLORÓW UI ===
+const theme = {
   headerGradient: 'linear-gradient(135deg, #0ea5e9 0%, #0284c7 50%, #0369a1 100%)',
   primary: '#0ea5e9',
   primaryDark: '#0284c7',
@@ -251,21 +240,6 @@ const normalTheme = {
   selectedBg: '#e0f2fe',
   lightBg: '#f0f9ff',
   progressBar: 'linear-gradient(90deg, #0ea5e9, #0284c7)',
-};
-
-const colorblindTheme = {
-  headerGradient: 'linear-gradient(135deg, #0173B2 0%, #029E73 50%, #56B4E9 100%)',
-  primary: '#0173B2',
-  primaryDark: '#029E73',
-  primaryLight: '#56B4E9',
-  accent: '#0173B2',
-  background: '#E8F4F8',
-  border: '#0173B2',
-  borderLight: '#B8D4E8',
-  buttonGradient: 'linear-gradient(135deg, #0173B2, #029E73)',
-  selectedBg: '#D4E9F7',
-  lightBg: '#E8F4F8',
-  progressBar: 'linear-gradient(90deg, #0173B2, #029E73)',
 };
 
 const concessionDescriptions: Record<string, string> = {
@@ -467,105 +441,78 @@ function App() {
   const [sourcesPanelExpanded, setSourcesPanelExpanded] = useState<boolean>(true);
   const [filtersPanelExpanded, setFiltersPanelExpanded] = useState<boolean>(true);
 
-  // Rozwinięcie kategorii
   const [supplierExpanded, setSupplierExpanded] = useState<boolean>(true);
   const [consumerExpanded, setConsumerExpanded] = useState<boolean>(true);
   const [intermediaryExpanded, setIntermediaryExpanded] = useState<boolean>(true);
 
-  const [colorblindMode, setColorblindMode] = useState<boolean>(() => {
-    const saved = localStorage.getItem('colorblindMode');
-    return saved === 'true';
-  });
-
-  // === NOWA STRUKTURA ŹRÓDEŁ DANYCH ===
   const [dataSources, setDataSources] = useState<DataSourceConfig[]>([
-  // DOSTAWCY - Duzi dostawcy (tylko koncesje)
-  {
-    id: 'supplier-large-koncesje',
-    name: 'Koncesje URE',
-    filename: 'koncesje_w_zakresie_innym_niz_paliwa_ciekle.json',
-    description: 'Duzi dostawcy - koncesje',
-    enabled: true,
-    category: 'supplier',
-    subcategory: 'Duzi dostawcy',
-    dataType: 'CONCESSION'
-  },
-  
-  // DOSTAWCY - Mali dostawcy
-  {
-    id: 'supplier-small-mioze',
-    name: 'MIOZE',
-    filename: 'rejestr_wytworców_energii_w_malej_instalacji.json',
-    description: 'Mali dostawcy - mikro instalacje',
-    enabled: true,
-    category: 'supplier',
-    subcategory: 'Mali dostawcy',
-    dataType: 'MIOZE'
-  },
-  
-  // ODBIORCY - Duzi odbiorcy (z folderu "Duży odbiorcy")
-  {
-    id: 'consumer-large',
-    name: 'Duzi odbiorcy',
-    filename: 'inf_prezensa_ure_2025.json',
-    description: 'Informacja Prezesa URE 2025',
-    enabled: true,
-    category: 'consumer',
-    subcategory: 'Duzi odbiorcy',
-    dataType: 'CONSUMER'
-  },
-  
-  // ODBIORCY - Odbiorcy wg rekompensat
-  {
-    id: 'consumer-compensation',
-    name: 'Odbiorcy wg rekompensat',
-    filename: 'rekompensaty_2023_wykaz.json',
-    description: 'Wykaz rekompensat 2023',
-    enabled: true,
-    category: 'consumer',
-    subcategory: 'Odbiorcy wg rekompensat',
-    dataType: 'CONSUMER'
-  },
-  
-  // POŚREDNICY - Operatorzy systemów
-  {
-    id: 'intermediary-operators',
-    name: 'Operatorzy systemów',
-    filename: 'operatorzy_systemow_elektroenergetycznych.json',
-    description: 'Operatorzy systemów elektroenergetycznych',
-    enabled: true,
-    category: 'intermediary',
-    subcategory: 'Operatorzy systemów',
-    dataType: 'OPERATOR'
-  },
-  
-  // POŚREDNICY - Sprzedawcy zobowiązani
-  {
-    id: 'intermediary-sellers',
-    name: 'Sprzedawcy zobowiązani',
-    filename: 'lista_sprzedawcow_zobowiazanych.json',
-    description: 'Lista sprzedawców zobowiązanych',
-    enabled: true,
-    category: 'intermediary',
-    subcategory: 'Sprzedawcy zobowiązani',
-    dataType: 'SELLER'
-  }
-]);
+    {
+      id: 'supplier-large-koncesje',
+      name: 'Koncesje URE',
+      filename: 'koncesje_w_zakresie_innym_niz_paliwa_ciekle.json',
+      description: 'Duzi dostawcy - koncesje',
+      enabled: true,
+      category: 'supplier',
+      subcategory: 'Duzi dostawcy',
+      dataType: 'CONCESSION'
+    },
+    {
+      id: 'supplier-small-mioze',
+      name: 'MIOZE',
+      filename: 'rejestr_wytworców_energii_w_malej_instalacji.json',
+      description: 'Mali dostawcy - mikro instalacje',
+      enabled: true,
+      category: 'supplier',
+      subcategory: 'Mali dostawcy',
+      dataType: 'MIOZE'
+    },
+    {
+      id: 'consumer-large',
+      name: 'Duzi odbiorcy',
+      filename: 'inf_prezensa_ure_2025.json',
+      description: 'Informacja Prezesa URE 2025',
+      enabled: true,
+      category: 'consumer',
+      subcategory: 'Duzi odbiorcy',
+      dataType: 'CONSUMER'
+    },
+    {
+      id: 'consumer-compensation',
+      name: 'Odbiorcy wg rekompensat',
+      filename: 'rekompensaty_2023_wykaz.json',
+      description: 'Wykaz rekompensat 2023',
+      enabled: true,
+      category: 'consumer',
+      subcategory: 'Odbiorcy wg rekompensat',
+      dataType: 'CONSUMER'
+    },
+    {
+      id: 'intermediary-operators',
+      name: 'Operatorzy systemów',
+      filename: 'operatorzy_systemow_elektroenergetycznych.json',
+      description: 'Operatorzy systemów elektroenergetycznych',
+      enabled: true,
+      category: 'intermediary',
+      subcategory: 'Operatorzy systemów',
+      dataType: 'OPERATOR'
+    },
+    {
+      id: 'intermediary-sellers',
+      name: 'Sprzedawcy zobowiązani',
+      filename: 'lista_sprzedawcow_zobowiazanych.json',
+      description: 'Lista sprzedawców zobowiązanych',
+      enabled: true,
+      category: 'intermediary',
+      subcategory: 'Sprzedawcy zobowiązani',
+      dataType: 'SELLER'
+    }
+  ]);
 
-  const theme = colorblindMode ? colorblindTheme : normalTheme;
-  const currentColors = colorblindMode ? colorblindIconColors : normalIconColors;
-
+  // USUNIĘTO: colorblindMode, toggleColorblindMode
+  // Tworzymy ikony z etykietami raz przy montowaniu
   const currentIcons = React.useMemo(() => {
-    return createIconsFromColors(currentColors);
-  }, [colorblindMode]);
-
-  useEffect(() => {
-    localStorage.setItem('colorblindMode', colorblindMode.toString());
-  }, [colorblindMode]);
-
-  const toggleColorblindMode = () => {
-    setColorblindMode(prev => !prev);
-  };
+    return createIconsWithLabels(iconColors);
+  }, []);
 
   const toggleDataSource = (id: string) => {
     setDataSources(prev => prev.map(source =>
@@ -679,12 +626,10 @@ function App() {
   const provinces = Array.from(new Set(installations.map(i => i.installationProvince || i.province))).sort();
   const installationTypes = Array.from(new Set(installations.map(i => i.installationType))).sort();
 
-  // Grupowanie źródeł według kategorii
   const supplierSources = dataSources.filter(s => s.category === 'supplier');
   const consumerSources = dataSources.filter(s => s.category === 'consumer');
   const intermediarySources = dataSources.filter(s => s.category === 'intermediary');
 
-  // Grupowanie według podkategorii
   const supplierBySubcategory = supplierSources.reduce((acc, source) => {
     if (!acc[source.subcategory]) acc[source.subcategory] = [];
     acc[source.subcategory].push(source);
@@ -753,7 +698,7 @@ function App() {
           padding: '1.25rem'
         }}>
 
-          {/* === NOWY PANEL ŹRÓDEŁ DANYCH === */}
+          {/* PANEL ŹRÓDEŁ DANYCH */}
           <div style={{ marginBottom: '1.25rem' }}>
             <button
               onClick={() => setSourcesPanelExpanded(!sourcesPanelExpanded)}
@@ -1058,7 +1003,7 @@ function App() {
                 fontSize: '1rem',
                 fontWeight: 600,
                 transition: 'all 0.3s',
-                boxShadow: loading ? 'none' : `0 4px 6px ${colorblindMode ? 'rgba(1, 115, 178, 0.3)' : 'rgba(14, 165, 233, 0.3)'}`
+                boxShadow: loading ? 'none' : '0 4px 6px rgba(14, 165, 233, 0.3)'
               }}
             >
               {loading ? 'Wczytywanie...' : 'Wczytaj plik'}
@@ -1387,71 +1332,36 @@ function App() {
             </button>
 
             {legendExpanded && (
-              <>
-                <div style={{
-                  padding: '1rem 1.25rem',
-                  borderBottom: '1px solid #e2e8f0'
-                }}>
-                  <label style={{
+              <div style={{
+                padding: '1.25rem',
+                display: 'grid',
+                gridTemplateColumns: '1fr',
+                gap: '0.75rem',
+                maxHeight: '250px',
+                overflowY: 'auto'
+              }}>
+                {Object.entries(concessionDescriptions).map(([type, description]) => (
+                  <div key={type} style={{
                     display: 'flex',
                     alignItems: 'center',
-                    cursor: 'pointer',
-                    fontSize: '0.95rem',
-                    fontWeight: 600,
-                    color: '#0f172a'
+                    gap: '0.75rem',
+                    fontSize: '0.95rem'
                   }}>
-                    <input
-                      type="checkbox"
-                      checked={colorblindMode}
-                      onChange={toggleColorblindMode}
-                      style={{
-                        marginRight: '0.75rem',
-                        width: '18px',
-                        height: '18px',
-                        cursor: 'pointer'
-                      }}
-                    />
-                    <div>
-                      <div>🎨 Tryb dla daltonistów</div>
-                      <div style={{ fontSize: '0.8rem', color: '#64748b', fontWeight: 400, marginTop: '0.25rem' }}>
-                        Paleta Wong/Tol - znaczniki i legendy
-                      </div>
-                    </div>
-                  </label>
-                </div>
-
-                <div style={{
-                  padding: '1.25rem',
-                  display: 'grid',
-                  gridTemplateColumns: '1fr',
-                  gap: '0.75rem',
-                  maxHeight: '250px',
-                  overflowY: 'auto'
-                }}>
-                  {Object.entries(concessionDescriptions).map(([type, description]) => (
-                    <div key={type} style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '0.75rem',
-                      fontSize: '0.95rem'
-                    }}>
-                      <div style={{
-                        width: '16px',
-                        height: '16px',
-                        borderRadius: '50%',
-                        background: currentColors[type] || currentColors
-                        ['default'],
-                        flexShrink: 0,
-                        border: '2px solid white',
-                        boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
-                      }}></div>
-                      <span style={{ color: '#0f172a' }}>
-                        <strong>{type}</strong> - {description}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              </>
+                    <div style={{
+                      width: '16px',
+                      height: '16px',
+                      borderRadius: '50%',
+                      background: iconColors[type] || iconColors['default'],
+                      flexShrink: 0,
+                      border: '2px solid white',
+                      boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+                    }}></div>
+                    <span style={{ color: '#0f172a' }}>
+                      <strong>{type}</strong> - {description}
+                    </span>
+                  </div>
+                ))}
+              </div>
             )}
           </div>
         </div>

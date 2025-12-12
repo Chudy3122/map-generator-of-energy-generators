@@ -89,8 +89,10 @@ type Installation = {
   postalCode: string;
   city: string;
   province: string;
+  county?: string;
   installationCity?: string;
   installationProvince?: string;
+  installationCounty?: string;
   installationType: string;
   power?: number;
   registrationDate: string;
@@ -426,6 +428,7 @@ function App() {
   const [center] = useState<[number, number]>(defaultCenter);
   const [zoom] = useState<number>(6);
   const [filterProvince, setFilterProvince] = useState<string>("wszystkie");
+  const [filterCounty, setFilterCounty] = useState<string>("wszystkie");
   const [filterType, setFilterType] = useState<string>("wszystkie");
   const [searchTerm, setSearchTerm] = useState<string>("");
   const [progress, setProgress] = useState<number>(0);
@@ -612,7 +615,9 @@ function App() {
 
   const filteredInstallations = installations.filter(inst => {
     const province = inst.installationProvince || inst.province;
+    const county = inst.installationCounty || inst.county;
     const matchesProvince = filterProvince === "wszystkie" || province === filterProvince;
+    const matchesCounty = filterCounty === "wszystkie" || county === filterCounty;
     const matchesType = filterType === "wszystkie" || inst.installationType === filterType;
     const matchesDataType = dataType === "wszystkie" || inst.dataType === dataType;
     const matchesCategory = filterCategory === "wszystkie" || inst.category === filterCategory;
@@ -620,10 +625,14 @@ function App() {
     const matchesSearch = searchTerm === "" ||
       inst.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
       city.toLowerCase().includes(searchTerm.toLowerCase());
-    return matchesProvince && matchesType && matchesDataType && matchesCategory && matchesSearch;
+    return matchesProvince && matchesCounty && matchesType && matchesDataType && matchesCategory && matchesSearch;
   });
 
   const provinces = Array.from(new Set(installations.map(i => i.installationProvince || i.province))).sort();
+  const countiesSet = Array.from(new Set(installations.map(i => i.installationCounty || i.county).filter(c => c !== undefined)));
+  const nieznanyCounties = countiesSet.filter(c => c === 'nieznany');
+  const knownCounties = countiesSet.filter(c => c !== 'nieznany').sort();
+  const counties = [...nieznanyCounties, ...knownCounties];
   const installationTypes = Array.from(new Set(installations.map(i => i.installationType))).sort();
 
   const supplierSources = dataSources.filter(s => s.category === 'supplier');
@@ -1142,6 +1151,32 @@ function App() {
 
                 <div style={{ marginBottom: '1rem' }}>
                   <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.95rem', color: '#475569', fontWeight: 600 }}>
+                    Powiat:
+                  </label>
+                  <select
+                    value={filterCounty}
+                    onChange={(e) => setFilterCounty(e.target.value)}
+                    style={{
+                      width: '100%',
+                      padding: '0.75rem',
+                      background: 'white',
+                      border: '2px solid #cbd5e1',
+                      borderRadius: '8px',
+                      fontSize: '0.95rem',
+                      color: '#0f172a'
+                    }}
+                  >
+                    <option value="wszystkie">Wszystkie</option>
+                    {counties.map(county => (
+                      <option key={county} value={county}>
+                        {county === 'nieznany' ? '(nieznany)' : county}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                <div style={{ marginBottom: '1rem' }}>
+                  <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.95rem', color: '#475569', fontWeight: 600 }}>
                     Typ instalacji:
                   </label>
                   <select
@@ -1258,6 +1293,11 @@ function App() {
                           </p>
                           <p style={{ margin: '0.3rem 0' }}>
                             <strong>Lokalizacja:</strong> {installation.installationCity || installation.city}, woj. {installation.installationProvince || installation.province}
+                            {(installation.installationCounty || installation.county) && (
+                              <span style={{ display: 'block', fontSize: '0.85rem', color: '#64748b', marginTop: '0.1rem' }}>
+                                Powiat: {(installation.installationCounty || installation.county) === 'nieznany' ? '(nieznany)' : (installation.installationCounty || installation.county)}
+                              </span>
+                            )}
                           </p>
                           {installation.power && (
                             <p style={{ margin: '0.3rem 0' }}>

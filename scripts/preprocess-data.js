@@ -66,6 +66,54 @@ const WOJEWODZTWA_COORDINATES = {
   'zachodniopomorskie': [53.4252871, 14.5552673],
 };
 
+// === IMPORT MAPOWANIA MIEJSCOWOŚCI DO POWIATÓW ===
+// Importujemy funkcję z countyMapping.ts (konwertujemy z TS do JS)
+const countyMappingPath = path.join(__dirname, '../src/utils/countyMapping.ts');
+let CITY_TO_COUNTY = {};
+let getCountyForCity = () => 'nieznany';
+
+try {
+  const countyMappingContent = fs.readFileSync(countyMappingPath, 'utf8');
+
+  // Wyciągnij obiekt CITY_TO_COUNTY z pliku TS
+  const match = countyMappingContent.match(/export const CITY_TO_COUNTY: Record<string, string> = \{([\s\S]*?)\};/);
+  if (match) {
+    // Parsuj zawartość obiektu
+    const objectContent = match[1];
+    const lines = objectContent.split('\n');
+
+    for (const line of lines) {
+      const cityMatch = line.match(/'([^']+)':\s*'([^']+)'/);
+      if (cityMatch) {
+        CITY_TO_COUNTY[cityMatch[1]] = cityMatch[2];
+      }
+    }
+
+    console.log(`📍 Lokalizacji w słowniku: ${Object.keys(CITY_TO_COUNTY).length}\n`);
+  }
+
+  // Funkcja do pobierania powiatu
+  getCountyForCity = (city) => {
+    if (!city) return 'nieznany';
+    const normalizedCity = city.trim();
+
+    if (CITY_TO_COUNTY[normalizedCity]) {
+      return CITY_TO_COUNTY[normalizedCity];
+    }
+
+    // Case-insensitive fallback
+    const lowerCity = normalizedCity.toLowerCase();
+    const entry = Object.entries(CITY_TO_COUNTY).find(
+      ([key]) => key.toLowerCase() === lowerCity
+    );
+
+    return entry ? entry[1] : 'nieznany';
+  };
+} catch (err) {
+  console.error('⚠️  Nie można wczytać countyMapping.ts:', err.message);
+  console.log('   Kontynuuję bez mapowania powiatów\n');
+}
+
 // PEŁNY SŁOWNIK LOKALIZACJI
 const POLSKA_LOCATIONS = {
   'Warszawa': [52.2297, 21.0122],
@@ -520,15 +568,20 @@ async function processMIOZE(xmlPath, category, subcategory) {
       installationId
     );
     
+    const companyCity = reg.Miejscowosc[0];
+    const installationCity = city;
+
     processed.push({
       id: installationId,
       name: reg.Nazwa[0].trim(),
       address: reg.Adres[0],
       postalCode: reg.Kod[0],
-      city: reg.Miejscowosc[0],
+      city: companyCity,
       province: reg.Wojewodztwo[0],
-      installationCity: city,
+      county: getCountyForCity(companyCity),
+      installationCity: installationCity,
       installationProvince: province,
+      installationCounty: getCountyForCity(installationCity),
       installationType: reg.RodzajInstalacji[0],
       power: reg.MocEEInstalacji ? parseFloat(reg.MocEEInstalacji[0]) : null,
       registrationDate: reg.DataWpisu[0],
@@ -590,6 +643,7 @@ async function processConcessions(xmlPath, category, subcategory) {
       postalCode: con.Kod?.[0] || '',
       city: city,
       province: province,
+      county: getCountyForCity(city),
       installationType: con.RodzajKoncesji?.[0] || 'UNKNOWN',
       registrationDate: con.DataWydania?.[0] || '',
       validFrom: con.DataOd?.[0] || '',
@@ -655,6 +709,7 @@ async function processOperators(xmlPath, category, subcategory) {
       postalCode: op.Kod[0],
       city: city,
       province: province,
+      county: getCountyForCity(city),
       installationType: op.RodzajOperatora[0],
       operatorTypeDesc: op.PelnaNazwaRodzajuOperatora[0],
       registrationDate: op.DataWydania[0],
@@ -722,6 +777,7 @@ async function processConsumers(xmlPath, category, subcategory) {
       postalCode: con.KodPocztowy?.[0] || '',
       city: city,
       province: province,
+      county: getCountyForCity(city),
       installationType: 'CONSUMER',
       nip: con.NIP?.[0] || '',
       coordinates,
@@ -797,6 +853,7 @@ async function processSellers(xmlPath, category, subcategory) {
       postalCode: postalCode,
       city: city,
       province: province,
+      county: getCountyForCity(city),
       installationType: 'SELLER',
       coordinates,
       dataType: 'SELLER',

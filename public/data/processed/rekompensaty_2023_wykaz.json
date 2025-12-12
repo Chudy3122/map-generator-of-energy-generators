@@ -6,6 +6,7 @@
     "postalCode": "87-860",
     "city": "Chodecz",
     "province": "mazowieckie",
+    "county": "włocławski",
     "installationType": "CONSUMER",
     "nip": "8882736166",
     "coordinates": [
@@ -23,6 +24,7 @@
     "postalCode": "66-470",
     "city": "Kostrzyn nad Odrą",
     "province": "mazowieckie",
+    "county": "gorzowski",
     "installationType": "CONSUMER",
     "nip": "5980009201",
     "coordinates": [
@@ -40,6 +42,7 @@
     "postalCode": "63-700",
     "city": "Krotoszyn",
     "province": "mazowieckie",
+    "county": "krotoszyński",
     "installationType": "CONSUMER",
     "nip": "6462353144",
     "coordinates": [
@@ -57,6 +60,7 @@
     "postalCode": "47-110",
     "city": "Kolonowskie",
     "province": "mazowieckie",
+    "county": "strzelecki",
     "installationType": "CONSUMER",
     "nip": "7560003799",
     "coordinates": [
@@ -74,6 +78,7 @@
     "postalCode": "06-400",
     "city": "Ciechanów",
     "province": "mazowieckie",
+    "county": "ciechanowski",
     "installationType": "CONSUMER",
     "nip": "5252150859",
     "coordinates": [
@@ -91,6 +96,7 @@
     "postalCode": "66-530",
     "city": "Drezdenko",
     "province": "mazowieckie",
+    "county": "strzelecko-drezdenecki",
     "installationType": "CONSUMER",
     "nip": "9511892636",
     "coordinates": [
@@ -108,6 +114,7 @@
     "postalCode": "00-807",
     "city": "Warszawa",
     "province": "mazowieckie",
+    "county": "warszawski",
     "installationType": "CONSUMER",
     "nip": "7470006096",
     "coordinates": [
@@ -125,6 +132,7 @@
     "postalCode": "43-109",
     "city": "Tychy",
     "province": "mazowieckie",
+    "county": "tyski",
     "installationType": "CONSUMER",
     "nip": "6462864614",
     "coordinates": [
@@ -142,6 +150,7 @@
     "postalCode": "67-100",
     "city": "Nowa Sól",
     "province": "mazowieckie",
+    "county": "nowosolski",
     "installationType": "CONSUMER",
     "nip": "5492338255",
     "coordinates": [
@@ -159,6 +168,7 @@
     "postalCode": "87-805",
     "city": "Włocławek",
     "province": "mazowieckie",
+    "county": "włocławski",
     "installationType": "CONSUMER",
     "nip": "8880004938",
     "coordinates": [
@@ -176,6 +186,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "8881126359",
     "coordinates": [
@@ -193,6 +204,7 @@
     "postalCode": "41-308",
     "city": "Dąbrowa Górnicza",
     "province": "mazowieckie",
+    "county": "zawierciański",
     "installationType": "CONSUMER",
     "nip": "6342463083",
     "coordinates": [
@@ -210,6 +222,7 @@
     "postalCode": "01-949",
     "city": "Warszawa",
     "province": "mazowieckie",
+    "county": "warszawski",
     "installationType": "CONSUMER",
     "nip": "1180016775",
     "coordinates": [
@@ -227,6 +240,7 @@
     "postalCode": "66-470",
     "city": "Kostrzyn nad Odrą",
     "province": "mazowieckie",
+    "county": "gorzowski",
     "installationType": "CONSUMER",
     "nip": "5980003701",
     "coordinates": [
@@ -244,6 +258,7 @@
     "postalCode": "40-335",
     "city": "Katowice",
     "province": "mazowieckie",
+    "county": "katowicki",
     "installationType": "CONSUMER",
     "nip": "6271267706",
     "coordinates": [
@@ -261,6 +276,7 @@
     "postalCode": "32-050",
     "city": "Skawina",
     "province": "mazowieckie",
+    "county": "krakowski",
     "installationType": "CONSUMER",
     "nip": "6790004827",
     "coordinates": [
@@ -278,6 +294,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "7122705604",
     "coordinates": [
@@ -295,6 +312,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5252195885",
     "coordinates": [
@@ -312,6 +330,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5272312319",
     "coordinates": [
@@ -329,6 +348,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6490001173",
     "coordinates": [
@@ -346,6 +366,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "1181234296",
     "coordinates": [
@@ -363,6 +384,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "8652230687",
     "coordinates": [
@@ -380,6 +402,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5342375148",
     "coordinates": [
@@ -397,6 +420,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6850010620",
     "coordinates": [
@@ -414,6 +438,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "7771022658",
     "coordinates": [
@@ -431,6 +456,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5512012888",
     "coordinates": [
@@ -448,6 +474,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "7641004426",
     "coordinates": [
@@ -465,6 +492,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6580001627",
     "coordinates": [
@@ -482,6 +510,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "8671933792",
     "coordinates": [
@@ -499,6 +528,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "7820006146",
     "coordinates": [
@@ -516,6 +546,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6661003530",
     "coordinates": [
@@ -533,6 +564,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "7551564127",
     "coordinates": [
@@ -550,6 +582,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5250003551",
     "coordinates": [
@@ -567,6 +600,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5273070137",
     "coordinates": [
@@ -584,6 +618,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "8730006829",
     "coordinates": [
@@ -601,6 +636,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "7160001822",
     "coordinates": [
@@ -618,6 +654,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "7490005094",
     "coordinates": [
@@ -635,6 +672,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "8510205573",
     "coordinates": [
@@ -652,6 +690,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5830001675",
     "coordinates": [
@@ -669,6 +708,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5490001468",
     "coordinates": [
@@ -686,6 +726,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6291328871",
     "coordinates": [
@@ -703,6 +744,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6450005934",
     "coordinates": [
@@ -720,6 +762,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6350000469",
     "coordinates": [
@@ -737,6 +780,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "9910217818",
     "coordinates": [
@@ -754,6 +798,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "8760203813",
     "coordinates": [
@@ -771,6 +816,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "7630003558",
     "coordinates": [
@@ -788,6 +834,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5992536573",
     "coordinates": [
@@ -805,6 +852,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6920000013",
     "coordinates": [
@@ -822,6 +870,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6781010225",
     "coordinates": [
@@ -839,6 +888,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6970010829",
     "coordinates": [
@@ -856,6 +906,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "7010353287",
     "coordinates": [
@@ -873,6 +924,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5471880753",
     "coordinates": [
@@ -890,6 +942,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5252468691",
     "coordinates": [
@@ -907,6 +960,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5810004587",
     "coordinates": [
@@ -924,6 +978,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5590000505",
     "coordinates": [
@@ -941,6 +996,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6521721863",
     "coordinates": [
@@ -958,6 +1014,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "9442277476",
     "coordinates": [
@@ -975,6 +1032,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5781002685",
     "coordinates": [
@@ -992,6 +1050,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5252590647",
     "coordinates": [
@@ -1009,6 +1068,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "9930471170",
     "coordinates": [
@@ -1026,6 +1086,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6490000883",
     "coordinates": [
@@ -1043,6 +1104,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "7630003251",
     "coordinates": [
@@ -1060,6 +1122,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5731011937",
     "coordinates": [
@@ -1077,6 +1140,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5272659684",
     "coordinates": [
@@ -1094,6 +1158,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6280000977",
     "coordinates": [
@@ -1111,6 +1176,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "7740001454",
     "coordinates": [
@@ -1128,6 +1194,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6260003139",
     "coordinates": [
@@ -1145,6 +1212,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "9170000015",
     "coordinates": [
@@ -1162,6 +1230,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "7712374309",
     "coordinates": [
@@ -1179,6 +1248,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "8862694430",
     "coordinates": [
@@ -1196,6 +1266,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "7812015774",
     "coordinates": [
@@ -1213,6 +1284,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5730010574",
     "coordinates": [
@@ -1230,6 +1302,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "9121769336",
     "coordinates": [
@@ -1247,6 +1320,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5990105550",
     "coordinates": [
@@ -1264,6 +1338,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "9240004491",
     "coordinates": [
@@ -1281,6 +1356,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5252382127",
     "coordinates": [
@@ -1298,6 +1374,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5832850390",
     "coordinates": [
@@ -1315,6 +1392,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5220101585",
     "coordinates": [
@@ -1332,6 +1410,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5591954448",
     "coordinates": [
@@ -1349,6 +1428,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5993164783",
     "coordinates": [
@@ -1366,6 +1446,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6640005475",
     "coordinates": [
@@ -1383,6 +1464,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "8680000775",
     "coordinates": [
@@ -1400,6 +1482,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5260200514",
     "coordinates": [
@@ -1417,6 +1500,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "7580000692",
     "coordinates": [
@@ -1434,6 +1518,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5482349926",
     "coordinates": [
@@ -1451,6 +1536,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6460323966",
     "coordinates": [
@@ -1468,6 +1554,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6131457022",
     "coordinates": [
@@ -1485,6 +1572,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "8992847719",
     "coordinates": [
@@ -1502,6 +1590,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5341413645",
     "coordinates": [
@@ -1519,6 +1608,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5213207147",
     "coordinates": [
@@ -1536,6 +1626,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6521167160",
     "coordinates": [
@@ -1553,6 +1644,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6612371452",
     "coordinates": [
@@ -1570,6 +1662,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5372389379",
     "coordinates": [
@@ -1587,6 +1680,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6111003358",
     "coordinates": [
@@ -1604,6 +1698,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "8133378658",
     "coordinates": [
@@ -1621,6 +1716,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6370102196",
     "coordinates": [
@@ -1638,6 +1734,7 @@
     "postalCode": "",
     "city": "",
     "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6340135498",
     "coordinates": [

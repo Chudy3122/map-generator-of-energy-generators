@@ -39,7 +39,8 @@
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "preprocess": "node scripts/preprocess-data.js",
-    "prebuild": "npm run preprocess"
+    "fix-data": "node scripts/fix-by-coordinates.js && node scripts/fix-specific-cities.js",
+    "prebuild": "npm run preprocess && npm run fix-data"
   },
   "eslintConfig": {
     "extends": [

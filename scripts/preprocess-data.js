@@ -75,6 +75,11 @@ const countyMappingPath = path.join(__dirname, '../src/utils/countyMapping.ts');
 let CITY_TO_COUNTY = {};
 let getCountyForCity = () => 'nieznany';
 
+// === IMPORT MAPOWANIA MIEJSCOWOŚCI DO GMIN ===
+const municipalityMappingPath = path.join(__dirname, 'city-to-municipality-mapping.json');
+let CITY_TO_MUNICIPALITY = {};
+let getMunicipalityForCity = () => 'nieznana';
+
 try {
   const countyMappingContent = fs.readFileSync(countyMappingPath, 'utf8');
 
@@ -115,6 +120,37 @@ try {
 } catch (err) {
   console.error('⚠️  Nie można wczytać countyMapping.ts:', err.message);
   console.log('   Kontynuuję bez mapowania powiatów\n');
+}
+
+// Wczytaj mapowanie gmin
+try {
+  if (fs.existsSync(municipalityMappingPath)) {
+    CITY_TO_MUNICIPALITY = JSON.parse(fs.readFileSync(municipalityMappingPath, 'utf8'));
+    console.log(`🏘️  Gmin w słowniku: ${Object.keys(CITY_TO_MUNICIPALITY).length}\n`);
+
+    getMunicipalityForCity = (city) => {
+      if (!city) return 'nieznana';
+      const normalizedCity = city.trim();
+
+      if (CITY_TO_MUNICIPALITY[normalizedCity]) {
+        return CITY_TO_MUNICIPALITY[normalizedCity];
+      }
+
+      // Case-insensitive fallback
+      const lowerCity = normalizedCity.toLowerCase();
+      const entry = Object.entries(CITY_TO_MUNICIPALITY).find(
+        ([key]) => key.toLowerCase() === lowerCity
+      );
+
+      return entry ? entry[1] : 'nieznana';
+    };
+  } else {
+    console.log('⚠️  Brak pliku city-to-municipality-mapping.json');
+    console.log('   Uruchom najpierw: node scripts/build-city-to-municipality-mapping.js\n');
+  }
+} catch (err) {
+  console.error('⚠️  Nie można wczytać mapowania gmin:', err.message);
+  console.log('   Kontynuuję bez mapowania gmin\n');
 }
 
 // Funkcja do korygowania województwa na podstawie powiatu
@@ -211,18 +247,25 @@ const normalizeLocation = (city) => {
 
 async function geocodeAddress(city, province, address, postalCode, installationId) {
   const cacheKey = `${installationId}_${city}_${province}_${address}_${postalCode}`;
-  
+
   if (geocodeCache[cacheKey]) {
+    // Obsługa starego formatu cache (tylko współrzędne)
+    if (Array.isArray(geocodeCache[cacheKey])) {
+      const municipality = getMunicipalityForCity(city);
+      return { coordinates: geocodeCache[cacheKey], municipality };
+    }
     return geocodeCache[cacheKey];
   }
-  
+
   const normalizedCity = normalizeLocation(city);
 
   if (POLSKA_LOCATIONS[normalizedCity]) {
     console.log(`✓ ${normalizedCity} znaleziono w słowniku lokalnym`);
     const coords = addJitter(POLSKA_LOCATIONS[normalizedCity], installationId);
-    geocodeCache[cacheKey] = coords;
-    return coords;
+    const municipality = getMunicipalityForCity(normalizedCity);
+    const result = { coordinates: coords, municipality };
+    geocodeCache[cacheKey] = result;
+    return result;
   }
 
   const locationKey = Object.keys(POLSKA_LOCATIONS).find(key =>
@@ -232,8 +275,10 @@ async function geocodeAddress(city, province, address, postalCode, installationI
   if (locationKey) {
     console.log(`✓ Częściowe dopasowanie: ${normalizedCity} -> ${locationKey}`);
     const coords = addJitter(POLSKA_LOCATIONS[locationKey], installationId);
-    geocodeCache[cacheKey] = coords;
-    return coords;
+    const municipality = getMunicipalityForCity(locationKey);
+    const result = { coordinates: coords, municipality };
+    geocodeCache[cacheKey] = result;
+    return result;
   }
 
   try {
@@ -241,38 +286,51 @@ async function geocodeAddress(city, province, address, postalCode, installationI
     await sleep(2000);
     const query = encodeURIComponent(`${normalizedCity}, ${province || ''}, Polska`);
     const response = await axios.get(
-      `https://nominatim.openstreetmap.org/search?format=json&q=${query}&limit=1`,
-      { 
-        headers: { 
+      `https://nominatim.openstreetmap.org/search?format=json&q=${query}&limit=1&addressdetails=1`,
+      {
+        headers: {
           'User-Agent': 'MapaWytworcowEnergii/1.0 (preprocessing)'
         },
         timeout: 5000
       }
     );
-    
+
     if (response.data && response.data.length > 0) {
       const coords = [parseFloat(response.data[0].lat), parseFloat(response.data[0].lon)];
-      console.log(`✓ OSM: ${normalizedCity} -> [${coords[0]}, ${coords[1]}]`);
+      const address = response.data[0].address || {};
+      let municipality = address.municipality || address.town || address.city || address.village || 'nieznana';
+
+      // Usuń prefix "gmina " jeśli występuje
+      if (municipality.startsWith('gmina ')) {
+        municipality = municipality.substring(6);
+      }
+
+      console.log(`✓ OSM: ${normalizedCity} -> [${coords[0]}, ${coords[1]}], gmina: ${municipality}`);
       const jitteredCoords = addJitter(coords, installationId);
-      geocodeCache[cacheKey] = jitteredCoords;
-      return jitteredCoords;
+      const result = { coordinates: jitteredCoords, municipality };
+      geocodeCache[cacheKey] = result;
+      return result;
     }
   } catch (error) {
     console.error(`❌ Błąd geokodowania ${normalizedCity}:`, error.message);
   }
-  
+
   if (province && WOJEWODZTWA_COORDINATES[province]) {
     console.log(`⚠ ${normalizedCity} - używam województwa: ${province}`);
     const coords = addJitter(WOJEWODZTWA_COORDINATES[province], installationId);
-    geocodeCache[cacheKey] = coords;
-    return coords;
+    const municipality = getMunicipalityForCity(normalizedCity);
+    const result = { coordinates: coords, municipality };
+    geocodeCache[cacheKey] = result;
+    return result;
   }
-  
+
   console.log(`⚠ ${normalizedCity} - używam domyślnych współrzędnych`);
   const defaultCoords = [52.0690, 19.4803];
   const jitteredDefault = addJitter(defaultCoords, installationId);
-  geocodeCache[cacheKey] = jitteredDefault;
-  return jitteredDefault;
+  const municipality = getMunicipalityForCity(normalizedCity);
+  const result = { coordinates: jitteredDefault, municipality };
+  geocodeCache[cacheKey] = result;
+  return result;
 }
 
 function parseXML(xmlContent) {
@@ -314,15 +372,15 @@ async function processMIOZE(xmlPath, category, subcategory) {
     const city = reg.MiejscowoscInstalacji?.[0] || reg.Miejscowosc[0];
     const province = reg.WojewodztwoInstalacji?.[0] || reg.Wojewodztwo[0];
     const installationId = `MIOZE_${reg.DKN[0]}_${reg.IdInstalacji?.[0] || i}`;
-    
-    const coordinates = await geocodeAddress(
+
+    const geocodeResult = await geocodeAddress(
       city,
       province,
       reg.Adres[0],
       reg.Kod[0],
       installationId
     );
-    
+
     const companyCity = reg.Miejscowosc[0];
     const installationCity = city;
 
@@ -334,6 +392,7 @@ async function processMIOZE(xmlPath, category, subcategory) {
       city: companyCity,
       province: correctProvinceByCounty(reg.Wojewodztwo[0], getCountyForCity(companyCity)),
       county: getCountyForCity(companyCity),
+      municipality: geocodeResult.municipality,
       installationCity: installationCity,
       installationProvince: correctProvinceByCounty(province, getCountyForCity(installationCity)),
       installationCounty: getCountyForCity(installationCity),
@@ -341,7 +400,7 @@ async function processMIOZE(xmlPath, category, subcategory) {
       power: reg.MocEEInstalacji ? parseFloat(reg.MocEEInstalacji[0]) : null,
       registrationDate: reg.DataWpisu[0],
       startDate: reg.DataRozpoczeciaDzialalnosci?.[0] || null,
-      coordinates,
+      coordinates: geocodeResult.coordinates,
       dataType: 'MIOZE',
       category,
       subcategory
@@ -382,15 +441,15 @@ async function processConcessions(xmlPath, category, subcategory) {
     const city = con.Miejscowosc?.[0] || con.Poczta?.[0] || 'Nieznane';
     const province = con.Wojewodztwo?.[0] || 'mazowieckie';
     const installationId = `CONCESSION_${con.DKN[0]}_${con.RodzajKoncesji?.[0] || 'UNKNOWN'}_${i}`;
-    
-    const coordinates = await geocodeAddress(
+
+    const geocodeResult = await geocodeAddress(
       city,
       province,
       con.Adres?.[0] || '',
       con.Kod?.[0] || '',
       installationId
     );
-    
+
     processed.push({
       id: installationId,
       name: con.Nazwa[0].trim(),
@@ -399,6 +458,7 @@ async function processConcessions(xmlPath, category, subcategory) {
       city: city,
       province: correctProvinceByCounty(province, getCountyForCity(city)),
       county: getCountyForCity(city),
+      municipality: geocodeResult.municipality,
       installationType: con.RodzajKoncesji?.[0] || 'UNKNOWN',
       registrationDate: con.DataWydania?.[0] || '',
       validFrom: con.DataOd?.[0] || '',
@@ -407,7 +467,7 @@ async function processConcessions(xmlPath, category, subcategory) {
       nip: con.NIP?.[0] || '',
       exciseNumber: con.NrAkcyzowy?.[0] || '',
       fileUrl: con.Plik?.[0] || '',
-      coordinates,
+      coordinates: geocodeResult.coordinates,
       dataType: 'CONCESSION',
       category,
       subcategory
@@ -448,15 +508,15 @@ async function processOperators(xmlPath, category, subcategory) {
     const city = op.Miejscowosc[0];
     const province = op.Wojewodztwo[0];
     const installationId = `OPERATOR_${op.DKN[0]}_${i}`;
-    
-    const coordinates = await geocodeAddress(
+
+    const geocodeResult = await geocodeAddress(
       city,
       province,
       op.Adres[0],
       op.Kod[0],
       installationId
     );
-    
+
     processed.push({
       id: installationId,
       name: op.Nazwa[0].trim(),
@@ -465,6 +525,7 @@ async function processOperators(xmlPath, category, subcategory) {
       city: city,
       province: correctProvinceByCounty(province, getCountyForCity(city)),
       county: getCountyForCity(city),
+      municipality: geocodeResult.municipality,
       installationType: op.RodzajOperatora[0],
       operatorTypeDesc: op.PelnaNazwaRodzajuOperatora[0],
       registrationDate: op.DataWydania[0],
@@ -474,7 +535,7 @@ async function processOperators(xmlPath, category, subcategory) {
       nip: op.NIP?.[0] || '',
       fileUrl: op.Plik?.[0] || '',
       operatingArea: op.ObszarDzialaniaOperatora?.[0] || '',
-      coordinates,
+      coordinates: geocodeResult.coordinates,
       dataType: 'OPERATOR',
       category,
       subcategory
@@ -514,17 +575,17 @@ async function processConsumers(xmlPath, category, subcategory) {
     const con = consumers[i];
     const city = con.Miejscowosc[0];
     const installationId = `CONSUMER_${con.Lp[0]}_${i}`;
-    
+
     let province = 'mazowieckie';
-    
-    const coordinates = await geocodeAddress(
+
+    const geocodeResult = await geocodeAddress(
       city,
       province,
       con.UlicaNr?.[0] || '',
       con.KodPocztowy?.[0] || '',
       installationId
     );
-    
+
     processed.push({
       id: installationId,
       name: con.Nazwa[0].trim(),
@@ -533,9 +594,10 @@ async function processConsumers(xmlPath, category, subcategory) {
       city: city,
       province: correctProvinceByCounty(province, getCountyForCity(city)),
       county: getCountyForCity(city),
+      municipality: geocodeResult.municipality,
       installationType: 'CONSUMER',
       nip: con.NIP?.[0] || '',
-      coordinates,
+      coordinates: geocodeResult.coordinates,
       dataType: 'CONSUMER',
       category,
       subcategory
@@ -573,12 +635,12 @@ async function processSellers(xmlPath, category, subcategory) {
   const processed = [];
   for (let i = 0; i < sellers.length; i++) {
     const sel = sellers[i];
-    
+
     let city = sel.Miejscowosc?.[0] || 'Nieznane';
     let province = sel.Wojewodztwo?.[0] || 'mazowieckie';
     let postalCode = sel.Kod?.[0] || '';
     let address = sel.Adres?.[0] || '';
-    
+
     if (address && address.includes(',')) {
       const parts = address.split(',');
       if (parts.length >= 2) {
@@ -590,17 +652,17 @@ async function processSellers(xmlPath, category, subcategory) {
         }
       }
     }
-    
+
     const installationId = `SELLER_${sel.DKN[0]}_${i}`;
-    
-    const coordinates = await geocodeAddress(
+
+    const geocodeResult = await geocodeAddress(
       city,
       province,
       address,
       postalCode,
       installationId
     );
-    
+
     processed.push({
       id: installationId,
       name: sel.Nazwa[0].trim(),
@@ -609,8 +671,9 @@ async function processSellers(xmlPath, category, subcategory) {
       city: city,
       province: correctProvinceByCounty(province, getCountyForCity(city)),
       county: getCountyForCity(city),
+      municipality: geocodeResult.municipality,
       installationType: 'SELLER',
-      coordinates,
+      coordinates: geocodeResult.coordinates,
       dataType: 'SELLER',
       category,
       subcategory

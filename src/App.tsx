@@ -90,6 +90,7 @@ type Installation = {
   city: string;
   province: string;
   county?: string;
+  municipality?: string;
   installationCity?: string;
   installationProvince?: string;
   installationCounty?: string;
@@ -429,6 +430,7 @@ function App() {
   const [zoom] = useState<number>(6);
   const [filterProvince, setFilterProvince] = useState<string>("wszystkie");
   const [filterCounty, setFilterCounty] = useState<string>("wszystkie");
+  const [filterMunicipality, setFilterMunicipality] = useState<string>("wszystkie");
   const [filterType, setFilterType] = useState<string>("wszystkie");
   const [searchTerm, setSearchTerm] = useState<string>("");
   const [progress, setProgress] = useState<number>(0);
@@ -616,8 +618,10 @@ function App() {
   const filteredInstallations = installations.filter(inst => {
     const province = inst.installationProvince || inst.province;
     const county = inst.installationCounty || inst.county;
+    const municipality = inst.municipality || 'nieznana';
     const matchesProvince = filterProvince === "wszystkie" || province === filterProvince;
     const matchesCounty = filterCounty === "wszystkie" || county === filterCounty;
+    const matchesMunicipality = filterMunicipality === "wszystkie" || municipality === filterMunicipality;
     const matchesType = filterType === "wszystkie" || inst.installationType === filterType;
     const matchesDataType = dataType === "wszystkie" || inst.dataType === dataType;
     const matchesCategory = filterCategory === "wszystkie" || inst.category === filterCategory;
@@ -625,7 +629,7 @@ function App() {
     const matchesSearch = searchTerm === "" ||
       inst.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
       city.toLowerCase().includes(searchTerm.toLowerCase());
-    return matchesProvince && matchesCounty && matchesType && matchesDataType && matchesCategory && matchesSearch;
+    return matchesProvince && matchesCounty && matchesMunicipality && matchesType && matchesDataType && matchesCategory && matchesSearch;
   });
 
   const provinces = Array.from(new Set(installations.map(i => i.installationProvince || i.province))).sort();
@@ -633,6 +637,10 @@ function App() {
   const nieznanyCounties = countiesSet.filter(c => c === 'nieznany');
   const knownCounties = countiesSet.filter(c => c !== 'nieznany').sort();
   const counties = [...nieznanyCounties, ...knownCounties];
+  const municipalitiesSet = Array.from(new Set(installations.map(i => i.municipality || 'nieznana').filter(m => m !== undefined)));
+  const nieznaneMunicipalities = municipalitiesSet.filter(m => m === 'nieznana');
+  const knownMunicipalities = municipalitiesSet.filter(m => m !== 'nieznana').sort();
+  const municipalities = [...nieznaneMunicipalities, ...knownMunicipalities];
   const installationTypes = Array.from(new Set(installations.map(i => i.installationType))).sort();
 
   const supplierSources = dataSources.filter(s => s.category === 'supplier');
@@ -1177,6 +1185,32 @@ function App() {
 
                 <div style={{ marginBottom: '1rem' }}>
                   <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.95rem', color: '#475569', fontWeight: 600 }}>
+                    Gmina:
+                  </label>
+                  <select
+                    value={filterMunicipality}
+                    onChange={(e) => setFilterMunicipality(e.target.value)}
+                    style={{
+                      width: '100%',
+                      padding: '0.75rem',
+                      background: 'white',
+                      border: '2px solid #cbd5e1',
+                      borderRadius: '8px',
+                      fontSize: '0.95rem',
+                      color: '#0f172a'
+                    }}
+                  >
+                    <option value="wszystkie">Wszystkie</option>
+                    {municipalities.map(municipality => (
+                      <option key={municipality} value={municipality}>
+                        {municipality === 'nieznana' ? '(nieznana)' : municipality}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                <div style={{ marginBottom: '1rem' }}>
+                  <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.95rem', color: '#475569', fontWeight: 600 }}>
                     Typ instalacji:
                   </label>
                   <select
@@ -1296,6 +1330,11 @@ function App() {
                             {(installation.installationCounty || installation.county) && (
                               <span style={{ display: 'block', fontSize: '0.85rem', color: '#64748b', marginTop: '0.1rem' }}>
                                 Powiat: {(installation.installationCounty || installation.county) === 'nieznany' ? '(nieznany)' : (installation.installationCounty || installation.county)}
+                              </span>
+                            )}
+                            {installation.municipality && installation.municipality !== 'nieznana' && (
+                              <span style={{ display: 'block', fontSize: '0.85rem', color: '#64748b', marginTop: '0.1rem' }}>
+                                Gmina: {installation.municipality}
                               </span>
                             )}
                           </p>

@@ -1,208 +1,361 @@
 {
-  "CONCESSION_71851_WEE_0_ŁOWISKO_podkarpackie_ŁOWISKO 320A_36-053": [
-    50.30311824680647,
-    22.179856881376946
-  ],
-  "CONCESSION_64989_WEE_1_Żołynia_podkarpackie_ul. Białobrzeska 13A_37-110": [
-    50.16203381360686,
-    22.30660482573917
-  ],
-  "CONCESSION_28084_WEE_2_Płock_mazowieckie_ul. Krzywickiego 13_09-407": [
-    52.54603761402768,
-    19.70575417542157
-  ],
-  "CONCESSION_69830_WEE_3_Mizerka_mazowieckie_Mizerka 57 A_96-513": [
-    52.143586631688144,
-    20.17622481090111
-  ],
-  "CONCESSION_24411_WEE_4_Raciążek_kujawsko-pomorskie_Podzamcze 14_87-721": [
-    52.85662089355595,
-    18.810667367863026
-  ],
-  "CONCESSION_64772_WEE_5_Warszawa_mazowieckie_ul. Zwierzyniecka 8b_00-719": [
-    52.22985285339419,
-    21.01288014994602
-  ],
-  "CONCESSION_26490_WEE_6_Alwernia_małopolskie_ul. K. Olszewskiego 25_32-566": [
-    50.06890739973118,
-    19.540268805466358
-  ],
-  "CONCESSION_19199_WEE_7_Suwałki_podlaskie_ul. Leśna 17B_16-400": [
-    54.111933137315745,
-    22.93060286130194
-  ],
-  "CONCESSION_3727_OPG_8_Warszawa_mazowieckie_Stańczyka 3_01-237": [
-    52.228889546335466,
-    21.01216065051821
-  ],
-  "CONCESSION_69195_DEE_9_Rawicz_wielkopolskie_ul. Gen. Józefa Hallera 2a_63-900": [
-    51.60929479504713,
-    16.85813449164791
-  ],
-  "CONCESSION_13646_WEE_10_Bielsko-Biała_śląskie_ul. 1 Maja 23_43-300": [
-    49.82155530040654,
-    19.04517121077726
-  ],
-  "CONCESSION_72194_PCC_11_Rogoźno_wielkopolskie_Lipowa 55_64-610": [
-    52.75249551298421,
-    16.994403413058816
-  ],
-  "CONCESSION_72194_WCC_12_Rogoźno_wielkopolskie_Lipowa 55_64-610": [
-    52.75328901248893,
-    16.993497422353983
-  ],
-  "CONCESSION_65710_WEE_13_Iława_warmińsko-mazurskie_ul. 1 Maja 20B / 3_14-200": [
-    53.59689416543936,
-    19.56065371055714
-  ],
-  "CONCESSION_21046_WEE_14_Słupsk_pomorskie_ul. Stefana Starzyńskiego 3_76-200": [
-    54.46413725157863,
-    17.028151612809037
-  ],
-  "CONCESSION_18596_DEE_15_Dąbrowa Górnicza_śląskie_ul. Porozumienia Dąbrowskiego 1980 11_42-530": [
-    50.36946724429822,
-    19.289449069551136
-  ],
-  "CONCESSION_18596_OEE_16_Dąbrowa Górnicza_śląskie_ul. Porozumienia Dąbrowskiego 1980 11_42-530": [
-    50.36964491308558,
-    19.289427953527944
-  ],
-  "CONCESSION_19201_WEE_17_Dobrcz_kujawsko-pomorskie_Strzelce Dolne 51_86-022": [
-    53.264951864470795,
-    18.14701248854062
-  ],
-  "CONCESSION_27970_OEE_18_Dąbrowa Górnicza_śląskie_ul. Roździeńskiego 13_41-308": [
-    50.36901643014519,
-    19.28808597406737
-  ],
-  "CONCESSION_22156_WEE_19_Poznań_wielkopolskie_ul. Rubież 46_61-612": [
-    52.4066271793531,
-    16.925269475471413
-  ],
-  "CONCESSION_26337_OEE_20_Opoczno_łódzkie_ul. Piotrkowska 61_26-300": [
-    51.3781902759133,
-    20.293523692910153
-  ],
-  "CONCESSION_26337_OEE_21_Opoczno_łódzkie_ul. Piotrkowska 61_26-300": [
-    51.37762717039621,
-    20.29338567072256
-  ],
-  "CONCESSION_43307_OEE_22_Starachowice_świętokrzyskie_ul. Radomska 49B_27-200": [
-    51.05265180281459,
-    21.076753846409694
-  ],
-  "CONCESSION_43307_WEE_23_Starachowice_świętokrzyskie_ul. Radomska 49B_27-200": [
-    51.05130874829982,
-    21.076989955179556
-  ],
-  "CONCESSION_19194_WEE_24_Chmielnik_podkarpackie_Chmielnik 146_36-016": [
-    49.97470714891638,
-    22.14500993721134
-  ],
-  "CONCESSION_529_PCC_25_Łańcut_podkarpackie_ul. Polna 2a_37-100": [
-    50.07034053254608,
-    22.232886919201295
-  ],
-  "CONCESSION_529_WCC_26_Łańcut_podkarpackie_ul. Polna 2a_37-100": [
-    50.069299719859586,
-    22.234432149888672
-  ],
-  "CONCESSION_529_WEE_27_Łańcut_podkarpackie_ul. Polna 2a_37-100": [
-    50.06932064823224,
-    22.233537619859455
-  ],
-  "CONCESSION_290_DEE_28_Siemianowice Śląskie_śląskie_ul. Olimpijska 14_41-100": [
-    50.30587786559684,
-    19.02687199202645
-  ],
-  "CONCESSION_290_OCC_29_Siemianowice Śląskie_śląskie_ul. Olimpijska 14_41-100": [
-    50.305327655857766,
-    19.026634363166647
-  ],
-  "CONCESSION_290_OEE_30_Siemianowice Śląskie_śląskie_ul. Olimpijska 14_41-100": [
-    50.30589389274658,
-    19.02733404617081
-  ],
-  "CONCESSION_290_PCC_31_Siemianowice Śląskie_śląskie_ul. Olimpijska 14_41-100": [
-    50.30603994501088,
-    19.026944161922373
-  ],
-  "CONCESSION_290_WCC_32_Siemianowice Śląskie_śląskie_ul. Olimpijska 14_41-100": [
-    50.30609277307001,
-    19.026612583035806
-  ],
-  "CONCESSION_26268_WEE_33_Leżachów_podkarpackie_Leżachów 147_37-530": [
-    50.1467498291717,
-    22.616311871381665
-  ],
-  "CONCESSION_43042_WEE_34_Łęczyca_łódzkie_ul. Lotnicza 21B_99-100": [
-    52.0591960970072,
-    19.200974122855985
-  ],
-  "CONCESSION_23418_DEE_35_Strzelno_kujawsko-pomorskie_Wymysłowice 1_88-320": [
-    52.630669693382465,
-    18.173929389005018
-  ],
-  "CONCESSION_23418_OEE_36_Strzelno_kujawsko-pomorskie_Wymysłowice 1_88-320": [
-    52.62946723104049,
-    18.17426661756466
-  ],
-  "CONCESSION_24277_WEE_37_Wałdowo_pomorskie_Wałdowo 40_77-200": [
-    54.05964201270223,
-    17.158430027037706
-  ],
-  "CONCESSION_19084_WEE_38_Warszawa_mazowieckie_Al. Jerozolimskie 98_00-807": [
-    52.22922968281823,
-    21.01213437978177
-  ],
-  "CONCESSION_4259_WEE_39_Warszawa_mazowieckie_ul. Gotarda 9_02-683": [
-    52.22977142097145,
-    21.012279303676184
-  ],
-  "CONCESSION_12482_WEE_40_Łężyce_pomorskie_Al. Parku Krajobrazowego 99_84-207": [
-    54.530510182918405,
-    18.374452682888986
-  ],
-  "CONCESSION_36598_WEE_41_Aleksandrów Kujawski_kujawsko-pomorskie_ul. Słowackiego 59_87-700": [
-    52.87555660799705,
-    18.694375129974038
-  ],
-  "CONCESSION_65704_WEE_42_EŁK_warmińsko-mazurskie_ul. GEN. WŁADYSŁAWA SIKORSKIEGO 19B_19-300": [
-    53.82500189718694,
-    22.361038051182756
-  ],
-  "CONCESSION_65704_WEE_43_EŁK_warmińsko-mazurskie_ul. GEN. WŁADYSŁAWA SIKORSKIEGO 19B_19-300": [
-    53.82386074977554,
-    22.3621887277723
-  ],
-  "CONCESSION_65210_WEE_44_Ełk_warmińsko-mazurskie_ul. Sikorskiego 19B_19-300": [
-    53.8257148974075,
-    22.360979504180516
-  ],
-  "CONCESSION_4191_DEE_45_Starachowice_świętokrzyskie_ul. Radomska 29_27-200": [
-    51.05254369853985,
-    21.076689694940075
-  ],
-  "CONCESSION_4191_OEE_46_Starachowice_świętokrzyskie_ul. Radomska 29_27-200": [
-    51.05237127013205,
-    21.07603433419653
-  ],
-  "CONCESSION_72865_WEE_47_Osięciny_kujawsko-pomorskie_ul. Sienkiewicza 1_88-220": [
-    52.62854927819579,
-    18.723601849902362
-  ],
-  "CONCESSION_22997_WEE_48_Szczawin Duży_łódzkie_ul. Strykowska 120_95-002": [
-    51.9012102434189,
-    19.508435595325754
-  ],
-  "CONCESSION_78_OEE_49_Wodzisław Śląski_śląskie_ul. Świetego Jana 16_44-300": [
-    50.0030131991593,
-    18.44877099606672
-  ],
-  "CONCESSION_21666_WEE_50_Warszawa_mazowieckie_Al. Jerozolimskie 98_00-807": [
-    52.22928591298026,
-    21.011265313987305
-  ],
+  "CONCESSION_71851_WEE_0_ŁOWISKO_podkarpackie_ŁOWISKO 320A_36-053": {
+    "coordinates": [
+      50.30311824680647,
+      22.179856881376946
+    ],
+    "municipality": "Kamień"
+  },
+  "CONCESSION_64989_WEE_1_Żołynia_podkarpackie_ul. Białobrzeska 13A_37-110": {
+    "coordinates": [
+      50.16203381360686,
+      22.30660482573917
+    ],
+    "municipality": "Żołynia"
+  },
+  "CONCESSION_28084_WEE_2_Płock_mazowieckie_ul. Krzywickiego 13_09-407": {
+    "coordinates": [
+      52.54603761402768,
+      19.70575417542157
+    ],
+    "municipality": "Płock"
+  },
+  "CONCESSION_69830_WEE_3_Mizerka_mazowieckie_Mizerka 57 A_96-513": {
+    "coordinates": [
+      52.143586631688144,
+      20.17622481090111
+    ],
+    "municipality": "Nowa Sucha"
+  },
+  "CONCESSION_24411_WEE_4_Raciążek_kujawsko-pomorskie_Podzamcze 14_87-721": {
+    "coordinates": [
+      52.85662089355595,
+      18.810667367863026
+    ],
+    "municipality": "Raciążek"
+  },
+  "CONCESSION_64772_WEE_5_Warszawa_mazowieckie_ul. Zwierzyniecka 8b_00-719": {
+    "coordinates": [
+      52.22985285339419,
+      21.01288014994602
+    ],
+    "municipality": "Warszawa"
+  },
+  "CONCESSION_26490_WEE_6_Alwernia_małopolskie_ul. K. Olszewskiego 25_32-566": {
+    "coordinates": [
+      50.06890739973118,
+      19.540268805466358
+    ],
+    "municipality": "Alwernia"
+  },
+  "CONCESSION_19199_WEE_7_Suwałki_podlaskie_ul. Leśna 17B_16-400": {
+    "coordinates": [
+      54.111933137315745,
+      22.93060286130194
+    ],
+    "municipality": "Suwałki"
+  },
+  "CONCESSION_3727_OPG_8_Warszawa_mazowieckie_Stańczyka 3_01-237": {
+    "coordinates": [
+      52.228889546335466,
+      21.01216065051821
+    ],
+    "municipality": "Warszawa"
+  },
+  "CONCESSION_69195_DEE_9_Rawicz_wielkopolskie_ul. Gen. Józefa Hallera 2a_63-900": {
+    "coordinates": [
+      51.60929479504713,
+      16.85813449164791
+    ],
+    "municipality": "Rawicz"
+  },
+  "CONCESSION_13646_WEE_10_Bielsko-Biała_śląskie_ul. 1 Maja 23_43-300": {
+    "coordinates": [
+      49.82155530040654,
+      19.04517121077726
+    ],
+    "municipality": "Bielsko-Biała"
+  },
+  "CONCESSION_72194_PCC_11_Rogoźno_wielkopolskie_Lipowa 55_64-610": {
+    "coordinates": [
+      52.75249551298421,
+      16.994403413058816
+    ],
+    "municipality": "Rogoźno"
+  },
+  "CONCESSION_72194_WCC_12_Rogoźno_wielkopolskie_Lipowa 55_64-610": {
+    "coordinates": [
+      52.75328901248893,
+      16.993497422353983
+    ],
+    "municipality": "Rogoźno"
+  },
+  "CONCESSION_65710_WEE_13_Iława_warmińsko-mazurskie_ul. 1 Maja 20B / 3_14-200": {
+    "coordinates": [
+      53.59689416543936,
+      19.56065371055714
+    ],
+    "municipality": "Iława"
+  },
+  "CONCESSION_21046_WEE_14_Słupsk_pomorskie_ul. Stefana Starzyńskiego 3_76-200": {
+    "coordinates": [
+      54.46413725157863,
+      17.028151612809037
+    ],
+    "municipality": "Słupsk"
+  },
+  "CONCESSION_18596_DEE_15_Dąbrowa Górnicza_śląskie_ul. Porozumienia Dąbrowskiego 1980 11_42-530": {
+    "coordinates": [
+      50.36946724429822,
+      19.289449069551136
+    ],
+    "municipality": "Dąbrowa Górnicza"
+  },
+  "CONCESSION_18596_OEE_16_Dąbrowa Górnicza_śląskie_ul. Porozumienia Dąbrowskiego 1980 11_42-530": {
+    "coordinates": [
+      50.36964491308558,
+      19.289427953527944
+    ],
+    "municipality": "Dąbrowa Górnicza"
+  },
+  "CONCESSION_19201_WEE_17_Dobrcz_kujawsko-pomorskie_Strzelce Dolne 51_86-022": {
+    "coordinates": [
+      53.264951864470795,
+      18.14701248854062
+    ],
+    "municipality": "Dobrcz"
+  },
+  "CONCESSION_27970_OEE_18_Dąbrowa Górnicza_śląskie_ul. Roździeńskiego 13_41-308": {
+    "coordinates": [
+      50.36901643014519,
+      19.28808597406737
+    ],
+    "municipality": "Dąbrowa Górnicza"
+  },
+  "CONCESSION_22156_WEE_19_Poznań_wielkopolskie_ul. Rubież 46_61-612": {
+    "coordinates": [
+      52.4066271793531,
+      16.925269475471413
+    ],
+    "municipality": "Poznań"
+  },
+  "CONCESSION_26337_OEE_20_Opoczno_łódzkie_ul. Piotrkowska 61_26-300": {
+    "coordinates": [
+      51.3781902759133,
+      20.293523692910153
+    ],
+    "municipality": "Opoczno"
+  },
+  "CONCESSION_26337_OEE_21_Opoczno_łódzkie_ul. Piotrkowska 61_26-300": {
+    "coordinates": [
+      51.37762717039621,
+      20.29338567072256
+    ],
+    "municipality": "Opoczno"
+  },
+  "CONCESSION_43307_OEE_22_Starachowice_świętokrzyskie_ul. Radomska 49B_27-200": {
+    "coordinates": [
+      51.05265180281459,
+      21.076753846409694
+    ],
+    "municipality": "Starachowice"
+  },
+  "CONCESSION_43307_WEE_23_Starachowice_świętokrzyskie_ul. Radomska 49B_27-200": {
+    "coordinates": [
+      51.05130874829982,
+      21.076989955179556
+    ],
+    "municipality": "Starachowice"
+  },
+  "CONCESSION_19194_WEE_24_Chmielnik_podkarpackie_Chmielnik 146_36-016": {
+    "coordinates": [
+      49.97470714891638,
+      22.14500993721134
+    ],
+    "municipality": "Chmielnik"
+  },
+  "CONCESSION_529_PCC_25_Łańcut_podkarpackie_ul. Polna 2a_37-100": {
+    "coordinates": [
+      50.07034053254608,
+      22.232886919201295
+    ],
+    "municipality": "Łańcut"
+  },
+  "CONCESSION_529_WCC_26_Łańcut_podkarpackie_ul. Polna 2a_37-100": {
+    "coordinates": [
+      50.069299719859586,
+      22.234432149888672
+    ],
+    "municipality": "Łańcut"
+  },
+  "CONCESSION_529_WEE_27_Łańcut_podkarpackie_ul. Polna 2a_37-100": {
+    "coordinates": [
+      50.06932064823224,
+      22.233537619859455
+    ],
+    "municipality": "Łańcut"
+  },
+  "CONCESSION_290_DEE_28_Siemianowice Śląskie_śląskie_ul. Olimpijska 14_41-100": {
+    "coordinates": [
+      50.30587786559684,
+      19.02687199202645
+    ],
+    "municipality": "Siemianowice Śląskie"
+  },
+  "CONCESSION_290_OCC_29_Siemianowice Śląskie_śląskie_ul. Olimpijska 14_41-100": {
+    "coordinates": [
+      50.305327655857766,
+      19.026634363166647
+    ],
+    "municipality": "Siemianowice Śląskie"
+  },
+  "CONCESSION_290_OEE_30_Siemianowice Śląskie_śląskie_ul. Olimpijska 14_41-100": {
+    "coordinates": [
+      50.30589389274658,
+      19.02733404617081
+    ],
+    "municipality": "Siemianowice Śląskie"
+  },
+  "CONCESSION_290_PCC_31_Siemianowice Śląskie_śląskie_ul. Olimpijska 14_41-100": {
+    "coordinates": [
+      50.30603994501088,
+      19.026944161922373
+    ],
+    "municipality": "Siemianowice Śląskie"
+  },
+  "CONCESSION_290_WCC_32_Siemianowice Śląskie_śląskie_ul. Olimpijska 14_41-100": {
+    "coordinates": [
+      50.30609277307001,
+      19.026612583035806
+    ],
+    "municipality": "Siemianowice Śląskie"
+  },
+  "CONCESSION_26268_WEE_33_Leżachów_podkarpackie_Leżachów 147_37-530": {
+    "coordinates": [
+      50.1467498291717,
+      22.616311871381665
+    ],
+    "municipality": "Sieniawa"
+  },
+  "CONCESSION_43042_WEE_34_Łęczyca_łódzkie_ul. Lotnicza 21B_99-100": {
+    "coordinates": [
+      52.0591960970072,
+      19.200974122855985
+    ],
+    "municipality": "Łęczyca"
+  },
+  "CONCESSION_23418_DEE_35_Strzelno_kujawsko-pomorskie_Wymysłowice 1_88-320": {
+    "coordinates": [
+      52.630669693382465,
+      18.173929389005018
+    ],
+    "municipality": "Strzelno"
+  },
+  "CONCESSION_23418_OEE_36_Strzelno_kujawsko-pomorskie_Wymysłowice 1_88-320": {
+    "coordinates": [
+      52.62946723104049,
+      18.17426661756466
+    ],
+    "municipality": "Strzelno"
+  },
+  "CONCESSION_24277_WEE_37_Wałdowo_pomorskie_Wałdowo 40_77-200": {
+    "coordinates": [
+      54.05964201270223,
+      17.158430027037706
+    ],
+    "municipality": "Miastko"
+  },
+  "CONCESSION_19084_WEE_38_Warszawa_mazowieckie_Al. Jerozolimskie 98_00-807": {
+    "coordinates": [
+      52.22922968281823,
+      21.01213437978177
+    ],
+    "municipality": "Warszawa"
+  },
+  "CONCESSION_4259_WEE_39_Warszawa_mazowieckie_ul. Gotarda 9_02-683": {
+    "coordinates": [
+      52.22977142097145,
+      21.012279303676184
+    ],
+    "municipality": "Warszawa"
+  },
+  "CONCESSION_12482_WEE_40_Łężyce_pomorskie_Al. Parku Krajobrazowego 99_84-207": {
+    "coordinates": [
+      54.530510182918405,
+      18.374452682888986
+    ],
+    "municipality": "Wejherowo"
+  },
+  "CONCESSION_36598_WEE_41_Aleksandrów Kujawski_kujawsko-pomorskie_ul. Słowackiego 59_87-700": {
+    "coordinates": [
+      52.87555660799705,
+      18.694375129974038
+    ],
+    "municipality": "Aleksandrów Kujawski"
+  },
+  "CONCESSION_65704_WEE_42_EŁK_warmińsko-mazurskie_ul. GEN. WŁADYSŁAWA SIKORSKIEGO 19B_19-300": {
+    "coordinates": [
+      53.82500189718694,
+      22.361038051182756
+    ],
+    "municipality": "Ełk"
+  },
+  "CONCESSION_65704_WEE_43_EŁK_warmińsko-mazurskie_ul. GEN. WŁADYSŁAWA SIKORSKIEGO 19B_19-300": {
+    "coordinates": [
+      53.82386074977554,
+      22.3621887277723
+    ],
+    "municipality": "Ełk"
+  },
+  "CONCESSION_65210_WEE_44_Ełk_warmińsko-mazurskie_ul. Sikorskiego 19B_19-300": {
+    "coordinates": [
+      53.8257148974075,
+      22.360979504180516
+    ],
+    "municipality": "Ełk"
+  },
+  "CONCESSION_4191_DEE_45_Starachowice_świętokrzyskie_ul. Radomska 29_27-200": {
+    "coordinates": [
+      51.05254369853985,
+      21.076689694940075
+    ],
+    "municipality": "Starachowice"
+  },
+  "CONCESSION_4191_OEE_46_Starachowice_świętokrzyskie_ul. Radomska 29_27-200": {
+    "coordinates": [
+      51.05237127013205,
+      21.07603433419653
+    ],
+    "municipality": "Starachowice"
+  },
+  "CONCESSION_72865_WEE_47_Osięciny_kujawsko-pomorskie_ul. Sienkiewicza 1_88-220": {
+    "coordinates": [
+      52.62854927819579,
+      18.723601849902362
+    ],
+    "municipality": "Osięciny"
+  },
+  "CONCESSION_22997_WEE_48_Szczawin Duży_łódzkie_ul. Strykowska 120_95-002": {
+    "coordinates": [
+      51.9012102434189,
+      19.508435595325754
+    ],
+    "municipality": "Zgierz"
+  },
+  "CONCESSION_78_OEE_49_Wodzisław Śląski_śląskie_ul. Świetego Jana 16_44-300": {
+    "coordinates": [
+      50.0030131991593,
+      18.44877099606672
+    ],
+    "municipality": "Wodzisław Śląski"
+  },
+  "CONCESSION_21666_WEE_50_Warszawa_mazowieckie_Al. Jerozolimskie 98_00-807": {
+    "coordinates": [
+      52.22928591298026,
+      21.011265313987305
+    ],
+    "municipality": "Warszawa"
+  },
   "CONCESSION_65052_WEE_51_Kębłowo_pomorskie_ul. Zielona 2_84-242": [
     54.596155609651575,
     18.097870615974568

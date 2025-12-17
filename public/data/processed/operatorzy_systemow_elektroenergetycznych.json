@@ -5,8 +5,8 @@
     "address": "ul. Gen. Józefa Hallera 2a",
     "postalCode": "63-900",
     "city": "Rawicz",
-    "province": "wielkopolskie",
-    "county": "rawicki",
+    "province": "dolnośląskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2022-05-26",
@@ -17,8 +17,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/2882E77E-A7A4-4583-B41E-F75C05FD588B",
     "operatingArea": "Zgodnie z koncesją nr DEE/426/69195/W/OKR/2022/TK",
     "coordinates": [
-      51.60956693464779,
-      16.85779609592118
+      51.610329834647786,
+      16.85786179592118
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -30,8 +30,8 @@
     "address": "ul. Porozumienia Dąbrowskiego 1980 11",
     "postalCode": "42-530",
     "city": "Dąbrowa Górnicza",
-    "province": "śląskie",
-    "county": "zawierciański",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2011-06-24",
@@ -42,8 +42,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/F859F18C-B8F0-4567-8C85-84B9404CD616",
     "operatingArea": "Zgodnie z koncesją nr DEE/86/18596/W/OKA/2008/PF",
     "coordinates": [
-      50.32790229986434,
-      19.19515373735391
+      50.36972629986434,
+      19.28950023735391
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -55,8 +55,8 @@
     "address": "ul. Olimpijska 14",
     "postalCode": "41-100",
     "city": "Siemianowice Śląskie",
-    "province": "śląskie",
-    "county": "katowicki",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2011-09-14",
@@ -67,8 +67,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/93DA9ACF-89F7-45A4-AB56-E95B52DC54F1",
     "operatingArea": "Zgodnie z koncesją nr PEE/242/290/W/2/2001/MS",
     "coordinates": [
-      50.324898406791434,
-      19.028638206016623
+      50.30620130679143,
+      19.026801706016624
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -117,8 +117,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/CD948B63-FB4F-4EA5-B71B-3CEFD30FC9DC",
     "operatingArea": "Zgodnie z koncesją nr PEE/260/4191/W/1/2003/MS",
     "coordinates": [
-      51.03731190049497,
-      21.068823414093096
+      51.05199840049497,
+      21.075261114093095
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -192,8 +192,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/94EA5B48-285D-4124-A8AE-D02B71202968",
     "operatingArea": "Zgodnie z koncesją nr DEE/406/189/W/OKA/2020/PS",
     "coordinates": [
-      50.92918459881527,
-      21.389434761368992
+      50.93986139881527,
+      21.38826476136899
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -205,8 +205,8 @@
     "address": "Leszcze 15",
     "postalCode": "28-400",
     "city": "Leszcze",
-    "province": "świętokrzyskie",
-    "county": "pińczowski",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2010-12-13",
@@ -305,8 +305,8 @@
     "address": "ul. Morcinka 38",
     "postalCode": "42-580",
     "city": "Wojkowice",
-    "province": "śląskie",
-    "county": "będziński",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2012-05-25",
@@ -480,8 +480,8 @@
     "address": "ul. Rolna 43",
     "postalCode": "40-555",
     "city": "Katowice",
-    "province": "śląskie",
-    "county": "katowicki",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2016-02-19",
@@ -555,8 +555,8 @@
     "address": "Al. Józefa Piłsudskiego 92",
     "postalCode": "41-308",
     "city": "Dąbrowa Górnicza",
-    "province": "śląskie",
-    "county": "zawierciański",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2013-07-02",
@@ -567,8 +567,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/1F2BD40A-08CA-4E0A-85D7-4778759106B3",
     "operatingArea": "Zgodnie z koncesją nr PEE/91A/4336/W/OKA/2003/RK",
     "coordinates": [
-      50.32870978489957,
-      19.194442339172394
+      50.37053378489957,
+      19.288788839172394
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -605,8 +605,8 @@
     "address": "Boleszyn 7",
     "postalCode": "13-308",
     "city": "Boleszyn",
-    "province": "świętokrzyskie",
-    "county": "ostrowiecki",
+    "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2020-12-04",
@@ -630,7 +630,7 @@
     "address": "ul. Stefana Batorego 5",
     "postalCode": "05-870",
     "city": "Pass",
-    "province": "nieznany",
+    "province": "mazowieckie",
     "county": "nieokreślony",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
@@ -717,8 +717,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/0892EB63-B798-430D-A275-95517D809215",
     "operatingArea": "Zgodnie z koncesją nr PEE/273/4985/W/OŁO/2004/PL",
     "coordinates": [
-      50.92972743989164,
-      21.388356788728814
+      50.94040423989164,
+      21.387186788728812
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -730,8 +730,8 @@
     "address": "ul. Przemysłowa 17",
     "postalCode": "98-355",
     "city": "Trębaczew",
-    "province": "łódzkie",
-    "county": "rawski",
+    "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2022-05-10",
@@ -792,8 +792,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/3CDE9A98-99A8-48C8-849C-650C7E0493E1",
     "operatingArea": "Zgodnie z koncesją nr DEE/447/70575/W/OKA/2023/PCR",
     "coordinates": [
-      50.295889314439016,
-      18.95290400753235
+      50.287961914439016,
+      18.96968380753235
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -805,8 +805,8 @@
     "address": "ul. Piłsudskiego 82",
     "postalCode": "42-400",
     "city": "Zawiercie",
-    "province": "śląskie",
-    "county": "zawierciański",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2014-07-10",
@@ -867,8 +867,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/C6FC4609-DE78-4A20-9F6D-299BA5507923",
     "operatingArea": "Zgodnie z koncesją nr DEE/450/63986/W/OPO/2024/BHo",
     "coordinates": [
-      51.65293334669548,
-      17.809829639239144
+      51.64963564669548,
+      17.816238139239143
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -967,8 +967,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/541BB6D8-1843-4623-A207-3435C57822F0",
     "operatingArea": "Zgodnie z koncesją nr DEE/318/22069/W/OLO/2013/KK",
     "coordinates": [
-      50.674927777706884,
-      17.921088964064325
+      50.67862067770688,
+      17.929673364064325
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -980,8 +980,8 @@
     "address": "ul. Komorowicka 79A",
     "postalCode": "43-300",
     "city": "Bielsko-Biała",
-    "province": "śląskie",
-    "county": "bielski",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2014-06-04",
@@ -1005,8 +1005,8 @@
     "address": "ul. Jaskółek 12",
     "postalCode": "43-215",
     "city": "Studzienice",
-    "province": "pomorskie",
-    "county": "bytowski",
+    "province": "śląskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2012-02-03",
@@ -1030,8 +1030,8 @@
     "address": "ul. Chorzowska 109A",
     "postalCode": "40-101",
     "city": "Katowice",
-    "province": "śląskie",
-    "county": "katowicki",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2013-07-26",
@@ -1105,8 +1105,8 @@
     "address": "ul. Wojska Polskiego 3",
     "postalCode": "39-300",
     "city": "Mielec",
-    "province": "podkarpackie",
-    "county": "mielecki",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2012-12-06",
@@ -1142,8 +1142,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/0F3835F1-70EB-46F2-AB77-AD22EEA75029",
     "operatingArea": "Zgodnie z koncesją nr DEE/71/1337/W/OŁO/2008/TB",
     "coordinates": [
-      51.599944689729654,
-      18.9392189043873
+      51.59555628972966,
+      18.949627604387302
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -1217,8 +1217,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/B2339FD6-F6C7-41BE-84DF-06F176F0B0C3",
     "operatingArea": "Zgodnie z koncesją nr DEE/352/24579/W/OKR/2015/JPi1",
     "coordinates": [
-      49.65538915471291,
-      21.16038872808622
+      49.65807915471291,
+      21.159271928086223
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -1305,7 +1305,7 @@
     "address": "ul. Zakroczymska 30 lok. 118",
     "postalCode": "05-100",
     "city": "Nowy Dwór Mazowiecki",
-    "province": "pomorskie",
+    "province": "mazowieckie",
     "county": "nowodworski",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
@@ -1342,8 +1342,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/99CE1C50-ABDF-4E7C-BE01-F1D588CA2A7D",
     "operatingArea": "Zgodnie z koncesją nr PEE/46/141/U/3/98/RW",
     "coordinates": [
-      51.400266794592824,
-      16.200363371298803
+      51.39944509459282,
+      16.198601271298802
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -1367,8 +1367,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/65E87858-7728-4126-B158-7BECE3A08E12",
     "operatingArea": "Zgodnie z koncesją nr DEE/38/15714/W/OPO/2007/AJ",
     "coordinates": [
-      51.65227558923186,
-      17.810234412075975
+      51.648977889231865,
+      17.816642912075974
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -1380,8 +1380,8 @@
     "address": "ul. Wojska Polskiego 3",
     "postalCode": "39-300",
     "city": "Mielec",
-    "province": "podkarpackie",
-    "county": "mielecki",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2013-08-22",
@@ -1505,8 +1505,8 @@
     "address": "ul. Kwiatkowskiego 1",
     "postalCode": "37-450",
     "city": "Stalowa Wola",
-    "province": "podkarpackie",
-    "county": "stalowowolski",
+    "province": "lubelskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2010-12-02",
@@ -1555,8 +1555,8 @@
     "address": "ul. Chemiczna 6",
     "postalCode": "42-520",
     "city": "Dąbrowa Górnicza",
-    "province": "śląskie",
-    "county": "zawierciański",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2020-07-15",
@@ -1567,8 +1567,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/E0359D0E-0FC0-4F8A-9CA7-4CB5EDD51569",
     "operatingArea": "Zgodnie z koncesją nr DEE/410/1198/W/OKA/2020/PS",
     "coordinates": [
-      50.32697063964655,
-      19.194336109583617
+      50.330039839646545,
+      19.207527909583614
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -1642,8 +1642,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/3BC8B70B-79E4-45B5-B3B1-E7C96337D6A7",
     "operatingArea": "Zgodnie z koncesją nr DEE/332/12970/W/OWR/2014/RP",
     "coordinates": [
-      50.674732682827795,
-      17.92115204395502
+      50.67842558282779,
+      17.92973644395502
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -1655,8 +1655,8 @@
     "address": "ul. Metalowca 4",
     "postalCode": "39-460",
     "city": "Nowa Dęba",
-    "province": "podkarpackie",
-    "county": "leżajski",
+    "province": "lubelskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2011-12-20",
@@ -1892,8 +1892,8 @@
     "fileUrl": "",
     "operatingArea": "ZAMKNIĘTY SYSTEM DYSTRYBUCYJNY",
     "coordinates": [
-      50.92376471400915,
-      22.21967958611683
+      50.94295791400915,
+      22.20753758611683
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -1917,8 +1917,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/262245B1-54E5-4C85-B678-F30E7FBF7433",
     "operatingArea": "Zgodnie z koncesją nr DEE/591/W/OLB/2009/MSZ",
     "coordinates": [
-      50.92483412578275,
-      22.221173601966875
+      50.94402732578275,
+      22.209031601966874
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -1930,8 +1930,8 @@
     "address": "ul. Odlewników 52",
     "postalCode": "39-432",
     "city": "Gorzyce",
-    "province": "kujawsko-pomorskie",
-    "county": "żniński",
+    "province": "lubelskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2012-09-17",
@@ -2017,8 +2017,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/68C1D791-7FF1-47E3-83BB-E7259B3829B7",
     "operatingArea": "Zgodnie z koncesją nr DEE/290/19133/W/OKA/2011/KR",
     "coordinates": [
-      50.173119972004756,
-      18.905167470144388
+      50.196322772004756,
+      18.853799670144387
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -2067,8 +2067,8 @@
     "fileUrl": "",
     "operatingArea": "zamknięty system dystrybucyjny",
     "coordinates": [
-      52.41396095231916,
-      17.079740871858302
+      52.404648152319155,
+      17.1076490718583
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -2092,8 +2092,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/D5579E22-F68C-4341-AB52-953C0167BACC",
     "operatingArea": "Zgodnie z koncesją nr DEE/384/49612/W/OPO/2018/AJ",
     "coordinates": [
-      52.413289847322595,
-      17.078848590007297
+      52.40397704732259,
+      17.106756790007296
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -2130,8 +2130,8 @@
     "address": "UL. OBROKI 109",
     "postalCode": "40-833",
     "city": "KATOWICE",
-    "province": "śląskie",
-    "county": "górnośląsko-zagłębiowska metropoliański",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": {
@@ -2146,8 +2146,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/4AF93327-6C7E-4B7E-8061-8FDF61EC7653",
     "operatingArea": "Zgodnie z koncesją nr DEE/457/66828/W/OKA/2024/RZ",
     "coordinates": [
-      50.21383733795189,
-      19.005782336538275
+      50.264188937951886,
+      19.023722836538273
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -2296,8 +2296,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/9154EBAB-319A-477E-B0C6-E0F0CA14B677",
     "operatingArea": "Zgodnie z koncesją nr DEE/248/18872/W/OŁO/2010/WL",
     "coordinates": [
-      50.56186668615336,
-      21.16705153846314
+      50.86676718615335,
+      20.63214663846314
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -2346,8 +2346,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/5E6EA489-6B16-4B00-B9C9-C82B9F631783",
     "operatingArea": "Zgodnie z koncesją nr PEE/2/590/U/3/98/JB",
     "coordinates": [
-      51.41629730504794,
-      21.969362268651498
+      51.41686860504794,
+      21.9728204686515
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -2371,8 +2371,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/44153EC0-503C-4A1B-8B78-5E6C82C5D765",
     "operatingArea": "Zgodnie z koncesją nr DEE/299/3888/W/2/2012/ŁG",
     "coordinates": [
-      50.29574351297556,
-      18.954551331254855
+      50.28781611297556,
+      18.971331131254853
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -2396,8 +2396,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/217DC819-3955-40E8-9CB0-CC40B8ECA27C",
     "operatingArea": "Zgodnie z koncesją nr PEE/83/564/U/OT-6/98/MB",
     "coordinates": [
-      50.34845252911364,
-      18.2249380465078
+      50.34471552911364,
+      18.244732546507798
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -2421,8 +2421,8 @@
     "fileUrl": "",
     "operatingArea": "zamknięty system dystrybucyjny na ograniczonym geograficznie obszarze zakładu przemysłowego Grupy Azoty Zakłady Chemiczne „Police” S.A. z siedzibą w Policach, zlokalizowanego w Policach przy ulicy Kuźnickiej 1",
     "coordinates": [
-      53.55828603068661,
-      14.571572346326203
+      53.548629530686604,
+      14.565912246326203
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -2446,8 +2446,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/5FCA7B8A-4FFE-46E1-9102-BAE4E3236DD7",
     "operatingArea": "Zgodnie z koncesją nr PEE/155/580/U/1/2/99/RG",
     "coordinates": [
-      53.558391491848155,
-      14.572016314609348
+      53.54873499184815,
+      14.566356214609348
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -2484,8 +2484,8 @@
     "address": "ul. Warszawska 40 / 2 A",
     "postalCode": "40-008",
     "city": "Katowice",
-    "province": "śląskie",
-    "county": "katowicki",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2023-07-11",
@@ -2584,8 +2584,8 @@
     "address": "Sobieskiego 24",
     "postalCode": "41-300",
     "city": "Dąbrowa Górnicza",
-    "province": "śląskie",
-    "county": "zawierciański",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2012-02-03",
@@ -2596,8 +2596,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/DA377B56-77AF-42AA-AE67-54880114AE0D",
     "operatingArea": "Zgodnie z koncesją nr DEE/231/1727/W/OKA/2009/PS",
     "coordinates": [
-      50.32787851708923,
-      19.193887295766608
+      50.33094771708923,
+      19.207079095766606
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -2721,8 +2721,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/013EF053-5ECE-4B99-830B-A07ED236CBE7",
     "operatingArea": "Zgodnie z koncesją nr PEE/5/2678/U/3/98/RW",
     "coordinates": [
-      51.39963403236575,
-      16.20028995825645
+      51.39881233236575,
+      16.19852785825645
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -2771,8 +2771,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/3CA2F4D4-7986-426D-A9E4-83B245103879",
     "operatingArea": "Zgodnie z koncesją nr PEE/121/812/U/OKA/99/BK/1/2/AS",
     "coordinates": [
-      50.04412028954621,
-      18.70006754600178
+      50.044616389546206,
+      18.69471544600178
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -2784,8 +2784,8 @@
     "address": "Pustków - Osiedle 59D",
     "postalCode": "39-206",
     "city": "Pustków",
-    "province": "podkarpackie",
-    "county": "dębicki",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2023-09-06",
@@ -2809,8 +2809,8 @@
     "address": "Pustków - Osiedle 59D",
     "postalCode": "39-206",
     "city": "Pustków",
-    "province": "podkarpackie",
-    "county": "dębicki",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2011-12-12",
@@ -2859,8 +2859,8 @@
     "address": "ul. Turyńska 100",
     "postalCode": "43-100",
     "city": "Tychy",
-    "province": "śląskie",
-    "county": "tyski",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2021-07-15",
@@ -2946,8 +2946,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/5F539895-EAA8-44A2-A275-FB59C5331930",
     "operatingArea": "Zgodnie z koncesją nr DEE/351/24651/W/DRE/2015/ZJ",
     "coordinates": [
-      51.652341369877334,
-      17.809764304785467
+      51.64904366987734,
+      17.816172804785467
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -2996,8 +2996,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/4D8DF3B1-EA9E-404F-AE0C-69E4B76C3A70",
     "operatingArea": "Zgodnie z koncesją nr PEE/267/740/W/1/2003/MS",
     "coordinates": [
-      53.4110927452145,
-      18.447220823437668
+      53.4079445452145,
+      18.445046123437667
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -3021,8 +3021,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/DDDAB757-9AF0-443C-8618-38ADE8410309",
     "operatingArea": "Zgodnie z koncesją nr DEE/381/41718/W/OWR/2018/JR",
     "coordinates": [
-      51.147395437566075,
-      15.005745197748393
+      51.146995937566075,
+      15.007147997748392
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -3084,8 +3084,8 @@
     "address": "ul. 3 Maja 83",
     "postalCode": "38-200",
     "city": "Jasło",
-    "province": "podkarpackie",
-    "county": "jasielski",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2013-08-13",
@@ -3096,8 +3096,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/F0CA0CC6-F9DC-4AD1-89F6-AC4F74CCB487",
     "operatingArea": "Zgodnie z koncesją nr DEE/313/22078/W/OKR/2013/JI",
     "coordinates": [
-      49.74462137876039,
-      21.472752631969065
+      49.74678407876039,
+      21.493328631969067
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -3121,8 +3121,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/75D4522C-F1F6-49B6-B906-FF3E53962B14",
     "operatingArea": "Zgodnie z koncesją nr DEE/66/203/W/OPO/2008/AJ",
     "coordinates": [
-      51.653366939296575,
-      17.81040563573331
+      51.65006923929658,
+      17.81681413573331
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -3296,8 +3296,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/0895F197-D625-4F53-B021-7C9A97AF99E0",
     "operatingArea": "Zgodnie z koncesją nr PEE/101/9195/W/1/99/RG",
     "coordinates": [
-      50.34919013517256,
-      18.22537004100853
+      50.34545313517256,
+      18.24516454100853
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -3321,8 +3321,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/FE142652-61EE-4202-8154-C80851E37149",
     "operatingArea": "Zgodnie z koncesją nr DEE/77/9256/W/2/2008/MZn",
     "coordinates": [
-      50.86094396733337,
-      17.47211241366794
+      51.26891836733337,
+      16.708792913667942
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -3421,8 +3421,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/C1301383-6E09-4DD6-9098-1D652A180926",
     "operatingArea": "Zgodnie z koncesją nr PEE/201/1249/W/1/2/2000/AS",
     "coordinates": [
-      51.367095147850044,
-      19.367675017768374
+      51.36712704785004,
+      19.37043951776837
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -3446,8 +3446,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/265E0C33-D63C-4A32-9D8D-F846F0CD819B",
     "operatingArea": "Zgodnie z koncesją nr DEE/374/1258/W/OKA/2017/RZ",
     "coordinates": [
-      49.95396882046121,
-      18.592663427517937
+      49.960548320461214,
+      18.59843532751794
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -3459,8 +3459,8 @@
     "address": "ul. Portowa 24",
     "postalCode": "27-600",
     "city": "Sandomierz",
-    "province": "świętokrzyskie",
-    "county": "sandomierski",
+    "province": "lubelskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2017-02-28",
@@ -3471,8 +3471,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/2935AFDD-0682-4788-9707-3C991EB43B93",
     "operatingArea": "Zgodnie z koncesją nr DEE/368/30595/W/DRE/2017/BT",
     "coordinates": [
-      50.6824463490467,
-      21.74881092000963
+      50.679752949046694,
+      21.74891642000963
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -3534,8 +3534,8 @@
     "address": "ul. Armii Krajowej 43",
     "postalCode": "42-360",
     "city": "Poraj",
-    "province": "łódzkie",
-    "county": "piotrkowski",
+    "province": "śląskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2014-04-24",
@@ -3659,8 +3659,8 @@
     "address": "Plac Kilińskiego 1",
     "postalCode": "32-660",
     "city": "Chełmek",
-    "province": "małopolskie",
-    "county": "oświęcimski",
+    "province": "lubelskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2012-05-30",
@@ -3696,8 +3696,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/679231A0-3765-4D7D-A51B-DC46DF7DA46A",
     "operatingArea": "Zgodnie z koncesją nr DEE/336/248/W/OŁO/2014/KK",
     "coordinates": [
-      52.404837637828805,
-      20.929454286876727
+      52.395466137828805,
+      20.930985186876725
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -3709,8 +3709,8 @@
     "address": "ul. Armii Krajowej 5",
     "postalCode": "26-200",
     "city": "Końskie",
-    "province": "świętokrzyskie",
-    "county": "konecki",
+    "province": "łódzkie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2011-01-12",
@@ -3721,8 +3721,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/8B07E720-6C49-47F9-9A8C-49DBEDF4AFE0",
     "operatingArea": "Zgodnie z koncesją nr PEE/182/351/W/1/2/99/AS",
     "coordinates": [
-      51.19538886043506,
-      20.408097627544016
+      51.19081116043506,
+      20.407481227544015
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -3809,8 +3809,8 @@
     "address": "ul. Chemików 1",
     "postalCode": "37-310",
     "city": "Nowa Sarzyna",
-    "province": "podkarpackie",
-    "county": "stalowowolski",
+    "province": "lubelskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2011-05-10",
@@ -3846,8 +3846,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/E0D63564-CC46-4A15-A34F-1E771470AF21",
     "operatingArea": "Zgodnie z koncesją nr DEE/60/13971/W/OWA/2008/BH",
     "coordinates": [
-      52.798774955901536,
-      18.259344267127084
+      52.78243925590154,
+      18.245952867127084
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -3884,8 +3884,8 @@
     "address": "ul. Łukasiewicza 2",
     "postalCode": "43-502",
     "city": "Czechowice-Dziedzice",
-    "province": "śląskie",
-    "county": "bielski",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2011-11-10",
@@ -3896,8 +3896,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/171BBBF7-6B8D-4A0C-B41E-EC431AD044AA",
     "operatingArea": "Zgodnie z koncesją nr PEE/225/1928/W/1/2/2001/AS",
     "coordinates": [
-      49.914694732183825,
-      19.01167710684786
+      49.911509332183826,
+      19.00814110684786
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -3921,8 +3921,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/04F3E3E1-E22F-4625-B94E-AE6301C90F7F",
     "operatingArea": "Zgodnie z koncesją nr DEE/428/64263/W/DRE/2022/BT",
     "coordinates": [
-      52.73121894764303,
-      15.239169807472456
+      52.73080194764303,
+      15.209880007472456
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -4025,8 +4025,8 @@
     "fileUrl": "",
     "operatingArea": "stwierdzono zamknięty system dystrybucyjny na obszarze zakłądu przemysłowego STALPRODUKT S.A. położonego: 1) w Bochni przy ul. Wygoda 69; 2) w Borku gm. Rzezawa na działkach o nr ewid. 2110 i 2097 3) we Włocławku przy Al. Kazimierza Wielkiego 4",
     "coordinates": [
-      49.97512413746179,
-      20.424639823860645
+      49.96979623746179,
+      20.429851623860646
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -4050,8 +4050,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/78F1F8AE-B2BD-4299-9B3B-72D2AB7CCC6A",
     "operatingArea": "Zgodnie z koncesją nr PEE/176/1553/U/1/2/99/RG",
     "coordinates": [
-      49.974007136976816,
-      20.425771845158874
+      49.96867923697682,
+      20.430983645158875
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -4100,8 +4100,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/0A372300-42F6-463D-B062-5A8617D7E80A",
     "operatingArea": "Zgodnie z koncesją nr PEE/239/3273/W/2/2001/MS",
     "coordinates": [
-      50.03948828235329,
-      19.231109648875837
+      50.03445898235329,
+      19.259989448875835
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -4113,8 +4113,8 @@
     "address": "ul. Grażyńskiego 49",
     "postalCode": "40-126",
     "city": "Katowice",
-    "province": "śląskie",
-    "county": "katowicki",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2019-06-17",
@@ -4275,8 +4275,8 @@
     "fileUrl": "",
     "operatingArea": "ZAMKNIĘTY SYSTEM DYSTRYBUCYJNY",
     "coordinates": [
-      50.09203464642963,
-      18.2194364190153
+      50.09115984642963,
+      18.2159859190153
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -4300,8 +4300,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/A6528014-FBF2-4A0A-BAE9-E275CC5A1F98",
     "operatingArea": "Zgodnie z koncesją nr DEE/367/23522/W/DRE/2017/ZJ",
     "coordinates": [
-      50.09072326062919,
-      18.21789376240104
+      50.08984846062919,
+      18.21444326240104
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -4363,8 +4363,8 @@
     "address": "Łukasiewicza 2",
     "postalCode": "43-502",
     "city": "Czechowice-Dziedzice",
-    "province": "śląskie",
-    "county": "bielski",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2025-05-21",
@@ -4375,8 +4375,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/F9A26678-3E01-428B-85F2-9301449EDE4A",
     "operatingArea": "Zgodnie z koncesją nr DEE/465/1203/W/OKA/2025/PCR",
     "coordinates": [
-      49.91363015530705,
-      19.011063035343323
+      49.91044475530705,
+      19.007527035343323
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -4550,8 +4550,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/692D93E6-102B-45B5-809C-D164D89381E8",
     "operatingArea": "Zgodnie z koncesją nr DEE/311/770/W/OLB/2013/ASZ",
     "coordinates": [
-      51.22502852197042,
-      22.69690823014019
+      51.22009142197042,
+      22.69987213014019
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -4625,8 +4625,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/B3907474-58DF-411F-92AC-07734CF01D90",
     "operatingArea": "Zgodnie z koncesją nr DEE/363/25009/W/OŁO/2016/KK",
     "coordinates": [
-      52.29298298407843,
-      21.112912716237908
+      52.29397908407843,
+      21.116453516237907
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -4650,8 +4650,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/B921E0EB-6362-4A40-A932-F341A83E9C11",
     "operatingArea": "Zgodnie z koncesją nr DEE/395/417/W/OSZ/2019/APo1",
     "coordinates": [
-      54.01016916674184,
-      15.991470944171363
+      54.00740586674184,
+      15.987968344171362
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -4700,8 +4700,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/AFC15CA3-F700-4FAB-BBDE-DB27643EC849",
     "operatingArea": "Zgodnie z koncesją nr DEE/3/13482/W/2/2005/BP",
     "coordinates": [
-      52.088804348301956,
-      17.01511505250159
+      52.40767064830196,
+      16.933934952501588
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -4713,8 +4713,8 @@
     "address": "ul. Hetmańska 15L",
     "postalCode": "82-300",
     "city": "Elbląg",
-    "province": "warmińsko-mazurskie",
-    "county": "elbląski",
+    "province": "pomorskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2011-06-01",
@@ -4750,8 +4750,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/C5CEA406-8F68-4603-88A6-DBBC100D57E3",
     "operatingArea": "Zgodnie z koncesją nr PEE/99/1445/U/OT3/98/RW",
     "coordinates": [
-      49.5095319215174,
-      22.262845286789204
+      49.847765021517404,
+      22.139221386789202
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -4763,8 +4763,8 @@
     "address": "ul. Chemiczna 3",
     "postalCode": "39-400",
     "city": "Tarnobrzeg",
-    "province": "podkarpackie",
-    "county": "tarnobrzeski",
+    "province": "lubelskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2012-05-30",
@@ -4800,8 +4800,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/9BED9A41-A6F8-4375-AB02-D1E6340E5581",
     "operatingArea": "Zgodnie z koncesją nr DEE/84/605/W/OKR/2008/JM",
     "coordinates": [
-      50.26187824022714,
-      19.43685349584768
+      49.72292954022714,
+      20.25473759584768
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -4888,8 +4888,8 @@
     "address": "ul. Zagórska 83",
     "postalCode": "42-680",
     "city": "Tarnowskie Góry",
-    "province": "śląskie",
-    "county": "tarnogórski",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "OSDe",
     "operatorTypeDesc": "Operator systemu dystrybucyjnego elektroenergetycznego",
     "registrationDate": "2010-12-13",
@@ -4900,8 +4900,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/EE280D90-C93F-41E4-9666-8BFE832205EE",
     "operatingArea": "Zgodnie z koncesją nr DEE/325/6562/W/DRE/2014/BT",
     "coordinates": [
-      50.445721968979356,
-      18.865162670836146
+      50.264805068979356,
+      19.024287970836145
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",
@@ -5075,8 +5075,8 @@
     "fileUrl": "https://api.ure.gov.pl/api/ConcessionFuel/download/1753D7DA-438C-4393-A3EB-9F888B78D9A5",
     "operatingArea": "Zgodnie z koncesją nr PEE/188/42/W/1/2/99/MS",
     "coordinates": [
-      49.408281541301434,
-      20.300706071715688
+      49.72281514130144,
+      20.254923171715685
     ],
     "dataType": "OPERATOR",
     "category": "intermediary",

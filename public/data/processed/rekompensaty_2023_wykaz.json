@@ -5,13 +5,13 @@
     "address": "ul. Kaliska 11",
     "postalCode": "87-860",
     "city": "Chodecz",
-    "province": "kujawsko-pomorskie",
-    "county": "włocławski",
+    "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "8882736166",
     "coordinates": [
-      52.404322491819606,
-      19.03583305856858
+      52.024136691819606,
+      21.136018758568582
     ],
     "dataType": "CONSUMER",
     "category": "consumer",
@@ -23,13 +23,13 @@
     "address": "ul. Fabryczna 1",
     "postalCode": "66-470",
     "city": "Kostrzyn nad Odrą",
-    "province": "lubuskie",
-    "county": "gorzowski",
+    "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5980009201",
     "coordinates": [
-      52.588824565513185,
-      14.647411597958447
+      52.024138765513186,
+      21.135797297958447
     ],
     "dataType": "CONSUMER",
     "category": "consumer",
@@ -41,13 +41,13 @@
     "address": "ul. Mahle 6",
     "postalCode": "63-700",
     "city": "Krotoszyn",
-    "province": "wielkopolskie",
-    "county": "krotoszyński",
+    "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6462353144",
     "coordinates": [
-      51.69814259061143,
-      17.437481309326806
+      52.02485679061143,
+      21.135767009326806
     ],
     "dataType": "CONSUMER",
     "category": "consumer",
@@ -59,13 +59,13 @@
     "address": "ul. Zakładowa 3",
     "postalCode": "47-110",
     "city": "Kolonowskie",
-    "province": "opolskie",
-    "county": "strzelecki",
+    "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "7560003799",
     "coordinates": [
-      50.63812453019049,
-      18.33249923628382
+      52.02483873019049,
+      21.13518493628382
     ],
     "dataType": "CONSUMER",
     "category": "consumer",
@@ -82,8 +82,8 @@
     "installationType": "CONSUMER",
     "nip": "5252150859",
     "coordinates": [
-      52.880999335675035,
-      20.619517097952958
+      52.88157913567504,
+      20.61936499795296
     ],
     "dataType": "CONSUMER",
     "category": "consumer",
@@ -95,13 +95,13 @@
     "address": "ul. Niepodległości 8",
     "postalCode": "66-530",
     "city": "Drezdenko",
-    "province": "lubuskie",
-    "county": "strzelecko-drezdenecki",
+    "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "9511892636",
     "coordinates": [
-      52.84210290628276,
-      15.830623314172632
+      52.02411710628276,
+      21.134709014172632
     ],
     "dataType": "CONSUMER",
     "category": "consumer",
@@ -131,8 +131,8 @@
     "address": "ul. Strefowa 4",
     "postalCode": "43-109",
     "city": "Tychy",
-    "province": "śląskie",
-    "county": "tyski",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6462864614",
     "coordinates": [
@@ -203,13 +203,13 @@
     "address": "Al. Józefa Piłsudskiego 92",
     "postalCode": "41-308",
     "city": "Dąbrowa Górnicza",
-    "province": "śląskie",
-    "county": "zawierciański",
+    "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6342463083",
     "coordinates": [
-      50.32745406097803,
-      19.19471410888946
+      52.02416826097802,
+      21.13549980888946
     ],
     "dataType": "CONSUMER",
     "category": "consumer",
@@ -239,13 +239,13 @@
     "address": "ul. Fabryczna 1",
     "postalCode": "66-470",
     "city": "Kostrzyn nad Odrą",
-    "province": "lubuskie",
-    "county": "gorzowski",
+    "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "5980003701",
     "coordinates": [
-      52.5900455171909,
-      14.64800254729312
+      52.0253597171909,
+      21.13638824729312
     ],
     "dataType": "CONSUMER",
     "category": "consumer",
@@ -257,8 +257,8 @@
     "address": "ul. Obrońców Westerplatte 108",
     "postalCode": "40-335",
     "city": "Katowice",
-    "province": "śląskie",
-    "county": "katowicki",
+    "province": "małopolskie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6271267706",
     "coordinates": [
@@ -275,8 +275,8 @@
     "address": "ul. Józefa Piłsudskiego 23",
     "postalCode": "32-050",
     "city": "Skawina",
-    "province": "małopolskie",
-    "county": "krakowski",
+    "province": "mazowieckie",
+    "county": "nieznany",
     "installationType": "CONSUMER",
     "nip": "6790004827",
     "coordinates": [

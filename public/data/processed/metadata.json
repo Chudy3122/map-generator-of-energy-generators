@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-15T07:18:49.103Z",
+  "generatedAt": "2025-12-17T07:15:05.526Z",
   "totalRecords": 11992,
   "counts": {
     "koncesje_w_zakresie_innym_niz_paliwa_ciekle.json": 3167,
@@ -9,7 +9,7 @@
     "operatorzy_systemow_elektroenergetycznych.json": 203,
     "lista_sprzedawcow_zobowiazanych.json": 178
   },
-  "cacheSize": 18628,
-  "processingTimeSeconds": 4,
-  "locationDictionarySize": 314
+  "cacheSize": 11983,
+  "processingTimeSeconds": 3,
+  "locationDictionarySize": 58
 }

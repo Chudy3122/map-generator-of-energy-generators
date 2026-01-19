@@ -4455,8 +4455,8 @@
     "address": "ul. Fabryczna 2",
     "postalCode": "37-300",
     "city": "Leżajsk",
-    "province": "mazowieckie",
-    "county": "nieznany",
+    "province": "podkarpackie",
+    "county": "leżajski",
     "municipality": "Leżajsk",
     "installationType": "15%",
     "registrationDate": "",
@@ -4467,8 +4467,8 @@
     "exciseNumber": "",
     "fileUrl": "",
     "coordinates": [
-      52.02373359249781,
-      21.13605020367241
+      50.26025084938381,
+      22.417271770850967
     ],
     "dataType": "CONCESSION",
     "category": "consumer",

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nFix HORTINO Leżajsk location - correct province and coordinates\n\n- Changed province from \"mazowieckie\" to \"podkarpackie\"\n- Changed county from \"nieznany\" to \"leżajski\"\n- Fixed coordinates from [52.024, 21.136] to [50.260, 22.417]\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nFix ESLint errors - remove unused variables and imports\n\n- Remove unused imports \\(parseString, axios, axiosRateLimit\\)\n- Remove unused types and functions \\(XMLType processing functions\\)\n- Remove unused helper functions \\(geocodeAddress, saveToCache, etc.\\)\n- Remove unused DataSource type and dataSource state variable\n- Add eslint-disable comments where needed\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}

@@ -2,85 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-cluster';
 import L from 'leaflet';
-import { parseString } from 'xml2js';
-import axios from 'axios';
-import axiosRateLimit from 'axios-rate-limit';
-
 // === TYPY ===
-type MIOZERegistry = {
-  DKN: string[];
-  Nazwa: string[];
-  NIP: string[];
-  Adres: string[];
-  Kod: string[];
-  Miejscowosc: string[];
-  Wojewodztwo: string[];
-  DataWpisu: string[];
-  MiejscowoscInstalacji?: string[];
-  WojewodztwoInstalacji?: string[];
-  DataRozpoczeciaDzialalnosci?: string[];
-  RodzajInstalacji: string[];
-  MocEEInstalacji?: string[];
-  RodzajIZakres?: string[];
-  IdInstalacji?: string[];
-};
-
-type ConcessionRecord = {
-  DKN: string[];
-  Nazwa: string[];
-  NIP: string[];
-  Adres: string[];
-  Kod: string[];
-  Miejscowosc: string[];
-  Wojewodztwo: string[];
-  RodzajKoncesji: string[];
-  DataWydania: string[];
-  DataOd: string[];
-  DataDo: string[];
-  REGON?: string[];
-  NrAkcyzowy?: string[];
-  Plik?: string[];
-  Poczta?: string[];
-};
-
-type OperatorRecord = {
-  DKN: string[];
-  Nazwa: string[];
-  NIP: string[];
-  Adres: string[];
-  Kod: string[];
-  Miejscowosc: string[];
-  Wojewodztwo: string[];
-  RodzajOperatora: string[];
-  PelnaNazwaRodzajuOperatora: string[];
-  DataWydania: string[];
-  DataOd: string[];
-  DataDo: string[];
-  REGON?: string[];
-  Plik?: string[];
-  ObszarDzialaniaOperatora?: string[];
-  Poczta?: string[];
-};
-
-type ConsumerRecord = {
-  Lp: string[];
-  Nazwa: string[];
-  NIP: string[];
-  KodPocztowy: string[];
-  Miejscowosc: string[];
-  UlicaNr: string[];
-  Zrodlo?: string[];
-};
-
-type SellerRecord = {
-  DKN: string[];
-  Sprzedawca?: string[];
-  Nazwa: string[];
-  Adres: string[];
-  Kod?: string[];
-  Miejscowosc?: string[];
-  Wojewodztwo?: string[];
-};
 
 type Installation = {
   id: string;
@@ -120,8 +42,6 @@ enum XMLType {
   SELLER = 'SELLER',
   UNKNOWN = 'UNKNOWN'
 }
-
-type DataSource = 'uploaded' | 'preloaded' | 'combined';
 
 type DataCategory = 'supplier' | 'consumer' | 'intermediary';
 
@@ -176,21 +96,6 @@ const createCustomIconWithLabel = (color: string, label: string): L.DivIcon => {
   });
 };
 
-// === CACHE ===
-const loadGeocodeCache = () => {
-  try {
-    const cache = localStorage.getItem('geocodeCache');
-    if (cache) {
-      return JSON.parse(cache);
-    }
-  } catch (error) {
-    console.error('Error loading geocode cache:', error);
-  }
-  return {};
-};
-
-const geocodeCache: Record<string, [number, number]> = loadGeocodeCache();
-const http = axiosRateLimit(axios.create(), { maxRequests: 1, perMilliseconds: 1000 });
 
 // === KOLORY - PALETA PAUL TOL (PRZYJAZNA DLA DALTONISTÓW) ===
 // Każdy typ ma unikalny kolor, który dobrze się odróżnia
@@ -268,155 +173,8 @@ const concessionDescriptions: Record<string, string> = {
   'SELLER': 'Sprzedawca zobowiązany'
 };
 
-const WOJEWODZTWA_COORDINATES: Record<string, [number, number]> = {
-  'dolnośląskie': [51.1089776, 16.9251681],
-  'kujawsko-pomorskie': [53.0557231, 18.5932264],
-  'lubelskie': [51.2495569, 23.1011099],
-  'lubuskie': [52.2274715, 15.2559509],
-  'łódzkie': [51.4703833, 19.4797627],
-  'małopolskie': [49.7220511, 20.2540618],
-  'mazowieckie': [52.0245142, 21.1354857],
-  'opolskie': [50.6751228, 17.8919551],
-  'podkarpackie': [49.8481153, 22.1396655],
-  'podlaskie': [53.0833301, 23.1688403],
-  'pomorskie': [54.1038841, 18.1371635],
-  'śląskie': [50.2640831, 19.0238253],
-  'świętokrzyskie': [50.8661281, 20.6328800],
-  'warmińsko-mazurskie': [53.8713351, 20.6886953],
-  'wielkopolskie': [52.4082663, 16.9335199],
-  'zachodniopomorskie': [53.4252871, 14.5552673],
-};
-
-const POLSKA_LOCATIONS: Record<string, [number, number]> = {
-  'Warszawa': [52.2297, 21.0122],
-  'Kraków': [50.0647, 19.9450],
-  'Wrocław': [51.1079, 17.0385],
-  'Poznań': [52.4064, 16.9252],
-  'Gdańsk': [54.3520, 18.6466],
-  'Lublin': [51.2465, 22.5684],
-};
-
-// === FUNKCJE POMOCNICZE ===
-const seededRandom = (seed: string): number => {
-  let hash = 0;
-  for (let i = 0; i < seed.length; i++) {
-    hash = ((hash << 5) - hash) + seed.charCodeAt(i);
-    hash = hash & hash;
-  }
-  const x = Math.sin(hash) * 10000;
-  return x - Math.floor(x);
-};
-
-const addJitter = (coords: [number, number], seed: string): [number, number] => {
-  const jitterAmount = 0.002;
-  const random1 = seededRandom(seed + "_lat");
-  const random2 = seededRandom(seed + "_lng");
-  return [
-    coords[0] + (random1 - 0.5) * jitterAmount,
-    coords[1] + (random2 - 0.5) * jitterAmount
-  ];
-};
-
-const normalizeLocation = (city: string): string => {
-  return city.trim().replace(/\s+/g, ' ');
-};
-
-const saveToCache = (key: string, coords: [number, number]) => {
-  try {
-    geocodeCache[key] = coords;
-    localStorage.setItem('geocodeCache', JSON.stringify(geocodeCache));
-  } catch (error) {
-    console.error('Error saving geocode cache:', error);
-  }
-};
-
-const detectXMLType = (xmlContent: string): XMLType => {
-  if (xmlContent.includes('MIOZERegistries') || xmlContent.includes('MIOZERegistry')) return XMLType.MIOZE;
-  if (xmlContent.includes('ConcessionOtherFuels') || xmlContent.includes('ConcessionOtherFuel')) return XMLType.CONCESSION;
-  if (xmlContent.includes('OperatorElectricitySystems') || xmlContent.includes('OperatorElectricitySystem')) return XMLType.OPERATOR;
-  if (xmlContent.includes('WykazPodmiotow') || xmlContent.includes('Podmiot')) return XMLType.CONSUMER;
-  if (xmlContent.includes('Sprzedawca')) return XMLType.SELLER;
-  return XMLType.UNKNOWN;
-};
-
-const generateInstallationId = (registry: any, index: number, type: XMLType): string => {
-  const dkn = registry.DKN?.[0] || registry.Lp?.[0] || '';
-  if (type === XMLType.MIOZE) {
-    const idInstalacji = registry.IdInstalacji?.[0] || index.toString();
-    return `MIOZE_${dkn}_${idInstalacji}`;
-  } else if (type === XMLType.CONCESSION) {
-    const rodzajKoncesji = registry.RodzajKoncesji?.[0] || '';
-    return `CONCESSION_${dkn}_${rodzajKoncesji}_${index}`;
-  } else if (type === XMLType.OPERATOR) {
-    const rodzajOperatora = registry.RodzajOperatora?.[0] || '';
-    return `OPERATOR_${dkn}_${rodzajOperatora}_${index}`;
-  } else if (type === XMLType.CONSUMER) {
-    return `CONSUMER_${dkn}_${index}`;
-  } else if (type === XMLType.SELLER) {
-    return `SELLER_${dkn}_${index}`;
-  }
-  return `GENERIC_${dkn}_${index}`;
-};
-
-const geocodeAddress = async (
-  address: string,
-  postalCode: string,
-  city: string,
-  province: string,
-  installationId: string
-): Promise<[number, number] | null> => {
-  const cacheKey = `${installationId}_${address}_${postalCode}_${city}_${province}`;
-  if (geocodeCache[cacheKey]) return geocodeCache[cacheKey];
-  const normalizedCity = normalizeLocation(city);
-  if (POLSKA_LOCATIONS[normalizedCity]) {
-    const coords = addJitter(POLSKA_LOCATIONS[normalizedCity], installationId);
-    saveToCache(cacheKey, coords);
-    return coords;
-  }
-  try {
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    const query = encodeURIComponent(`${normalizedCity}, ${province}, ${postalCode}, Polska`);
-    const response = await http.get(`https://nominatim.openstreetmap.org/search?format=json&q=${query}&limit=1`);
-    if (response.data && response.data.length > 0) {
-      const coords: [number, number] = [parseFloat(response.data[0].lat), parseFloat(response.data[0].lon)];
-      const jitteredCoords = addJitter(coords, installationId);
-      saveToCache(cacheKey, jitteredCoords);
-      return jitteredCoords;
-    }
-  } catch (error) {
-    console.error('Error geocoding address:', error);
-  }
-  if (WOJEWODZTWA_COORDINATES[province]) {
-    const coords = addJitter(WOJEWODZTWA_COORDINATES[province], installationId);
-    saveToCache(cacheKey, coords);
-    return coords;
-  }
-  const defaultCoords = addJitter(defaultCenter, installationId);
-  saveToCache(cacheKey, defaultCoords);
-  return defaultCoords;
-};
-
-const processMIOZEData = async (registries: MIOZERegistry[], setProgress: (progress: number) => void): Promise<Installation[]> => {
-  return [];
-};
-
-const processConcessionData = async (concessions: ConcessionRecord[], setProgress: (progress: number) => void): Promise<Installation[]> => {
-  return [];
-};
-
-const processOperatorData = async (operators: OperatorRecord[], setProgress: (progress: number) => void): Promise<Installation[]> => {
-  return [];
-};
-
-const processConsumerData = async (consumers: ConsumerRecord[], setProgress: (progress: number) => void): Promise<Installation[]> => {
-  return [];
-};
-
-const processSellerData = async (sellers: SellerRecord[], setProgress: (progress: number) => void): Promise<Installation[]> => {
-  return [];
-};
-
-const processXMLFile = async (xmlContent: string, isStatic: boolean = false, progressCallback?: (progress: number) => void) => {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const processXMLFile = async (_xmlContent: string, _isStatic: boolean = false, _progressCallback?: (progress: number) => void) => {
   return [];
 };
 
@@ -438,7 +196,6 @@ function App() {
   const [filterCategory, setFilterCategory] = useState<string>("wszystkie");
 
   const [uploadedInstallations, setUploadedInstallations] = useState<Installation[]>([]);
-  const [dataSource] = useState<DataSource>('combined');
 
   const [allData, setAllData] = useState<Installation[]>([]);
 
@@ -557,6 +314,7 @@ function App() {
       }
     };
     loadAllSources();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {

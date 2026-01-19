@@ -34,15 +34,6 @@ type Installation = {
   operatingArea?: string;
 };
 
-enum XMLType {
-  MIOZE = 'MIOZE',
-  CONCESSION = 'CONCESSION',
-  OPERATOR = 'OPERATOR',
-  CONSUMER = 'CONSUMER',
-  SELLER = 'SELLER',
-  UNKNOWN = 'UNKNOWN'
-}
-
 type DataCategory = 'supplier' | 'consumer' | 'intermediary';
 
 interface DataSourceConfig {

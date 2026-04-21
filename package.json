@@ -1,0 +1,63 @@
+{
+  "name": "mapa-wytworcy-energii",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.0",
+    "@types/pdfjs-dist": "^2.10.377",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "axios-rate-limit": "^1.3.0",
+    "buffer": "^6.0.3",
+    "leaflet": "^1.7.1",
+    "pdfjs-dist": "^5.1.91",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.0.0",
+    "react-leaflet-cluster": "^3.1.1",
+    "react-scripts": "5.0.1",
+    "timers-browserify": "^2.0.12",
+    "typescript": "^4.4.2",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.7.11",
+    "@types/xml2js": "^0.4.14",
+    "axios": "^1.12.2",
+    "cli-progress": "^3.12.0",
+    "ora": "^5.4.1",
+    "react-app-rewired": "^2.2.1",
+    "xml2js": "^0.6.2"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "preprocess": "node scripts/preprocess-data.js",
+    "fix-data": "node scripts/fix-by-coordinates.js && node scripts/fix-specific-cities.js && node scripts/fix-specific-installations.js",
+    "prebuild": "npm run preprocess && npm run fix-data"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

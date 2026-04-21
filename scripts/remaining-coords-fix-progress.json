@@ -1,0 +1,772 @@
+{
+  "Rojów|wielkopolskie": {
+    "city": "Rojów",
+    "province": "wielkopolskie",
+    "county": "ostrzeszowski",
+    "oldCoords": [
+      51.4146,
+      17.89029
+    ],
+    "newCoords": null,
+    "count": 3
+  },
+  "Kępno|wielkopolskie": {
+    "city": "Kępno",
+    "province": "wielkopolskie",
+    "county": "kępiński",
+    "oldCoords": [
+      51.2790265,
+      17.9866632
+    ],
+    "newCoords": null,
+    "count": 5
+  },
+  "Mroczeń|wielkopolskie": {
+    "city": "Mroczeń",
+    "province": "wielkopolskie",
+    "county": "kępiński",
+    "oldCoords": [
+      51.2257689,
+      17.987252
+    ],
+    "newCoords": null,
+    "count": 7
+  },
+  "Turkowy|wielkopolskie": {
+    "city": "Turkowy",
+    "province": "wielkopolskie",
+    "county": "kępiński",
+    "oldCoords": [
+      51.28137,
+      17.83405
+    ],
+    "newCoords": null,
+    "count": 2
+  },
+  "Myślniew|wielkopolskie": {
+    "city": "Myślniew",
+    "province": "wielkopolskie",
+    "county": "ostrzeszowski",
+    "oldCoords": [
+      51.40202,
+      17.81905
+    ],
+    "newCoords": null,
+    "count": 2
+  },
+  "Perzów|wielkopolskie": {
+    "city": "Perzów",
+    "province": "wielkopolskie",
+    "county": "kępiński",
+    "oldCoords": [
+      51.2757438,
+      17.8096264
+    ],
+    "newCoords": null,
+    "count": 2
+  },
+  "Nowa Wieś Książęca|wielkopolskie": {
+    "city": "Nowa Wieś Książęca",
+    "province": "wielkopolskie",
+    "county": "kępiński",
+    "oldCoords": [
+      51.2366959,
+      17.8646338
+    ],
+    "newCoords": null,
+    "count": 2
+  },
+  "Chojęcin|wielkopolskie": {
+    "city": "Chojęcin",
+    "province": "wielkopolskie",
+    "county": "kępiński",
+    "oldCoords": [
+      51.2720893,
+      17.9514971
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Ręczyn|wielkopolskie": {
+    "city": "Ręczyn",
+    "province": "wielkopolskie",
+    "county": "grodziski",
+    "oldCoords": [
+      51.03049374115152,
+      14.975235322139868
+    ],
+    "newCoords": null,
+    "count": 20
+  },
+  "Białobłocie|wielkopolskie": {
+    "city": "Białobłocie",
+    "province": "wielkopolskie",
+    "county": "złotowski",
+    "oldCoords": [
+      53.49076,
+      17.36299
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Siedlików|wielkopolskie": {
+    "city": "Siedlików",
+    "province": "wielkopolskie",
+    "county": "ostrzeszowski",
+    "oldCoords": [
+      51.4781295,
+      17.9623155
+    ],
+    "newCoords": null,
+    "count": 2
+  },
+  "Weronikopole|wielkopolskie": {
+    "city": "Weronikopole",
+    "province": "wielkopolskie",
+    "county": "kępiński",
+    "oldCoords": [
+      51.33506,
+      17.8829342
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Goszcz|dolnośląskie": {
+    "city": "Goszcz",
+    "province": "dolnośląskie",
+    "county": "oleśnicki",
+    "oldCoords": [
+      51.3961703,
+      17.4804228
+    ],
+    "newCoords": null,
+    "count": 2
+  },
+  "Rybarzowice|dolnośląskie": {
+    "city": "Rybarzowice",
+    "province": "dolnośląskie",
+    "county": "zgorzelecki",
+    "oldCoords": [
+      50.9025597,
+      14.9002154
+    ],
+    "newCoords": null,
+    "count": 2
+  },
+  "Grabowno Wielkie|dolnośląskie": {
+    "city": "Grabowno Wielkie",
+    "province": "dolnośląskie",
+    "county": "oleśnicki",
+    "oldCoords": [
+      51.3492,
+      17.41683
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Dolnik|dolnośląskie": {
+    "city": "Dolnik",
+    "province": "dolnośląskie",
+    "county": "kłodzki",
+    "oldCoords": [
+      50.1395477,
+      16.7021226
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Międzybórz|dolnośląskie": {
+    "city": "Międzybórz",
+    "province": "dolnośląskie",
+    "county": "oleśnicki",
+    "oldCoords": [
+      51.397711,
+      17.6650165
+    ],
+    "newCoords": null,
+    "count": 2
+  },
+  "Poniatowice|dolnośląskie": {
+    "city": "Poniatowice",
+    "province": "dolnośląskie",
+    "county": "oleśnicki",
+    "oldCoords": [
+      51.2343754,
+      17.5438109
+    ],
+    "newCoords": null,
+    "count": 2
+  },
+  "Syców|dolnośląskie": {
+    "city": "Syców",
+    "province": "dolnośląskie",
+    "county": "oleśnicki",
+    "oldCoords": [
+      51.3078551,
+      17.7198113
+    ],
+    "newCoords": null,
+    "count": 3
+  },
+  "Chełstówek|dolnośląskie": {
+    "city": "Chełstówek",
+    "province": "dolnośląskie",
+    "county": "oleśnicki",
+    "oldCoords": [
+      51.3541667,
+      17.4872222
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Żeleźniki|dolnośląskie": {
+    "city": "Żeleźniki",
+    "province": "dolnośląskie",
+    "county": "milicki",
+    "oldCoords": [
+      51.45801,
+      17.40869
+    ],
+    "newCoords": null,
+    "count": 2
+  },
+  "Twardogóra|dolnośląskie": {
+    "city": "Twardogóra",
+    "province": "dolnośląskie",
+    "county": "oleśnicki",
+    "oldCoords": [
+      51.364557,
+      17.469599
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Dobryń-Kolonia|lubelskie": {
+    "city": "Dobryń-Kolonia",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.0742288,
+      23.4803459
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Grabanów|lubelskie": {
+    "city": "Grabanów",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.0664689,
+      23.1563058
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Dobryń - Kolonia|lubelskie": {
+    "city": "Dobryń - Kolonia",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.0742288,
+      23.4803459
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Horbów - Kolonia|lubelskie": {
+    "city": "Horbów - Kolonia",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.0312748,
+      23.3230018
+    ],
+    "newCoords": null,
+    "count": 2
+  },
+  "Kaliłów|lubelskie": {
+    "city": "Kaliłów",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.0626799,
+      23.2241804
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Julków|lubelskie": {
+    "city": "Julków",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.0660311,
+      23.1984178
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Sławacinek Stary|lubelskie": {
+    "city": "Sławacinek Stary",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.0299198,
+      23.0701691
+    ],
+    "newCoords": null,
+    "count": 4
+  },
+  "Cicibór Duży|lubelskie": {
+    "city": "Cicibór Duży",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.076753,
+      23.1162574
+    ],
+    "newCoords": null,
+    "count": 2
+  },
+  "Klonownica Mała|lubelskie": {
+    "city": "Klonownica Mała",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.16248,
+      23.19656
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Werchliś|lubelskie": {
+    "city": "Werchliś",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.1897043,
+      23.2801527
+    ],
+    "newCoords": null,
+    "count": 2
+  },
+  "Terebela|lubelskie": {
+    "city": "Terebela",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.0833333,
+      23.0833333
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Wólka Polinowska|lubelskie": {
+    "city": "Wólka Polinowska",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.1670721,
+      23.1257635
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Styrzyniec|lubelskie": {
+    "city": "Styrzyniec",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.0227223,
+      22.9971172
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Czosnówka|lubelskie": {
+    "city": "Czosnówka",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.01447,
+      23.22587
+    ],
+    "newCoords": null,
+    "count": 2
+  },
+  "Rogoźnica Kolonia|lubelskie": {
+    "city": "Rogoźnica Kolonia",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.0172222,
+      22.865
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Dobryń Kolonia|lubelskie": {
+    "city": "Dobryń Kolonia",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.0742288,
+      23.4803459
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Nowy Pawłów|lubelskie": {
+    "city": "Nowy Pawłów",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.2017859,
+      23.1693285
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Woskrzenice Duże|lubelskie": {
+    "city": "Woskrzenice Duże",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.0437477,
+      23.2585946
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Dobryń Duży|lubelskie": {
+    "city": "Dobryń Duży",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.0640649,
+      23.4712536
+    ],
+    "newCoords": null,
+    "count": 2
+  },
+  "Witulin|lubelskie": {
+    "city": "Witulin",
+    "province": "lubelskie",
+    "county": "bialski",
+    "oldCoords": [
+      52.1082266,
+      23.0686939
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Tyń|zachodniopomorskie": {
+    "city": "Tyń",
+    "province": "zachodniopomorskie",
+    "county": "sławieński",
+    "oldCoords": [
+      54.45931,
+      16.73621
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Pieńkowo|zachodniopomorskie": {
+    "city": "Pieńkowo",
+    "province": "zachodniopomorskie",
+    "county": "sławieński",
+    "oldCoords": [
+      54.48339,
+      16.68725
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Masłowice|zachodniopomorskie": {
+    "city": "Masłowice",
+    "province": "zachodniopomorskie",
+    "county": "sławieński",
+    "oldCoords": [
+      54.4721,
+      16.61343
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Postomino|zachodniopomorskie": {
+    "city": "Postomino",
+    "province": "zachodniopomorskie",
+    "county": "sławieński",
+    "oldCoords": [
+      54.49236,
+      16.71372
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Nosalin|zachodniopomorskie": {
+    "city": "Nosalin",
+    "province": "zachodniopomorskie",
+    "county": "sławieński",
+    "oldCoords": [
+      54.43125,
+      16.77265
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Złakowo|zachodniopomorskie": {
+    "city": "Złakowo",
+    "province": "zachodniopomorskie",
+    "county": "sławieński",
+    "oldCoords": [
+      54.5243634,
+      16.7251289
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Królewo|zachodniopomorskie": {
+    "city": "Królewo",
+    "province": "zachodniopomorskie",
+    "county": "sławieński",
+    "oldCoords": [
+      54.5145113,
+      16.6551404
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Siemiatycze|podlaskie": {
+    "city": "Siemiatycze",
+    "province": "podlaskie",
+    "county": "siemiatycki",
+    "oldCoords": [
+      52.4209252,
+      22.8754373
+    ],
+    "newCoords": null,
+    "count": 12
+  },
+  "Huszlew|mazowieckie": {
+    "city": "Huszlew",
+    "province": "mazowieckie",
+    "county": "łosicki",
+    "oldCoords": [
+      52.1373857,
+      22.8399375
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Wólka Nosowska|mazowieckie": {
+    "city": "Wólka Nosowska",
+    "province": "mazowieckie",
+    "county": "łosicki",
+    "oldCoords": [
+      52.1872875,
+      22.9922807
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Korczowa|podkarpackie": {
+    "city": "Korczowa",
+    "province": "podkarpackie",
+    "county": "jarosławski",
+    "oldCoords": [
+      49.9522144,
+      23.0797832
+    ],
+    "newCoords": null,
+    "count": 2
+  },
+  "Lubaczów|podkarpackie": {
+    "city": "Lubaczów",
+    "province": "podkarpackie",
+    "county": "lubaczowski",
+    "oldCoords": [
+      50.1571264,
+      23.1179341
+    ],
+    "newCoords": null,
+    "count": 3
+  },
+  "Gidle|łódzkie": {
+    "city": "Gidle",
+    "province": "łódzkie",
+    "county": "radomszczański",
+    "oldCoords": [
+      50.9640585,
+      19.4684614
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Pławno|łódzkie": {
+    "city": "Pławno",
+    "province": "łódzkie",
+    "county": "radomszczański",
+    "oldCoords": [
+      50.9772904,
+      19.4549531
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Graby|łódzkie": {
+    "city": "Graby",
+    "province": "łódzkie",
+    "county": "radomszczański",
+    "oldCoords": [
+      50.9115091,
+      19.5244066
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Lutogniewice|łódzkie": {
+    "city": "Lutogniewice",
+    "province": "łódzkie",
+    "county": "łaski",
+    "oldCoords": [
+      51.00562192270496,
+      14.969836414173244
+    ],
+    "newCoords": null,
+    "count": 26
+  },
+  "Silnica|łódzkie": {
+    "city": "Silnica",
+    "province": "łódzkie",
+    "county": "radomszczański",
+    "oldCoords": [
+      50.9308262,
+      19.6900919
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Lipicze|śląskie": {
+    "city": "Lipicze",
+    "province": "śląskie",
+    "county": "częstochowski",
+    "oldCoords": [
+      50.93455,
+      19.38418
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Janiki|śląskie": {
+    "city": "Janiki",
+    "province": "śląskie",
+    "county": "kłobucki",
+    "oldCoords": [
+      50.9208333,
+      18.7327778
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Starokrzepice|śląskie": {
+    "city": "Starokrzepice",
+    "province": "śląskie",
+    "county": "kłobucki",
+    "oldCoords": [
+      50.95017,
+      18.65599
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Widzów|śląskie": {
+    "city": "Widzów",
+    "province": "śląskie",
+    "county": "częstochowski",
+    "oldCoords": [
+      50.9729675,
+      19.374932
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Rębielice Królewskie|śląskie": {
+    "city": "Rębielice Królewskie",
+    "province": "śląskie",
+    "county": "kłobucki",
+    "oldCoords": [
+      50.9986111,
+      18.8630556
+    ],
+    "newCoords": null,
+    "count": 5
+  },
+  "Zbrojewsko|śląskie": {
+    "city": "Zbrojewsko",
+    "province": "śląskie",
+    "county": "kłobucki",
+    "oldCoords": [
+      50.9952223,
+      18.751855
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Kornice|śląskie": {
+    "city": "Kornice",
+    "province": "śląskie",
+    "county": "raciborski",
+    "oldCoords": [
+      50.0909744,
+      18.1073687
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Mykanów|śląskie": {
+    "city": "Mykanów",
+    "province": "śląskie",
+    "county": "częstochowski",
+    "oldCoords": [
+      50.92332,
+      19.19934
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Kuźnica Kiedrzyńska|śląskie": {
+    "city": "Kuźnica Kiedrzyńska",
+    "province": "śląskie",
+    "county": "częstochowski",
+    "oldCoords": [
+      50.9143,
+      19.07804
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Jędrychowice|opolskie": {
+    "city": "Jędrychowice",
+    "province": "opolskie",
+    "county": "głubczycki",
+    "oldCoords": [
+      50.0971199,
+      17.8297052
+    ],
+    "newCoords": null,
+    "count": 1
+  },
+  "Langowo|opolskie": {
+    "city": "Langowo",
+    "province": "opolskie",
+    "county": "głubczycki",
+    "oldCoords": [
+      50.1075175,
+      18.0274643
+    ],
+    "newCoords": null,
+    "count": 1
+  }
+}

@@ -1,0 +1,3955 @@
+
+🔍 Szukam błędnych geolokalizacji...
+
+📊 Statystyki:
+
+Sprawdzonych instalacji: 11976
+Błędnych geolokalizacji: 2699 (23%)
+
+
+📍 Błędne geolokalizacje według województw:
+
+dolnośląskie: 154 błędnych
+kujawsko-pomorskie: 112 błędnych
+lubelskie: 119 błędnych
+lubuskie: 74 błędnych
+mazowieckie: 261 błędnych
+małopolskie: 99 błędnych
+opolskie: 108 błędnych
+podkarpackie: 47 błędnych
+podlaskie: 155 błędnych
+pomorskie: 220 błędnych
+warmińsko-mazurskie: 229 błędnych
+wielkopolskie: 330 błędnych
+zachodniopomorskie: 196 błędnych
+łódzkie: 254 błędnych
+śląskie: 164 błędnych
+świętokrzyskie: 177 błędnych
+
+
+🏙️ Lista unikalnych miast z błędnymi współrzędnymi:
+
+
+=== DOLNOŚLĄSKIE ===
+  Ligota Polska (powiat: oleśnicki)
+    Aktualne współrzędne: [51.2422, 17.5419]
+    Liczba instalacji: 3
+  Oleśnica (powiat: oleśnicki)
+    Aktualne współrzędne: [51.2098, 17.3828]
+    Liczba instalacji: 9
+  Jawor (powiat: jaworski)
+    Aktualne współrzędne: [50.2053, 19.2742]
+    Liczba instalacji: 2
+  Goszcz (powiat: oleśnicki)
+    Aktualne współrzędne: [51.3952, 17.4806]
+    Liczba instalacji: 2
+  Brzeg Dolny (powiat: oławski)
+    Aktualne współrzędne: [50.8604, 17.4708]
+    Liczba instalacji: 12
+  Jelcz-Laskowice (powiat: oławski)
+    Aktualne współrzędne: [51.0394, 17.3509]
+    Liczba instalacji: 1
+  Bogatynia (powiat: zgorzelecki)
+    Aktualne współrzędne: [50.9071, 14.9539]
+    Liczba instalacji: 4
+  ŚLIWICE (powiat: wrocławski)
+    Aktualne współrzędne: [53.7094, 18.1747]
+    Liczba instalacji: 1
+  Dolny Brzeg (powiat: wołowski)
+    Aktualne współrzędne: [50.8620, 17.4717]
+    Liczba instalacji: 1
+  Miłoszyce (powiat: oławski)
+    Aktualne współrzędne: [51.0528, 17.3118]
+    Liczba instalacji: 1
+  Krosnowice (powiat: kłodzki)
+    Aktualne współrzędne: [49.6890, 21.7705]
+    Liczba instalacji: 1
+  Michałowice (powiat: wrocławski)
+    Aktualne współrzędne: [50.8908, 17.4829]
+    Liczba instalacji: 1
+  Szczytna (powiat: kłodzki)
+    Aktualne współrzędne: [50.0069, 22.6066]
+    Liczba instalacji: 1
+  Psary (powiat: oławski)
+    Aktualne współrzędne: [50.3798, 19.1114]
+    Liczba instalacji: 4
+  Turów (powiat: wrocławski)
+    Aktualne współrzędne: [50.7668, 19.3191]
+    Liczba instalacji: 2
+  Unisławice (powiat: górowski)
+    Aktualne współrzędne: [52.4727, 19.1693]
+    Liczba instalacji: 2
+  Rybarzowice (powiat: zgorzelecki)
+    Aktualne współrzędne: [49.7293, 19.0957]
+    Liczba instalacji: 2
+  Olszewice (powiat: jaworski)
+    Aktualne współrzędne: [52.1954, 21.8100]
+    Liczba instalacji: 12
+  Bystrzyca (powiat: wrocławski)
+    Aktualne współrzędne: [52.5660, 17.8379]
+    Liczba instalacji: 1
+  Grabowno Wielkie (powiat: oleśnicki)
+    Aktualne współrzędne: [51.3500, 17.4160]
+    Liczba instalacji: 1
+  Świerki (powiat: kłodzki)
+    Aktualne współrzędne: [54.1261, 19.0809]
+    Liczba instalacji: 2
+  Boguszyn (powiat: kłodzki)
+    Aktualne współrzędne: [52.0637, 17.3375]
+    Liczba instalacji: 3
+  Dolnik (powiat: kłodzki)
+    Aktualne współrzędne: [53.2577, 16.9276]
+    Liczba instalacji: 1
+  Długołęka (powiat: wrocławski)
+    Aktualne współrzędne: [53.2795, 22.8121]
+    Liczba instalacji: 4
+  Węglewo (powiat: trzebnicki)
+    Aktualne współrzędne: [52.5151, 17.3056]
+    Liczba instalacji: 1
+  Wziąchowo Małe (powiat: milicki)
+    Aktualne współrzędne: [51.5893, 17.4369]
+    Liczba instalacji: 1
+  Międzybórz (powiat: oleśnicki)
+    Aktualne współrzędne: [53.7764, 17.0010]
+    Liczba instalacji: 2
+  Koźlice (powiat: zgorzelecki)
+    Aktualne współrzędne: [51.1060, 14.9860]
+    Liczba instalacji: 1
+  Zimnica (powiat: oleśnicki)
+    Aktualne współrzędne: [51.1550, 17.3881]
+    Liczba instalacji: 1
+  Ługowina (powiat: wrocławski)
+    Aktualne współrzędne: [53.7476, 15.4119]
+    Liczba instalacji: 1
+  Jędrzychowice (powiat: zgorzelecki)
+    Aktualne współrzędne: [51.6126, 14.9037]
+    Liczba instalacji: 1
+  Bardo (powiat: ząbkowicki)
+    Aktualne współrzędne: [52.2762, 17.4938]
+    Liczba instalacji: 1
+  Polanowo (powiat: górowski)
+    Aktualne współrzędne: [53.1422, 17.2563]
+    Liczba instalacji: 2
+  Wilkowa (powiat: trzebnicki)
+    Aktualne współrzędne: [50.4561, 21.1618]
+    Liczba instalacji: 1
+  Starków (powiat: kłodzki)
+    Aktualne współrzędne: [52.4081, 14.7112]
+    Liczba instalacji: 2
+  Smardzów (powiat: oleśnicki)
+    Aktualne współrzędne: [51.2033, 17.3302]
+    Liczba instalacji: 2
+  Poniatowice (powiat: oleśnicki)
+    Aktualne współrzędne: [51.2352, 17.5442]
+    Liczba instalacji: 2
+  Piława Dolna (powiat: dzierżoniowski)
+    Aktualne współrzędne: [53.1513, 16.7382]
+    Liczba instalacji: 1
+  Jasionowiec (powiat: ząbkowicki)
+    Aktualne współrzędne: [53.8722, 20.6883]
+    Liczba instalacji: 1
+  Trzebicko Dolne (powiat: milicki)
+    Aktualne współrzędne: [51.5885, 17.3720]
+    Liczba instalacji: 1
+  Sułów (powiat: milicki)
+    Aktualne współrzędne: [52.3801, 14.7338]
+    Liczba instalacji: 1
+  Stanowice (powiat: oławski)
+    Aktualne współrzędne: [52.7206, 15.0516]
+    Liczba instalacji: 1
+  Błażkowa (powiat: kamiennogórski)
+    Aktualne współrzędne: [49.8521, 21.3797]
+    Liczba instalacji: 1
+  Sławoszowice (powiat: milicki)
+    Aktualne współrzędne: [51.5325, 17.3002]
+    Liczba instalacji: 1
+  Lubomierz (powiat: lwówecki)
+    Aktualne współrzędne: [50.1913, 23.0305]
+    Liczba instalacji: 1
+  Syców (powiat: oleśnicki)
+    Aktualne współrzędne: [51.3071, 17.7193]
+    Liczba instalacji: 3
+  Barycz (powiat: wrocławski)
+    Aktualne współrzędne: [51.2242, 20.4059]
+    Liczba instalacji: 1
+  Sośnica (powiat: wrocławski)
+    Aktualne współrzędne: [51.8608, 17.6802]
+    Liczba instalacji: 2
+  Wilcza (powiat: kłodzki)
+    Aktualne współrzędne: [51.9046, 17.6045]
+    Liczba instalacji: 1
+  Karwiniec (powiat: oleśnicki)
+    Aktualne współrzędne: [51.1140, 17.5430]
+    Liczba instalacji: 1
+  Śliwice (powiat: wrocławski)
+    Aktualne współrzędne: [53.7080, 18.1758]
+    Liczba instalacji: 1
+  Tylice (powiat: zgorzelecki)
+    Aktualne współrzędne: [53.4242, 19.6668]
+    Liczba instalacji: 1
+  Międzylesie (powiat: kłodzki)
+    Aktualne współrzędne: [50.8837, 19.9460]
+    Liczba instalacji: 2
+  Górzyn (powiat: lubiński)
+    Aktualne współrzędne: [51.8301, 14.9771]
+    Liczba instalacji: 1
+  Nowa (powiat: bolesławiecki)
+    Aktualne współrzędne: [51.8024, 15.7053]
+    Liczba instalacji: 1
+  Chełstówek (powiat: oleśnicki)
+    Aktualne współrzędne: [51.3545, 17.4866]
+    Liczba instalacji: 1
+  Opatowice (powiat: strzeliński)
+    Aktualne współrzędne: [52.6020, 18.5692]
+    Liczba instalacji: 1
+  Raczyce (powiat: ząbkowicki)
+    Aktualne współrzędne: [51.5747, 17.6292]
+    Liczba instalacji: 2
+  Jarosławice (powiat: wrocławski)
+    Aktualne współrzędne: [50.0167, 22.6774]
+    Liczba instalacji: 1
+  Mirosławice (powiat: wrocławski)
+    Aktualne współrzędne: [54.0427, 15.2816]
+    Liczba instalacji: 1
+  Smolna (powiat: oleśnicki)
+    Aktualne współrzędne: [51.1573, 17.4299]
+    Liczba instalacji: 1
+  Miłosławice (powiat: milicki)
+    Aktualne współrzędne: [52.7112, 17.3586]
+    Liczba instalacji: 5
+  Kończyce (powiat: oławski)
+    Aktualne współrzędne: [50.4256, 22.1564]
+    Liczba instalacji: 2
+  Pątnów (powiat: legnicki)
+    Aktualne współrzędne: [51.1467, 18.6244]
+    Liczba instalacji: 1
+  Łęg (powiat: wrocławski)
+    Aktualne współrzędne: [50.7618, 18.7779]
+    Liczba instalacji: 1
+  Żeleźniki (powiat: milicki)
+    Aktualne współrzędne: [52.4598, 22.0620]
+    Liczba instalacji: 2
+  Nowy Dzikowiec (powiat: kłodzki)
+    Aktualne współrzędne: [50.2696, 21.8626]
+    Liczba instalacji: 2
+  Twardogóra (powiat: oleśnicki)
+    Aktualne współrzędne: [51.3640, 17.4698]
+    Liczba instalacji: 1
+  Węgry (powiat: wrocławski)
+    Aktualne współrzędne: [53.9742, 18.9670]
+    Liczba instalacji: 1
+  Kazmierzów (powiat: polkowicki)
+    Aktualne współrzędne: [51.4709, 19.4797]
+    Liczba instalacji: 1
+  Kobierzyce (powiat: wrocławski)
+    Aktualne współrzędne: [52.0239, 21.1365]
+    Liczba instalacji: 1
+  Klucze Klucze- (powiat: głogowski)
+    Aktualne współrzędne: [52.2363, 21.0883]
+    Liczba instalacji: 1
+  Kobierzyce Biskupice Podgórne (powiat: wrocławski)
+    Aktualne współrzędne: [52.0237, 21.1347]
+    Liczba instalacji: 1
+  Bukowice Bukowice (powiat: wołowski)
+    Aktualne współrzędne: [52.0239, 21.1352]
+    Liczba instalacji: 1
+  Ziębice (powiat: ząbkowicki)
+    Aktualne współrzędne: [52.0254, 21.1357]
+    Liczba instalacji: 1
+  Strzelin Chociwel (powiat: strzeliński)
+    Aktualne współrzędne: [52.0253, 21.1359]
+    Liczba instalacji: 1
+  Strzelin Pęcz (powiat: strzeliński)
+    Aktualne współrzędne: [52.0236, 21.1348]
+    Liczba instalacji: 1
+  Sobótka (powiat: wrocławski)
+    Aktualne współrzędne: [52.5474, 19.6694]
+    Liczba instalacji: 1
+  Piechowice (powiat: jeleniogórski)
+    Aktualne współrzędne: [52.0240, 21.1349]
+    Liczba instalacji: 1
+  Złotoryja (powiat: złotoryjski)
+    Aktualne współrzędne: [52.0249, 21.1358]
+    Liczba instalacji: 1
+  Siechnice (powiat: wrocławski)
+    Aktualne współrzędne: [52.0238, 21.1361]
+    Liczba instalacji: 8
+
+=== KUJAWSKO-POMORSKIE ===
+  Łopatki (powiat: wąbrzeski)
+    Aktualne współrzędne: [51.3233, 22.1396]
+    Liczba instalacji: 1
+  Rzym (powiat: żniński)
+    Aktualne współrzędne: [51.8949, 21.2229]
+    Liczba instalacji: 1
+  Gorzyce (powiat: żniński)
+    Aktualne współrzędne: [50.6691, 21.8379]
+    Liczba instalacji: 5
+  NH Amsterdam (powiat: bydgoski)
+    Aktualne współrzędne: [52.2809, 21.0508]
+    Liczba instalacji: 1
+  Jastrzębie (powiat: świecki)
+    Aktualne współrzędne: [49.9548, 18.5927]
+    Liczba instalacji: 2
+  Skórzewo (powiat: nakielski)
+    Aktualne współrzędne: [52.3918, 16.7915]
+    Liczba instalacji: 2
+  HORNÓWEK (powiat: lipnowski)
+    Aktualne współrzędne: [52.2886, 20.8081]
+    Liczba instalacji: 1
+  Kościelna Wieś (powiat: radziejowski)
+    Aktualne współrzędne: [51.7852, 18.0098]
+    Liczba instalacji: 2
+  Nadolna Wieś (powiat: tucholski)
+    Aktualne współrzędne: [51.4700, 19.4800]
+    Liczba instalacji: 1
+  Radzicz (powiat: nakielski)
+    Aktualne współrzędne: [53.1945, 17.3862]
+    Liczba instalacji: 1
+  Śmielin (powiat: nakielski)
+    Aktualne współrzędne: [53.1464, 17.4884]
+    Liczba instalacji: 2
+  Brzezinki (powiat: brodnicki)
+    Aktualne współrzędne: [51.7912, 21.0845]
+    Liczba instalacji: 2
+  Przyjma (powiat: mogileński)
+    Aktualne współrzędne: [52.2825, 18.0658]
+    Liczba instalacji: 2
+  Bobrowniki (powiat: lipnowski)
+    Aktualne współrzędne: [53.4333, 15.2518]
+    Liczba instalacji: 2
+  Głogowiniec (powiat: nakielski)
+    Aktualne współrzędne: [52.9682, 17.4404]
+    Liczba instalacji: 1
+  Kunowo (powiat: mogileński)
+    Aktualne współrzędne: [53.8113, 15.7006]
+    Liczba instalacji: 1
+  Stary Widzim (powiat: tucholski)
+    Aktualne współrzędne: [52.0811, 16.1291]
+    Liczba instalacji: 9
+  Stradzewo (powiat: inowrocławski)
+    Aktualne współrzędne: [53.2208, 15.4372]
+    Liczba instalacji: 15
+  Nowa Chełmża (powiat: toruński)
+    Aktualne współrzędne: [51.1432, 23.4726]
+    Liczba instalacji: 1
+  Gościeszyn (powiat: żniński)
+    Aktualne współrzędne: [52.0911, 16.2020]
+    Liczba instalacji: 2
+  Gębice (powiat: mogileński)
+    Aktualne współrzędne: [51.8707, 14.8149]
+    Liczba instalacji: 1
+  Smogorzewo (powiat: włocławski)
+    Aktualne współrzędne: [51.9126, 17.0874]
+    Liczba instalacji: 5
+  Zgniłka (powiat: sępoleński)
+    Aktualne współrzędne: [53.3316, 17.3988]
+    Liczba instalacji: 1
+  Pakość (powiat: inowrocławski)
+    Aktualne współrzędne: [53.1901, 15.3957]
+    Liczba instalacji: 2
+  Kcynia (powiat: nakielski)
+    Aktualne współrzędne: [52.9911, 17.4866]
+    Liczba instalacji: 1
+  Bobrownickie Pole (powiat: lipnowski)
+    Aktualne współrzędne: [49.8481, 22.1402]
+    Liczba instalacji: 1
+  Wisławie (powiat: tucholski)
+    Aktualne współrzędne: [53.5110, 15.0701]
+    Liczba instalacji: 10
+  Kaczkowo (powiat: żniński)
+    Aktualne współrzędne: [54.6047, 17.8822]
+    Liczba instalacji: 3
+  Szynwałd (powiat: grudziądzki)
+    Aktualne współrzędne: [49.9709, 21.1183]
+    Liczba instalacji: 2
+  Bielice (powiat: mogileński)
+    Aktualne współrzędne: [50.5578, 17.4934]
+    Liczba instalacji: 6
+  Gromadno (powiat: nakielski)
+    Aktualne współrzędne: [53.0510, 17.4125]
+    Liczba instalacji: 1
+  Janowiec Wielkopolski (powiat: żniński)
+    Aktualne współrzędne: [52.7576, 17.4879]
+    Liczba instalacji: 1
+  Radomice (powiat: lipnowski)
+    Aktualne współrzędne: [51.4037, 21.1474]
+    Liczba instalacji: 2
+  Malice (powiat: nakielski)
+    Aktualne współrzędne: [50.7110, 23.7631]
+    Liczba instalacji: 1
+  Drogosław (powiat: nakielski)
+    Aktualne współrzędne: [51.7276, 17.6691]
+    Liczba instalacji: 2
+  Strzelce (powiat: mogileński)
+    Aktualne współrzędne: [50.5108, 18.2966]
+    Liczba instalacji: 2
+  Lubieszewo (powiat: mogileński)
+    Aktualne współrzędne: [53.9195, 15.2524]
+    Liczba instalacji: 4
+  Bycz (powiat: radziejowski)
+    Aktualne współrzędne: [51.7275, 15.7904]
+    Liczba instalacji: 4
+  Godziszka (powiat: brodnicki)
+    Aktualne współrzędne: [49.7127, 19.0761]
+    Liczba instalacji: 1
+  Lubień Kujawski Kaliska (powiat: włocławski)
+    Aktualne współrzędne: [52.0235, 21.1356]
+    Liczba instalacji: 1
+  Kruszwica (powiat: inowrocławski)
+    Aktualne współrzędne: [52.0236, 21.1350]
+    Liczba instalacji: 1
+  Piotrków Kujawski (powiat: radziejowski)
+    Aktualne współrzędne: [52.0241, 21.1351]
+    Liczba instalacji: 1
+  Strzelno (powiat: mogileński)
+    Aktualne współrzędne: [52.0247, 21.1355]
+    Liczba instalacji: 2
+  Wąbrzeźno (powiat: wąbrzeski)
+    Aktualne współrzędne: [52.0238, 21.1345]
+    Liczba instalacji: 1
+  Aleksandrów Kujawski (powiat: aleksandrowski)
+    Aktualne współrzędne: [52.0255, 21.1355]
+    Liczba instalacji: 1
+  Łasin (powiat: grudziądzki)
+    Aktualne współrzędne: [52.0251, 21.1358]
+    Liczba instalacji: 1
+
+=== LUBELSKIE ===
+  Pasieczna (powiat: świdnicki)
+    Aktualne współrzędne: [50.9187, 16.3966]
+    Liczba instalacji: 2
+  Biała Podlaska (powiat: bialski)
+    Aktualne współrzędne: [52.0319, 23.1144]
+    Liczba instalacji: 13
+  Świdnica (powiat: świdnicki)
+    Aktualne współrzędne: [50.8457, 16.4893]
+    Liczba instalacji: 6
+  Wiśniówka (powiat: łukowski)
+    Aktualne współrzędne: [50.9340, 20.6770]
+    Liczba instalacji: 1
+  Piaski (powiat: świdnicki)
+    Aktualne współrzędne: [51.8845, 17.0741]
+    Liczba instalacji: 3
+  Dobryń-Kolonia (powiat: bialski)
+    Aktualne współrzędne: [52.0658, 23.3122]
+    Liczba instalacji: 1
+  Grabanów (powiat: bialski)
+    Aktualne współrzędne: [52.0665, 23.1564]
+    Liczba instalacji: 1
+  Dąbrowica (powiat: biłgorajski)
+    Aktualne współrzędne: [51.2168, 17.2158]
+    Liczba instalacji: 2
+  Dobryń - Kolonia (powiat: bialski)
+    Aktualne współrzędne: [52.0663, 23.3128]
+    Liczba instalacji: 1
+  Horbów - Kolonia (powiat: bialski)
+    Aktualne współrzędne: [52.0318, 23.3791]
+    Liczba instalacji: 2
+  Kaliłów (powiat: bialski)
+    Aktualne współrzędne: [52.0522, 23.0772]
+    Liczba instalacji: 1
+  Julków (powiat: bialski)
+    Aktualne współrzędne: [51.8852, 20.1259]
+    Liczba instalacji: 1
+  Strzyżewice (powiat: lubelski)
+    Aktualne współrzędne: [51.8272, 16.5371]
+    Liczba instalacji: 8
+  Woroniec (powiat: bialski)
+    Aktualne współrzędne: [52.0618, 23.0728]
+    Liczba instalacji: 2
+  Sławacinek Stary (powiat: bialski)
+    Aktualne współrzędne: [52.0307, 23.0697]
+    Liczba instalacji: 4
+  Białobrzegi (powiat: zamojski)
+    Aktualne współrzędne: [50.0378, 21.7667]
+    Liczba instalacji: 3
+  Cicibór Duży (powiat: bialski)
+    Aktualne współrzędne: [52.0758, 23.1155]
+    Liczba instalacji: 2
+  Klonownica Mała (powiat: bialski)
+    Aktualne współrzędne: [52.1622, 23.1974]
+    Liczba instalacji: 1
+  Werchliś (powiat: bialski)
+    Aktualne współrzędne: [52.1906, 23.2804]
+    Liczba instalacji: 2
+  Terebela (powiat: bialski)
+    Aktualne współrzędne: [52.0833, 23.0841]
+    Liczba instalacji: 1
+  Wólka Polinowska (powiat: bialski)
+    Aktualne współrzędne: [52.1668, 23.1261]
+    Liczba instalacji: 1
+  Wólka Plebańska (powiat: bialski)
+    Aktualne współrzędne: [52.0557, 23.2891]
+    Liczba instalacji: 2
+  Styrzyniec (powiat: bialski)
+    Aktualne współrzędne: [52.0222, 22.9972]
+    Liczba instalacji: 1
+  Gruszów (powiat: świdnicki)
+    Aktualne współrzędne: [50.8850, 16.5569]
+    Liczba instalacji: 1
+  Czosnówka (powiat: bialski)
+    Aktualne współrzędne: [52.0147, 23.2257]
+    Liczba instalacji: 2
+  Grodziszcze (powiat: świdnicki)
+    Aktualne współrzędne: [52.2612, 15.5627]
+    Liczba instalacji: 1
+  Turkowice (powiat: hrubieszowski)
+    Aktualne współrzędne: [51.9906, 18.5055]
+    Liczba instalacji: 2
+  Podbrzezie Dolne (powiat: kraśnicki)
+    Aktualne współrzędne: [51.7663, 15.6131]
+    Liczba instalacji: 9
+  Rogoźnica Kolonia (powiat: bialski)
+    Aktualne współrzędne: [52.0180, 22.8656]
+    Liczba instalacji: 1
+  Podgaj (powiat: łukowski)
+    Aktualne współrzędne: [52.8433, 18.6155]
+    Liczba instalacji: 1
+  Dobryń Kolonia (powiat: bialski)
+    Aktualne współrzędne: [52.0749, 23.4794]
+    Liczba instalacji: 1
+  Nowy Pawłów (powiat: bialski)
+    Aktualne współrzędne: [52.2016, 23.1686]
+    Liczba instalacji: 1
+  Strzegom (powiat: świdnicki)
+    Aktualne współrzędne: [50.5146, 21.3227]
+    Liczba instalacji: 4
+  Wiry (powiat: świdnicki)
+    Aktualne współrzędne: [52.3202, 16.8547]
+    Liczba instalacji: 1
+  Biesiadki (powiat: łęczyński)
+    Aktualne współrzędne: [49.8938, 20.6610]
+    Liczba instalacji: 1
+  Janów Podlaski (powiat: bialski)
+    Aktualne współrzędne: [52.1971, 23.2079]
+    Liczba instalacji: 2
+  Rudzienko (powiat: lubartowski)
+    Aktualne współrzędne: [52.2960, 21.6645]
+    Liczba instalacji: 1
+  Woskrzenice Duże (powiat: bialski)
+    Aktualne współrzędne: [52.0441, 23.2586]
+    Liczba instalacji: 1
+  Olesin (powiat: puławski)
+    Aktualne współrzędne: [52.1560, 18.4641]
+    Liczba instalacji: 1
+  Józefin (powiat: chełmski)
+    Aktualne współrzędne: [51.7601, 20.0596]
+    Liczba instalacji: 1
+  Krzczonów (powiat: lubelski)
+    Aktualne współrzędne: [51.4165, 20.4213]
+    Liczba instalacji: 1
+  Dołhołęka (powiat: bialski)
+    Aktualne współrzędne: [52.0654, 22.7444]
+    Liczba instalacji: 2
+  Adamów (powiat: łukowski)
+    Aktualne współrzędne: [51.8721, 19.0038]
+    Liczba instalacji: 1
+  Zacisze (powiat: bialski)
+    Aktualne współrzędne: [53.0720, 23.3713]
+    Liczba instalacji: 1
+  Chylin (powiat: chełmski)
+    Aktualne współrzędne: [52.1168, 18.4387]
+    Liczba instalacji: 2
+  Dobryń Duży (powiat: bialski)
+    Aktualne współrzędne: [52.0634, 23.4704]
+    Liczba instalacji: 2
+  Lipinki (powiat: chełmski)
+    Aktualne współrzędne: [53.7653, 22.4380]
+    Liczba instalacji: 1
+  Kosin (powiat: kraśnicki)
+    Aktualne współrzędne: [52.8427, 15.9006]
+    Liczba instalacji: 2
+  Konopnica (powiat: lubelski)
+    Aktualne współrzędne: [51.7894, 20.2838]
+    Liczba instalacji: 1
+  Żarów (powiat: świdnicki)
+    Aktualne współrzędne: [50.9437, 16.4921]
+    Liczba instalacji: 2
+  Sycyna (powiat: bialski)
+    Aktualne współrzędne: [52.0297, 22.9456]
+    Liczba instalacji: 1
+  Dołha (powiat: bialski)
+    Aktualne współrzędne: [52.0042, 22.9208]
+    Liczba instalacji: 1
+  Grabowiec (powiat: zamojski)
+    Aktualne współrzędne: [52.7530, 23.0435]
+    Liczba instalacji: 1
+  Kamionka (powiat: lubartowski)
+    Aktualne współrzędne: [50.3900, 18.0447]
+    Liczba instalacji: 1
+  Witulin (powiat: bialski)
+    Aktualne współrzędne: [52.1081, 23.0695]
+    Liczba instalacji: 1
+  Węgliska (powiat: janowski)
+    Aktualne współrzędne: [50.1643, 22.2045]
+    Liczba instalacji: 1
+  Jeziorzany (powiat: lubartowski)
+    Aktualne współrzędne: [51.9711, 20.8227]
+    Liczba instalacji: 1
+  Świebodzice (powiat: świdnicki)
+    Aktualne współrzędne: [52.0246, 21.1347]
+    Liczba instalacji: 3
+  Tarnogród (powiat: biłgorajski)
+    Aktualne współrzędne: [52.0242, 21.1358]
+    Liczba instalacji: 1
+  Drzewce Drzewce (powiat: puławski)
+    Aktualne współrzędne: [52.4010, 19.4482]
+    Liczba instalacji: 1
+
+=== LUBUSKIE ===
+  Lubrza (powiat: świebodziński)
+    Aktualne współrzędne: [50.3347, 17.6277]
+    Liczba instalacji: 2
+  Lubinicko (powiat: świebodziński)
+    Aktualne współrzędne: [51.4004, 16.2017]
+    Liczba instalacji: 1
+  Wschowa (powiat: wschowski)
+    Aktualne współrzędne: [51.8047, 16.3170]
+    Liczba instalacji: 2
+  Krzepielów (powiat: wschowski)
+    Aktualne współrzędne: [51.7893, 16.1036]
+    Liczba instalacji: 1
+  Tylewice (powiat: wschowski)
+    Aktualne współrzędne: [51.8135, 16.2597]
+    Liczba instalacji: 1
+  Gola (powiat: wschowski)
+    Aktualne współrzędne: [51.8995, 16.0409]
+    Liczba instalacji: 1
+  Kamienna Knieja (powiat: strzelecko-drezdenecki)
+    Aktualne współrzędne: [53.0404, 15.9398]
+    Liczba instalacji: 1
+  Brody (powiat: żarski)
+    Aktualne współrzędne: [51.1631, 20.3546]
+    Liczba instalacji: 4
+  Osiedle Poznańskie (powiat: gorzowski)
+    Aktualne współrzędne: [52.4070, 16.9246]
+    Liczba instalacji: 3
+  Krzewina (powiat: zielonogórski)
+    Aktualne współrzędne: [51.0195, 14.9521]
+    Liczba instalacji: 29
+  Leszno Górne (powiat: żagański)
+    Aktualne współrzędne: [51.8398, 16.5744]
+    Liczba instalacji: 3
+  Różanki (powiat: gorzowski)
+    Aktualne współrzędne: [53.6874, 19.4193]
+    Liczba instalacji: 1
+  Jasień (powiat: żarski)
+    Aktualne współrzędne: [50.6218, 21.0792]
+    Liczba instalacji: 2
+  Siedlnica (powiat: wschowski)
+    Aktualne współrzędne: [51.7660, 16.3307]
+    Liczba instalacji: 2
+  Ośno (powiat: słubicki)
+    Aktualne współrzędne: [52.8586, 18.6964]
+    Liczba instalacji: 1
+  Leszno Dolne (powiat: żagański)
+    Aktualne współrzędne: [51.8411, 16.5740]
+    Liczba instalacji: 1
+  Dębowa Łęka (powiat: wschowski)
+    Aktualne współrzędne: [51.8194, 16.3655]
+    Liczba instalacji: 5
+  Przyczyna Górna (powiat: wschowski)
+    Aktualne współrzędne: [51.8086, 16.2869]
+    Liczba instalacji: 1
+  Łęgoń (powiat: wschowski)
+    Aktualne współrzędne: [51.7775, 16.3907]
+    Liczba instalacji: 2
+  Dębogóra (powiat: strzelecko-drezdenecki)
+    Aktualne współrzędne: [53.0354, 17.4719]
+    Liczba instalacji: 1
+  Tyrszeliny (powiat: nowosolski)
+    Aktualne współrzędne: [51.9652, 16.0042]
+    Liczba instalacji: 2
+  Stany (powiat: nowosolski)
+    Aktualne współrzędne: [50.4388, 21.9781]
+    Liczba instalacji: 1
+  Boguszyniec (powiat: gorzowski)
+    Aktualne współrzędne: [52.2332, 18.7163]
+    Liczba instalacji: 1
+  Śmieszkowo (powiat: wschowski)
+    Aktualne współrzędne: [52.8825, 16.5924]
+    Liczba instalacji: 1
+  Sława (powiat: wschowski)
+    Aktualne współrzędne: [51.8811, 16.0700]
+    Liczba instalacji: 2
+  Cigacice (powiat: zielonogórski)
+    Aktualne współrzędne: [52.0246, 21.1345]
+    Liczba instalacji: 1
+  Witnica (powiat: gorzowski)
+    Aktualne współrzędne: [52.0242, 21.1346]
+    Liczba instalacji: 1
+  Gorzów Wlkp (powiat: zielonogórski)
+    Aktualne współrzędne: [52.0241, 21.1358]
+    Liczba instalacji: 1
+
+=== MAZOWIECKIE ===
+  Bogdaniec (powiat: sochaczewski)
+    Aktualne współrzędne: [52.6893, 15.0735]
+    Liczba instalacji: 1
+  Błonie (powiat: warszawski zachodni)
+    Aktualne współrzędne: [51.1595, 16.7500]
+    Liczba instalacji: 1
+  Wysocko (powiat: szydłowiecki)
+    Aktualne współrzędne: [51.1414, 15.9989]
+    Liczba instalacji: 1
+  Sokołów (powiat: gostyniński)
+    Aktualne współrzędne: [52.3843, 19.3405]
+    Liczba instalacji: 2
+  BIAŁY DWÓR (powiat: żuromiński)
+    Aktualne współrzędne: [51.8485, 17.4253]
+    Liczba instalacji: 1
+  RYCZYWÓŁ (powiat: kozienicki)
+    Aktualne współrzędne: [52.8124, 16.8318]
+    Liczba instalacji: 1
+  Bielsk (powiat: płocki)
+    Aktualne współrzędne: [49.8218, 19.0438]
+    Liczba instalacji: 1
+  CZACHOROWO (powiat: sierpecki)
+    Aktualne współrzędne: [51.8443, 16.9880]
+    Liczba instalacji: 1
+  Kokoszczyn (powiat: sierpecki)
+    Aktualne współrzędne: [52.4981, 16.6544]
+    Liczba instalacji: 4
+  Gostynin (powiat: gostyniński)
+    Aktualne współrzędne: [52.4282, 19.4621]
+    Liczba instalacji: 2
+  Czachorowo (powiat: sierpecki)
+    Aktualne współrzędne: [51.8433, 16.9893]
+    Liczba instalacji: 2
+  Izdebnik (powiat: garwoliński)
+    Aktualne współrzędne: [49.8698, 19.7635]
+    Liczba instalacji: 2
+  Komorów (powiat: pruszkowski)
+    Aktualne współrzędne: [50.8459, 16.4149]
+    Liczba instalacji: 15
+  Lubowidz (powiat: żuromiński)
+    Aktualne współrzędne: [54.5425, 17.8108]
+    Liczba instalacji: 2
+  Skrzynno (powiat: przysuski)
+    Aktualne współrzędne: [51.3150, 18.6557]
+    Liczba instalacji: 1
+  Klimy (powiat: łosicki)
+    Aktualne współrzędne: [53.6576, 19.2541]
+    Liczba instalacji: 1
+  Kajetanów (powiat: radomski)
+    Aktualne współrzędne: [50.9453, 20.6935]
+    Liczba instalacji: 1
+  Gorzewo (powiat: gostyniński)
+    Aktualne współrzędne: [52.7901, 16.8280]
+    Liczba instalacji: 1
+  Prusy (powiat: grójecki)
+    Aktualne współrzędne: [50.8150, 21.6943]
+    Liczba instalacji: 1
+  Wymysłów (powiat: żyrardowski)
+    Aktualne współrzędne: [50.5175, 20.6828]
+    Liczba instalacji: 1
+  Ługi (powiat: zwoleński)
+    Aktualne współrzędne: [52.9424, 15.6969]
+    Liczba instalacji: 4
+  Huszlew (powiat: łosicki)
+    Aktualne współrzędne: [52.1376, 22.8409]
+    Liczba instalacji: 1
+  CYCHRY (powiat: grójecki)
+    Aktualne współrzędne: [52.6909, 14.7070]
+    Liczba instalacji: 1
+  Turza Wielka (powiat: płocki)
+    Aktualne współrzędne: [52.7032, 19.4550]
+    Liczba instalacji: 1
+  Piotrowo (powiat: ostrołęcki)
+    Aktualne współrzędne: [54.0249, 20.2404]
+    Liczba instalacji: 1
+  Aleksandria (powiat: żyrardowski)
+    Aktualne współrzędne: [51.6124, 18.2257]
+    Liczba instalacji: 2
+  Kicin (powiat: ciechanowski)
+    Aktualne współrzędne: [50.9843, 23.7644]
+    Liczba instalacji: 1
+  Miechowice (powiat: grójecki)
+    Aktualne współrzędne: [52.7685, 18.2940]
+    Liczba instalacji: 1
+  Wierzbno (powiat: warszawski)
+    Aktualne współrzędne: [50.1503, 20.2352]
+    Liczba instalacji: 1
+  Magdalenka (powiat: piaseczyński)
+    Aktualne współrzędne: [53.2692, 18.1225]
+    Liczba instalacji: 8
+  Kleniew (powiat: gostyniński)
+    Aktualne współrzędne: [52.3650, 19.4376]
+    Liczba instalacji: 1
+  Belno (powiat: gostyniński)
+    Aktualne współrzędne: [53.4655, 18.4314]
+    Liczba instalacji: 1
+  Adamowo (powiat: mławski)
+    Aktualne współrzędne: [53.8694, 20.9902]
+    Liczba instalacji: 3
+  Tomice (powiat: piaseczyński)
+    Aktualne współrzędne: [49.9015, 19.4839]
+    Liczba instalacji: 1
+  Zbójno (powiat: sierpecki)
+    Aktualne współrzędne: [51.4864, 23.1206]
+    Liczba instalacji: 2
+  Zastocze (powiat: zwoleński)
+    Aktualne współrzędne: [53.3009, 22.8491]
+    Liczba instalacji: 1
+  Sewerynów (powiat: gostyniński)
+    Aktualne współrzędne: [51.3714, 18.9911]
+    Liczba instalacji: 2
+  Biały Dwór (powiat: żuromiński)
+    Aktualne współrzędne: [51.8480, 17.4258]
+    Liczba instalacji: 2
+  Borkowo Wielkie (powiat: sierpecki)
+    Aktualne współrzędne: [53.6430, 15.4503]
+    Liczba instalacji: 1
+  Anielin (powiat: gostyniński)
+    Aktualne współrzędne: [51.8661, 18.1055]
+    Liczba instalacji: 4
+  Krępa Górna (powiat: lipski)
+    Aktualne współrzędne: [51.1514, 21.5539]
+    Liczba instalacji: 1
+  Milewko (powiat: sierpecki)
+    Aktualne współrzędne: [53.6884, 18.6986]
+    Liczba instalacji: 1
+  Pieczyska (powiat: grójecki)
+    Aktualne współrzędne: [51.4316, 18.5632]
+    Liczba instalacji: 3
+  Mostki (powiat: zwoleński)
+    Aktualne współrzędne: [52.2659, 15.3929]
+    Liczba instalacji: 2
+  Dobrów (powiat: gostyniński)
+    Aktualne współrzędne: [50.5254, 21.0452]
+    Liczba instalacji: 1
+  Gutkowo (powiat: żuromiński)
+    Aktualne współrzędne: [53.8127, 20.3924]
+    Liczba instalacji: 1
+  Czarnocin (powiat: mławski)
+    Aktualne współrzędne: [54.0341, 18.4184]
+    Liczba instalacji: 1
+  Iłówiec (powiat: miński)
+    Aktualne współrzędne: [52.1710, 16.8064]
+    Liczba instalacji: 3
+  Gościejewo (powiat: makowski)
+    Aktualne współrzędne: [52.7761, 16.9584]
+    Liczba instalacji: 3
+  Wólka Nosowska (powiat: łosicki)
+    Aktualne współrzędne: [52.1871, 22.9914]
+    Liczba instalacji: 1
+  Wrząca (powiat: gostyniński)
+    Aktualne współrzędne: [52.4501, 19.3833]
+    Liczba instalacji: 3
+  Przyrowa (powiat: ciechanowski)
+    Aktualne współrzędne: [53.0500, 19.3119]
+    Liczba instalacji: 1
+  Kędzierzyn (powiat: płocki)
+    Aktualne współrzędne: [50.3486, 18.2248]
+    Liczba instalacji: 5
+  Świercze (powiat: pułtuski)
+    Aktualne współrzędne: [50.8766, 18.4535]
+    Liczba instalacji: 1
+  Marianka (powiat: gostyniński)
+    Aktualne współrzędne: [54.0988, 19.6353]
+    Liczba instalacji: 6
+  Białków (powiat: garwoliński)
+    Aktualne współrzędne: [51.7818, 15.0220]
+    Liczba instalacji: 10
+  Wilcza Wola (powiat: szydłowiecki)
+    Aktualne współrzędne: [50.3617, 21.9065]
+    Liczba instalacji: 1
+  Suchy Grunt (powiat: żuromiński)
+    Aktualne współrzędne: [50.2689, 21.1360]
+    Liczba instalacji: 1
+  Retków (powiat: miński)
+    Aktualne współrzędne: [51.5883, 16.2018]
+    Liczba instalacji: 1
+  Szydłowiec (powiat: szydłowiecki)
+    Aktualne współrzędne: [50.3132, 21.5589]
+    Liczba instalacji: 1
+  Dąbrówka (powiat: gostyniński)
+    Aktualne współrzędne: [52.2347, 18.8543]
+    Liczba instalacji: 5
+  Stanisławów (powiat: miński)
+    Aktualne współrzędne: [51.0792, 21.9969]
+    Liczba instalacji: 1
+  Kłoda (powiat: kozienicki)
+    Aktualne współrzędne: [50.5000, 21.2246]
+    Liczba instalacji: 4
+  Szafarnia (powiat: ostrołęcki)
+    Aktualne współrzędne: [53.1121, 19.1473]
+    Liczba instalacji: 2
+  Kępina (powiat: grójecki)
+    Aktualne współrzędne: [53.9396, 19.0534]
+    Liczba instalacji: 1
+  Helenów (powiat: gostyniński)
+    Aktualne współrzędne: [52.4697, 19.4737]
+    Liczba instalacji: 2
+  Kopytów (powiat: warszawski zachodniski)
+    Aktualne współrzędne: [51.9675, 23.5516]
+    Liczba instalacji: 1
+  Leszczyna (powiat: mławski)
+    Aktualne współrzędne: [49.8580, 20.4058]
+    Liczba instalacji: 1
+  Rębów (powiat: gostyniński)
+    Aktualne współrzędne: [50.6284, 20.5156]
+    Liczba instalacji: 1
+  Zofiówka (powiat: grójecki)
+    Aktualne współrzędne: [51.3052, 22.8301]
+    Liczba instalacji: 2
+  Karsy (powiat: płocki)
+    Aktualne współrzędne: [52.1462, 18.2218]
+    Liczba instalacji: 2
+  Lipsko (powiat: lipski)
+    Aktualne współrzędne: [51.1579, 21.6494]
+    Liczba instalacji: 1
+  Sewerynówka (powiat: sokołowski)
+    Aktualne współrzędne: [51.1488, 22.0845]
+    Liczba instalacji: 1
+  Henryków (powiat: sochaczewski)
+    Aktualne współrzędne: [51.5704, 15.5742]
+    Liczba instalacji: 3
+  Abramów (powiat: miński)
+    Aktualne współrzędne: [50.6987, 22.7009]
+    Liczba instalacji: 1
+  Wierzbica (powiat: radomski)
+    Aktualne współrzędne: [50.3515, 23.6738]
+    Liczba instalacji: 1
+  Łozy (powiat: siedlecki)
+    Aktualne współrzędne: [51.4905, 15.3600]
+    Liczba instalacji: 1
+  Wyszogród (powiat: płocki)
+    Aktualne współrzędne: [51.1966, 17.4750]
+    Liczba instalacji: 1
+  ANIELIN (powiat: gostyniński)
+    Aktualne współrzędne: [51.8667, 18.1065]
+    Liczba instalacji: 2
+  Sokolniki (powiat: płocki)
+    Aktualne współrzędne: [50.6420, 21.8082]
+    Liczba instalacji: 2
+  Koszelówka (powiat: łosicki)
+    Aktualne współrzędne: [52.2136, 22.9878]
+    Liczba instalacji: 1
+  Kamieńczyk (powiat: wyszkowski)
+    Aktualne współrzędne: [52.4534, 18.6720]
+    Liczba instalacji: 1
+  Słup (powiat: gostyniński)
+    Aktualne współrzędne: [54.4636, 17.0284]
+    Liczba instalacji: 1
+  Kraśniewo (powiat: płoński)
+    Aktualne współrzędne: [54.0096, 18.9661]
+    Liczba instalacji: 1
+  Bród (powiat: radomski)
+    Aktualne współrzędne: [53.5125, 15.3459]
+    Liczba instalacji: 3
+  Sierakowo (powiat: płoński)
+    Aktualne współrzędne: [53.1780, 18.8586]
+    Liczba instalacji: 3
+  Giżyn (powiat: mławski)
+    Aktualne współrzędne: [51.6702, 16.6565]
+    Liczba instalacji: 1
+  Dalekie (powiat: wyszkowski)
+    Aktualne współrzędne: [50.6450, 19.8941]
+    Liczba instalacji: 1
+  Wilcza Góra (powiat: piaseczyński)
+    Aktualne współrzędne: [50.8498, 18.7164]
+    Liczba instalacji: 1
+  Królewiec (powiat: miński)
+    Aktualne współrzędne: [51.0523, 20.4146]
+    Liczba instalacji: 1
+  Stare Opole (powiat: siedlecki)
+    Aktualne współrzędne: [50.6745, 17.9207]
+    Liczba instalacji: 1
+  Kalinowiec (powiat: makowski)
+    Aktualne współrzędne: [52.7367, 18.8249]
+    Liczba instalacji: 2
+  Dobieszyn (powiat: białobrzeski)
+    Aktualne współrzędne: [49.6960, 21.6806]
+    Liczba instalacji: 1
+  Świniary (powiat: przasnyski)
+    Aktualne współrzędne: [51.5775, 16.7657]
+    Liczba instalacji: 2
+  Podstolice (powiat: garwoliński)
+    Aktualne współrzędne: [52.3350, 17.4719]
+    Liczba instalacji: 1
+  Zieleniec (powiat: gostyniński)
+    Aktualne współrzędne: [50.9247, 17.8153]
+    Liczba instalacji: 3
+  Łaszczyn (powiat: grójecki)
+    Aktualne współrzędne: [51.6397, 16.8619]
+    Liczba instalacji: 2
+  Małocin (powiat: żuromiński)
+    Aktualne współrzędne: [53.1856, 17.5436]
+    Liczba instalacji: 2
+  Wodziczna (powiat: grójecki)
+    Aktualne współrzędne: [51.1459, 18.0270]
+    Liczba instalacji: 1
+  Sękowo (powiat: płocki)
+    Aktualne współrzędne: [52.3058, 16.0891]
+    Liczba instalacji: 2
+  Garbatka (powiat: piaseczyński)
+    Aktualne współrzędne: [52.7420, 16.9625]
+    Liczba instalacji: 5
+  Śmiłowo (powiat: płocki)
+    Aktualne współrzędne: [52.6150, 16.5338]
+    Liczba instalacji: 2
+  Łukawa (powiat: kozienicki)
+    Aktualne współrzędne: [50.7663, 21.7027]
+    Liczba instalacji: 1
+  Krukowo (powiat: przasnyski)
+    Aktualne współrzędne: [54.0243, 15.7856]
+    Liczba instalacji: 1
+  Kamieńszczyzna (powiat: sochaczewski)
+    Aktualne współrzędne: [51.0100, 18.8869]
+    Liczba instalacji: 2
+  Słowików (powiat: radomski)
+    Aktualne współrzędne: [51.0687, 18.6228]
+    Liczba instalacji: 2
+  Mchowo (powiat: przasnyski)
+    Aktualne współrzędne: [52.3895, 18.6906]
+    Liczba instalacji: 2
+  Kozice (powiat: gostyniński)
+    Aktualne współrzędne: [51.1466, 16.1121]
+    Liczba instalacji: 1
+  Żuków (powiat: sochaczewski)
+    Aktualne współrzędne: [52.0228, 23.6571]
+    Liczba instalacji: 1
+  Żarnowo (powiat: ciechanowski)
+    Aktualne współrzędne: [53.7032, 22.8428]
+    Liczba instalacji: 1
+  Piotrówek (powiat: garwoliński)
+    Aktualne współrzędne: [50.8336, 16.8189]
+    Liczba instalacji: 1
+  Lipie (powiat: grójecki)
+    Aktualne współrzędne: [49.3015, 22.6966]
+    Liczba instalacji: 1
+  Tomaszówka (powiat: lipski)
+    Aktualne współrzędne: [51.1235, 21.6652]
+    Liczba instalacji: 1
+  Kuchary (powiat: płocki)
+    Aktualne współrzędne: [51.8109, 17.9820]
+    Liczba instalacji: 2
+  Lindów (powiat: żyrardowski)
+    Aktualne współrzędne: [51.0451, 18.8608]
+    Liczba instalacji: 1
+  Szewce (powiat: płocki)
+    Aktualne współrzędne: [51.2230, 16.9691]
+    Liczba instalacji: 1
+  Sadykierz (powiat: pułtuski)
+    Aktualne współrzędne: [51.3496, 19.1566]
+    Liczba instalacji: 1
+  Tursk (powiat: białobrzeski)
+    Aktualne współrzędne: [52.3951, 15.1258]
+    Liczba instalacji: 1
+  Uniejewo (powiat: płocki)
+    Aktualne współrzędne: [52.6069, 19.4796]
+    Liczba instalacji: 1
+  Młyńsk (powiat: płoński)
+    Aktualne współrzędne: [53.8664, 18.2594]
+    Liczba instalacji: 1
+  Ciepielów (powiat: lipski)
+    Aktualne współrzędne: [51.7617, 15.6790]
+    Liczba instalacji: 1
+  Wójtostwo (powiat: kozienicki)
+    Aktualne współrzędne: [50.8055, 20.8206]
+    Liczba instalacji: 1
+  Końskie Kopaniny (powiat: nieznany)
+    Aktualne współrzędne: [51.1958, 20.4081]
+    Liczba instalacji: 1
+  Myślenice Jawornik (powiat: nieznany)
+    Aktualne współrzędne: [49.8352, 19.9337]
+    Liczba instalacji: 1
+  Stare Miasto k/Konina Modła Królewska (powiat: nieznany)
+    Aktualne współrzędne: [52.2238, 18.2517]
+    Liczba instalacji: 1
+  Chodzież Podanin (powiat: nieznany)
+    Aktualne współrzędne: [52.9966, 16.9182]
+    Liczba instalacji: 2
+  Gostyń Malewo (powiat: nieznany)
+    Aktualne współrzędne: [51.8831, 17.0115]
+    Liczba instalacji: 1
+  Zawichost Piotrowice (powiat: nieznany)
+    Aktualne współrzędne: [51.0787, 22.4715]
+    Liczba instalacji: 1
+  Grodzisk Mazowiecki Urszulin (powiat: nieznany)
+    Aktualne współrzędne: [51.3575, 23.2275]
+    Liczba instalacji: 1
+  Olsztyn Wadąg (powiat: nieznany)
+    Aktualne współrzędne: [53.7784, 20.4944]
+    Liczba instalacji: 1
+  Wrocław. zael.com.pl+1 (powiat: nieznany)
+    Aktualne współrzędne: [51.1089, 17.0391]
+    Liczba instalacji: 1
+  Bytom. energostrefa.pl+1 (powiat: nieznany)
+    Aktualne współrzędne: [50.3490, 18.9171]
+    Liczba instalacji: 1
+  Mikołów. FPM S.A.+1 (powiat: nieznany)
+    Aktualne współrzędne: [50.1721, 18.9049]
+    Liczba instalacji: 1
+  Jelenia Góra. ecosa.pl+1 (powiat: nieznany)
+    Aktualne współrzędne: [50.9038, 15.7195]
+    Liczba instalacji: 1
+  Bełchatów. pgegiek.pl+1 (powiat: nieznany)
+    Aktualne współrzędne: [51.3676, 19.3669]
+    Liczba instalacji: 1
+  Wrocław. Dozamel+1 (powiat: nieznany)
+    Aktualne współrzędne: [51.1075, 17.0379]
+    Liczba instalacji: 1
+  Mielec. Elektrociepłownia Mielec Sp. z o.o.+1 (powiat: nieznany)
+    Aktualne współrzędne: [50.2876, 21.4248]
+    Liczba instalacji: 1
+  Gliwice. site:site_title+1 (powiat: nieznany)
+    Aktualne współrzędne: [50.2952, 18.6716]
+    Liczba instalacji: 1
+  Mielec. Energia Euro Park+1 (powiat: nieznany)
+    Aktualne współrzędne: [50.2881, 21.4236]
+    Liczba instalacji: 1
+  Wrocław. Pal Energia+1 (powiat: nieznany)
+    Aktualne współrzędne: [51.1076, 17.0382]
+    Liczba instalacji: 1
+  Opole. ecosa.pl+1 (powiat: nieznany)
+    Aktualne współrzędne: [50.6756, 17.9208]
+    Liczba instalacji: 1
+  Częstochowa. Polontex S.A.+1 (powiat: nieznany)
+    Aktualne współrzędne: [50.8115, 19.1212]
+    Liczba instalacji: 1
+  Bielsko-Biała. edisonnext.pl+1 (powiat: nieznany)
+    Aktualne współrzędne: [49.8219, 19.0447]
+    Liczba instalacji: 1
+  Łódź. tbenergia.pl (powiat: nieznany)
+    Aktualne współrzędne: [51.7602, 19.4559]
+    Liczba instalacji: 1
+  Wrocław pal-energia.pl / KRS-pobierz (powiat: nieznany)
+    Aktualne współrzędne: [51.1084, 17.0390]
+    Liczba instalacji: 1
+  Poznań; ul. Ignacego Łukasiewicza 2, 64-500 Szamotuły kogeneracja-szamotuly.pl / kogeneracjazachod.pl (powiat: nieznany)
+    Aktualne współrzędne: [52.4058, 16.9248]
+    Liczba instalacji: 1
+  Rzeszów pge-obrot.pl (powiat: nieznany)
+    Aktualne współrzędne: [50.0421, 21.9984]
+    Liczba instalacji: 2
+  Wrocław side-energia.pl / KRS-pobierz (powiat: nieznany)
+    Aktualne współrzędne: [51.1086, 17.0385]
+    Liczba instalacji: 1
+  Gdańsk grupa.energa.pl (powiat: nieznany)
+    Aktualne współrzędne: [54.3513, 18.6459]
+    Liczba instalacji: 1
+  Rawicz KRS-pobierz / aleo.com (powiat: nieznany)
+    Aktualne współrzędne: [51.6098, 16.8586]
+    Liczba instalacji: 1
+  Katowice grupaenergianovage.pl / KRS-pobierz (powiat: nieznany)
+    Aktualne współrzędne: [50.2653, 19.0240]
+    Liczba instalacji: 1
+  Gdańsk fortum.pl (powiat: nieznany)
+    Aktualne współrzędne: [54.3524, 18.6467]
+    Liczba instalacji: 1
+  Chorzów ce-operator.pl / imsig.pl (powiat: nieznany)
+    Aktualne współrzędne: [50.2964, 18.9544]
+    Liczba instalacji: 1
+  Katowice cieplo.tauron.pl / BIP (powiat: nieznany)
+    Aktualne współrzędne: [50.2656, 19.0237]
+    Liczba instalacji: 1
+  Częstochowa unimot.pl / oneplace.marketplanet.pl (powiat: nieznany)
+    Aktualne współrzędne: [50.8116, 19.1197]
+    Liczba instalacji: 1
+  Wrocław krs-online.com.pl (powiat: nieznany)
+    Aktualne współrzędne: [51.1084, 17.0381]
+    Liczba instalacji: 1
+
+=== MAŁOPOLSKIE ===
+  Kamienica (powiat: nowosądecki)
+    Aktualne współrzędne: [50.6341, 18.9927]
+    Liczba instalacji: 8
+  Lubasz (powiat: dąbrowski)
+    Aktualne współrzędne: [52.8476, 16.5236]
+    Liczba instalacji: 1
+  Chełmek (powiat: oświęcimski)
+    Aktualne współrzędne: [51.1427, 23.4711]
+    Liczba instalacji: 7
+  Wieprz (powiat: nieznany)
+    Aktualne współrzędne: [50.4744, 23.3511]
+    Liczba instalacji: 1
+  Białka (powiat: tatrzański)
+    Aktualne współrzędne: [51.5320, 23.0035]
+    Liczba instalacji: 3
+  Błędów (powiat: olkuski)
+    Aktualne współrzędne: [52.1881, 19.9619]
+    Liczba instalacji: 1
+  Paproć (powiat: limanowski)
+    Aktualne współrzędne: [52.2888, 16.1606]
+    Liczba instalacji: 1
+  Wierzchosławice (powiat: tarnowski)
+    Aktualne współrzędne: [52.8714, 18.3438]
+    Liczba instalacji: 3
+  Zabrzeż (powiat: nowosądecki)
+    Aktualne współrzędne: [50.3254, 18.7865]
+    Liczba instalacji: 2
+  Jabłoniec (powiat: limanowski)
+    Aktualne współrzędne: [51.7221, 15.0187]
+    Liczba instalacji: 1
+  Miechów (powiat: miechowski)
+    Aktualne współrzędne: [51.2743, 21.4602]
+    Liczba instalacji: 1
+  Biskupice (powiat: wielicki)
+    Aktualne współrzędne: [52.7126, 19.9818]
+    Liczba instalacji: 4
+  Dębnik (powiat: krakowski)
+    Aktualne współrzędne: [54.0619, 21.1144]
+    Liczba instalacji: 7
+  Rudno (powiat: krakowski)
+    Aktualne współrzędne: [53.6112, 19.9384]
+    Liczba instalacji: 3
+  Góra Św. Anny (powiat: krakowski)
+    Aktualne współrzędne: [50.4565, 18.1702]
+    Liczba instalacji: 1
+  Zabierzów (powiat: krakowski)
+    Aktualne współrzędne: [50.3857, 17.9763]
+    Liczba instalacji: 1
+  Buczyna (powiat: bocheński)
+    Aktualne współrzędne: [51.5457, 15.9060]
+    Liczba instalacji: 2
+  Nowa Biała (powiat: nowotarski)
+    Aktualne współrzędne: [52.5926, 19.6388]
+    Liczba instalacji: 1
+  Mościce (powiat: tarnówski)
+    Aktualne współrzędne: [52.6768, 14.8028]
+    Liczba instalacji: 4
+  Żabno (powiat: tarnowski)
+    Aktualne współrzędne: [52.1776, 16.8927]
+    Liczba instalacji: 5
+  Bronowice (powiat: krakowski)
+    Aktualne współrzędne: [51.5643, 14.7555]
+    Liczba instalacji: 6
+  Klucze (powiat: olkuski)
+    Aktualne współrzędne: [51.6819, 16.1606]
+    Liczba instalacji: 1
+  Nowica (powiat: gorlicki)
+    Aktualne współrzędne: [51.2709, 17.3673]
+    Liczba instalacji: 1
+  Chrząstowice (powiat: olkuski)
+    Aktualne współrzędne: [50.6648, 18.0715]
+    Liczba instalacji: 1
+  Januszkowice (powiat: brzesko)
+    Aktualne współrzędne: [50.3910, 18.1380]
+    Liczba instalacji: 9
+  Bochnia (powiat: bocheński)
+    Aktualne współrzędne: [52.0249, 21.1345]
+    Liczba instalacji: 2
+  Bukowno (powiat: olkuski)
+    Aktualne współrzędne: [51.5436, 20.8408]
+    Liczba instalacji: 2
+  Kęty (powiat: oświęcimski)
+    Aktualne współrzędne: [52.0240, 21.1365]
+    Liczba instalacji: 3
+  Skawina (powiat: krakowski)
+    Aktualne współrzędne: [52.0253, 21.1361]
+    Liczba instalacji: 2
+  Zator (powiat: oświęcimski)
+    Aktualne współrzędne: [51.9665, 20.3754]
+    Liczba instalacji: 1
+  Trzebinia (powiat: chrzanowski)
+    Aktualne współrzędne: [52.0251, 21.1358]
+    Liczba instalacji: 3
+  Niedomice (powiat: tarnowski)
+    Aktualne współrzędne: [52.0242, 21.1364]
+    Liczba instalacji: 1
+  Brzesko (powiat: tarnowski)
+    Aktualne współrzędne: [52.0253, 21.1365]
+    Liczba instalacji: 1
+  Krzeszowice (powiat: krakowski)
+    Aktualne współrzędne: [52.0250, 21.1356]
+    Liczba instalacji: 1
+  Żegocina Łąkta Górna (powiat: bocheński)
+    Aktualne współrzędne: [52.0238, 21.1350]
+    Liczba instalacji: 1
+  Kamyk (powiat: bocheński)
+    Aktualne współrzędne: [51.4775, 21.4833]
+    Liczba instalacji: 1
+  Balice (powiat: krakowski)
+    Aktualne współrzędne: [52.0254, 21.1357]
+    Liczba instalacji: 1
+  Wola Rzędzińska Wola Rzędzińska (powiat: tarnowski)
+    Aktualne współrzędne: [52.0242, 21.1350]
+    Liczba instalacji: 1
+  Tymbark Tymbark (powiat: limanowski)
+    Aktualne współrzędne: [52.0240, 21.1354]
+    Liczba instalacji: 1
+  Niedzica (powiat: nowotarski)
+    Aktualne współrzędne: [52.0246, 21.1362]
+    Liczba instalacji: 1
+  Wolbrom (powiat: olkuski)
+    Aktualne współrzędne: [52.0246, 21.1361]
+    Liczba instalacji: 1
+  Andrychów (powiat: wadowicki)
+    Aktualne współrzędne: [52.0237, 21.1363]
+    Liczba instalacji: 1
+
+=== OPOLSKIE ===
+  Porąbka Iwkowska (powiat: brzeski)
+    Aktualne współrzędne: [49.7964, 20.5979]
+    Liczba instalacji: 1
+  Biała (powiat: prudnicki)
+    Aktualne współrzędne: [49.8218, 19.0442]
+    Liczba instalacji: 20
+  Poniatowa (powiat: opolski)
+    Aktualne współrzędne: [51.1936, 22.0648]
+    Liczba instalacji: 5
+  Lubsza (powiat: brzeski)
+    Aktualne współrzędne: [50.6079, 18.9999]
+    Liczba instalacji: 1
+  Ratoszyn Pierwszy (powiat: opolski)
+    Aktualne współrzędne: [51.0551, 22.2865]
+    Liczba instalacji: 1
+  Pielgrzymka (powiat: opolski)
+    Aktualne współrzędne: [49.6153, 21.4407]
+    Liczba instalacji: 3
+  Zosin (powiat: opolski)
+    Aktualne współrzędne: [52.9797, 19.1582]
+    Liczba instalacji: 1
+  Zajączków (powiat: opolski)
+    Aktualne współrzędne: [50.8574, 20.3481]
+    Liczba instalacji: 3
+  Moszczanka (powiat: prudnicki)
+    Aktualne współrzędne: [51.5983, 21.9701]
+    Liczba instalacji: 2
+  Kwików (powiat: brzeski)
+    Aktualne współrzędne: [50.1453, 20.6613]
+    Liczba instalacji: 2
+  Opole Lubelskie (powiat: opolski)
+    Aktualne współrzędne: [51.1474, 21.9642]
+    Liczba instalacji: 3
+  Krzyżowice (powiat: głubczycki)
+    Aktualne współrzędne: [50.1700, 17.7957]
+    Liczba instalacji: 2
+  Trzebina (powiat: prudnicki)
+    Aktualne współrzędne: [50.2908, 17.6001]
+    Liczba instalacji: 1
+  Jędrychowice (powiat: głubczycki)
+    Aktualne współrzędne: [52.2267, 15.2557]
+    Liczba instalacji: 1
+  Rutki (powiat: opolski)
+    Aktualne współrzędne: [54.3305, 18.3415]
+    Liczba instalacji: 1
+  Wolica Kolonia (powiat: opolski)
+    Aktualne współrzędne: [51.2120, 22.0442]
+    Liczba instalacji: 1
+  Podgórz (powiat: opolski)
+    Aktualne współrzędne: [52.6796, 21.9174]
+    Liczba instalacji: 1
+  Bielcza (powiat: brzeski)
+    Aktualne współrzędne: [50.0226, 20.7425]
+    Liczba instalacji: 3
+  Brzozowiec (powiat: namysłowski)
+    Aktualne współrzędne: [52.6559, 15.3700]
+    Liczba instalacji: 1
+  Czyżowice (powiat: prudnicki)
+    Aktualne współrzędne: [49.9808, 18.4111]
+    Liczba instalacji: 2
+  Mokra (powiat: prudnicki)
+    Aktualne współrzędne: [51.1064, 20.5530]
+    Liczba instalacji: 3
+  Kolonia Nieszawa (powiat: opolski)
+    Aktualne współrzędne: [52.8341, 18.8904]
+    Liczba instalacji: 2
+  Wilków (powiat: namysłowski)
+    Aktualne współrzędne: [50.8696, 16.5372]
+    Liczba instalacji: 3
+  Lasowice (powiat: nyski)
+    Aktualne współrzędne: [51.4410, 16.4149]
+    Liczba instalacji: 1
+  Langowo (powiat: głubczycki)
+    Aktualne współrzędne: [50.1067, 18.0277]
+    Liczba instalacji: 1
+  Niedzieliska (powiat: brzeski)
+    Aktualne współrzędne: [50.0972, 20.6271]
+    Liczba instalacji: 3
+  Gnojnik (powiat: brzeski)
+    Aktualne współrzędne: [49.8944, 20.6068]
+    Liczba instalacji: 1
+  Ligotka (powiat: namysłowski)
+    Aktualne współrzędne: [51.3963, 16.9635]
+    Liczba instalacji: 1
+  Jaśkowice (powiat: kluczborski)
+    Aktualne współrzędne: [50.4138, 18.6626]
+    Liczba instalacji: 1
+  Budziechów (powiat: strzelecki)
+    Aktualne współrzędne: [51.7732, 14.9940]
+    Liczba instalacji: 12
+  Prosna (powiat: oleski)
+    Aktualne współrzędne: [51.5215, 18.1319]
+    Liczba instalacji: 2
+  Rzędów (powiat: opolski)
+    Aktualne współrzędne: [50.5312, 21.0573]
+    Liczba instalacji: 2
+  Otmuchów (powiat: nyski)
+    Aktualne współrzędne: [50.4647, 17.1731]
+    Liczba instalacji: 1
+  Prądy (powiat: opolski)
+    Aktualne współrzędne: [50.6244, 18.8763]
+    Liczba instalacji: 2
+  Rylowa (powiat: brzeski)
+    Aktualne współrzędne: [50.1091, 20.6657]
+    Liczba instalacji: 1
+  Starowice (powiat: nyski)
+    Aktualne współrzędne: [53.5291, 16.4701]
+    Liczba instalacji: 1
+  Niewodnik (powiat: opolski)
+    Aktualne współrzędne: [53.8720, 20.6885]
+    Liczba instalacji: 1
+  Górażdże Chorula (powiat: krapkowicki)
+    Aktualne współrzędne: [52.0237, 21.1359]
+    Liczba instalacji: 1
+  Kędzierzyn- Koźle (powiat: kędzierzyńsko-kozielski)
+    Aktualne współrzędne: [52.0240, 21.1349]
+    Liczba instalacji: 3
+  Walce (powiat: krapkowicki)
+    Aktualne współrzędne: [52.2452, 22.3338]
+    Liczba instalacji: 1
+  Głuchołazy (powiat: nyski)
+    Aktualne współrzędne: [52.0250, 21.1360]
+    Liczba instalacji: 1
+  Praszka (powiat: oleski)
+    Aktualne współrzędne: [52.0254, 21.1346]
+    Liczba instalacji: 1
+  Karczmiska Karczmiska Pierwsze (powiat: opolski)
+    Aktualne współrzędne: [52.0236, 21.1351]
+    Liczba instalacji: 1
+  Zdzieszowice (powiat: krapkowicki)
+    Aktualne współrzędne: [52.0248, 21.1359]
+    Liczba instalacji: 1
+  Tarnów Opolski (powiat: opolski)
+    Aktualne współrzędne: [50.0121, 20.9886]
+    Liczba instalacji: 2
+  Stradunia (powiat: krapkowicki)
+    Aktualne współrzędne: [52.0238, 21.1361]
+    Liczba instalacji: 1
+  Ozimek (powiat: opolski)
+    Aktualne współrzędne: [52.0254, 21.1361]
+    Liczba instalacji: 1
+  Wołczyn (powiat: kluczborski)
+    Aktualne współrzędne: [52.0247, 21.1356]
+    Liczba instalacji: 1
+  Górażdże (powiat: krapkowicki)
+    Aktualne współrzędne: [51.4200, 21.2034]
+    Liczba instalacji: 1
+
+=== PODKARPACKIE ===
+  Berlin (powiat: rzeszowski)
+    Aktualne współrzędne: [53.3136, 21.2714]
+    Liczba instalacji: 2
+  Przecław (powiat: mielecki)
+    Aktualne współrzędne: [53.3774, 14.4718]
+    Liczba instalacji: 2
+  Gubin (powiat: krośnieński)
+    Aktualne współrzędne: [51.9568, 14.7374]
+    Liczba instalacji: 3
+  Korczowa (powiat: jarosławski)
+    Aktualne współrzędne: [49.9528, 23.0790]
+    Liczba instalacji: 2
+  Babice (powiat: przemyski)
+    Aktualne współrzędne: [50.1363, 18.2988]
+    Liczba instalacji: 5
+  Wadowice Górne (powiat: mielecki)
+    Aktualne współrzędne: [49.8841, 19.4943]
+    Liczba instalacji: 2
+  Polanowice (powiat: krośnieński)
+    Aktualne współrzędne: [51.1049, 18.1810]
+    Liczba instalacji: 2
+  Brzozów (powiat: brzozowski)
+    Aktualne współrzędne: [52.4101, 22.1678]
+    Liczba instalacji: 1
+  Luboszyce (powiat: krośnieński)
+    Aktualne współrzędne: [50.7276, 17.9566]
+    Liczba instalacji: 1
+  Lubaczów (powiat: lubaczowski)
+    Aktualne współrzędne: [50.1576, 23.1233]
+    Liczba instalacji: 3
+  Nowy Zagór (powiat: krośnieński)
+    Aktualne współrzędne: [52.0111, 15.0796]
+    Liczba instalacji: 2
+  Radnica (powiat: krośnieński)
+    Aktualne współrzędne: [52.0827, 15.2241]
+    Liczba instalacji: 1
+  Dzikowo (powiat: krośnieński)
+    Aktualne współrzędne: [52.9379, 18.7760]
+    Liczba instalacji: 1
+  Ułazów (powiat: lubaczowski)
+    Aktualne współrzędne: [50.2737, 23.0020]
+    Liczba instalacji: 1
+  Jawornik (powiat: sanocki)
+    Aktualne współrzędne: [49.8547, 19.8997]
+    Liczba instalacji: 1
+  Dachnów (powiat: lubaczowski)
+    Aktualne współrzędne: [50.2062, 23.1099]
+    Liczba instalacji: 2
+  Pław (powiat: krośnieński)
+    Aktualne współrzędne: [51.9977, 15.2002]
+    Liczba instalacji: 1
+  Kuźnia Kolonia (powiat: przemyski)
+    Aktualne współrzędne: [51.2686, 20.9452]
+    Liczba instalacji: 1
+  Gorajec (powiat: lubaczowski)
+    Aktualne współrzędne: [50.2697, 23.2054]
+    Liczba instalacji: 1
+  Głogów Małopolski (powiat: rzeszowski)
+    Aktualne współrzędne: [51.6631, 16.0851]
+    Liczba instalacji: 3
+  Nowa Grobla (powiat: lubaczowski)
+    Aktualne współrzędne: [50.0815, 23.0088]
+    Liczba instalacji: 1
+  Wałowice (powiat: krośnieński)
+    Aktualne współrzędne: [51.9884, 14.8034]
+    Liczba instalacji: 1
+  Stara Wieś (powiat: brzozowski)
+    Aktualne współrzędne: [50.5974, 23.8400]
+    Liczba instalacji: 1
+  Bukowica (powiat: krośnieński)
+    Aktualne współrzędne: [51.6482, 15.7658]
+    Liczba instalacji: 1
+  Nowa Sarzyna (powiat: stalowowolski)
+    Aktualne współrzędne: [52.0242, 21.1348]
+    Liczba instalacji: 2
+  Boguchwała (powiat: rzeszowski)
+    Aktualne współrzędne: [52.0252, 21.1351]
+    Liczba instalacji: 1
+  Zagórz (powiat: sanocki)
+    Aktualne współrzędne: [52.0241, 21.1350]
+    Liczba instalacji: 1
+  Pustków-Osiedle (powiat: dębicki)
+    Aktualne współrzędne: [52.0244, 21.1347]
+    Liczba instalacji: 1
+  Nowa Dęba (powiat: leżajski)
+    Aktualne współrzędne: [52.0246, 21.1357]
+    Liczba instalacji: 1
+
+=== PODLASKIE ===
+  Kolno (powiat: kolneński)
+    Aktualne współrzędne: [53.4025, 21.9370]
+    Liczba instalacji: 16
+  Orzeszkowo (powiat: hajnowski)
+    Aktualne współrzędne: [52.5521, 16.0999]
+    Liczba instalacji: 1
+  Józefowo (powiat: białostocki)
+    Aktualne współrzędne: [52.3394, 17.9282]
+    Liczba instalacji: 1
+  Marynki (powiat: białostocki)
+    Aktualne współrzędne: [51.8604, 19.0497]
+    Liczba instalacji: 1
+  Praha (powiat: hajnowski)
+    Aktualne współrzędne: [52.2522, 21.0351]
+    Liczba instalacji: 1
+  Kuków (powiat: suwalski)
+    Aktualne współrzędne: [49.7393, 19.4671]
+    Liczba instalacji: 1
+  Szwajcaria (powiat: białostocki)
+    Aktualne współrzędne: [52.0254, 21.1358]
+    Liczba instalacji: 2
+  Siemiatycze (powiat: siemiatycki)
+    Aktualne współrzędne: [52.4289, 22.8636]
+    Liczba instalacji: 12
+  Płoskie (powiat: białostocki)
+    Aktualne współrzędne: [50.7112, 23.1775]
+    Liczba instalacji: 2
+  Zielona (powiat: białostocki)
+    Aktualne współrzędne: [51.9363, 15.5072]
+    Liczba instalacji: 2
+  Biernatki (powiat: augustowski)
+    Aktualne współrzędne: [52.5328, 18.8677]
+    Liczba instalacji: 1
+  Sady (powiat: siemiatycki)
+    Aktualne współrzędne: [52.4481, 16.7226]
+    Liczba instalacji: 2
+  Klonownica (powiat: augustowski)
+    Aktualne współrzędne: [52.1427, 23.1646]
+    Liczba instalacji: 1
+  Krynica (powiat: białostocki)
+    Aktualne współrzędne: [52.2997, 22.2953]
+    Liczba instalacji: 2
+  Nowe Rakowo (powiat: kolneński)
+    Aktualne współrzędne: [53.3364, 21.9692]
+    Liczba instalacji: 1
+  Pawłówko (powiat: kolneński)
+    Aktualne współrzędne: [53.6898, 17.6139]
+    Liczba instalacji: 9
+  Michałowo (powiat: białostocki)
+    Aktualne współrzędne: [52.3247, 17.9668]
+    Liczba instalacji: 3
+  Boguszewo (powiat: moniecki)
+    Aktualne współrzędne: [53.6999, 19.7735]
+    Liczba instalacji: 1
+  Kobylanka (powiat: białostocki)
+    Aktualne współrzędne: [53.3456, 14.8707]
+    Liczba instalacji: 6
+  Sadowo (powiat: sokólski)
+    Aktualne współrzędne: [53.8482, 21.0503]
+    Liczba instalacji: 2
+  Zawady (powiat: białostocki)
+    Aktualne współrzędne: [51.0254, 18.9223]
+    Liczba instalacji: 4
+  Szczepankowo (powiat: łomżyński)
+    Aktualne współrzędne: [52.6223, 16.5029]
+    Liczba instalacji: 1
+  Sokoły (powiat: wysokomazowiecki)
+    Aktualne współrzędne: [52.5253, 18.4155]
+    Liczba instalacji: 1
+  Kuligi (powiat: grajewski)
+    Aktualne współrzędne: [53.4336, 19.7037]
+    Liczba instalacji: 2
+  Gródek (powiat: białostocki)
+    Aktualne współrzędne: [51.4629, 21.6711]
+    Liczba instalacji: 1
+  Smolanka (powiat: sokólski)
+    Aktualne współrzędne: [52.0276, 22.4050]
+    Liczba instalacji: 2
+  Brzozowo (powiat: sokólski)
+    Aktualne współrzędne: [53.7377, 15.1913]
+    Liczba instalacji: 3
+  Olszanka (powiat: sejneński)
+    Aktualne współrzędne: [50.7912, 17.4836]
+    Liczba instalacji: 3
+  Budy (powiat: białostocki)
+    Aktualne współrzędne: [50.5689, 23.3892]
+    Liczba instalacji: 2
+  Lisowo (powiat: siemiatycki)
+    Aktualne współrzędne: [53.7731, 15.2440]
+    Liczba instalacji: 2
+  Sadek (powiat: sokólski)
+    Aktualne współrzędne: [51.2026, 20.8897]
+    Liczba instalacji: 2
+  Wilczewo (powiat: kolneński)
+    Aktualne współrzędne: [54.0026, 17.7144]
+    Liczba instalacji: 1
+  Suchowola (powiat: sokólski)
+    Aktualne współrzędne: [50.4140, 20.9295]
+    Liczba instalacji: 1
+  BRZOSTOWO (powiat: łomżyński)
+    Aktualne współrzędne: [53.1116, 17.0062]
+    Liczba instalacji: 4
+  Targowiska (powiat: siemiatycki)
+    Aktualne współrzędne: [49.6360, 21.8235]
+    Liczba instalacji: 1
+  Chojnowo (powiat: grajewski)
+    Aktualne współrzędne: [53.0261, 20.7705]
+    Liczba instalacji: 1
+  Białki (powiat: hajnowski)
+    Aktualne współrzędne: [53.6835, 18.9006]
+    Liczba instalacji: 1
+  Osowiec (powiat: zambrowski)
+    Aktualne współrzędne: [50.7533, 18.0221]
+    Liczba instalacji: 1
+  Brzostowo (powiat: łomżyński)
+    Aktualne współrzędne: [53.1121, 17.0060]
+    Liczba instalacji: 5
+  Bobrowa (powiat: białostocki)
+    Aktualne współrzędne: [50.1157, 21.4319]
+    Liczba instalacji: 2
+  Rakowo (powiat: grajewski)
+    Aktualne współrzędne: [52.6300, 20.2791]
+    Liczba instalacji: 1
+  Mątwica (powiat: łomżyński)
+    Aktualne współrzędne: [53.2166, 21.9238]
+    Liczba instalacji: 1
+  Łojki (powiat: grajewski)
+    Aktualne współrzędne: [50.7916, 19.0099]
+    Liczba instalacji: 1
+  Kownaty (powiat: łomżyński)
+    Aktualne współrzędne: [52.3538, 15.0958]
+    Liczba instalacji: 1
+  Czernice (powiat: kolneński)
+    Aktualne współrzędne: [53.4325, 17.1324]
+    Liczba instalacji: 1
+  Pniewo (powiat: łomżyński)
+    Aktualne współrzędne: [53.2169, 14.4929]
+    Liczba instalacji: 6
+  Machnacz (powiat: białostocki)
+    Aktualne współrzędne: [52.6501, 18.9489]
+    Liczba instalacji: 1
+  Poświętne (powiat: sokólski)
+    Aktualne współrzędne: [51.4740, 21.3671]
+    Liczba instalacji: 1
+  Wólka - Folwark (powiat: suwalski)
+    Aktualne współrzędne: [52.6727, 21.3107]
+    Liczba instalacji: 1
+  Trzaski (powiat: wysokomazowiecki)
+    Aktualne współrzędne: [52.7721, 18.3257]
+    Liczba instalacji: 1
+  Popowo (powiat: grajewski)
+    Aktualne współrzędne: [52.6131, 16.6522]
+    Liczba instalacji: 5
+  Glinki (powiat: kolneński)
+    Aktualne współrzędne: [53.3817, 18.0084]
+    Liczba instalacji: 1
+  Kalinówka (powiat: suwalski)
+    Aktualne współrzędne: [53.3484, 16.1146]
+    Liczba instalacji: 14
+  Brzozówka (powiat: augustowski)
+    Aktualne współrzędne: [52.2819, 20.0251]
+    Liczba instalacji: 5
+  Nowogród (powiat: łomżyński)
+    Aktualne współrzędne: [53.2282, 21.8804]
+    Liczba instalacji: 1
+  Cisów (powiat: augustowski)
+    Aktualne współrzędne: [51.7171, 15.6118]
+    Liczba instalacji: 1
+  Grodzisk (powiat: siemiatycki)
+    Aktualne współrzędne: [52.1093, 20.6361]
+    Liczba instalacji: 1
+  Niksowizna (powiat: kolneński)
+    Aktualne współrzędne: [53.3337, 21.8737]
+    Liczba instalacji: 2
+  Jarnuty (powiat: łomżyński)
+    Aktualne współrzędne: [52.9849, 21.6524]
+    Liczba instalacji: 1
+  Janówka (powiat: augustowski)
+    Aktualne współrzędne: [51.2737, 19.1693]
+    Liczba instalacji: 2
+
+=== POMORSKIE ===
+  Studzienice (powiat: bytowski)
+    Aktualne współrzędne: [50.0209, 18.9843]
+    Liczba instalacji: 6
+  Cierznie (powiat: człuchowski)
+    Aktualne współrzędne: [53.5712, 17.0722]
+    Liczba instalacji: 1
+  Zawada (powiat: chojnicki)
+    Aktualne współrzędne: [50.8695, 21.6998]
+    Liczba instalacji: 6
+  Nowy Dwór Mazowiecki (powiat: nowodworski)
+    Aktualne współrzędne: [52.4310, 20.7161]
+    Liczba instalacji: 8
+  Wyczechy (powiat: człuchowski)
+    Aktualne współrzędne: [53.6891, 17.0397]
+    Liczba instalacji: 1
+  Stężyca (powiat: kartuski)
+    Aktualne współrzędne: [51.5796, 21.7776]
+    Liczba instalacji: 10
+  Czosnów (powiat: nowodworski)
+    Aktualne współrzędne: [52.3900, 20.7331]
+    Liczba instalacji: 1
+  Kolonia (powiat: kartuski)
+    Aktualne współrzędne: [51.6287, 22.4915]
+    Liczba instalacji: 1
+  Borowo (powiat: kartuski)
+    Aktualne współrzędne: [52.9972, 19.4650]
+    Liczba instalacji: 3
+  Człuchów (powiat: człuchowski)
+    Aktualne współrzędne: [53.6656, 17.3597]
+    Liczba instalacji: 6
+  Chojnice (powiat: chojnicki)
+    Aktualne współrzędne: [53.6976, 17.5580]
+    Liczba instalacji: 10
+  Masłowo (powiat: kartuski)
+    Aktualne współrzędne: [52.0176, 17.0895]
+    Liczba instalacji: 1
+  Wilków Polski (powiat: nowodworski)
+    Aktualne współrzędne: [52.4035, 20.5024]
+    Liczba instalacji: 1
+  Nowa Wieś (powiat: nowodworski)
+    Aktualne współrzędne: [51.0280, 19.0336]
+    Liczba instalacji: 9
+  Popowice (powiat: bytowski)
+    Aktualne współrzędne: [51.7271, 20.6855]
+    Liczba instalacji: 1
+  Przylesie (powiat: kartuski)
+    Aktualne współrzędne: [50.7928, 17.3899]
+    Liczba instalacji: 1
+  Żelichowo (powiat: nowodworski)
+    Aktualne współrzędne: [52.9999, 16.0870]
+    Liczba instalacji: 1
+  Jackowo Włościańskie (powiat: nowodworski)
+    Aktualne współrzędne: [52.6140, 20.7852]
+    Liczba instalacji: 1
+  Skibin (powiat: słupski)
+    Aktualne współrzędne: [52.6263, 18.5871]
+    Liczba instalacji: 1
+  Czarne (powiat: człuchowski)
+    Aktualne współrzędne: [53.6841, 16.9419]
+    Liczba instalacji: 3
+  Gardno (powiat: słupski)
+    Aktualne współrzędne: [53.2594, 14.6194]
+    Liczba instalacji: 15
+  Turowo (powiat: bytowski)
+    Aktualne współrzędne: [53.6519, 16.7264]
+    Liczba instalacji: 3
+  Osiek (powiat: starogardzki)
+    Aktualne współrzędne: [53.3512, 17.7357]
+    Liczba instalacji: 9
+  Kętrzyno (powiat: wejherowski)
+    Aktualne współrzędne: [54.0762, 21.3764]
+    Liczba instalacji: 1
+  Borzykowo (powiat: bytowski)
+    Aktualne współrzędne: [52.1985, 17.6593]
+    Liczba instalacji: 1
+  Głodowo (powiat: bytowski)
+    Aktualne współrzędne: [52.8250, 19.2402]
+    Liczba instalacji: 1
+  Sławęcin (powiat: chojnicki)
+    Aktualne współrzędne: [49.7461, 21.3508]
+    Liczba instalacji: 2
+  Konary (powiat: nowodworski)
+    Aktualne współrzędne: [52.5945, 20.7234]
+    Liczba instalacji: 1
+  Gać (powiat: słupski)
+    Aktualne współrzędne: [50.8887, 17.3641]
+    Liczba instalacji: 1
+  Granowo (powiat: chojnicki)
+    Aktualne współrzędne: [52.2201, 16.5308]
+    Liczba instalacji: 3
+  Żakowo (powiat: kartuski)
+    Aktualne współrzędne: [51.9264, 16.5958]
+    Liczba instalacji: 1
+  Potok (powiat: bytowski)
+    Aktualne współrzędne: [50.9455, 21.6516]
+    Liczba instalacji: 2
+  Łukowo (powiat: chojnicki)
+    Aktualne współrzędne: [52.8875, 17.3056]
+    Liczba instalacji: 5
+  Brudzewo (powiat: pucki)
+    Aktualne współrzędne: [52.3560, 17.7704]
+    Liczba instalacji: 1
+  Grzybno (powiat: kartuski)
+    Aktualne współrzędne: [52.1750, 16.8450]
+    Liczba instalacji: 5
+  Nowy Dwór (powiat: nowodworski)
+    Aktualne współrzędne: [51.1163, 16.9547]
+    Liczba instalacji: 13
+  Objezierze (powiat: chojnicki)
+    Aktualne współrzędne: [53.6732, 17.7351]
+    Liczba instalacji: 1
+  Domaradz (powiat: słupski)
+    Aktualne współrzędne: [50.9492, 17.8642]
+    Liczba instalacji: 1
+  Pokrzywno (powiat: chojnicki)
+    Aktualne współrzędne: [52.8902, 18.8982]
+    Liczba instalacji: 1
+  Żelazkowo (powiat: lęborski)
+    Aktualne współrzędne: [52.4807, 17.6623]
+    Liczba instalacji: 1
+  Kaliska (powiat: kartuski)
+    Aktualne współrzędne: [52.8291, 17.2404]
+    Liczba instalacji: 1
+  Ostrowite (powiat: chojnicki)
+    Aktualne współrzędne: [52.7855, 19.1622]
+    Liczba instalacji: 1
+  Przemkowo (powiat: bytowski)
+    Aktualne współrzędne: [52.5828, 20.2880]
+    Liczba instalacji: 1
+  Gościeradz (powiat: kościerski)
+    Aktualne współrzędne: [53.2607, 17.9195]
+    Liczba instalacji: 1
+  Dębina (powiat: słupski)
+    Aktualne współrzędne: [51.4398, 18.9049]
+    Liczba instalacji: 1
+  Dębnica (powiat: człuchowski)
+    Aktualne współrzędne: [53.6357, 17.3605]
+    Liczba instalacji: 1
+  Słupia (powiat: gdański)
+    Aktualne współrzędne: [51.0142, 20.1487]
+    Liczba instalacji: 1
+  Pasieka (powiat: bytowski)
+    Aktualne współrzędne: [52.5766, 17.7928]
+    Liczba instalacji: 4
+  Kokoszki (powiat: gdański)
+    Aktualne współrzędne: [52.3494, 17.4206]
+    Liczba instalacji: 1
+  Plewisk (powiat: bytowski)
+    Aktualne współrzędne: [52.4083, 16.9333]
+    Liczba instalacji: 1
+  Nasielsk (powiat: nowodworski)
+    Aktualne współrzędne: [52.5861, 20.8124]
+    Liczba instalacji: 1
+  Gliśnica (powiat: bytowski)
+    Aktualne współrzędne: [51.6072, 17.6507]
+    Liczba instalacji: 1
+  Wielka Wieś (powiat: kartuski)
+    Aktualne współrzędne: [51.1934, 20.5955]
+    Liczba instalacji: 9
+  Łąkie (powiat: bytowski)
+    Aktualne współrzędne: [52.1866, 15.4551]
+    Liczba instalacji: 4
+  Cząstków Mazowiecki (powiat: nowodworski)
+    Aktualne współrzędne: [52.3919, 20.7488]
+    Liczba instalacji: 1
+  Rudniki (powiat: gdański)
+    Aktualne współrzędne: [53.9951, 22.8036]
+    Liczba instalacji: 1
+  Wierzchowo (powiat: człuchowski)
+    Aktualne współrzędne: [53.4597, 16.1006]
+    Liczba instalacji: 1
+  Łomna (powiat: nowodworski)
+    Aktualne współrzędne: [52.3821, 20.7803]
+    Liczba instalacji: 1
+  Olszynka (powiat: gdański)
+    Aktualne współrzędne: [54.1555, 21.1763]
+    Liczba instalacji: 1
+  Studzianki (powiat: nowodworski)
+    Aktualne współrzędne: [51.5000, 19.9112]
+    Liczba instalacji: 5
+  Modła (powiat: słupski)
+    Aktualne współrzędne: [52.8955, 20.4432]
+    Liczba instalacji: 2
+  Kawczyn (powiat: bytowski)
+    Aktualne współrzędne: [52.1277, 16.6857]
+    Liczba instalacji: 2
+  Chrząstowo (powiat: człuchowski)
+    Aktualne współrzędne: [53.1665, 17.5841]
+    Liczba instalacji: 2
+  Młyniska (powiat: gdański)
+    Aktualne współrzędne: [54.0822, 16.4882]
+    Liczba instalacji: 4
+  Młynek (powiat: chojnicki)
+    Aktualne współrzędne: [52.3355, 18.4867]
+    Liczba instalacji: 1
+  Zakroczym (powiat: nowodworski)
+    Aktualne współrzędne: [52.4334, 20.6113]
+    Liczba instalacji: 2
+  Jeleńcz (powiat: bytowski)
+    Aktualne współrzędne: [53.5598, 17.7442]
+    Liczba instalacji: 1
+  Małe Chełmy (powiat: chojnicki)
+    Aktualne współrzędne: [51.1435, 23.4710]
+    Liczba instalacji: 1
+  Złotowo (powiat: chojnicki)
+    Aktualne współrzędne: [52.5591, 18.3836]
+    Liczba instalacji: 3
+  Sarnówka (powiat: kartuski)
+    Aktualne współrzędne: [51.6363, 16.9054]
+    Liczba instalacji: 2
+  Nuna (powiat: nowodworski)
+    Aktualne współrzędne: [52.5315, 20.8575]
+    Liczba instalacji: 1
+  Rakowiec (powiat: kwidzyński)
+    Aktualne współrzędne: [52.1311, 22.2349]
+    Liczba instalacji: 1
+  Kawcze (powiat: bytowski)
+    Aktualne współrzędne: [52.0936, 17.0506]
+    Liczba instalacji: 1
+  Pianowo Daczki (powiat: nowodworski)
+    Aktualne współrzędne: [52.6201, 20.8222]
+    Liczba instalacji: 1
+  Kluki (powiat: słupski)
+    Aktualne współrzędne: [52.1416, 21.5373]
+    Liczba instalacji: 1
+  Stare Czaple (powiat: kartuski)
+    Aktualne współrzędne: [51.5774, 14.7616]
+    Liczba instalacji: 3
+  Pustki (powiat: chojnicki)
+    Aktualne współrzędne: [53.5015, 19.6084]
+    Liczba instalacji: 1
+  Krzemienica (powiat: słupski)
+    Aktualne współrzędne: [50.0714, 22.1899]
+    Liczba instalacji: 1
+  Olszyny (powiat: chojnicki)
+    Aktualne współrzędne: [53.3059, 21.2886]
+    Liczba instalacji: 1
+  Zbyszewo (powiat: słupski)
+    Aktualne współrzędne: [52.6606, 19.2814]
+    Liczba instalacji: 1
+  Smolniki (powiat: kartuski)
+    Aktualne współrzędne: [53.5420, 19.6077]
+    Liczba instalacji: 1
+  Borkowo (powiat: nowodworski)
+    Aktualne współrzędne: [53.3682, 21.9695]
+    Liczba instalacji: 2
+  Debrzno (powiat: człuchowski)
+    Aktualne współrzędne: [53.5392, 17.2336]
+    Liczba instalacji: 2
+  Kwidzyn (powiat: kwidzyński)
+    Aktualne współrzędne: [52.0245, 21.1365]
+    Liczba instalacji: 2
+  Strzebielino (powiat: wejherowski)
+    Aktualne współrzędne: [52.0237, 21.1350]
+    Liczba instalacji: 1
+  Skarszewy (powiat: starogardzki)
+    Aktualne współrzędne: [52.0246, 21.1361]
+    Liczba instalacji: 1
+  Krokowa Kartoszyno (powiat: pucki)
+    Aktualne współrzędne: [52.0243, 21.1356]
+    Liczba instalacji: 1
+
+=== WARMIŃSKO-MAZURSKIE ===
+  Wałdowo (powiat: ostródzki)
+    Aktualne współrzędne: [54.0596, 17.1584]
+    Liczba instalacji: 3
+  Baar (powiat: ostródzki)
+    Aktualne współrzędne: [52.0244, 21.1352]
+    Liczba instalacji: 2
+  Genua (powiat: olsztyński)
+    Aktualne współrzędne: [52.0254, 21.1361]
+    Liczba instalacji: 1
+  Nowiny (powiat: gołdapski)
+    Aktualne współrzędne: [50.9545, 19.9833]
+    Liczba instalacji: 7
+  ZIELONKI (powiat: gołdapski)
+    Aktualne współrzędne: [50.1181, 19.9214]
+    Liczba instalacji: 1
+  Rumian (powiat: działdowski)
+    Aktualne współrzędne: [54.5719, 18.3895]
+    Liczba instalacji: 1
+  Działdowo (powiat: działdowski)
+    Aktualne współrzędne: [53.2348, 20.1863]
+    Liczba instalacji: 7
+  Szczepanki (powiat: giżycki)
+    Aktualne współrzędne: [53.5033, 19.0369]
+    Liczba instalacji: 3
+  Cibórz (powiat: działdowski)
+    Aktualne współrzędne: [53.2572, 19.8684]
+    Liczba instalacji: 3
+  Zdunowo (powiat: piski)
+    Aktualne współrzędne: [52.5095, 20.5089]
+    Liczba instalacji: 1
+  Franciszkowo (powiat: giżycki)
+    Aktualne współrzędne: [53.0415, 19.9154]
+    Liczba instalacji: 1
+  Żydowo (powiat: bartoszycki)
+    Aktualne współrzędne: [52.5301, 18.7778]
+    Liczba instalacji: 3
+  Klęczkowo (powiat: działdowski)
+    Aktualne współrzędne: [53.3841, 18.6845]
+    Liczba instalacji: 1
+  Fabianki (powiat: iławski)
+    Aktualne współrzędne: [52.7163, 19.1080]
+    Liczba instalacji: 1
+  Choszczewo (powiat: mrągowski)
+    Aktualne współrzędne: [51.7339, 18.9540]
+    Liczba instalacji: 2
+  Stare Guty (powiat: piski)
+    Aktualne współrzędne: [52.8748, 21.8843]
+    Liczba instalacji: 2
+  Niedźwiedź (powiat: olsztyński)
+    Aktualne współrzędne: [53.3672, 18.3884]
+    Liczba instalacji: 2
+  Baranowo (powiat: mrągowski)
+    Aktualne współrzędne: [52.2130, 16.9210]
+    Liczba instalacji: 1
+  Guty (powiat: giżycki)
+    Aktualne współrzędne: [52.8748, 21.8850]
+    Liczba instalacji: 2
+  Górka (powiat: ostródzki)
+    Aktualne współrzędne: [51.6337, 22.4876]
+    Liczba instalacji: 6
+  Wysokie (powiat: ełcki)
+    Aktualne współrzędne: [52.9161, 22.5167]
+    Liczba instalacji: 2
+  Kołodziejowy Grąd (powiat: szczycieński)
+    Aktualne współrzędne: [52.2010, 18.6371]
+    Liczba instalacji: 2
+  Siedliska (powiat: ełcki)
+    Aktualne współrzędne: [49.7595, 22.2381]
+    Liczba instalacji: 2
+  Jabłonka (powiat: nidzicki)
+    Aktualne współrzędne: [49.6952, 22.1159]
+    Liczba instalacji: 3
+  Długi Kąt (powiat: piski)
+    Aktualne współrzędne: [50.5090, 22.9832]
+    Liczba instalacji: 1
+  Gąski (powiat: ostródzki)
+    Aktualne współrzędne: [51.3649, 19.6400]
+    Liczba instalacji: 2
+  Lewkowo Stare (powiat: elbląski)
+    Aktualne współrzędne: [52.8845, 23.6920]
+    Liczba instalacji: 9
+  Podrzecze (powiat: giżycki)
+    Aktualne współrzędne: [49.6013, 20.6402]
+    Liczba instalacji: 9
+  Bobrówko (powiat: mrągowski)
+    Aktualne współrzędne: [52.9532, 15.4538]
+    Liczba instalacji: 1
+  Lisewo (powiat: ełcki)
+    Aktualne współrzędne: [53.2921, 18.6908]
+    Liczba instalacji: 3
+  Grodzisko (powiat: gołdapski)
+    Aktualne współrzędne: [50.8534, 19.7158]
+    Liczba instalacji: 3
+  Windyki (powiat: iławski)
+    Aktualne współrzędne: [53.1484, 20.4726]
+    Liczba instalacji: 1
+  Żabino-Arguły (powiat: nidzicki)
+    Aktualne współrzędne: [53.2617, 20.5182]
+    Liczba instalacji: 2
+  Gradowo (powiat: kętrzyński)
+    Aktualne współrzędne: [52.5248, 18.5455]
+    Liczba instalacji: 5
+  Gronówko (powiat: braniewski)
+    Aktualne współrzędne: [51.8892, 16.5980]
+    Liczba instalacji: 5
+  Bobrowo (powiat: kętrzyński)
+    Aktualne współrzędne: [53.2888, 19.2740]
+    Liczba instalacji: 1
+  Brodowo (powiat: ełcki)
+    Aktualne współrzędne: [52.1891, 17.3199]
+    Liczba instalacji: 4
+  Wólka (powiat: bartoszycki)
+    Aktualne współrzędne: [51.3236, 23.5804]
+    Liczba instalacji: 3
+  Stolno (powiat: ostródzki)
+    Aktualne współrzędne: [53.3221, 18.5046]
+    Liczba instalacji: 1
+  Marszałki (powiat: kętrzyński)
+    Aktualne współrzędne: [51.4627, 18.0859]
+    Liczba instalacji: 1
+  Kozłowo (powiat: nidzicki)
+    Aktualne współrzędne: [52.5798, 17.7506]
+    Liczba instalacji: 2
+  Janiszewo (powiat: mrągowski)
+    Aktualne współrzędne: [51.7668, 16.7632]
+    Liczba instalacji: 1
+  Zdrój (powiat: braniewski)
+    Aktualne współrzędne: [49.9533, 18.5934]
+    Liczba instalacji: 7
+  Szymanowo (powiat: mrągowski)
+    Aktualne współrzędne: [52.1075, 16.9634]
+    Liczba instalacji: 2
+  Kruszewo (powiat: piski)
+    Aktualne współrzędne: [52.9324, 21.4869]
+    Liczba instalacji: 1
+  Zawiszyn (powiat: gołdapski)
+    Aktualne współrzędne: [52.9683, 18.2821]
+    Liczba instalacji: 1
+  Rywałdzik (powiat: nowomiejski)
+    Aktualne współrzędne: [53.4479, 19.2517]
+    Liczba instalacji: 1
+  Nowa Karczma (powiat: bartoszycki)
+    Aktualne współrzędne: [51.1481, 15.1735]
+    Liczba instalacji: 1
+  Prusinowo (powiat: mrągowski)
+    Aktualne współrzędne: [53.6889, 15.6287]
+    Liczba instalacji: 2
+  Kozin (powiat: giżycki)
+    Aktualne współrzędne: [54.3792, 17.6258]
+    Liczba instalacji: 1
+  Marcinowo (powiat: gołdapski)
+    Aktualne współrzędne: [51.3244, 17.0229]
+    Liczba instalacji: 4
+  Leśniewo (powiat: kętrzyński)
+    Aktualne współrzędne: [52.4762, 17.4611]
+    Liczba instalacji: 2
+  Chrzanowo (powiat: ełcki)
+    Aktualne współrzędne: [52.8091, 17.5362]
+    Liczba instalacji: 1
+  Kotowo (powiat: lidzbarski)
+    Aktualne współrzędne: [54.3370, 17.3491]
+    Liczba instalacji: 1
+  Wery (powiat: działdowski)
+    Aktualne współrzędne: [53.5323, 18.3368]
+    Liczba instalacji: 1
+  Niechłonin (powiat: działdowski)
+    Aktualne współrzędne: [53.1690, 20.0489]
+    Liczba instalacji: 1
+  Wygoda (powiat: ostródzki)
+    Aktualne współrzędne: [50.6837, 20.3852]
+    Liczba instalacji: 2
+  Runowo (powiat: lidzbarski)
+    Aktualne współrzędne: [52.7891, 17.0494]
+    Liczba instalacji: 1
+  Kijewo (powiat: olecki)
+    Aktualne współrzędne: [52.8870, 18.5209]
+    Liczba instalacji: 1
+  Długie (powiat: ełcki)
+    Aktualne współrzędne: [52.4001, 18.7522]
+    Liczba instalacji: 1
+  Dęby (powiat: bartoszycki)
+    Aktualne współrzędne: [50.3078, 23.4910]
+    Liczba instalacji: 1
+  Zabrodzie (powiat: olsztyński)
+    Aktualne współrzędne: [51.3765, 23.1871]
+    Liczba instalacji: 3
+  Studzieniec (powiat: kętrzyński)
+    Aktualne współrzędne: [51.7981, 15.5700]
+    Liczba instalacji: 3
+  Grabowo (powiat: gołdapski)
+    Aktualne współrzędne: [54.2928, 16.4324]
+    Liczba instalacji: 5
+  Marcinkowo (powiat: mrągowski)
+    Aktualne współrzędne: [52.5898, 18.0167]
+    Liczba instalacji: 4
+  Henrykowo (powiat: kętrzyński)
+    Aktualne współrzędne: [52.2296, 17.3292]
+    Liczba instalacji: 1
+  Jankowo (powiat: kętrzyński)
+    Aktualne współrzędne: [52.8760, 19.0908]
+    Liczba instalacji: 1
+  Dębówko (powiat: szczycieński)
+    Aktualne współrzędne: [52.5994, 15.6891]
+    Liczba instalacji: 1
+  Sarnowo (powiat: lidzbarski)
+    Aktualne współrzędne: [52.4674, 18.7557]
+    Liczba instalacji: 1
+  Sobin (powiat: węgorzewski)
+    Aktualne współrzędne: [51.4760, 16.0315]
+    Liczba instalacji: 1
+  Nowosady (powiat: lidzbarski)
+    Aktualne współrzędne: [52.9736, 23.8858]
+    Liczba instalacji: 4
+  Olchowa (powiat: kętrzyński)
+    Aktualne współrzędne: [49.4385, 22.2680]
+    Liczba instalacji: 1
+  Rączki (powiat: nidzicki)
+    Aktualne współrzędne: [51.0190, 19.8964]
+    Liczba instalacji: 1
+  Gąsiorowo (powiat: olsztyński)
+    Aktualne współrzędne: [52.3390, 17.4348]
+    Liczba instalacji: 1
+  Czaple (powiat: ełcki)
+    Aktualne współrzędne: [52.4024, 19.2146]
+    Liczba instalacji: 3
+  Żabin (powiat: gołdapski)
+    Aktualne współrzędne: [53.4330, 16.0874]
+    Liczba instalacji: 1
+  Niedźwiada (powiat: ostródzki)
+    Aktualne współrzędne: [52.1431, 19.8987]
+    Liczba instalacji: 1
+  Oleszka (powiat: kętrzyński)
+    Aktualne współrzędne: [50.4657, 18.1226]
+    Liczba instalacji: 1
+  Węgorzewo (powiat: węgorzewski)
+    Aktualne współrzędne: [53.5991, 16.9042]
+    Liczba instalacji: 1
+  Janowo (powiat: nidzicki)
+    Aktualne współrzędne: [52.4662, 19.0257]
+    Liczba instalacji: 1
+  Nowy Młyn (powiat: kętrzyński)
+    Aktualne współrzędne: [52.4402, 19.1234]
+    Liczba instalacji: 1
+  Kisielice (powiat: iławski)
+    Aktualne współrzędne: [53.6081, 19.2594]
+    Liczba instalacji: 1
+  Powodowo (powiat: elbląski)
+    Aktualne współrzędne: [52.1232, 16.0513]
+    Liczba instalacji: 1
+  Koziki (powiat: ełcki)
+    Aktualne współrzędne: [53.0968, 22.0399]
+    Liczba instalacji: 3
+  Parowa (powiat: węgorzewski)
+    Aktualne współrzędne: [51.3625, 15.2799]
+    Liczba instalacji: 1
+  Wielka Tymawa (powiat: nowomiejski)
+    Aktualne współrzędne: [53.5014, 19.2120]
+    Liczba instalacji: 1
+  Murawki (powiat: działdowski)
+    Aktualne współrzędne: [53.2980, 19.9485]
+    Liczba instalacji: 1
+  Łupowo (powiat: szczycieński)
+    Aktualne współrzędne: [52.7060, 15.1353]
+    Liczba instalacji: 3
+  Bąkowo (powiat: gołdapski)
+    Aktualne współrzędne: [53.5709, 18.6133]
+    Liczba instalacji: 2
+  Wilkowo (powiat: kętrzyński)
+    Aktualne współrzędne: [52.2550, 15.4687]
+    Liczba instalacji: 1
+  Grabno (powiat: kętrzyński)
+    Aktualne współrzędne: [49.9286, 20.7806]
+    Liczba instalacji: 1
+  Piątki (powiat: nidzicki)
+    Aktualne współrzędne: [52.8199, 19.2609]
+    Liczba instalacji: 2
+  Jedwabno (powiat: szczycieński)
+    Aktualne współrzędne: [53.0512, 18.7725]
+    Liczba instalacji: 2
+  Lipowiec (powiat: szczycieński)
+    Aktualne współrzędne: [53.2220, 20.8916]
+    Liczba instalacji: 3
+  Dylewo (powiat: ostródzki)
+    Aktualne współrzędne: [53.1898, 21.4536]
+    Liczba instalacji: 3
+  Borki (powiat: bartoszycki)
+    Aktualne współrzędne: [52.8161, 21.5273]
+    Liczba instalacji: 1
+  Czerwona Woda (powiat: olsztyński)
+    Aktualne współrzędne: [51.2504, 15.2092]
+    Liczba instalacji: 1
+  Piasek (powiat: bartoszycki)
+    Aktualne współrzędne: [50.7345, 19.3973]
+    Liczba instalacji: 2
+  Lipiny (powiat: bartoszycki)
+    Aktualne współrzędne: [52.1308, 22.3832]
+    Liczba instalacji: 2
+  Zakrzewko (powiat: nidzicki)
+    Aktualne współrzędne: [52.2180, 15.9740]
+    Liczba instalacji: 1
+  Niedziałki (powiat: kętrzyński)
+    Aktualne współrzędne: [50.4787, 21.2631]
+    Liczba instalacji: 1
+  Wymiarki (powiat: kętrzyński)
+    Aktualne współrzędne: [51.5148, 15.0868]
+    Liczba instalacji: 1
+  Klimki (powiat: węgorzewski)
+    Aktualne współrzędne: [53.2931, 23.2405]
+    Liczba instalacji: 1
+  Zimna Woda (powiat: nidzicki)
+    Aktualne współrzędne: [51.7999, 22.2417]
+    Liczba instalacji: 2
+  Stawek (powiat: mrągowski)
+    Aktualne współrzędne: [52.0806, 21.8074]
+    Liczba instalacji: 3
+  Radziejewo (powiat: braniewski)
+    Aktualne współrzędne: [53.9171, 18.4017]
+    Liczba instalacji: 1
+  Polska Wieś (powiat: mrągowski)
+    Aktualne współrzędne: [52.4742, 17.3020]
+    Liczba instalacji: 1
+  Ciernie (powiat: ełcki)
+    Aktualne współrzędne: [50.8804, 16.3631]
+    Liczba instalacji: 1
+  Kowalewo (powiat: piski)
+    Aktualne współrzędne: [52.1783, 16.4343]
+    Liczba instalacji: 1
+  Ciechanówko - Kurojady (powiat: nieznany)
+    Aktualne współrzędne: [52.8810, 20.6199]
+    Liczba instalacji: 1
+  Świerkocin (powiat: olsztyński)
+    Aktualne współrzędne: [53.5217, 18.8099]
+    Liczba instalacji: 1
+  Biskupiec (powiat: olsztyński)
+    Aktualne współrzędne: [51.1820, 21.2559]
+    Liczba instalacji: 1
+  Miłakowo (powiat: ostródzki)
+    Aktualne współrzędne: [52.0241, 21.1356]
+    Liczba instalacji: 1
+
+=== WIELKOPOLSKIE ===
+  Kębłowo (powiat: wolsztyński)
+    Aktualne współrzędne: [54.5971, 18.0977]
+    Liczba instalacji: 3
+  Miejska Górka (powiat: rawicki)
+    Aktualne współrzędne: [51.6351, 22.4879]
+    Liczba instalacji: 1
+  Hiszpania (powiat: koniński)
+    Aktualne współrzędne: [52.0241, 21.1349]
+    Liczba instalacji: 1
+  Kostrzyn (powiat: poznański)
+    Aktualne współrzędne: [52.5897, 14.6476]
+    Liczba instalacji: 2
+  Rojów (powiat: ostrzeszowski)
+    Aktualne współrzędne: [51.4143, 17.8898]
+    Liczba instalacji: 3
+  Kostomłoty (powiat: średzki)
+    Aktualne współrzędne: [51.0457, 16.6127]
+    Liczba instalacji: 5
+  Straszków (powiat: kolski)
+    Aktualne współrzędne: [52.2242, 18.9534]
+    Liczba instalacji: 2
+  Odrano-Wola (powiat: grodziski)
+    Aktualne współrzędne: [52.0888, 20.6251]
+    Liczba instalacji: 1
+  Kępno (powiat: kępiński)
+    Aktualne współrzędne: [51.2785, 17.9864]
+    Liczba instalacji: 5
+  Zaręby Kościelne (powiat: ostrowski)
+    Aktualne współrzędne: [52.7577, 22.1258]
+    Liczba instalacji: 1
+  Grodzisk Mazowiecki (powiat: grodziski)
+    Aktualne współrzędne: [52.1104, 20.6343]
+    Liczba instalacji: 1
+  Mroczeń (powiat: kępiński)
+    Aktualne współrzędne: [51.2267, 17.9881]
+    Liczba instalacji: 7
+  Turkowy (powiat: kępiński)
+    Aktualne współrzędne: [51.2816, 17.8333]
+    Liczba instalacji: 2
+  Bierzwienna Długa-Kolonia (powiat: kolski)
+    Aktualne współrzędne: [52.2846, 18.8971]
+    Liczba instalacji: 1
+  Myślniew (powiat: ostrzeszowski)
+    Aktualne współrzędne: [51.4020, 17.8197]
+    Liczba instalacji: 2
+  Perzów (powiat: kępiński)
+    Aktualne współrzędne: [51.2761, 17.8108]
+    Liczba instalacji: 2
+  Ostrzeszów (powiat: ostrzeszowski)
+    Aktualne współrzędne: [51.4265, 17.9328]
+    Liczba instalacji: 10
+  Kłodawa (powiat: kolski)
+    Aktualne współrzędne: [52.2579, 18.9107]
+    Liczba instalacji: 4
+  Wysoka (powiat: pilski)
+    Aktualne współrzędne: [50.0434, 22.2586]
+    Liczba instalacji: 1
+  Andrzejewo (powiat: ostrowski)
+    Aktualne współrzędne: [52.8302, 22.2010]
+    Liczba instalacji: 2
+  Lipno (powiat: leszczyński)
+    Aktualne współrzędne: [52.8466, 19.1795]
+    Liczba instalacji: 5
+  Bielsko (powiat: międzychodzki)
+    Aktualne współrzędne: [49.8226, 19.0447]
+    Liczba instalacji: 1
+  Genewa (powiat: wolsztyński)
+    Aktualne współrzędne: [52.0255, 21.1356]
+    Liczba instalacji: 1
+  Ryga (powiat: poznański)
+    Aktualne współrzędne: [52.0241, 21.1345]
+    Liczba instalacji: 1
+  Jastrowie (powiat: złotowski)
+    Aktualne współrzędne: [53.4208, 16.8153]
+    Liczba instalacji: 1
+  Ostrów Mazowiecka (powiat: ostrowski)
+    Aktualne współrzędne: [52.8069, 21.8792]
+    Liczba instalacji: 4
+  Bajdy (powiat: rawicki)
+    Aktualne współrzędne: [53.8760, 19.5579]
+    Liczba instalacji: 11
+  Chełmce (powiat: kaliski)
+    Aktualne współrzędne: [51.1426, 23.4717]
+    Liczba instalacji: 4
+  Źródła (powiat: średzki)
+    Aktualne współrzędne: [51.1609, 16.7250]
+    Liczba instalacji: 1
+  Łomczewo (powiat: złotowski)
+    Aktualne współrzędne: [53.5560, 16.8915]
+    Liczba instalacji: 2
+  Sumin (powiat: koniński)
+    Aktualne współrzędne: [52.9087, 19.0866]
+    Liczba instalacji: 3
+  Nowa Wieś Książęca (powiat: kępiński)
+    Aktualne współrzędne: [51.2367, 17.8643]
+    Liczba instalacji: 2
+  Dąbie (powiat: kolski)
+    Aktualne współrzędne: [52.0871, 18.8212]
+    Liczba instalacji: 1
+  Podgórze-Gazdy (powiat: ostrowski)
+    Aktualne współrzędne: [52.6790, 21.9181]
+    Liczba instalacji: 2
+  Przysieka (powiat: wągrowiecki)
+    Aktualne współrzędne: [50.4738, 19.9975]
+    Liczba instalacji: 1
+  Rogóźnia (powiat: ostrowski)
+    Aktualne współrzędne: [50.4942, 22.5180]
+    Liczba instalacji: 2
+  Małkinia Górna (powiat: ostrowski)
+    Aktualne współrzędne: [52.6935, 22.0194]
+    Liczba instalacji: 3
+  Komorowo (powiat: szamotulski)
+    Aktualne współrzędne: [52.8287, 21.8484]
+    Liczba instalacji: 1
+  Podborze (powiat: ostrowski)
+    Aktualne współrzędne: [50.2403, 21.3172]
+    Liczba instalacji: 3
+  Skłody Stachy (powiat: ostrowski)
+    Aktualne współrzędne: [52.7640, 22.1409]
+    Liczba instalacji: 1
+  Dobra (powiat: turecki)
+    Aktualne współrzędne: [49.6443, 22.2983]
+    Liczba instalacji: 6
+  Brok (powiat: ostrowski)
+    Aktualne współrzędne: [52.9360, 22.5852]
+    Liczba instalacji: 2
+  Sosnówka (powiat: koniński)
+    Aktualne współrzędne: [51.7534, 23.3400]
+    Liczba instalacji: 1
+  Zapluskowęsy (powiat: kaliski)
+    Aktualne współrzędne: [53.1756, 18.9016]
+    Liczba instalacji: 10
+  Nowa Wieś Królewska (powiat: wrzesiński)
+    Aktualne współrzędne: [53.3219, 18.8369]
+    Liczba instalacji: 1
+  Bartoszewice (powiat: rawicki)
+    Aktualne współrzędne: [53.2817, 18.8084]
+    Liczba instalacji: 1
+  Sadlno (powiat: koniński)
+    Aktualne współrzędne: [54.0628, 15.1734]
+    Liczba instalacji: 1
+  Jasin (powiat: poznański)
+    Aktualne współrzędne: [53.0603, 19.5049]
+    Liczba instalacji: 1
+  Batorowo (powiat: złotowski)
+    Aktualne współrzędne: [53.4939, 17.3269]
+    Liczba instalacji: 1
+  Samborsko (powiat: złotowski)
+    Aktualne współrzędne: [53.4188, 16.7178]
+    Liczba instalacji: 2
+  Glinki Mokre (powiat: złotowski)
+    Aktualne współrzędne: [53.5872, 16.8396]
+    Liczba instalacji: 1
+  Władysławów (powiat: turecki)
+    Aktualne współrzędne: [51.9787, 19.4911]
+    Liczba instalacji: 2
+  Nadziejewo (powiat: średzki)
+    Aktualne współrzędne: [53.6827, 17.0049]
+    Liczba instalacji: 1
+  Mała Górka (powiat: wrzesiński)
+    Aktualne współrzędne: [51.6355, 22.4881]
+    Liczba instalacji: 1
+  Janinów (powiat: koniński)
+    Aktualne współrzędne: [51.0668, 18.6006]
+    Liczba instalacji: 1
+  Budziszewice (powiat: wągrowiecki)
+    Aktualne współrzędne: [51.6673, 19.9353]
+    Liczba instalacji: 2
+  Wrzesina (powiat: ostrowski)
+    Aktualne współrzędne: [53.7946, 20.2578]
+    Liczba instalacji: 1
+  Posadowo/Zgierzynka (powiat: nieznany)
+    Aktualne współrzędne: [51.8572, 19.4070]
+    Liczba instalacji: 1
+  Książenice (powiat: grodziski)
+    Aktualne współrzędne: [51.4923, 18.0889]
+    Liczba instalacji: 3
+  Kościuszków (powiat: ostrowski)
+    Aktualne współrzędne: [51.4422, 21.4160]
+    Liczba instalacji: 1
+  Komorniki (powiat: poznański)
+    Aktualne współrzędne: [50.4339, 17.8996]
+    Liczba instalacji: 3
+  Chojęcin (powiat: kępiński)
+    Aktualne współrzędne: [51.2718, 17.9507]
+    Liczba instalacji: 1
+  Przybysław (powiat: słupecki)
+    Aktualne współrzędne: [53.0355, 15.4552]
+    Liczba instalacji: 1
+  Brokęcino (powiat: złotowski)
+    Aktualne współrzędne: [53.5603, 16.8136]
+    Liczba instalacji: 1
+  Krzemieniewo (powiat: leszczyński)
+    Aktualne współrzędne: [53.3733, 19.6273]
+    Liczba instalacji: 1
+  Wólka Grodziska (powiat: grodziski)
+    Aktualne współrzędne: [52.1082, 20.5982]
+    Liczba instalacji: 1
+  Ponętów Górny Pierwszy (powiat: kolski)
+    Aktualne współrzędne: [52.2031, 18.8145]
+    Liczba instalacji: 1
+  Ręczyn (powiat: grodziski)
+    Aktualne współrzędne: [51.0305, 14.9752]
+    Liczba instalacji: 20
+  Holendry Baranowskie (powiat: grodziski)
+    Aktualne współrzędne: [52.1076, 20.4592]
+    Liczba instalacji: 1
+  Grabik (powiat: turecki)
+    Aktualne współrzędne: [51.6546, 15.1025]
+    Liczba instalacji: 21
+  Sulmierzyce (powiat: krotoszyński)
+    Aktualne współrzędne: [51.1865, 19.2021]
+    Liczba instalacji: 1
+  Chlebnia (powiat: grodziski)
+    Aktualne współrzędne: [52.1293, 20.6029]
+    Liczba instalacji: 1
+  Strumiany Górne (powiat: grodziski)
+    Aktualne współrzędne: [52.1546, 20.4195]
+    Liczba instalacji: 1
+  Strumiany Dolne (powiat: grodziski)
+    Aktualne współrzędne: [52.1610, 20.4342]
+    Liczba instalacji: 1
+  Zębowo (powiat: gostyński)
+    Aktualne współrzędne: [53.0074, 18.9235]
+    Liczba instalacji: 1
+  Kruszyny (powiat: wrzesiński)
+    Aktualne współrzędne: [53.3176, 19.1836]
+    Liczba instalacji: 1
+  Łaziska (powiat: wągrowiecki)
+    Aktualne współrzędne: [50.5866, 18.3621]
+    Liczba instalacji: 4
+  Wróblowice (powiat: średzki)
+    Aktualne współrzędne: [51.1577, 16.7832]
+    Liczba instalacji: 1
+  Kamień (powiat: słupecki)
+    Aktualne współrzędne: [53.9678, 14.7736]
+    Liczba instalacji: 1
+  Grabienice (powiat: koniński)
+    Aktualne współrzędne: [52.9193, 20.3611]
+    Liczba instalacji: 1
+  Police Średnie (powiat: kolski)
+    Aktualne współrzędne: [53.5580, 14.5716]
+    Liczba instalacji: 1
+  Mokrzec (powiat: międzychodzki)
+    Aktualne współrzędne: [49.9769, 21.3271]
+    Liczba instalacji: 3
+  Kowalówka (powiat: ostrowski)
+    Aktualne współrzędne: [51.3354, 18.1863]
+    Liczba instalacji: 1
+  Kobylin (powiat: krotoszyński)
+    Aktualne współrzędne: [53.2942, 22.1439]
+    Liczba instalacji: 1
+  Godziętowy (powiat: ostrzeszowski)
+    Aktualne współrzędne: [51.4242, 18.0297]
+    Liczba instalacji: 1
+  Poniatowo (powiat: ostrowski)
+    Aktualne współrzędne: [52.6410, 22.0354]
+    Liczba instalacji: 1
+  Aniołka Parcele (powiat: kępiński)
+    Aktualne współrzędne: [51.1492, 17.9781]
+    Liczba instalacji: 1
+  Sieraków (powiat: międzychodzki)
+    Aktualne współrzędne: [52.3476, 19.4260]
+    Liczba instalacji: 2
+  Sośnie (powiat: ostrowski)
+    Aktualne współrzędne: [51.4748, 17.6296]
+    Liczba instalacji: 2
+  Rogaszyce (powiat: ostrzeszowski)
+    Aktualne współrzędne: [51.3915, 17.9556]
+    Liczba instalacji: 2
+  Oleszno (powiat: gnieźnieński)
+    Aktualne współrzędne: [50.9402, 20.0441]
+    Liczba instalacji: 11
+  Gorzupia (powiat: krotoszyński)
+    Aktualne współrzędne: [51.7270, 15.2633]
+    Liczba instalacji: 1
+  Dobrzyca (powiat: pleszewski)
+    Aktualne współrzędne: [54.1843, 15.9233]
+    Liczba instalacji: 1
+  Kazimierowo (powiat: koniński)
+    Aktualne współrzędne: [53.0232, 23.5995]
+    Liczba instalacji: 1
+  Białobłocie (powiat: złotowski)
+    Aktualne współrzędne: [52.6557, 15.2559]
+    Liczba instalacji: 1
+  Kańkowo (powiat: ostrowski)
+    Aktualne współrzędne: [52.7160, 22.0507]
+    Liczba instalacji: 2
+  Bierzwienna Długa (powiat: kolski)
+    Aktualne współrzędne: [52.2799, 18.8654]
+    Liczba instalacji: 1
+  Podgór (powiat: koniński)
+    Aktualne współrzędne: [52.6795, 21.9167]
+    Liczba instalacji: 1
+  Bierzwienna Długa Kolonia (powiat: kolski)
+    Aktualne współrzędne: [52.2852, 18.8977]
+    Liczba instalacji: 2
+  Stare Lubiejewo (powiat: ostrowski)
+    Aktualne współrzędne: [52.8380, 21.8809]
+    Liczba instalacji: 1
+  Kosuty (powiat: ostrowski)
+    Aktualne współrzędne: [51.8754, 22.1574]
+    Liczba instalacji: 2
+  Rębowo (powiat: koniński)
+    Aktualne współrzędne: [52.4133, 20.1866]
+    Liczba instalacji: 2
+  Policko (powiat: słupecki)
+    Aktualne współrzędne: [54.1696, 16.3229]
+    Liczba instalacji: 7
+  Linie (powiat: nowotomyski)
+    Aktualne współrzędne: [53.1858, 14.7510]
+    Liczba instalacji: 3
+  Wilków Średzki (powiat: średzki)
+    Aktualne współrzędne: [51.0654, 16.7035]
+    Liczba instalacji: 1
+  Rdutów (powiat: kolski)
+    Aktualne współrzędne: [52.2270, 19.0045]
+    Liczba instalacji: 2
+  Świdnica Polska (powiat: średzki)
+    Aktualne współrzędne: [50.8455, 16.4892]
+    Liczba instalacji: 1
+  Lubnica (powiat: złotowski)
+    Aktualne współrzędne: [53.6378, 16.8863]
+    Liczba instalacji: 1
+  Bartoszówka (powiat: grodziski)
+    Aktualne współrzędne: [51.6330, 20.3342]
+    Liczba instalacji: 1
+  Jastrzębce (powiat: średzki)
+    Aktualne współrzędne: [51.1829, 16.5519]
+    Liczba instalacji: 5
+  Pieńki Wielkie (powiat: ostrowski)
+    Aktualne współrzędne: [52.8036, 22.2424]
+    Liczba instalacji: 2
+  Zastawie (powiat: słupecki)
+    Aktualne współrzędne: [51.9340, 22.1627]
+    Liczba instalacji: 1
+  Kwiatkowo (powiat: koniński)
+    Aktualne współrzędne: [53.0350, 19.5113]
+    Liczba instalacji: 2
+  Łowęcice (powiat: średzki)
+    Aktualne współrzędne: [51.1200, 16.7464]
+    Liczba instalacji: 1
+  Słomkowo (powiat: koniński)
+    Aktualne współrzędne: [52.6112, 19.9802]
+    Liczba instalacji: 1
+  Daniłówka (powiat: ostrowski)
+    Aktualne współrzędne: [52.7324, 22.0361]
+    Liczba instalacji: 2
+  Ławica (powiat: poznański)
+    Aktualne współrzędne: [50.4766, 16.6669]
+    Liczba instalacji: 1
+  Opalenica (powiat: nowotomyski)
+    Aktualne współrzędne: [53.1961, 19.4149]
+    Liczba instalacji: 2
+  Targowisko (powiat: leszczyński)
+    Aktualne współrzędne: [49.9846, 20.2928]
+    Liczba instalacji: 1
+  Kocewia Duża (powiat: kolski)
+    Aktualne współrzędne: [52.2574, 18.9670]
+    Liczba instalacji: 1
+  Helenowo (powiat: koniński)
+    Aktualne współrzędne: [52.3874, 18.8613]
+    Liczba instalacji: 1
+  Siedlików (powiat: ostrzeszowski)
+    Aktualne współrzędne: [51.4789, 17.9622]
+    Liczba instalacji: 2
+  Marzenin (powiat: wrzesiński)
+    Aktualne współrzędne: [51.5552, 19.0334]
+    Liczba instalacji: 4
+  Czarnylas (powiat: ostrowski)
+    Aktualne współrzędne: [53.8382, 18.4945]
+    Liczba instalacji: 1
+  Gralewo (powiat: międzychodzki)
+    Aktualne współrzędne: [53.3140, 20.0031]
+    Liczba instalacji: 1
+  Krzyżanowo (powiat: śremski)
+    Aktualne współrzędne: [52.6598, 19.5469]
+    Liczba instalacji: 1
+  Weronikopole (powiat: kępiński)
+    Aktualne współrzędne: [51.3360, 17.8824]
+    Liczba instalacji: 1
+  Słupia Pod Kępnem (powiat: kępiński)
+    Aktualne współrzędne: [51.2401, 18.0375]
+    Liczba instalacji: 1
+  Chrzanów Duży (powiat: grodziski)
+    Aktualne współrzędne: [50.1355, 19.4026]
+    Liczba instalacji: 2
+  Świba (powiat: kępiński)
+    Aktualne współrzędne: [51.3003, 18.0847]
+    Liczba instalacji: 1
+  Trzemeszno (powiat: gnieźnieński)
+    Aktualne współrzędne: [52.0254, 21.1351]
+    Liczba instalacji: 2
+  Nowy Tomyśl (powiat: nowotomyski)
+    Aktualne współrzędne: [52.0242, 21.1357]
+    Liczba instalacji: 1
+  Czerwonak (powiat: poznański)
+    Aktualne współrzędne: [52.0242, 21.1362]
+    Liczba instalacji: 1
+  Kaczory (powiat: pilski)
+    Aktualne współrzędne: [52.0542, 22.2771]
+    Liczba instalacji: 1
+  Murowana Goślina (powiat: poznański)
+    Aktualne współrzędne: [52.0238, 21.1359]
+    Liczba instalacji: 1
+  Stęszew (powiat: poznański)
+    Aktualne współrzędne: [52.0250, 21.1350]
+    Liczba instalacji: 1
+  Kotunia Kotunia (powiat: słupecki)
+    Aktualne współrzędne: [52.0255, 21.1363]
+    Liczba instalacji: 1
+  Trzcianka (powiat: czarnkowsko-trzcianecki)
+    Aktualne współrzędne: [53.0812, 20.8201]
+    Liczba instalacji: 1
+  Budzyń (powiat: chodzieski)
+    Aktualne współrzędne: [51.5006, 20.6817]
+    Liczba instalacji: 1
+  Ociąż (powiat: ostrowski)
+    Aktualne współrzędne: [52.0253, 21.1358]
+    Liczba instalacji: 1
+  Dopiewo (powiat: poznański)
+    Aktualne współrzędne: [52.0236, 21.1361]
+    Liczba instalacji: 1
+  Drawski Młyn (powiat: czarnkowsko-trzcianecki)
+    Aktualne współrzędne: [52.0251, 21.1356]
+    Liczba instalacji: 1
+  Środa Śląska Komorniki (powiat: średzki)
+    Aktualne współrzędne: [52.0247, 21.1352]
+    Liczba instalacji: 1
+  Środa Wielkopolska (powiat: średzki)
+    Aktualne współrzędne: [52.0239, 21.1351]
+    Liczba instalacji: 1
+  Przeźmierowo (powiat: poznański)
+    Aktualne współrzędne: [52.0253, 21.1345]
+    Liczba instalacji: 4
+  Wieleń (powiat: czarnkowsko-trzcianecki)
+    Aktualne współrzędne: [52.0254, 21.1361]
+    Liczba instalacji: 1
+  Okonek (powiat: złotowski)
+    Aktualne współrzędne: [52.0253, 21.1362]
+    Liczba instalacji: 1
+  Krobia (powiat: gostyński)
+    Aktualne współrzędne: [53.2871, 21.4674]
+    Liczba instalacji: 1
+  Buk (powiat: poznański)
+    Aktualne współrzędne: [51.9672, 20.7575]
+    Liczba instalacji: 1
+  Pniewy (powiat: szamotulski)
+    Aktualne współrzędne: [51.9117, 20.7317]
+    Liczba instalacji: 1
+  Słupca (powiat: słupecki)
+    Aktualne współrzędne: [52.5852, 20.0637]
+    Liczba instalacji: 1
+  Opatówek (powiat: kaliski)
+    Aktualne współrzędne: [52.0242, 21.1365]
+    Liczba instalacji: 1
+  Ujazd Górny (powiat: średzki)
+    Aktualne współrzędne: [52.0247, 21.1353]
+    Liczba instalacji: 1
+  Tarnowo Podgórne (powiat: poznański)
+    Aktualne współrzędne: [52.0246, 21.1350]
+    Liczba instalacji: 1
+  Środa Śląska (powiat: średzki)
+    Aktualne współrzędne: [52.0241, 21.1353]
+    Liczba instalacji: 1
+
+=== ZACHODNIOPOMORSKIE ===
+  Dębno (powiat: myśliborski)
+    Aktualne współrzędne: [52.7393, 14.7014]
+    Liczba instalacji: 2
+  Żdżary (powiat: goleniowski)
+    Aktualne współrzędne: [51.8753, 18.4774]
+    Liczba instalacji: 3
+  Laski (powiat: białogardzki)
+    Aktualne współrzędne: [51.7986, 21.1426]
+    Liczba instalacji: 4
+  Tyń (powiat: sławieński)
+    Aktualne współrzędne: [54.4594, 16.7358]
+    Liczba instalacji: 1
+  Darłowo (powiat: sławieński)
+    Aktualne współrzędne: [54.4223, 16.4088]
+    Liczba instalacji: 3
+  Makowiska (powiat: gryficki)
+    Aktualne współrzędne: [51.1164, 19.0283]
+    Liczba instalacji: 1
+  Niedźwiady (powiat: szczecinecki)
+    Aktualne współrzędne: [51.7987, 18.0933]
+    Liczba instalacji: 2
+  Pieńkowo (powiat: sławieński)
+    Aktualne współrzędne: [54.4843, 16.6863]
+    Liczba instalacji: 1
+  Strumiany (powiat: stargardzki)
+    Aktualne współrzędne: [51.4573, 18.8432]
+    Liczba instalacji: 1
+  Bukowiec (powiat: drawski)
+    Aktualne współrzędne: [53.4331, 18.2411]
+    Liczba instalacji: 10
+  Cisowo (powiat: sławieński)
+    Aktualne współrzędne: [54.4469, 16.4339]
+    Liczba instalacji: 1
+  Niemierzyn (powiat: szczeciński)
+    Aktualne współrzędne: [51.3043, 18.6194]
+    Liczba instalacji: 2
+  Włościbórz (powiat: kołobrzeski)
+    Aktualne współrzędne: [53.4762, 17.6320]
+    Liczba instalacji: 1
+  Maszewo (powiat: goleniowski)
+    Aktualne współrzędne: [52.5681, 19.6215]
+    Liczba instalacji: 3
+  Ostrowąs (powiat: świdwiński)
+    Aktualne współrzędne: [52.8305, 18.6969]
+    Liczba instalacji: 2
+  Kąty (powiat: goleniowski)
+    Aktualne współrzędne: [51.0670, 16.7835]
+    Liczba instalacji: 5
+  Karsin (powiat: świdwiński)
+    Aktualne współrzędne: [53.9039, 17.9264]
+    Liczba instalacji: 4
+  Święte (powiat: stargardzki)
+    Aktualne współrzędne: [53.5256, 19.1907]
+    Liczba instalacji: 3
+  Zalesie (powiat: wałecki)
+    Aktualne współrzędne: [53.3416, 22.7641]
+    Liczba instalacji: 12
+  Będzino (powiat: koszaliński)
+    Aktualne współrzędne: [50.3282, 19.1290]
+    Liczba instalacji: 3
+  Międzyborze (powiat: świdwiński)
+    Aktualne współrzędne: [51.8221, 17.2588]
+    Liczba instalacji: 1
+  Świeszewo (powiat: gryficki)
+    Aktualne współrzędne: [52.6019, 21.0920]
+    Liczba instalacji: 1
+  Iwno (powiat: goleniowski)
+    Aktualne współrzędne: [53.0250, 17.4232]
+    Liczba instalacji: 1
+  Gołogóra (powiat: koszaliński)
+    Aktualne współrzędne: [53.8790, 20.2498]
+    Liczba instalacji: 1
+  Kurowo (powiat: koszaliński)
+    Aktualne współrzędne: [52.1228, 16.6568]
+    Liczba instalacji: 4
+  Barnówko (powiat: myśliborski)
+    Aktualne współrzędne: [52.7838, 14.7697]
+    Liczba instalacji: 1
+  Chełm Gryficki (powiat: gryficki)
+    Aktualne współrzędne: [51.1435, 23.4726]
+    Liczba instalacji: 3
+  Zwierzyn (powiat: choszczeński)
+    Aktualne współrzędne: [50.6166, 22.9768]
+    Liczba instalacji: 3
+  Bądki (powiat: szczecinecki)
+    Aktualne współrzędne: [53.6924, 18.9695]
+    Liczba instalacji: 1
+  Masłowice (powiat: sławieński)
+    Aktualne współrzędne: [51.1059, 19.7902]
+    Liczba instalacji: 1
+  Ostrówek Wieś (powiat: koszaliński)
+    Aktualne współrzędne: [51.2486, 23.1004]
+    Liczba instalacji: 1
+  Lipno Wieś (powiat: świdwiński)
+    Aktualne współrzędne: [52.8567, 19.1772]
+    Liczba instalacji: 1
+  Zieleniewo (powiat: koszaliński)
+    Aktualne współrzędne: [52.4054, 18.9664]
+    Liczba instalacji: 1
+  Ubocze (powiat: szczecinecki)
+    Aktualne współrzędne: [51.0510, 15.4291]
+    Liczba instalacji: 1
+  Dziedzice (powiat: myśliborski)
+    Aktualne współrzędne: [49.9139, 19.0113]
+    Liczba instalacji: 1
+  Kapice (powiat: świdwiński)
+    Aktualne współrzędne: [53.5676, 22.6645]
+    Liczba instalacji: 1
+  Gudzisz (powiat: myśliborski)
+    Aktualne współrzędne: [52.6805, 14.6167]
+    Liczba instalacji: 2
+  Lubno (powiat: wałecki)
+    Aktualne współrzędne: [52.7417, 15.0252]
+    Liczba instalacji: 2
+  Wicko (powiat: sławieński)
+    Aktualne współrzędne: [54.6714, 17.6171]
+    Liczba instalacji: 1
+  Okolę (powiat: szczecinecki)
+    Aktualne współrzędne: [53.2894, 17.9518]
+    Liczba instalacji: 2
+  Łubowo (powiat: wałecki)
+    Aktualne współrzędne: [52.5134, 17.4556]
+    Liczba instalacji: 12
+  Golce (powiat: wałecki)
+    Aktualne współrzędne: [50.5442, 22.3890]
+    Liczba instalacji: 3
+  Runowo Krajeńskie (powiat: wałecki)
+    Aktualne współrzędne: [53.3275, 17.4528]
+    Liczba instalacji: 11
+  Kraśnik Koszaliński (powiat: koszaliński)
+    Aktualne współrzędne: [50.9240, 22.2213]
+    Liczba instalacji: 1
+  Kodrąb (powiat: kamieński)
+    Aktualne współrzędne: [51.0986, 19.6302]
+    Liczba instalacji: 1
+  Orle (powiat: łobeski)
+    Aktualne współrzędne: [52.4857, 18.6429]
+    Liczba instalacji: 1
+  Ławy (powiat: myśliborski)
+    Aktualne współrzędne: [51.3970, 19.3305]
+    Liczba instalacji: 6
+  Chwarszczany (powiat: myśliborski)
+    Aktualne współrzędne: [52.6857, 14.6427]
+    Liczba instalacji: 1
+  Zagórze (powiat: białogardzki)
+    Aktualne współrzędne: [50.6020, 21.9903]
+    Liczba instalacji: 1
+  Biały Bór (powiat: szczecinecki)
+    Aktualne współrzędne: [50.1809, 21.5262]
+    Liczba instalacji: 1
+  Przeczno (powiat: choszczeński)
+    Aktualne współrzędne: [53.1488, 18.4749]
+    Liczba instalacji: 2
+  Czyżewo (powiat: koszaliński)
+    Aktualne współrzędne: [53.0828, 19.3591]
+    Liczba instalacji: 2
+  Radłowo (powiat: goleniowski)
+    Aktualne współrzędne: [52.7962, 18.0363]
+    Liczba instalacji: 3
+  Namyślin (powiat: myśliborski)
+    Aktualne współrzędne: [52.6735, 14.5413]
+    Liczba instalacji: 1
+  Pomorzany (powiat: szczeciński)
+    Aktualne współrzędne: [51.2100, 20.3292]
+    Liczba instalacji: 1
+  Postomino (powiat: sławieński)
+    Aktualne współrzędne: [54.4926, 16.7140]
+    Liczba instalacji: 1
+  Nosalin (powiat: sławieński)
+    Aktualne współrzędne: [54.4303, 16.7718]
+    Liczba instalacji: 1
+  Dargomyśl (powiat: myśliborski)
+    Aktualne współrzędne: [52.7094, 14.6498]
+    Liczba instalacji: 1
+  Sądów (powiat: stargardzki)
+    Aktualne współrzędne: [52.2219, 14.8453]
+    Liczba instalacji: 2
+  Witoszyn (powiat: choszczeński)
+    Aktualne współrzędne: [51.5180, 15.1092]
+    Liczba instalacji: 2
+  Karpin (powiat: choszczeński)
+    Aktualne współrzędne: [51.6699, 19.7111]
+    Liczba instalacji: 2
+  Rusko (powiat: sławieński)
+    Aktualne współrzędne: [50.9916, 16.4636]
+    Liczba instalacji: 1
+  Bogusław (powiat: myśliborski)
+    Aktualne współrzędne: [52.6856, 14.7606]
+    Liczba instalacji: 3
+  Oborzany (powiat: myśliborski)
+    Aktualne współrzędne: [52.7372, 14.6671]
+    Liczba instalacji: 2
+  Jarosławsko (powiat: choszczeński)
+    Aktualne współrzędne: [50.0164, 22.6764]
+    Liczba instalacji: 1
+  Grzybowo (powiat: kołobrzeski)
+    Aktualne współrzędne: [52.3686, 17.6447]
+    Liczba instalacji: 1
+  Porąbka (powiat: świdwiński)
+    Aktualne współrzędne: [49.8195, 19.2186]
+    Liczba instalacji: 1
+  Kłodzin (powiat: choszczeński)
+    Aktualne współrzędne: [52.6984, 17.4295]
+    Liczba instalacji: 2
+  Węgorzyn (powiat: gryficki)
+    Aktualne współrzędne: [53.2094, 18.7824]
+    Liczba instalacji: 1
+  Moczydło (powiat: myśliborski)
+    Aktualne współrzędne: [50.4791, 20.1881]
+    Liczba instalacji: 1
+  Wilczkowo (powiat: gryficki)
+    Aktualne współrzędne: [52.8744, 17.7262]
+    Liczba instalacji: 1
+  Kucerz (powiat: gryficki)
+    Aktualne współrzędne: [52.7536, 18.9523]
+    Liczba instalacji: 1
+  Sicienko (powiat: myśliborski)
+    Aktualne współrzędne: [53.2029, 17.8001]
+    Liczba instalacji: 2
+  Rosocha (powiat: koszaliński)
+    Aktualne współrzędne: [51.9483, 17.9484]
+    Liczba instalacji: 2
+  Jarząbki (powiat: myśliborski)
+    Aktualne współrzędne: [50.5851, 20.9242]
+    Liczba instalacji: 1
+  Kalisz Pomorski (powiat: drawski)
+    Aktualne współrzędne: [51.7616, 18.0909]
+    Liczba instalacji: 1
+  Bronikowo (powiat: wałecki)
+    Aktualne współrzędne: [51.9743, 16.4718]
+    Liczba instalacji: 2
+  Chrząstkowo (powiat: wałecki)
+    Aktualne współrzędne: [53.0553, 18.5942]
+    Liczba instalacji: 1
+  Niechorz (powiat: gryficki)
+    Aktualne współrzędne: [53.4371, 17.6031]
+    Liczba instalacji: 11
+  Grzmiąca (powiat: szczecinecki)
+    Aktualne współrzędne: [52.1617, 14.7496]
+    Liczba instalacji: 2
+  Sucha (powiat: świdwiński)
+    Aktualne współrzędne: [51.4215, 21.5084]
+    Liczba instalacji: 2
+  Gorzyca (powiat: sławieński)
+    Aktualne współrzędne: [52.4643, 15.4956]
+    Liczba instalacji: 1
+  Przymiarki (powiat: myśliborski)
+    Aktualne współrzędne: [50.4199, 23.7751]
+    Liczba instalacji: 1
+  Złakowo (powiat: sławieński)
+    Aktualne współrzędne: [54.5245, 16.7255]
+    Liczba instalacji: 1
+  Królewo (powiat: sławieński)
+    Aktualne współrzędne: [54.0422, 19.1378]
+    Liczba instalacji: 1
+  Rudki (powiat: wałecki)
+    Aktualne współrzędne: [50.8943, 21.0898]
+    Liczba instalacji: 1
+  Barlinek (powiat: myśliborski)
+    Aktualne współrzędne: [52.0252, 21.1346]
+    Liczba instalacji: 1
+  Karlino (powiat: białogardzki)
+    Aktualne współrzędne: [52.0235, 21.1357]
+    Liczba instalacji: 1
+
+=== ŁÓDZKIE ===
+  Bogdanka (powiat: brzeziński)
+    Aktualne współrzędne: [51.3202, 23.0162]
+    Liczba instalacji: 2
+  Szarów (powiat: poddębicki)
+    Aktualne współrzędne: [49.9958, 20.2657]
+    Liczba instalacji: 1
+  Praga (powiat: poddębicki)
+    Aktualne współrzędne: [52.2944, 21.0102]
+    Liczba instalacji: 4
+  Lubycza Królewska (powiat: tomaszowski)
+    Aktualne współrzędne: [50.3407, 23.5172]
+    Liczba instalacji: 4
+  Górno (powiat: tomaszowski)
+    Aktualne współrzędne: [50.2815, 22.1460]
+    Liczba instalacji: 3
+  Trębaczew (powiat: rawski)
+    Aktualne współrzędne: [51.7053, 20.5883]
+    Liczba instalacji: 4
+  Poraj (powiat: piotrkowski)
+    Aktualne współrzędne: [50.6787, 19.2136]
+    Liczba instalacji: 6
+  Domaniew (powiat: sieradzki)
+    Aktualne współrzędne: [52.1888, 20.7608]
+    Liczba instalacji: 2
+  Antoniów (powiat: opoczyński)
+    Aktualne współrzędne: [50.6939, 18.1970]
+    Liczba instalacji: 3
+  Bogumiłowice (powiat: pajęczański)
+    Aktualne współrzędne: [50.0041, 20.8717]
+    Liczba instalacji: 1
+  Rzeczyca Księża (powiat: tomaszowski)
+    Aktualne współrzędne: [50.8647, 22.2245]
+    Liczba instalacji: 1
+  Bielawki (powiat: kutnowski)
+    Aktualne współrzędne: [53.1555, 19.2894]
+    Liczba instalacji: 1
+  Chałupy (powiat: radomszczański)
+    Aktualne współrzędne: [54.1336, 16.1736]
+    Liczba instalacji: 1
+  Konarzew (powiat: łęczycki)
+    Aktualne współrzędne: [51.6790, 17.3802]
+    Liczba instalacji: 1
+  Łaszczów (powiat: tomaszowski)
+    Aktualne współrzędne: [50.5340, 23.7325]
+    Liczba instalacji: 3
+  Wilkowice (powiat: rawski)
+    Aktualne współrzędne: [50.4385, 18.7559]
+    Liczba instalacji: 2
+  Miksztal (powiat: kutnowski)
+    Aktualne współrzędne: [52.3009, 19.2387]
+    Liczba instalacji: 1
+  Bogusławice (powiat: piotrkowski)
+    Aktualne współrzędne: [52.3922, 18.6592]
+    Liczba instalacji: 1
+  Kwilno (powiat: zgierski)
+    Aktualne współrzędne: [52.6340, 18.6068]
+    Liczba instalacji: 1
+  Dąbrowice (powiat: kutnowski)
+    Aktualne współrzędne: [52.3152, 19.0841]
+    Liczba instalacji: 1
+  Zaborów (powiat: poddębicki)
+    Aktualne współrzędne: [50.1476, 20.6945]
+    Liczba instalacji: 1
+  Żabików (powiat: kutnowski)
+    Aktualne współrzędne: [51.8014, 22.5645]
+    Liczba instalacji: 2
+  Ruda Wołoska (powiat: tomaszowski)
+    Aktualne współrzędne: [50.3830, 23.5544]
+    Liczba instalacji: 2
+  Witów (powiat: sieradzki)
+    Aktualne współrzędne: [49.3251, 19.8244]
+    Liczba instalacji: 1
+  Pasieki (powiat: tomaszowski)
+    Aktualne współrzędne: [50.4413, 23.3403]
+    Liczba instalacji: 2
+  Dobużek (powiat: tomaszowski)
+    Aktualne współrzędne: [50.5664, 23.7324]
+    Liczba instalacji: 2
+  Wilczkowice Górne (powiat: łęczycki)
+    Aktualne współrzędne: [51.6858, 21.4532]
+    Liczba instalacji: 1
+  Łubnica (powiat: łęczycki)
+    Aktualne współrzędne: [52.1535, 16.3718]
+    Liczba instalacji: 2
+  Płaczki (powiat: pajęczański)
+    Aktualne współrzędne: [52.1937, 17.2163]
+    Liczba instalacji: 1
+  Suchcice (powiat: bełchatowski)
+    Aktualne współrzędne: [52.9310, 21.6494]
+    Liczba instalacji: 2
+  Gidle (powiat: radomszczański)
+    Aktualne współrzędne: [50.9636, 19.4678]
+    Liczba instalacji: 1
+  Wielopole (powiat: bełchatowski)
+    Aktualne współrzędne: [49.6671, 20.7092]
+    Liczba instalacji: 2
+  Głuchów (powiat: kutnowski)
+    Aktualne współrzędne: [50.0807, 22.2707]
+    Liczba instalacji: 2
+  Anastazew (powiat: zgierski)
+    Aktualne współrzędne: [52.5223, 21.4720]
+    Liczba instalacji: 1
+  Hucisko (powiat: bełchatowski)
+    Aktualne współrzędne: [51.1226, 20.5823]
+    Liczba instalacji: 3
+  Jeziernia (powiat: tomaszowski)
+    Aktualne współrzędne: [50.4115, 23.4136]
+    Liczba instalacji: 7
+  Łęczyca (powiat: łęczycki)
+    Aktualne współrzędne: [53.4388, 15.0748]
+    Liczba instalacji: 2
+  Kije (powiat: sieradzki)
+    Aktualne współrzędne: [50.6077, 20.5718]
+    Liczba instalacji: 2
+  Grzybów (powiat: zduńskowolski)
+    Aktualne współrzędne: [51.1534, 20.5378]
+    Liczba instalacji: 7
+  Wrzesiny (powiat: łaski)
+    Aktualne współrzędne: [51.7063, 15.4360]
+    Liczba instalacji: 1
+  Malenie (powiat: poddębicki)
+    Aktualne współrzędne: [52.5784, 20.1301]
+    Liczba instalacji: 1
+  Wierzchy (powiat: poddębicki)
+    Aktualne współrzędne: [52.0735, 17.8060]
+    Liczba instalacji: 1
+  Huta Szklana (powiat: sieradzki)
+    Aktualne współrzędne: [52.9221, 16.0632]
+    Liczba instalacji: 2
+  Brzoza (powiat: piotrkowski)
+    Aktualne współrzędne: [51.7394, 17.4722]
+    Liczba instalacji: 1
+  Łosiniec (powiat: tomaszowski)
+    Aktualne współrzędne: [52.7245, 17.2030]
+    Liczba instalacji: 1
+  Pławno (powiat: radomszczański)
+    Aktualne współrzędne: [53.0864, 15.6023]
+    Liczba instalacji: 1
+  Skotniki (powiat: zgierski)
+    Aktualne współrzędne: [52.2403, 17.5185]
+    Liczba instalacji: 1
+  Duszniki (powiat: sieradzki)
+    Aktualne współrzędne: [52.4491, 16.4053]
+    Liczba instalacji: 1
+  Żardki (powiat: opoczyński)
+    Aktualne współrzędne: [51.4757, 20.5084]
+    Liczba instalacji: 2
+  Brzeziny (powiat: brzeziński)
+    Aktualne współrzędne: [50.4783, 18.3183]
+    Liczba instalacji: 4
+  Karnice (powiat: poddębicki)
+    Aktualne współrzędne: [51.4834, 16.8395]
+    Liczba instalacji: 1
+  Michałów (powiat: kutnowski)
+    Aktualne współrzędne: [50.6463, 23.2542]
+    Liczba instalacji: 5
+  Rzeczyca (powiat: poddębicki)
+    Aktualne współrzędne: [51.9622, 22.7459]
+    Liczba instalacji: 3
+  Goryń (powiat: łaski)
+    Aktualne współrzędne: [51.5394, 21.2673]
+    Liczba instalacji: 1
+  Tarnawatka-Tartak (powiat: tomaszowski)
+    Aktualne współrzędne: [50.5370, 23.3734]
+    Liczba instalacji: 1
+  Krosnowa (powiat: skierniewicki)
+    Aktualne współrzędne: [49.6890, 21.7716]
+    Liczba instalacji: 1
+  Reczyce (powiat: łowicki)
+    Aktualne współrzędne: [52.6783, 14.5963]
+    Liczba instalacji: 1
+  Włostowice (powiat: łęczycki)
+    Aktualne współrzędne: [50.1714, 20.5596]
+    Liczba instalacji: 1
+  Zameczek (powiat: opoczyński)
+    Aktualne współrzędne: [51.4791, 20.9120]
+    Liczba instalacji: 1
+  Strzelce Wielkie (powiat: pajęczański)
+    Aktualne współrzędne: [51.8772, 17.0889]
+    Liczba instalacji: 1
+  Graby (powiat: radomszczański)
+    Aktualne współrzędne: [52.4143, 17.4318]
+    Liczba instalacji: 1
+  Malina (powiat: kutnowski)
+    Aktualne współrzędne: [52.5002, 18.5487]
+    Liczba instalacji: 1
+  Żelechlin (powiat: tomaszowski)
+    Aktualne współrzędne: [52.9059, 18.2413]
+    Liczba instalacji: 1
+  Szarowola (powiat: tomaszowski)
+    Aktualne współrzędne: [50.4979, 23.3430]
+    Liczba instalacji: 2
+  Tomaszów Lubelski (powiat: tomaszowski)
+    Aktualne współrzędne: [50.4476, 23.4186]
+    Liczba instalacji: 8
+  Romanów (powiat: sieradzki)
+    Aktualne współrzędne: [51.5624, 21.1081]
+    Liczba instalacji: 1
+  Olszowa (powiat: tomaszowski)
+    Aktualne współrzędne: [50.4543, 18.2796]
+    Liczba instalacji: 1
+  Suszów (powiat: tomaszowski)
+    Aktualne współrzędne: [50.5394, 23.9447]
+    Liczba instalacji: 1
+  Lutogniewice (powiat: łaski)
+    Aktualne współrzędne: [51.0056, 14.9698]
+    Liczba instalacji: 26
+  Dziadkowice (powiat: zduńskowolski)
+    Aktualne współrzędne: [52.5646, 22.9129]
+    Liczba instalacji: 2
+  Bujały (powiat: rawski)
+    Aktualne współrzędne: [51.6917, 20.5192]
+    Liczba instalacji: 1
+  Przyłuski (powiat: rawski)
+    Aktualne współrzędne: [51.7824, 20.5364]
+    Liczba instalacji: 2
+  Rabinówka (powiat: tomaszowski)
+    Aktualne współrzędne: [50.4204, 23.3700]
+    Liczba instalacji: 3
+  Bełżec (powiat: tomaszowski)
+    Aktualne współrzędne: [50.3841, 23.4373]
+    Liczba instalacji: 1
+  Żerniki (powiat: poddębicki)
+    Aktualne współrzędne: [52.3244, 17.4954]
+    Liczba instalacji: 1
+  Golice (powiat: poddębicki)
+    Aktualne współrzędne: [52.8618, 14.2610]
+    Liczba instalacji: 2
+  Kazimierz (powiat: pabianicki)
+    Aktualne współrzędne: [50.2660, 20.5052]
+    Liczba instalacji: 1
+  Parzyce (powiat: zgierski)
+    Aktualne współrzędne: [51.2317, 15.4045]
+    Liczba instalacji: 1
+  Mierzyn (powiat: piotrkowski)
+    Aktualne współrzędne: [52.6329, 15.8338]
+    Liczba instalacji: 2
+  Łaszczówka-Kolonia (powiat: tomaszowski)
+    Aktualne współrzędne: [50.5343, 23.7337]
+    Liczba instalacji: 1
+  Markowizna (powiat: pajęczański)
+    Aktualne współrzędne: [50.2926, 22.0968]
+    Liczba instalacji: 2
+  Glina (powiat: piotrkowski)
+    Aktualne współrzędne: [52.6957, 21.9605]
+    Liczba instalacji: 1
+  Balin (powiat: poddębicki)
+    Aktualne współrzędne: [50.1664, 19.3816]
+    Liczba instalacji: 1
+  Bratków (powiat: opoczyński)
+    Aktualne współrzędne: [51.0010, 14.9437]
+    Liczba instalacji: 2
+  Zaranna (powiat: kutnowski)
+    Aktualne współrzędne: [52.3296, 19.3860]
+    Liczba instalacji: 1
+  Jasionka (powiat: zgierski)
+    Aktualne współrzędne: [49.5502, 21.7263]
+    Liczba instalacji: 1
+  Ludwików (powiat: bełchatowski)
+    Aktualne współrzędne: [51.9555, 21.0103]
+    Liczba instalacji: 1
+  Zdziechów (powiat: pabianicki)
+    Aktualne współrzędne: [51.4201, 21.0515]
+    Liczba instalacji: 1
+  Bielawy (powiat: łowicki)
+    Aktualne współrzędne: [51.7731, 15.9191]
+    Liczba instalacji: 2
+  Knapy (powiat: wieruszowski)
+    Aktualne współrzędne: [50.4406, 21.5816]
+    Liczba instalacji: 1
+  Rogóźno (powiat: zgierski)
+    Aktualne współrzędne: [50.4650, 23.3907]
+    Liczba instalacji: 1
+  Grabów (powiat: łęczycki)
+    Aktualne współrzędne: [52.3496, 15.1322]
+    Liczba instalacji: 1
+  Sucha Górna (powiat: poddębicki)
+    Aktualne współrzędne: [51.5386, 16.0249]
+    Liczba instalacji: 1
+  Kunice (powiat: opoczyński)
+    Aktualne współrzędne: [51.2213, 16.2508]
+    Liczba instalacji: 1
+  Grotniki (powiat: zgierski)
+    Aktualne współrzędne: [51.9470, 16.3577]
+    Liczba instalacji: 1
+  Olewin (powiat: wieluński)
+    Aktualne współrzędne: [50.2775, 19.6043]
+    Liczba instalacji: 1
+  Kotlin (powiat: zduńskowolski)
+    Aktualne współrzędne: [51.9166, 17.6533]
+    Liczba instalacji: 2
+  Marzęcice (powiat: pajęczański)
+    Aktualne współrzędne: [53.4288, 19.5396]
+    Liczba instalacji: 3
+  Jajkowice (powiat: rawski)
+    Aktualne współrzędne: [51.7139, 20.6173]
+    Liczba instalacji: 1
+  Załuże (powiat: bełchatowski)
+    Aktualne współrzędne: [50.1981, 23.1648]
+    Liczba instalacji: 1
+  Tyszowce (powiat: tomaszowski)
+    Aktualne współrzędne: [50.6176, 23.6986]
+    Liczba instalacji: 1
+  Chocianowice (powiat: łódzki)
+    Aktualne współrzędne: [50.9402, 18.2788]
+    Liczba instalacji: 1
+  Ługów (powiat: bełchatowski)
+    Aktualne współrzędne: [52.2701, 15.5005]
+    Liczba instalacji: 12
+  Grójec Wielki (powiat: sieradzki)
+    Aktualne współrzędne: [52.1737, 15.8914]
+    Liczba instalacji: 1
+  Bogumiłów (powiat: piotrkowski)
+    Aktualne współrzędne: [51.5705, 15.0029]
+    Liczba instalacji: 1
+  Budzów (powiat: radomszczański)
+    Aktualne współrzędne: [50.5827, 16.6939]
+    Liczba instalacji: 2
+  Borzykowa (powiat: radomszczański)
+    Aktualne współrzędne: [50.8773, 19.6916]
+    Liczba instalacji: 1
+  Stoki (powiat: bełchatowski)
+    Aktualne współrzędne: [52.5059, 15.8131]
+    Liczba instalacji: 5
+  Jeżewo (powiat: zgierski)
+    Aktualne współrzędne: [53.5104, 18.4945]
+    Liczba instalacji: 1
+  Silnica (powiat: radomszczański)
+    Aktualne współrzędne: [50.9302, 19.6898]
+    Liczba instalacji: 1
+  Miedźno (powiat: sieradzki)
+    Aktualne współrzędne: [50.9703, 18.9821]
+    Liczba instalacji: 1
+  Rachanie (powiat: tomaszowski)
+    Aktualne współrzędne: [50.5381, 23.5493]
+    Liczba instalacji: 1
+  Rawiczów (powiat: skierniewicki)
+    Aktualne współrzędne: [51.6088, 16.8578]
+    Liczba instalacji: 1
+  Wierzbie (powiat: kutnowski)
+    Aktualne współrzędne: [50.6655, 18.7781]
+    Liczba instalacji: 1
+  Budy Stare (powiat: kutnowski)
+    Aktualne współrzędne: [52.8388, 19.9715]
+    Liczba instalacji: 1
+  Tarnówka (powiat: zduńskowolski)
+    Aktualne współrzędne: [50.0128, 20.9893]
+    Liczba instalacji: 1
+  Rossoszyca (powiat: sieradzki)
+    Aktualne współrzędne: [52.4088, 16.9337]
+    Liczba instalacji: 1
+  Wieprzów Ordynacki (powiat: tomaszowski)
+    Aktualne współrzędne: [50.4734, 23.3514]
+    Liczba instalacji: 1
+  Konradów (powiat: radomszczański)
+    Aktualne współrzędne: [50.8019, 18.9880]
+    Liczba instalacji: 1
+  Nieznane (powiat: łódzki)
+    Aktualne współrzędne: [52.0237, 21.1354]
+    Liczba instalacji: 5
+  Działoszyn Trębaczew (powiat: pajęczański)
+    Aktualne współrzędne: [52.0248, 21.1347]
+    Liczba instalacji: 1
+  Opoczno (powiat: opoczyński)
+    Aktualne współrzędne: [52.0244, 21.1359]
+    Liczba instalacji: 1
+  Ozorków (powiat: zgierski)
+    Aktualne współrzędne: [52.0251, 21.1358]
+    Liczba instalacji: 1
+  Ujazd (powiat: tomaszowski)
+    Aktualne współrzędne: [52.9751, 21.4413]
+    Liczba instalacji: 1
+  Działoszyn (powiat: pajęczański)
+    Aktualne współrzędne: [52.0254, 21.1361]
+    Liczba instalacji: 1
+  Wieruszów (powiat: wieluński)
+    Aktualne współrzędne: [52.0243, 21.1357]
+    Liczba instalacji: 1
+  Lućmierz (powiat: zgierski)
+    Aktualne współrzędne: [52.0246, 21.1359]
+    Liczba instalacji: 1
+  Paprotnia (powiat: brzeziński)
+    Aktualne współrzędne: [52.2992, 22.4678]
+    Liczba instalacji: 1
+  Wieluń (powiat: wieluński)
+    Aktualne współrzędne: [52.9834, 20.0329]
+    Liczba instalacji: 1
+  Aleksandrów Łódzki (powiat: pabianicki)
+    Aktualne współrzędne: [52.0245, 21.1359]
+    Liczba instalacji: 1
+  Uniejów (powiat: poddębicki)
+    Aktualne współrzędne: [52.0237, 21.1350]
+    Liczba instalacji: 1
+
+=== ŚLĄSKIE ===
+  Augustowo (powiat: bielski)
+    Aktualne współrzędne: [53.2572, 16.9791]
+    Liczba instalacji: 2
+  Borowianka (powiat: kłobucki)
+    Aktualne współrzędne: [50.9069, 19.0452]
+    Liczba instalacji: 2
+  Żywiec (powiat: żywiecki)
+    Aktualne współrzędne: [49.6850, 19.1948]
+    Liczba instalacji: 7
+  Bielsk Podlaski (powiat: bielski)
+    Aktualne współrzędne: [52.7683, 23.1904]
+    Liczba instalacji: 2
+  Bytoń (powiat: górnośląsko-zagłębiowska metropoliański)
+    Aktualne współrzędne: [52.5580, 18.5971]
+    Liczba instalacji: 2
+  Essen (powiat: myszkowski)
+    Aktualne współrzędne: [52.0249, 21.1360]
+    Liczba instalacji: 3
+  Haga (powiat: katowicki)
+    Aktualne współrzędne: [52.0255, 21.1357]
+    Liczba instalacji: 2
+  Kłobuck (powiat: kłobucki)
+    Aktualne współrzędne: [50.9031, 18.9377]
+    Liczba instalacji: 9
+  Racibórz (powiat: raciborski)
+    Aktualne współrzędne: [50.0906, 18.2192]
+    Liczba instalacji: 19
+  Mediolan (powiat: górnośląsko-zagłębiowska metropoliański)
+    Aktualne współrzędne: [52.0243, 21.1352]
+    Liczba instalacji: 1
+  Międzyrzecze Dolne (powiat: bielski)
+    Aktualne współrzędne: [52.4438, 15.5859]
+    Liczba instalacji: 2
+  Bogucice (powiat: górnośląsko-zagłębiowska metropoliański)
+    Aktualne współrzędne: [51.7538, 18.9604]
+    Liczba instalacji: 3
+  Mokre (powiat: bielski)
+    Aktualne współrzędne: [50.6931, 23.2053]
+    Liczba instalacji: 1
+  Lipicze (powiat: częstochowski)
+    Aktualne współrzędne: [51.4300, 18.4895]
+    Liczba instalacji: 1
+  Lubliniec (powiat: lubliniecki)
+    Aktualne współrzędne: [51.2466, 22.5683]
+    Liczba instalacji: 2
+  Łysiny (powiat: częstochowski)
+    Aktualne współrzędne: [51.8146, 16.2180]
+    Liczba instalacji: 2
+  Łysaków (powiat: częstochowski)
+    Aktualne współrzędne: [50.7591, 22.1838]
+    Liczba instalacji: 1
+  Piotrowice (powiat: górnośląsko-zagłębiowska metropoliański)
+    Aktualne współrzędne: [51.0787, 22.4714]
+    Liczba instalacji: 5
+  Piliki (powiat: bielski)
+    Aktualne współrzędne: [52.7335, 23.1584]
+    Liczba instalacji: 1
+  Olszewo (powiat: bielski)
+    Aktualne współrzędne: [52.2177, 17.3330]
+    Liczba instalacji: 2
+  Woźniki (powiat: lubliniecki)
+    Aktualne współrzędne: [51.4109, 19.5225]
+    Liczba instalacji: 2
+  Albertów (powiat: kłobucki)
+    Aktualne współrzędne: [51.0284, 18.8160]
+    Liczba instalacji: 3
+  Hołody (powiat: bielski)
+    Aktualne współrzędne: [52.7523, 23.2909]
+    Liczba instalacji: 1
+  Łoknica (powiat: bielski)
+    Aktualne współrzędne: [52.7852, 23.3596]
+    Liczba instalacji: 1
+  Jakubowskie (powiat: bielski)
+    Aktualne współrzędne: [52.6669, 23.0218]
+    Liczba instalacji: 1
+  Pyskowice (powiat: gliwicki)
+    Aktualne współrzędne: [51.1776, 15.9468]
+    Liczba instalacji: 1
+  Załęże (powiat: górnośląsko-zagłębiowska metropoliański)
+    Aktualne współrzędne: [53.0264, 14.8090]
+    Liczba instalacji: 2
+  Kępa Górna (powiat: bielski)
+    Aktualne współrzędne: [52.0250, 21.1348]
+    Liczba instalacji: 1
+  Rawa (powiat: górnośląsko-zagłębiowska metropoliański)
+    Aktualne współrzędne: [51.5502, 22.3756]
+    Liczba instalacji: 1
+  Bystre (powiat: bielski)
+    Aktualne współrzędne: [49.3149, 22.7250]
+    Liczba instalacji: 1
+  Dębowiec (powiat: cieszyński)
+    Aktualne współrzędne: [49.6842, 21.4604]
+    Liczba instalacji: 1
+  Wrzosów (powiat: kłobucki)
+    Aktualne współrzędne: [51.7095, 22.5674]
+    Liczba instalacji: 3
+  Dębowo (powiat: bielski)
+    Aktualne współrzędne: [52.7250, 22.9625]
+    Liczba instalacji: 1
+  Zakrzewo (powiat: bielski)
+    Aktualne współrzędne: [54.4672, 17.8589]
+    Liczba instalacji: 2
+  Gaj (powiat: bielski)
+    Aktualne współrzędne: [52.4185, 18.4918]
+    Liczba instalacji: 1
+  Grodziec (powiat: bielski)
+    Aktualne współrzędne: [50.6345, 17.6854]
+    Liczba instalacji: 1
+  Rębielice Szlacheckie (powiat: kłobucki)
+    Aktualne współrzędne: [51.0207, 18.8475]
+    Liczba instalacji: 1
+  Chałupki (powiat: raciborski)
+    Aktualne współrzędne: [49.9311, 18.3325]
+    Liczba instalacji: 1
+  Wielowieś (powiat: gliwicki)
+    Aktualne współrzędne: [52.8830, 18.3748]
+    Liczba instalacji: 6
+  Wólka Pietkowska (powiat: bielski)
+    Aktualne współrzędne: [52.8689, 22.8868]
+    Liczba instalacji: 2
+  Parcewo (powiat: bielski)
+    Aktualne współrzędne: [52.7367, 23.2497]
+    Liczba instalacji: 2
+  Bujnowo (powiat: bielski)
+    Aktualne współrzędne: [52.7717, 22.9565]
+    Liczba instalacji: 1
+  Proniewicze (powiat: bielski)
+    Aktualne współrzędne: [52.8080, 23.1948]
+    Liczba instalacji: 1
+  Kolonia Śląsko (powiat: będziński)
+    Aktualne współrzędne: [52.0255, 21.1361]
+    Liczba instalacji: 2
+  Jezioro (powiat: kłobucki)
+    Aktualne współrzędne: [51.6627, 22.7523]
+    Liczba instalacji: 2
+  Janiki (powiat: kłobucki)
+    Aktualne współrzędne: [50.9207, 18.7325]
+    Liczba instalacji: 1
+  Dąbrówka Mała (powiat: górnośląsko-zagłębiowska metropoliański)
+    Aktualne współrzędne: [51.8525, 19.7425]
+    Liczba instalacji: 1
+  Kozy (powiat: bielski)
+    Aktualne współrzędne: [53.3816, 15.4361]
+    Liczba instalacji: 2
+  Łazy (powiat: zawierciański)
+    Aktualne współrzędne: [51.9169, 22.4214]
+    Liczba instalacji: 3
+  Jankowice (powiat: pszczyński)
+    Aktualne współrzędne: [54.1973, 21.4367]
+    Liczba instalacji: 1
+  Pilchowice (powiat: gliwicki)
+    Aktualne współrzędne: [50.9798, 15.6365]
+    Liczba instalacji: 1
+  Bronów (powiat: bielski)
+    Aktualne współrzędne: [51.9629, 18.9175]
+    Liczba instalacji: 1
+  Smoleń (powiat: zawierciański)
+    Aktualne współrzędne: [53.1543, 15.4639]
+    Liczba instalacji: 1
+  Starokrzepice (powiat: kłobucki)
+    Aktualne współrzędne: [50.9503, 18.6564]
+    Liczba instalacji: 1
+  Widzów (powiat: częstochowski)
+    Aktualne współrzędne: [50.9721, 19.3751]
+    Liczba instalacji: 1
+  Podleśna (powiat: zawierciański)
+    Aktualne współrzędne: [53.9494, 20.4991]
+    Liczba instalacji: 1
+  Mieszuki (powiat: bielski)
+    Aktualne współrzędne: [52.8559, 23.0491]
+    Liczba instalacji: 1
+  Rębielice Królewskie (powiat: kłobucki)
+    Aktualne współrzędne: [50.9982, 18.8632]
+    Liczba instalacji: 5
+  Skoczów (powiat: cieszyński)
+    Aktualne współrzędne: [54.1268, 15.8491]
+    Liczba instalacji: 3
+  Wapiennik (powiat: kłobucki)
+    Aktualne współrzędne: [51.0478, 18.8361]
+    Liczba instalacji: 1
+  Orla (powiat: bielski)
+    Aktualne współrzędne: [52.7031, 23.3324]
+    Liczba instalacji: 1
+  Gołkowice (powiat: wodzisławski)
+    Aktualne współrzędne: [51.1377, 18.1989]
+    Liczba instalacji: 1
+  Zbrojewsko (powiat: kłobucki)
+    Aktualne współrzędne: [50.9948, 18.7511]
+    Liczba instalacji: 1
+  Kornice (powiat: raciborski)
+    Aktualne współrzędne: [50.0903, 18.1078]
+    Liczba instalacji: 1
+  Brynica (powiat: będziński)
+    Aktualne współrzędne: [50.8073, 17.9358]
+    Liczba instalacji: 1
+  Mykanów (powiat: częstochowski)
+    Aktualne współrzędne: [50.9223, 19.1990]
+    Liczba instalacji: 1
+  Żarnowiec (powiat: zawierciański)
+    Aktualne współrzędne: [49.6946, 21.6553]
+    Liczba instalacji: 3
+  Podzamcze (powiat: zawierciański)
+    Aktualne współrzędne: [52.8434, 18.8252]
+    Liczba instalacji: 1
+  Zawiercie (powiat: zawierciański)
+    Aktualne współrzędne: [52.0249, 21.1365]
+    Liczba instalacji: 3
+  Łaziska Górne (powiat: mikołowski)
+    Aktualne współrzędne: [52.0243, 21.1365]
+    Liczba instalacji: 2
+  Bieruń (powiat: bieruńsko-lędziński)
+    Aktualne współrzędne: [52.0253, 21.1348]
+    Liczba instalacji: 1
+  Krupski Młyn (powiat: tarnogórski)
+    Aktualne współrzędne: [52.0253, 21.1355]
+    Liczba instalacji: 1
+  Miasteczko Śląskie (powiat: tarnogórski)
+    Aktualne współrzędne: [52.0237, 21.1363]
+    Liczba instalacji: 1
+  Węgierska Górka (powiat: żywiecki)
+    Aktualne współrzędne: [51.6340, 22.4870]
+    Liczba instalacji: 1
+  Bestwinka (powiat: bielski)
+    Aktualne współrzędne: [52.0248, 21.1347]
+    Liczba instalacji: 1
+  Poczesna Zawodzie (powiat: częstochowski)
+    Aktualne współrzędne: [52.0236, 21.1354]
+    Liczba instalacji: 1
+  Konopiska (powiat: częstochowski)
+    Aktualne współrzędne: [51.0852, 21.7757]
+    Liczba instalacji: 1
+  Myszków (powiat: myszkowski)
+    Aktualne współrzędne: [52.0242, 21.1365]
+    Liczba instalacji: 3
+  Czechowice - Dziedzice (powiat: bielski)
+    Aktualne współrzędne: [52.0252, 21.1352]
+    Liczba instalacji: 1
+  Kuźnica Kiedrzyńska (powiat: częstochowski)
+    Aktualne współrzędne: [52.0242, 21.1358]
+    Liczba instalacji: 1
+  Postęp (powiat: myszkowski)
+    Aktualne współrzędne: [53.1743, 21.2995]
+    Liczba instalacji: 1
+  Mazańcowice Mazańcowice (powiat: bielski)
+    Aktualne współrzędne: [52.0236, 21.1357]
+    Liczba instalacji: 1
+  Kaczyce (powiat: cieszyński)
+    Aktualne współrzędne: [52.0253, 21.1349]
+    Liczba instalacji: 1
+
+=== ŚWIĘTOKRZYSKIE ===
+  Chmielnik (powiat: kielecki)
+    Aktualne współrzędne: [49.9747, 22.1450]
+    Liczba instalacji: 1
+  Sandomierz (powiat: sandomierski)
+    Aktualne współrzędne: [50.6828, 21.7496]
+    Liczba instalacji: 14
+  Boleszyn (powiat: ostrowiecki)
+    Aktualne współrzędne: [53.3243, 19.7183]
+    Liczba instalacji: 3
+  Stare Miasto (powiat: konecki)
+    Aktualne współrzędne: [52.4095, 16.9335]
+    Liczba instalacji: 9
+  Kolonia Gałkowice (powiat: sandomierski)
+    Aktualne współrzędne: [50.7467, 21.7226]
+    Liczba instalacji: 1
+  Wałsnów (powiat: ostrowiecki)
+    Aktualne współrzędne: [51.2845, 20.9506]
+    Liczba instalacji: 1
+  Hermanów (powiat: opatowski)
+    Aktualne współrzędne: [51.6339, 19.3331]
+    Liczba instalacji: 1
+  Wojciechówka (powiat: opatowski)
+    Aktualne współrzędne: [51.7831, 18.1169]
+    Liczba instalacji: 1
+  Jeziorki (powiat: jędrzejowski)
+    Aktualne współrzędne: [52.3120, 16.5903]
+    Liczba instalacji: 1
+  Kopaniny (powiat: konecki)
+    Aktualne współrzędne: [51.2144, 20.2834]
+    Liczba instalacji: 3
+  Gostków (powiat: skarżyski)
+    Aktualne współrzędne: [50.8422, 16.1041]
+    Liczba instalacji: 1
+  Koprzywnica (powiat: sandomierski)
+    Aktualne współrzędne: [50.5927, 21.5838]
+    Liczba instalacji: 1
+  Przyłęk (powiat: jędrzejowski)
+    Aktualne współrzędne: [50.5166, 16.7781]
+    Liczba instalacji: 5
+  Wolica (powiat: buski)
+    Aktualne współrzędne: [50.7910, 23.8641]
+    Liczba instalacji: 2
+  Gruszczyn (powiat: włoszczowski)
+    Aktualne współrzędne: [52.4294, 17.0723]
+    Liczba instalacji: 3
+  Kołoniec (powiat: konecki)
+    Aktualne współrzędne: [52.2000, 18.6372]
+    Liczba instalacji: 1
+  Szerzawy (powiat: starachowicki)
+    Aktualne współrzędne: [52.6825, 17.9158]
+    Liczba instalacji: 2
+  Trzemoszna (powiat: konecki)
+    Aktualne współrzędne: [51.2303, 20.2941]
+    Liczba instalacji: 1
+  Jadowniki (powiat: starachowicki)
+    Aktualne współrzędne: [49.9619, 20.6472]
+    Liczba instalacji: 1
+  Chmielów (powiat: ostrowiecki)
+    Aktualne współrzędne: [50.5155, 21.6688]
+    Liczba instalacji: 2
+  Huta Stara (powiat: włoszczowski)
+    Aktualne współrzędne: [50.5288, 22.4877]
+    Liczba instalacji: 1
+  Bałtów (powiat: ostrowiecki)
+    Aktualne współrzędne: [51.0173, 21.5420]
+    Liczba instalacji: 1
+  Łagiewniki (powiat: buski)
+    Aktualne współrzędne: [52.1559, 16.6115]
+    Liczba instalacji: 3
+  Wierzbnica (powiat: buski)
+    Aktualne współrzędne: [52.9108, 14.8600]
+    Liczba instalacji: 9
+  Wojciechów (powiat: starachowicki)
+    Aktualne współrzędne: [50.9981, 15.5628]
+    Liczba instalacji: 2
+  Widuchowa (powiat: buski)
+    Aktualne współrzędne: [53.1272, 14.3937]
+    Liczba instalacji: 5
+  Wojnowice (powiat: opatowski)
+    Aktualne współrzędne: [52.3307, 16.4641]
+    Liczba instalacji: 4
+  Niziny (powiat: jędrzejowski)
+    Aktualne współrzędne: [49.8817, 22.8763]
+    Liczba instalacji: 1
+  Stróża (powiat: opatowski)
+    Aktualne współrzędne: [49.7521, 20.2112]
+    Liczba instalacji: 1
+  Stawiany (powiat: pińczowski)
+    Aktualne współrzędne: [52.6182, 17.2050]
+    Liczba instalacji: 1
+  Giełzów (powiat: konecki)
+    Aktualne współrzędne: [51.4569, 20.3730]
+    Liczba instalacji: 1
+  Zakrzów (powiat: pińczowski)
+    Aktualne współrzędne: [50.4816, 18.0820]
+    Liczba instalacji: 1
+  Ludwinów (powiat: jędrzejowski)
+    Aktualne współrzędne: [52.0431, 17.6254]
+    Liczba instalacji: 5
+  Lipia Góra (powiat: włoszczowski)
+    Aktualne współrzędne: [53.7907, 18.6619]
+    Liczba instalacji: 1
+  Trzebiesławice (powiat: sandomierski)
+    Aktualne współrzędne: [50.5719, 21.5060]
+    Liczba instalacji: 1
+  Sielec (powiat: jędrzejowski)
+    Aktualne współrzędne: [51.0332, 23.5087]
+    Liczba instalacji: 2
+  Gowarczów (powiat: konecki)
+    Aktualne współrzędne: [51.2793, 20.4373]
+    Liczba instalacji: 2
+  Antonielów (powiat: kielecki)
+    Aktualne współrzędne: [51.2375, 19.7248]
+    Liczba instalacji: 1
+  Przyborów (powiat: ostrowiecki)
+    Aktualne współrzędne: [50.0327, 20.6629]
+    Liczba instalacji: 2
+  Przybysławice (powiat: opatowski)
+    Aktualne współrzędne: [50.1572, 19.8948]
+    Liczba instalacji: 2
+  Szczepanów (powiat: jędrzejowski)
+    Aktualne współrzędne: [51.5748, 15.2020]
+    Liczba instalacji: 4
+  Podłęże (powiat: pińczowski)
+    Aktualne współrzędne: [50.0141, 20.1619]
+    Liczba instalacji: 2
+  Nieznanowice (powiat: włoszczowski)
+    Aktualne współrzędne: [49.9186, 20.2586]
+    Liczba instalacji: 1
+  Laskowa (powiat: jędrzejowski)
+    Aktualne współrzędne: [51.5579, 16.8324]
+    Liczba instalacji: 1
+  Piotrkowice (powiat: jędrzejowski)
+    Aktualne współrzędne: [52.3534, 18.3408]
+    Liczba instalacji: 3
+  Wyszmontów (powiat: opatowski)
+    Aktualne współrzędne: [50.8650, 21.6521]
+    Liczba instalacji: 5
+  Smugi (powiat: opatowski)
+    Aktualne współrzędne: [50.8743, 21.6228]
+    Liczba instalacji: 5
+  Samborzec (powiat: sandomierski)
+    Aktualne współrzędne: [50.6469, 21.6484]
+    Liczba instalacji: 1
+  Duża Wola (powiat: staszowski)
+    Aktualne współrzędne: [53.8715, 20.6895]
+    Liczba instalacji: 1
+  Skrzypaczowice (powiat: sandomierski)
+    Aktualne współrzędne: [50.5705, 21.5513]
+    Liczba instalacji: 1
+  Olbrachcice (powiat: jędrzejowski)
+    Aktualne współrzędne: [51.7856, 16.3664]
+    Liczba instalacji: 1
+  Młynów (powiat: buski)
+    Aktualne współrzędne: [50.4829, 16.6677]
+    Liczba instalacji: 1
+  Miłków (powiat: ostrowiecki)
+    Aktualne współrzędne: [50.8102, 15.7638]
+    Liczba instalacji: 2
+  Nosów (powiat: ostrowiecki)
+    Aktualne współrzędne: [52.1621, 23.0113]
+    Liczba instalacji: 1
+  Holendry (powiat: kielecki)
+    Aktualne współrzędne: [52.0628, 18.9593]
+    Liczba instalacji: 2
+  Izabelów (powiat: konecki)
+    Aktualne współrzędne: [51.6227, 18.8970]
+    Liczba instalacji: 1
+  Chwałowice (powiat: pińczowski)
+    Aktualne współrzędne: [50.7652, 21.8868]
+    Liczba instalacji: 1
+  Bukówka (powiat: starachowicki)
+    Aktualne współrzędne: [50.7067, 15.9639]
+    Liczba instalacji: 1
+  Krępice (powiat: kazimierski)
+    Aktualne współrzędne: [51.1620, 16.8124]
+    Liczba instalacji: 3
+  Godów (powiat: starachowicki)
+    Aktualne współrzędne: [51.0900, 22.1123]
+    Liczba instalacji: 1
+  Brzegi (powiat: jędrzejowski)
+    Aktualne współrzędne: [50.8610, 17.4724]
+    Liczba instalacji: 1
+  Kowalków (powiat: starachowicki)
+    Aktualne współrzędne: [51.2383, 21.3989]
+    Liczba instalacji: 1
+  Opatów (powiat: opatowski)
+    Aktualne współrzędne: [51.2193, 18.1433]
+    Liczba instalacji: 1
+  Wiktoryn (powiat: ostrowiecki)
+    Aktualne współrzędne: [52.8006, 18.8197]
+    Liczba instalacji: 1
+  Zagorzyce (powiat: pińczowski)
+    Aktualne współrzędne: [52.5963, 18.5311]
+    Liczba instalacji: 3
+  Wronów (powiat: ostrowiecki)
+    Aktualne współrzędne: [51.1657, 22.1522]
+    Liczba instalacji: 4
+  Posady (powiat: buski)
+    Aktualne współrzędne: [54.2981, 20.0732]
+    Liczba instalacji: 2
+  Niwka (powiat: buski)
+    Aktualne współrzędne: [50.0526, 20.8561]
+    Liczba instalacji: 1
+  Kowala (powiat: pińczowski)
+    Aktualne współrzędne: [51.3244, 21.0702]
+    Liczba instalacji: 1
+  Wał (powiat: buski)
+    Aktualne współrzędne: [50.7717, 16.2852]
+    Liczba instalacji: 1
+  Jachimowice (powiat: sandomierski)
+    Aktualne współrzędne: [50.6277, 21.5469]
+    Liczba instalacji: 2
+  Kujawy (powiat: opatowski)
+    Aktualne współrzędne: [50.4426, 17.8056]
+    Liczba instalacji: 1
+  Majków (powiat: skarżyski)
+    Aktualne współrzędne: [51.7789, 18.0791]
+    Liczba instalacji: 2
+  Droblin (powiat: jędrzejowski)
+    Aktualne współrzędne: [52.1386, 22.9760]
+    Liczba instalacji: 1
+  Wilczkowice (powiat: konecki)
+    Aktualne współrzędne: [50.8927, 16.8577]
+    Liczba instalacji: 1
+  Stoki Duże (powiat: ostrowiecki)
+    Aktualne współrzędne: [50.9618, 21.5584]
+    Liczba instalacji: 1
+  Ćmielów (powiat: ostrowiecki)
+    Aktualne współrzędne: [50.8917, 21.5106]
+    Liczba instalacji: 1
+  Sobów (powiat: opatowski)
+    Aktualne współrzędne: [50.5925, 21.7349]
+    Liczba instalacji: 1
+  Kraśnika (powiat: staszowski)
+    Aktualne współrzędne: [50.9246, 22.2196]
+    Liczba instalacji: 1
+  Łubnice (powiat: staszowski)
+    Aktualne współrzędne: [51.1577, 18.2939]
+    Liczba instalacji: 3
+  Bębnów (powiat: konecki)
+    Aktualne współrzędne: [51.2433, 20.4147]
+    Liczba instalacji: 1
+  Wincentów (powiat: konecki)
+    Aktualne współrzędne: [51.3701, 18.9758]
+    Liczba instalacji: 1
+  Brzezie (powiat: starachowicki)
+    Aktualne współrzędne: [52.2221, 17.4012]
+    Liczba instalacji: 1
+  Małogoszcz (powiat: jędrzejowski)
+    Aktualne współrzędne: [52.0245, 21.1349]
+    Liczba instalacji: 1
+  Pińczów (powiat: pińczowski)
+    Aktualne współrzędne: [52.0251, 21.1347]
+    Liczba instalacji: 2
+  Staszów Grzybów (powiat: buski)
+    Aktualne współrzędne: [52.0248, 21.1348]
+    Liczba instalacji: 1
+  Krasocin (powiat: włoszczowski)
+    Aktualne współrzędne: [52.0255, 21.1350]
+    Liczba instalacji: 1
+  Nowiny Sitkówka (powiat: kielecki)
+    Aktualne współrzędne: [52.0248, 21.1349]
+    Liczba instalacji: 1
+
+
+💾 Szczegóły zapisane w: C:\Users\Mateusz\mapa-polski\mapa-wytworcy-energii\scripts\wrong-coordinates.json
+

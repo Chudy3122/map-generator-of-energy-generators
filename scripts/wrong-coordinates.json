@@ -1,0 +1,1027 @@
+{
+  "summary": {
+    "totalChecked": 11992,
+    "totalWrong": 284,
+    "percentage": 2
+  },
+  "citiesByProvince": {
+    "lubelskie": [
+      {
+        "city": "Biała Podlaska",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.031857159419395,
+          23.114415398537894
+        ],
+        "count": 13
+      },
+      {
+        "city": "Dobryń-Kolonia",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.07460437188845,
+          23.47939715322111
+        ],
+        "count": 1
+      },
+      {
+        "city": "Grabanów",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.06652360818043,
+          23.156410450408085
+        ],
+        "count": 1
+      },
+      {
+        "city": "Dobryń - Kolonia",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.07512837673134,
+          23.480042790459464
+        ],
+        "count": 1
+      },
+      {
+        "city": "Horbów - Kolonia",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.030479438972264,
+          23.32227635939281
+        ],
+        "count": 2
+      },
+      {
+        "city": "Kaliłów",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.062902335345825,
+          23.224981215489727
+        ],
+        "count": 1
+      },
+      {
+        "city": "Woroniec",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.04110553530271,
+          22.918878961868863
+        ],
+        "count": 2
+      },
+      {
+        "city": "Sławacinek Stary",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.03067922551054,
+          23.06974883566377
+        ],
+        "count": 4
+      },
+      {
+        "city": "Cicibór Duży",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.07575667463655,
+          23.115480827458658
+        ],
+        "count": 2
+      },
+      {
+        "city": "Klonownica Mała",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.162187102474,
+          23.197376417968588
+        ],
+        "count": 1
+      },
+      {
+        "city": "Werchliś",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.19055297182444,
+          23.2803563251856
+        ],
+        "count": 2
+      },
+      {
+        "city": "Terebela",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.08325748826028,
+          23.084145569982613
+        ],
+        "count": 1
+      },
+      {
+        "city": "Wólka Polinowska",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.16675707432578,
+          23.126134083595467
+        ],
+        "count": 1
+      },
+      {
+        "city": "Styrzyniec",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.02219113477546,
+          22.99720762760327
+        ],
+        "count": 1
+      },
+      {
+        "city": "Czosnówka",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.01471950341032,
+          23.225701658104082
+        ],
+        "count": 2
+      },
+      {
+        "city": "Rogoźnica Kolonia",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.01797498299996,
+          22.865645623835242
+        ],
+        "count": 1
+      },
+      {
+        "city": "Dobryń Kolonia",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.074905958395554,
+          23.479385082165546
+        ],
+        "count": 1
+      },
+      {
+        "city": "Nowy Pawłów",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.2015711746612,
+          23.16861474114521
+        ],
+        "count": 1
+      },
+      {
+        "city": "Janów Podlaski",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.197061185773606,
+          23.207928672675294
+        ],
+        "count": 2
+      },
+      {
+        "city": "Woskrzenice Duże",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.04407210492268,
+          23.258605249742182
+        ],
+        "count": 1
+      },
+      {
+        "city": "Michałki Kolonia",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.10428671268117,
+          23.293885955645564
+        ],
+        "count": 1
+      },
+      {
+        "city": "Dobryń Duży",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.063394446461245,
+          23.47036501565279
+        ],
+        "count": 2
+      },
+      {
+        "city": "Sycyna",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.02966286907295,
+          22.945583674120815
+        ],
+        "count": 1
+      },
+      {
+        "city": "Dołha",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.004163623285166,
+          22.920802437266097
+        ],
+        "count": 1
+      },
+      {
+        "city": "Witulin",
+        "province": "lubelskie",
+        "county": "bialski",
+        "coords": [
+          52.10813940169611,
+          23.06946012976802
+        ],
+        "count": 1
+      }
+    ],
+    "dolnośląskie": [
+      {
+        "city": "Ligota Polska",
+        "province": "dolnośląskie",
+        "county": "oleśnicki",
+        "coords": [
+          51.242189821722754,
+          17.541878665288294
+        ],
+        "count": 2
+      },
+      {
+        "city": "Oleśnica",
+        "province": "dolnośląskie",
+        "county": "oleśnicki",
+        "coords": [
+          51.21020607545132,
+          17.383784855136458
+        ],
+        "count": 7
+      },
+      {
+        "city": "Goszcz",
+        "province": "dolnośląskie",
+        "county": "oleśnicki",
+        "coords": [
+          51.395222351517354,
+          17.48055295252738
+        ],
+        "count": 2
+      },
+      {
+        "city": "Bogatynia",
+        "province": "dolnośląskie",
+        "county": "zgorzelecki",
+        "coords": [
+          50.90709328196446,
+          14.953910595279707
+        ],
+        "count": 4
+      },
+      {
+        "city": "Grabowno Wielkie",
+        "province": "dolnośląskie",
+        "county": "oleśnicki",
+        "coords": [
+          51.35003794590551,
+          17.416042514699743
+        ],
+        "count": 1
+      },
+      {
+        "city": "Koźlice",
+        "province": "dolnośląskie",
+        "county": "zgorzelecki",
+        "coords": [
+          51.10601695805362,
+          14.98602942660655
+        ],
+        "count": 1
+      },
+      {
+        "city": "Smardzów",
+        "province": "dolnośląskie",
+        "county": "oleśnicki",
+        "coords": [
+          51.20330966615559,
+          17.330182764155186
+        ],
+        "count": 2
+      },
+      {
+        "city": "Poniatowice",
+        "province": "dolnośląskie",
+        "county": "oleśnicki",
+        "coords": [
+          51.23518554300358,
+          17.544237037275014
+        ],
+        "count": 2
+      },
+      {
+        "city": "Lubomierz",
+        "province": "dolnośląskie",
+        "county": "lwówecki",
+        "coords": [
+          50.19130128080914,
+          23.0304519082499
+        ],
+        "count": 1
+      },
+      {
+        "city": "Syców",
+        "province": "dolnośląskie",
+        "county": "oleśnicki",
+        "coords": [
+          51.307056556853766,
+          17.719349130450233
+        ],
+        "count": 3
+      },
+      {
+        "city": "Chełstówek",
+        "province": "dolnośląskie",
+        "county": "oleśnicki",
+        "coords": [
+          51.354515922872274,
+          17.486628700064383
+        ],
+        "count": 1
+      },
+      {
+        "city": "Twardogóra",
+        "province": "dolnośląskie",
+        "county": "oleśnicki",
+        "coords": [
+          51.3639578451809,
+          17.469751855085082
+        ],
+        "count": 1
+      }
+    ],
+    "wielkopolskie": [
+      {
+        "city": "Rojów",
+        "province": "wielkopolskie",
+        "county": "ostrzeszowski",
+        "coords": [
+          51.41426802981796,
+          17.889785276507293
+        ],
+        "count": 3
+      },
+      {
+        "city": "Kępno",
+        "province": "wielkopolskie",
+        "county": "kępiński",
+        "coords": [
+          51.278484698926505,
+          17.98644925543629
+        ],
+        "count": 5
+      },
+      {
+        "city": "Mroczeń",
+        "province": "wielkopolskie",
+        "county": "kępiński",
+        "coords": [
+          51.22668578855618,
+          17.988135147264675
+        ],
+        "count": 7
+      },
+      {
+        "city": "Turkowy",
+        "province": "wielkopolskie",
+        "county": "kępiński",
+        "coords": [
+          51.28159504110604,
+          17.833263488793996
+        ],
+        "count": 2
+      },
+      {
+        "city": "Myślniew",
+        "province": "wielkopolskie",
+        "county": "ostrzeszowski",
+        "coords": [
+          51.40196550231849,
+          17.81972528812277
+        ],
+        "count": 2
+      },
+      {
+        "city": "Perzów",
+        "province": "wielkopolskie",
+        "county": "kępiński",
+        "coords": [
+          51.275591339306466,
+          17.81047229975453
+        ],
+        "count": 2
+      },
+      {
+        "city": "Ostrzeszów",
+        "province": "wielkopolskie",
+        "county": "ostrzeszowski",
+        "coords": [
+          51.42648247920476,
+          17.93284185982686
+        ],
+        "count": 9
+      },
+      {
+        "city": "Nowa Wieś Książęca",
+        "province": "wielkopolskie",
+        "county": "kępiński",
+        "coords": [
+          51.23665604630384,
+          17.864326642069425
+        ],
+        "count": 2
+      },
+      {
+        "city": "Batorowo",
+        "province": "wielkopolskie",
+        "county": "złotowski",
+        "coords": [
+          53.493872299267274,
+          17.326929694551808
+        ],
+        "count": 1
+      },
+      {
+        "city": "Chojęcin",
+        "province": "wielkopolskie",
+        "county": "kępiński",
+        "coords": [
+          51.27175594853835,
+          17.950659723193382
+        ],
+        "count": 1
+      },
+      {
+        "city": "Ręczyn",
+        "province": "wielkopolskie",
+        "county": "grodziski",
+        "coords": [
+          51.03049374115152,
+          14.975235322139868
+        ],
+        "count": 20
+      },
+      {
+        "city": "Sośnie",
+        "province": "wielkopolskie",
+        "county": "ostrowski",
+        "coords": [
+          51.47475485681319,
+          17.629580035354927
+        ],
+        "count": 2
+      },
+      {
+        "city": "Rogaszyce",
+        "province": "wielkopolskie",
+        "county": "ostrzeszowski",
+        "coords": [
+          51.39151990652787,
+          17.955575355906088
+        ],
+        "count": 2
+      },
+      {
+        "city": "Siedlików",
+        "province": "wielkopolskie",
+        "county": "ostrzeszowski",
+        "coords": [
+          51.47889274541607,
+          17.962192383047807
+        ],
+        "count": 2
+      },
+      {
+        "city": "Weronikopole",
+        "province": "wielkopolskie",
+        "county": "kępiński",
+        "coords": [
+          51.335998202380914,
+          17.88237253399714
+        ],
+        "count": 1
+      },
+      {
+        "city": "Lipno",
+        "province": "wielkopolskie",
+        "county": "leszczyński",
+        "coords": [
+          52.33502390777511,
+          22.81860859692444
+        ],
+        "count": 1
+      }
+    ],
+    "śląskie": [
+      {
+        "city": "Borowianka",
+        "province": "śląskie",
+        "county": "kłobucki",
+        "coords": [
+          50.9068617243356,
+          19.04516439199149
+        ],
+        "count": 2
+      },
+      {
+        "city": "Kłobuck",
+        "province": "śląskie",
+        "county": "kłobucki",
+        "coords": [
+          50.903114077591084,
+          18.937738695356106
+        ],
+        "count": 6
+      },
+      {
+        "city": "Racibórz",
+        "province": "śląskie",
+        "county": "raciborski",
+        "coords": [
+          50.089699926136944,
+          18.21578866793531
+        ],
+        "count": 17
+      },
+      {
+        "city": "Dąbrowa",
+        "province": "śląskie",
+        "county": "zawierciański",
+        "coords": [
+          50.11397705746653,
+          23.15008511203551
+        ],
+        "count": 2
+      },
+      {
+        "city": "Janiki",
+        "province": "śląskie",
+        "county": "kłobucki",
+        "coords": [
+          50.92072120003926,
+          18.732521831292846
+        ],
+        "count": 1
+      },
+      {
+        "city": "Starokrzepice",
+        "province": "śląskie",
+        "county": "kłobucki",
+        "coords": [
+          50.95029905524611,
+          18.65643504481997
+        ],
+        "count": 1
+      },
+      {
+        "city": "Widzów",
+        "province": "śląskie",
+        "county": "częstochowski",
+        "coords": [
+          50.97211899038633,
+          19.37510693962443
+        ],
+        "count": 1
+      },
+      {
+        "city": "Rębielice Królewskie",
+        "province": "śląskie",
+        "county": "kłobucki",
+        "coords": [
+          50.99824477853528,
+          18.863209889253735
+        ],
+        "count": 4
+      },
+      {
+        "city": "Zbrojewsko",
+        "province": "śląskie",
+        "county": "kłobucki",
+        "coords": [
+          50.994771113511426,
+          18.75113112283654
+        ],
+        "count": 1
+      },
+      {
+        "city": "Kornice",
+        "province": "śląskie",
+        "county": "raciborski",
+        "coords": [
+          50.090256746193184,
+          18.10777749988913
+        ],
+        "count": 1
+      },
+      {
+        "city": "Mykanów",
+        "province": "śląskie",
+        "county": "częstochowski",
+        "coords": [
+          50.92234761118864,
+          19.199009797172465
+        ],
+        "count": 1
+      }
+    ],
+    "zachodniopomorskie": [
+      {
+        "city": "Tyń",
+        "province": "zachodniopomorskie",
+        "county": "sławieński",
+        "coords": [
+          54.45938266014526,
+          16.73583588556283
+        ],
+        "count": 1
+      },
+      {
+        "city": "Darłowo",
+        "province": "zachodniopomorskie",
+        "county": "sławieński",
+        "coords": [
+          54.42231830419559,
+          16.40879097203541
+        ],
+        "count": 3
+      },
+      {
+        "city": "Pieńkowo",
+        "province": "zachodniopomorskie",
+        "county": "sławieński",
+        "coords": [
+          54.48430275154616,
+          16.686270429063946
+        ],
+        "count": 1
+      },
+      {
+        "city": "Cisowo",
+        "province": "zachodniopomorskie",
+        "county": "sławieński",
+        "coords": [
+          54.446857808226625,
+          16.433922738775934
+        ],
+        "count": 1
+      },
+      {
+        "city": "Postomino",
+        "province": "zachodniopomorskie",
+        "county": "sławieński",
+        "coords": [
+          54.49263761858876,
+          16.713980464317242
+        ],
+        "count": 1
+      },
+      {
+        "city": "Nosalin",
+        "province": "zachodniopomorskie",
+        "county": "sławieński",
+        "coords": [
+          54.4303038835454,
+          16.771810384023812
+        ],
+        "count": 1
+      },
+      {
+        "city": "Złakowo",
+        "province": "zachodniopomorskie",
+        "county": "sławieński",
+        "coords": [
+          54.52451347464858,
+          16.72551175120126
+        ],
+        "count": 1
+      }
+    ],
+    "pomorskie": [
+      {
+        "city": "Człuchów",
+        "province": "pomorskie",
+        "county": "człuchowski",
+        "coords": [
+          53.657558105777376,
+          17.371243071916872
+        ],
+        "count": 6
+      },
+      {
+        "city": "Dębnica",
+        "province": "pomorskie",
+        "county": "człuchowski",
+        "coords": [
+          53.636314115714015,
+          17.356494406600117
+        ],
+        "count": 1
+      },
+      {
+        "city": "Debrzno",
+        "province": "pomorskie",
+        "county": "człuchowski",
+        "coords": [
+          53.53652638635204,
+          17.23519881329022
+        ],
+        "count": 2
+      }
+    ],
+    "podlaskie": [
+      {
+        "city": "Siemiatycze",
+        "province": "podlaskie",
+        "county": "siemiatycki",
+        "coords": [
+          52.428477527708,
+          22.86272875327212
+        ],
+        "count": 11
+      },
+      {
+        "city": "Klonownica",
+        "province": "podlaskie",
+        "county": "augustowski",
+        "coords": [
+          52.14274552239888,
+          23.16462189088436
+        ],
+        "count": 1
+      },
+      {
+        "city": "Czernice",
+        "province": "podlaskie",
+        "county": "kolneński",
+        "coords": [
+          53.43253127931175,
+          17.132367045070698
+        ],
+        "count": 1
+      }
+    ],
+    "mazowieckie": [
+      {
+        "city": "Huszlew",
+        "province": "mazowieckie",
+        "county": "łosicki",
+        "coords": [
+          52.13763126253113,
+          22.840897305116403
+        ],
+        "count": 1
+      },
+      {
+        "city": "Wólka Nosowska",
+        "province": "mazowieckie",
+        "county": "łosicki",
+        "coords": [
+          52.18708927005956,
+          22.991440900591204
+        ],
+        "count": 1
+      },
+      {
+        "city": "Koszelówka",
+        "province": "mazowieckie",
+        "county": "łosicki",
+        "coords": [
+          52.2135727097459,
+          22.98780475272772
+        ],
+        "count": 1
+      },
+      {
+        "city": "Żuków",
+        "province": "mazowieckie",
+        "county": "sochaczewski",
+        "coords": [
+          52.02277194874061,
+          23.65712021409537
+        ],
+        "count": 1
+      }
+    ],
+    "podkarpackie": [
+      {
+        "city": "Korczowa",
+        "province": "podkarpackie",
+        "county": "jarosławski",
+        "coords": [
+          49.95284265983293,
+          23.078988842068004
+        ],
+        "count": 2
+      },
+      {
+        "city": "Babice",
+        "province": "podkarpackie",
+        "county": "przemyski",
+        "coords": [
+          50.13632034746582,
+          18.298801717875882
+        ],
+        "count": 1
+      },
+      {
+        "city": "Lubaczów",
+        "province": "podkarpackie",
+        "county": "lubaczowski",
+        "coords": [
+          50.15809495126412,
+          23.1176648633716
+        ],
+        "count": 3
+      },
+      {
+        "city": "Nowa Grobla",
+        "province": "podkarpackie",
+        "county": "lubaczowski",
+        "coords": [
+          50.08145399764492,
+          23.008778393639325
+        ],
+        "count": 1
+      }
+    ],
+    "łódzkie": [
+      {
+        "city": "Gidle",
+        "province": "łódzkie",
+        "county": "radomszczański",
+        "coords": [
+          50.96361371162508,
+          19.467755685636394
+        ],
+        "count": 1
+      },
+      {
+        "city": "Lutogniewice",
+        "province": "łódzkie",
+        "county": "łaski",
+        "coords": [
+          51.00562192270496,
+          14.969836414173244
+        ],
+        "count": 26
+      },
+      {
+        "city": "Bratków",
+        "province": "łódzkie",
+        "county": "opoczyński",
+        "coords": [
+          51.00098753829301,
+          14.943675595290001
+        ],
+        "count": 2
+      },
+      {
+        "city": "Załuże",
+        "province": "łódzkie",
+        "county": "bełchatowski",
+        "coords": [
+          50.19809031924945,
+          23.164787975328398
+        ],
+        "count": 1
+      },
+      {
+        "city": "Silnica",
+        "province": "łódzkie",
+        "county": "radomszczański",
+        "coords": [
+          50.93015200112656,
+          19.689755472133236
+        ],
+        "count": 1
+      },
+      {
+        "city": "Miedźno",
+        "province": "łódzkie",
+        "county": "sieradzki",
+        "coords": [
+          50.970342391500054,
+          18.982110341493748
+        ],
+        "count": 1
+      }
+    ],
+    "świętokrzyskie": [
+      {
+        "city": "Zakrzów",
+        "province": "świętokrzyskie",
+        "county": "pińczowski",
+        "coords": [
+          50.24898844521655,
+          18.154577967566457
+        ],
+        "count": 1
+      },
+      {
+        "city": "Nosów",
+        "province": "świętokrzyskie",
+        "county": "ostrowiecki",
+        "coords": [
+          52.16207535481379,
+          23.011263521817558
+        ],
+        "count": 1
+      },
+      {
+        "city": "Droblin",
+        "province": "świętokrzyskie",
+        "county": "jędrzejowski",
+        "coords": [
+          52.13864567520026,
+          22.975969191373686
+        ],
+        "count": 1
+      }
+    ],
+    "opolskie": [
+      {
+        "city": "Krzyżowice",
+        "province": "opolskie",
+        "county": "głubczycki",
+        "coords": [
+          50.17004010661407,
+          17.795654388588243
+        ],
+        "count": 2
+      },
+      {
+        "city": "Trzebina",
+        "province": "opolskie",
+        "county": "prudnicki",
+        "coords": [
+          50.290798034829265,
+          17.600117122044217
+        ],
+        "count": 1
+      },
+      {
+        "city": "Langowo",
+        "province": "opolskie",
+        "county": "głubczycki",
+        "coords": [
+          50.10667511388849,
+          18.027743014609538
+        ],
+        "count": 1
+      }
+    ],
+    "lubuskie": [
+      {
+        "city": "Krzewina",
+        "province": "lubuskie",
+        "county": "zielonogórski",
+        "coords": [
+          51.0194522245248,
+          14.952143417272756
+        ],
+        "count": 29
+      }
+    ],
+    "małopolskie": [
+      {
+        "city": "Nowica",
+        "province": "małopolskie",
+        "county": "gorlicki",
+        "coords": [
+          51.27089620433209,
+          17.367302901729797
+        ],
+        "count": 1
+      }
+    ]
+  }
+}

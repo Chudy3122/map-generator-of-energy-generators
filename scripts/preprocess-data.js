@@ -106,6 +106,7 @@ try {
     'Stężyca_lubelskie':  'rycki',
     'Stężyca_pomorskie':  'kartuski',
     'Stężyca_mazowieckie': 'rycki',
+    'Płoskie_lubelskie':  'zamojski',
   };
 
   // Funkcja do pobierania powiatu (opcjonalnie z województwem dla disambiguacji)

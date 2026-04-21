@@ -1093,7 +1093,7 @@ function App() {
                             </p>
                           )}
                           <p style={{ margin: '0.3rem 0', fontSize: '0.85rem', color: '#64748b' }}>
-                            <strong>Adres:</strong> {installation.postalCode} {installation.city}, {installation.address}
+                            <strong>{installation.installationCity && installation.city && installation.installationCity !== installation.city ? 'Adres firmy:' : 'Adres:'}</strong> {installation.postalCode} {installation.city}, {installation.address}
                           </p>
                         </div>
                       </div>

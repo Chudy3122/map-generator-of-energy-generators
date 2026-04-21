@@ -49833,7 +49833,9 @@
       50.722666089434675,
       23.252238729335602
     ],
-    "dataType": "MIOZE"
+    "dataType": "MIOZE",
+    "county": "zamojski",
+    "municipality": "Zamość"
   },
   {
     "id": "MIOZE_72789_1",
@@ -119338,7 +119340,9 @@
       50.723283705224055,
       23.251404255725916
     ],
-    "dataType": "MIOZE"
+    "dataType": "MIOZE",
+    "county": "zamojski",
+    "municipality": "Zamość"
   },
   {
     "id": "MIOZE_69917_2",
@@ -119357,7 +119361,9 @@
       50.723466564179994,
       23.25299080066703
     ],
-    "dataType": "MIOZE"
+    "dataType": "MIOZE",
+    "county": "zamojski",
+    "municipality": "Zamość"
   },
   {
     "id": "MIOZE_69917_3",
@@ -119376,7 +119382,9 @@
       50.72232520495886,
       23.25219627734214
     ],
-    "dataType": "MIOZE"
+    "dataType": "MIOZE",
+    "county": "zamojski",
+    "municipality": "Zamość"
   },
   {
     "id": "MIOZE_69917_4",
@@ -119395,7 +119403,9 @@
       50.722736906808855,
       23.25138153297893
     ],
-    "dataType": "MIOZE"
+    "dataType": "MIOZE",
+    "county": "zamojski",
+    "municipality": "Zamość"
   },
   {
     "id": "MIOZE_69917_5",
@@ -119414,7 +119424,9 @@
       50.72315569673278,
       23.25174323329286
     ],
-    "dataType": "MIOZE"
+    "dataType": "MIOZE",
+    "county": "zamojski",
+    "municipality": "Zamość"
   },
   {
     "id": "MIOZE_69917_6",
@@ -119433,7 +119445,9 @@
       50.72241179910826,
       23.252257008751467
     ],
-    "dataType": "MIOZE"
+    "dataType": "MIOZE",
+    "county": "zamojski",
+    "municipality": "Zamość"
   },
   {
     "id": "MIOZE_68787_1",
@@ -120554,7 +120568,9 @@
       50.72194454489241,
       23.25253446644698
     ],
-    "dataType": "MIOZE"
+    "dataType": "MIOZE",
+    "county": "zamojski",
+    "municipality": "Zamość"
   },
   {
     "id": "MIOZE_69906_1",

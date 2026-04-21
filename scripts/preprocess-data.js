@@ -100,10 +100,26 @@ try {
     console.log(`📍 Lokalizacji w słowniku: ${Object.keys(CITY_TO_COUNTY).length}\n`);
   }
 
-  // Funkcja do pobierania powiatu
-  getCountyForCity = (city) => {
+  // Słownik dla miast o tej samej nazwie w różnych województwach
+  // Format: 'NazwaMiasta_województwo': 'powiat'
+  const CITY_PROVINCE_OVERRIDE = {
+    'Stężyca_lubelskie':  'rycki',
+    'Stężyca_pomorskie':  'kartuski',
+    'Stężyca_mazowieckie': 'rycki',
+  };
+
+  // Funkcja do pobierania powiatu (opcjonalnie z województwem dla disambiguacji)
+  getCountyForCity = (city, province) => {
     if (!city) return 'nieznany';
     const normalizedCity = city.trim();
+
+    // Sprawdź najpierw disambiguation wg województwa
+    if (province) {
+      const overrideKey = `${normalizedCity}_${province.trim()}`;
+      if (CITY_PROVINCE_OVERRIDE[overrideKey]) {
+        return CITY_PROVINCE_OVERRIDE[overrideKey];
+      }
+    }
 
     if (CITY_TO_COUNTY[normalizedCity]) {
       return CITY_TO_COUNTY[normalizedCity];
@@ -390,12 +406,12 @@ async function processMIOZE(xmlPath, category, subcategory) {
       address: reg.Adres[0],
       postalCode: reg.Kod[0],
       city: companyCity,
-      province: correctProvinceByCounty(reg.Wojewodztwo[0], getCountyForCity(companyCity)),
-      county: getCountyForCity(companyCity),
+      province: correctProvinceByCounty(reg.Wojewodztwo[0], getCountyForCity(companyCity, reg.Wojewodztwo[0])),
+      county: getCountyForCity(companyCity, reg.Wojewodztwo[0]),
       municipality: geocodeResult.municipality,
       installationCity: installationCity,
-      installationProvince: correctProvinceByCounty(province, getCountyForCity(installationCity)),
-      installationCounty: getCountyForCity(installationCity),
+      installationProvince: correctProvinceByCounty(province, getCountyForCity(installationCity, province)),
+      installationCounty: getCountyForCity(installationCity, province),
       installationType: reg.RodzajInstalacji[0],
       power: reg.MocEEInstalacji ? parseFloat(reg.MocEEInstalacji[0]) : null,
       registrationDate: reg.DataWpisu[0],
@@ -456,8 +472,8 @@ async function processConcessions(xmlPath, category, subcategory) {
       address: con.Adres?.[0] || '',
       postalCode: con.Kod?.[0] || '',
       city: city,
-      province: correctProvinceByCounty(province, getCountyForCity(city)),
-      county: getCountyForCity(city),
+      province: correctProvinceByCounty(province, getCountyForCity(city, province)),
+      county: getCountyForCity(city, province),
       municipality: geocodeResult.municipality,
       installationType: con.RodzajKoncesji?.[0] || 'UNKNOWN',
       registrationDate: con.DataWydania?.[0] || '',
@@ -523,8 +539,8 @@ async function processOperators(xmlPath, category, subcategory) {
       address: op.Adres[0],
       postalCode: op.Kod[0],
       city: city,
-      province: correctProvinceByCounty(province, getCountyForCity(city)),
-      county: getCountyForCity(city),
+      province: correctProvinceByCounty(province, getCountyForCity(city, province)),
+      county: getCountyForCity(city, province),
       municipality: geocodeResult.municipality,
       installationType: op.RodzajOperatora[0],
       operatorTypeDesc: op.PelnaNazwaRodzajuOperatora[0],
@@ -592,8 +608,8 @@ async function processConsumers(xmlPath, category, subcategory) {
       address: con.UlicaNr?.[0] || '',
       postalCode: con.KodPocztowy?.[0] || '',
       city: city,
-      province: correctProvinceByCounty(province, getCountyForCity(city)),
-      county: getCountyForCity(city),
+      province: correctProvinceByCounty(province, getCountyForCity(city, province)),
+      county: getCountyForCity(city, province),
       municipality: geocodeResult.municipality,
       installationType: 'CONSUMER',
       nip: con.NIP?.[0] || '',
@@ -669,8 +685,8 @@ async function processSellers(xmlPath, category, subcategory) {
       address: address,
       postalCode: postalCode,
       city: city,
-      province: correctProvinceByCounty(province, getCountyForCity(city)),
-      county: getCountyForCity(city),
+      province: correctProvinceByCounty(province, getCountyForCity(city, province)),
+      county: getCountyForCity(city, province),
       municipality: geocodeResult.municipality,
       installationType: 'SELLER',
       coordinates: geocodeResult.coordinates,
